@@ -117,13 +117,14 @@ latex_elements = {
     #
     'pointsize': '12pt',
 
-    # Additional stuff for the LaTeX preamble.
-    #
-    # 'preamble': '',
-
-    # Latex figure (float) alignment
-    #
-    # 'figure_align': 'htbp',
+    'preamble': r'''
+        \usepackage{xeCJK}
+        \setCJKmainfont{Noto Sans CJK SC}  % 使用系统自带的中文字体
+    ''',
+    'fontpkg': r'''
+        \usepackage{fontspec}
+        \setmainfont{Noto Serif}
+    ''',
 }
 
 # Grouping the document tree into LaTeX files. List of tuples
@@ -195,3 +196,9 @@ html_theme_options = {
     'titles_only': False,
     'style_nav_header_background': 'white',
 }
+
+# 支持中文的 LaTeX 引擎
+latex_engine = 'xelatex'
+
+# 如果遇到复杂表格问题，可以添加
+latex_use_xindy = False  # 索引生成工具，中文环境下可能有问题
