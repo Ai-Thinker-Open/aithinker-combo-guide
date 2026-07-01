@@ -1,2 +1,8 @@
-recommonmark
-sphinx_rtd_theme
+# Read the Docs 构建依赖（锁定版本以保证可复现，兼容 Python 3.8）
+Sphinx==4.5.0
+docutils==0.17.1
+sphinx-rtd-theme==1.2.2
+# 中英文翻译工作流工具
+sphinx-intl==2.1.0
+# 官方 Markdown 解析器，取代已废弃的 recommonmark
+myst-parser==0.18.1

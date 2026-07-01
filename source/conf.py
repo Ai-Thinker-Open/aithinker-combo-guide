@@ -40,17 +40,18 @@ release = u''
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'recommonmark'
+    # 使用官方 myst-parser 解析 Markdown（取代已废弃的 recommonmark）
+    'myst_parser'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
-# The suffix(es) of source filenames.
-# You can specify multiple suffix as a list of string:
-#
-# source_suffix = ['.rst', '.md']
-source_suffix = '.rst'
+# 源文件后缀映射：.rst 走 reStructuredText，.md 走 myst-parser 的 markdown
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.md': 'markdown',
+}
 
 # The master toctree document.
 master_doc = 'index'
@@ -60,7 +61,14 @@ master_doc = 'index'
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = u'ch'
+# 语言由 Read the Docs 为每个项目注入的 READTHEDOCS_LANGUAGE 决定；
+# 本地构建（无该环境变量）时回退为简体中文 zh_CN
+language = os.environ.get('READTHEDOCS_LANGUAGE', 'zh_CN')
+
+# 国际化配置
+locale_dirs = ['locale/']      # .po/.mo 存放目录（相对源目录）
+gettext_compact = False        # 每个 rst 生成独立 pot，便于分文件维护
+gettext_uuid = True            # 生成 uuid，源文更新时保留已译内容
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -176,19 +184,8 @@ epub_title = project
 epub_exclude_files = ['search.html']
 
 
-# md语法
-from recommonmark.parser import CommonMarkParser
-
-source_parsers = {
-    '.md': CommonMarkParser,
-}
-
-source_suffix = ['.rst', '.md']
-
-
-import sphinx_rtd_theme
+# 现代 sphinx_rtd_theme 通过入口点自动注册，无需再设置已废弃的 html_theme_path
 html_theme = "sphinx_rtd_theme"
-html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 html_logo = '_static/AI-Thinker-logo.png'
 html_theme_options = {
     'logo_only': True,

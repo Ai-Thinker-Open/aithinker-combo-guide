@@ -1,0 +1,455 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, 安信可科技
+# This file is distributed under the same license as the 安信可科技 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 安信可科技 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-01 23:52+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:2
+#: 7dd66e4af27041b59ef596dd0475c821
+msgid "MQTT AT 命令集"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:4
+#: 3e6909275e79405b80eede37d15c4efa
+msgid "本章节介绍驱动MQTT指令集，此指令集针对不同的模组会有所不同的适配，具体差异请移步：:doc:`../instruction/other/firmware_differences`。"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:6
+#: df4d6d3ff0014079bc6a4860b13177d5
+msgid ":ref:`AT+MQTT <cmd-MQTT>`：MQTT 的配置和连接"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:7
+#: 43925b03b4de47cca017c360e9d09451
+msgid ":ref:`AT+MQTTPUB <cmd-MQTTPUB>`：发布 MQTT 消息"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:8
+#: 6c8d3add0e514ceca6e416fdf80b14ec
+msgid ":ref:`AT+MQTTPUBRAW <cmd-MQTTPUBRAW>`：发布指定长度 MQTT 消息"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:9
+#: f958fb907934485ab74b7b8d5b10be14
+msgid ":ref:`AT+MQTTSUB <cmd-MQTTSUB>`：订阅 MQTT 消息"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:10
+#: a95f5a920acb4724aa75770f96304247
+msgid ":ref:`AT+MQTTUNSUB <cmd-MQTTUNSUB>`：取消订阅 MQTT 消息"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:15
+#: ef3dbcbbae134aab969846d31d7f4d80
+msgid "AT+MQTT 配置和连接"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:19
+#: 099b2e50de8f44e98cd713066eb822c2
+msgid "配置命令"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:21
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:63
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:126
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:185
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:230
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:279
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:315
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:363
+#: 1778224f6ab84751828ad9706ceba578 233fcdb63aa945de9e64110a00f745e4
+#: 4839c63aaaa3449c8b68dc92c2670c6c 4d31e953832640248805201f526a686c
+#: 6622c78b45ce45d8a209ca4594770216 b994090b69a1413da07666b56adaaa7d
+#: d293b56211b349b89822dab4bf21aa3e f562430c80e643f5a26b2acd51f3ac52
+msgid "**命令：**"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:28
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:70
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:132
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:191
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:236
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:285
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:321
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:369
+#: 05baaf79533c4aa2925ca263fd2aa5cb 16d9a31535264376a368da169d8a9f11
+#: 6e3c183bf02f4c2c8657f3241a1bd1da a03dd564da3847f49b002073d67eeb8d
+#: cc9fc59d4e274bf097c02303d628b44e e64f9553d4c743718cc306c61a095d80
+#: f8507d02bccc4b86b4bdda018b3b0ca1 ff1bf7c73c884f7198b75c04ddfaf369
+msgid "**响应：**"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:35
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:140
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:198
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:243
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:292
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:330
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:376
+#: 005d5cc50ba24ab6b108bb2447161f38 14b2fe91799a4f30a879085c24da8cd1
+#: 29f8321ec2bd4f90af44cf190da119e8 5f5d5d92826a4a5dadf5b4b4e0d40f17
+#: 64fc16f34a4945a0b8573ffdb2d33991 801333f31b744db09e9386367e342728
+#: bd8b0aa5484d42dfb692398bf6957d8e
+msgid "参数"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:37
+#: 3f34312cff13423b827891ea948fbaba
+msgid "**<key>**：MQTT参数。"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:38
+#: 80db521f13164f12991b3ca38dcb62f0
+msgid "1：设置连接的域名或 IP"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:39
+#: 929697c3d87845269f2413506ccc54ba
+msgid "2：设置服务器端口号"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:40
+#: 4a11b4ef58924a5eafc194ab34855946
+msgid "3：设置连接方式"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:41
+#: 39287b59e62e4a948530d9af568fdfb2
+msgid "预留，暂时默认 1：使用 tcp 连接"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:42
+#: 62857d2363404132bd69d9b156f76529
+msgid "4：设置客户端ID"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:43
+#: f14079e1f49a4833b763f252e3fe9a79
+msgid "5：设置用户名"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:44
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:46
+#: 1d839af01bf74409bbca02ae1dab167d 6f25400b0cba4f549b36adaeb233284d
+msgid "最大长度63字节"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:45
+#: 7cfcbedf18a24829bf3a4c9e76aa37d1
+msgid "6：设置登录密码"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:47
+#: 5dce53dd75874c5f983a1fe453197f10
+msgid "7：设置遗嘱消息，格式为AT+MQTT=7,<LWT_topic>,<LWT_qos>,<LWT_Retained>,<LWTpayload>"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:48
+#: 959f849b178e43ce8e0c02fffdebe18b
+msgid "LWT_topic：遗嘱主题(不需要遗嘱这里设置为\"\")"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:49
+#: 973d9e6c06ce4a60b78133ee834fa9f8
+msgid "LWT_qos：遗嘱 QOS(0/1/2)"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:50
+#: 5f55a992f1e849e9bb645106b1ae7df9
+msgid "LWT_Retained：遗嘱 retained(0/1)"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:51
+#: 5bee935f0ed54333b22c9a3a676ea5eb
+msgid "LWTpayload：遗嘱消息内容"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:52
+#: 93bf63a2c57b4051bb10c6db930aec90
+msgid "**<data>**：设置的参数。"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:55
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:161
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:209
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:254
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:298
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:341
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:381
+#: 124a2562534546d79d7378f697c9503a 3ceab5a6f8a444339be32c0468702889
+#: 5bf991b6b6454f4097c3e7d902f931e4 8e2d0317ab8848348a0bbd36a7f70495
+#: c98c454421944be09824a57bcb6eb368 d480a68f50bb419d9b91e09a1bace263
+#: ebfd2a857bf84c4aa41ef7cbddb775b7
+msgid "说明"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:57
+#: f1579d243b63416e9730c6689ae019b8
+msgid "配置MQTT连接参数。"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:61
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:183
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:228
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:277
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:361
+#: 415178654c9d4630b2c9f1ea4cec8023 739bce0a122845dcae2ecedb5c1790b3
+#: 8b297bfcd78e475f9f85bc170c1a226f 8d000aaf907449b0820326e5e2b649a2
+#: afa48990653a4f43b67d275bbef6ad50
+msgid "执行命令"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:78
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:168
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:215
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:260
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:304
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:346
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:387
+#: 09fd43abc2b641149f97cdd551bd39ca 0ce2f7f1ae5546d4b36f975aa9a035e9
+#: 0d75c3877f4b4634ba7775eada4a394a 6334dcf713554096b1db09394047b22f
+#: 7d190c34e0324272899e71371881cc9e a447d5ddc0df4becb0517c38909a78e9
+#: e6852eefa84f41e1b2479bcc5a3e8b32
+msgid "示例"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:124
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:313
+#: 8bd1c3987a99437698cd7a919c375494 b438688cca044699b60dfcf19dcc6de5
+msgid "查询命令"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:142
+#: be48a985f69c4ed2918e9ba8e7443e0b
+msgid "**<MQTT_status>**：MQTT 连接状态。"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:143
+#: f82f7e61a9f5492bb129ada6cbe156c0
+msgid "0：初始状态"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:144
+#: 502ead9d32a94f1e83678c3dbf4fc193
+msgid "1：正在连接"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:145
+#: e254035ae23545f2becaca4f23db8ecd
+msgid "2：正在订阅消息"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:146
+#: 0fb321bc06a046799191c3932abf5ce0
+msgid "3：连接成功"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:147
+#: 3a98f597b4b64429ac9844f8f71bcd45
+msgid "**<Host_name>**：服务器域名。"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:148
+#: 3fc131c1273443688c4759305ef550c7
+msgid "**<Port>**：服务器端口号。"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:149
+#: 534ea69004b14bf59bdf2e4f2e5be472
+msgid "**<scheme>**：连接方式"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:150
+#: ff2c6cdde9124b7fbebd72d4505188d8
+msgid "1：TCP 连接"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:151
+#: d9c23118601f4d988b533366f7c81b32
+msgid "**<client_id>**：MQTT 用户 ID。"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:152
+#: acd9875737d44928abab7d71b60d6dc7
+msgid "**<username>**：MQTT 用户名。"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:153
+#: d2c8ebd098514868be0f0c89e590e006
+msgid "**<password>**：MQTT 密码。"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:154
+#: 09d7800db3794de598f8e27168f3d4f8
+msgid "**<LWT_topic>**：遗嘱主题。"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:155
+#: 7ab591b455e14e1a98aa7b7c7dba30da
+msgid "**<LWT_qos>**：遗嘱 QOS。"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:156
+#: e66d79f0aca34cc7ba4f58d4a3d772c4
+msgid "**<LWT_Retained>**：遗嘱 retained。"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:157
+#: aa71e5edfe3b4578997c4760d05ae9c5
+msgid "**<LWTpayload>**：遗嘱消息内容。"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:163
+#: d840073c023c41bea64a9d45b746725c
+msgid "注意：执行连接前需要先设置好 MQTT 参数，如果当前 MQTT 任务已经启动再次执行会重新连接（更改服务器的话建议先删除所有订阅后重连）"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:164
+#: 13b153d0bf0e4ea9b54ad925af80d8f1
+msgid ""
+"注意：这里是异步连接，显示 OK 只是表示 MQTT 任务启动，连接状态需要通过AT+MQTT?查询或等待收到 URC "
+"数据“+EVENT:MQTT_CONNECT"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:180
+#: b7b171204d8f47a7884c066fb29c85bd
+msgid "AT+MQTTPUB 发布MQTT消息"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:200
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:245
+#: 1e87f466f5ca475f989c3aa65cc0c825 f70ef7cf20df4fc58899c52c629c3f03
+msgid "**<topic>**：要发布的主题。"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:201
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:246
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:295
+#: 0821e20d0c0b4b65b995194dff64ff76 2e7bd69644054eea9f06a8267e25ed14
+#: 6da79b9a03d64d45998277d2720ed9b3
+msgid "**<qos>**：qos 等级(0,1,2)。"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:202
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:247
+#: 2c39668455024923aed1cc9374280480 c627eb156dbe45acbe005f5fa3fb4cbc
+msgid "**<Retained>**："
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:203
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:248
+#: 10919a6b00b845d29adf4d48f6be338c 12e38006dd144b5f93f77a809117c7d7
+msgid "0：普通消息"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:204
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:249
+#: 99b1794a63e34bd99b95df32f624f994 c6fdc3e5745f4307b1a9b1879635b9e3
+msgid "1：Retained消息"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:205
+#: 501c3b01a5224738af9ee80cc0a3eb96
+msgid "**<payload>**：数据内容(最大长度为1024个字节)"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:211
+#: 4d69c8e7f8a84859a3eba9ffa011fa38
+msgid "发布MQTT消息。"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:225
+#: 6e0ef8d442314fcf80b6d32751c0574a
+msgid "AT+MQTTPUBRAW 发布指定长度 MQTT 消息"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:250
+#: 20715f9b0f92420a9608be46fb44b574
+msgid "**<length>**：数据长度"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:256
+#: f6aa2862f7d947e19fa6a9f83e8cc9ff
+msgid "发布指定长度的MQTT消息。"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:273
+#: ad9e199cfcf1423b8dcd10c09047efa1
+msgid "AT+MQTTSUB 订阅 MQTT 消息"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:294
+#: de356821d08d43d89ba7859d1b99f3b3
+msgid "**<topic>**：要订阅的主题。(最多订阅四个主题)"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:300
+#: 443d5479589c45fd885d8ed368ebce66
+msgid "配置MQTT订阅主题。"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:332
+#: 8ea84ff814d447688a465bb96ae576ef
+msgid "**<status>**：订阅状态。"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:333
+#: 622c510062b0496dabff45c70b7b9a5e
+msgid "0：初始化状态"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:334
+#: 569f1e7763664ca5a127540dab16899d
+msgid "1：订阅中(首次订阅)"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:335
+#: b1f246c4de6d45538895f675e9452337
+msgid "2：订阅中(断线重连后重新订阅)"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:336
+#: a315336bb7be4bfe8108bf4140acb178
+msgid "3：订阅成功"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:337
+#: 5ba4b18c89c74826b943c00f014bf266
+msgid "**<Topic>**：订阅的主题。"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:343
+#: 5767ac43d37c489f93e9711a58405086
+msgid "查询已经配置MQTT订阅主题。"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:358
+#: 6b2b07a35a244d4c9dcfa9f71b450516
+msgid "AT+MQTTUNSUB 取消订阅 MQTT 消息"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:378
+#: 4e88fe808d674643aff70a89e910b589
+msgid "**<topic>**：取消订阅的主题。"
+msgstr ""
+
+#: ../../source/docs/command-set/MQTT_AT_Commands.rst:383
+#: 6270cb51d7b84104a6e92cadea331f94
+msgid "取消订阅 MQTT 消息。"
+msgstr ""
+

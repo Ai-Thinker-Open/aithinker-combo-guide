@@ -1,0 +1,362 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, 安信可科技
+# This file is distributed under the same license as the 安信可科技 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 安信可科技 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-01 23:52+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:2
+#: e2b3b0512794494eb500c63135bdec79
+msgid "驱动外设 AT 命令集"
+msgstr ""
+
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:4
+#: 8c250bb4bf6045aa83e836b4dbc88ab8
+msgid "本章节介绍驱动外设AT指令集，此指令集针对不同的模组会有所不同的适配，具体差异请移步：:doc:`../instruction/other/firmware_differences`。"
+msgstr ""
+
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:6
+#: 0df6417a202a4be192abb210e52f237d
+msgid ":ref:`AT+SYSIOMAP <cmd-SYSIOMAP>`： 查询或设置 IO 映射表"
+msgstr ""
+
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:7
+#: 71c17e938d664d6b969d7bd88b1a63b8
+msgid ":ref:`AT+SYSGPIOWRITE <cmd-SYSGPIOWRITE>`：设置 GPIO 输出电平"
+msgstr ""
+
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:8
+#: f4ae1333aecf4a15ab8657236f4a3a67
+msgid ":ref:`AT+SYSGPIOREAD <cmd-SYSGPIOREAD>`：读取 GPIO 电平"
+msgstr ""
+
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:9
+#: 8fd1e29ec1834bc7b97e17b042150f0b
+msgid ":ref:`AT+PWMCFG <cmd-PWMCFG>`：配置 PWM 功能"
+msgstr ""
+
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:10
+#: 671d67f611224453a7994ba3d10fa7fb
+msgid ":ref:`AT+PWMCFG <cmd-PWMCFGS>`：配置 PWM 功能"
+msgstr ""
+
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:11
+#: 711fd8d8999149d2bd7f72481484bc09
+msgid ":ref:`AT+PWMSTOP <cmd-PWMSTOP>`：关闭 PWM 功能"
+msgstr ""
+
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:12
+#: 0b8ab88a0ff14ec991ba16762965661f
+msgid ":ref:`AT+PWMDUTYSET <cmd-PWMDUTYSET>`：更新 PWM 占空比"
+msgstr ""
+
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:13
+#: d6aa0c9db58f462ba8e75345ff9d9ac5
+msgid ":ref:`AT+PWMDUTYSETS <cmd-PWMDUTYSETS>`：更新 PWM 占空比"
+msgstr ""
+
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:18
+#: 4a01e3efcbdc4bb39d73e055e9c83b43
+msgid "AT+SYSIOMAP 查询或设置 IO 映射表"
+msgstr ""
+
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:21
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:107
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:151
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:197
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:247
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:296
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:335
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:379
+#: 05a200c00b1548c7a91e2ccae9bc16a6 095c88ec573843c6a9232cb5051e200d
+#: 0ad760d9adc949399e49e25f10c223f6 200873d8ec9e4a4ab7bfdd324125b284
+#: 3710000f4c4d4571998554a1d97a2522 448c995457b54f5fbeb1a99d57440b5a
+#: 73b350b3c62a45c58e7ba0267f221ef5 9a3cd941eb724f9983d3614c00950c88
+msgid "执行命令"
+msgstr ""
+
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:23
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:66
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:109
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:153
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:199
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:249
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:298
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:337
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:381
+#: 15e7e77e91214f25b8b4e3cbe0458469 472c4428e74d4e5b88e49b9ce8028c01
+#: 53e994b3d92f41248f2819c0b8f44f7f 561cb97014b540b99fd0ef368b4cb112
+#: 684bd655cd4442f8a6a54a9c659e9bff aa6efedad4274bb4a88fe66b03a17c9c
+#: b1e1fad648294d5cb50f6017002ccad1 e96e28f7c9fa4194aac639df5bb15471
+#: f1c4f5f83dd34e3aa8367e0a80894874
+msgid "**命令：**"
+msgstr ""
+
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:29
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:72
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:115
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:159
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:205
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:255
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:304
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:343
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:387
+#: 0c16f2f522d9445691009594a60485b2 18de0c07e25e4e49bb59e30b33e69b30
+#: 3a90e663af5843a7b3635dff18816c84 3b93f2cde1cb454fb23ddc0dd3618457
+#: 524055dedc204c788ceb867bd2b963e9 b7f9d985743340abb1c8d051e11e5c94
+#: ea14ffee481d445db730d31ecb463395 eebddc9f5f2d4646b9acaa0c4f57e0b4
+#: f23ab5f424a24d63b1431a2c9467e1fd
+msgid "**响应：**"
+msgstr ""
+
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:36
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:79
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:122
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:166
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:212
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:262
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:311
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:350
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:394
+#: 088afb5dd29b4cfba04eabf72bcc6d9f 4ceacdc8d0b24376ad8b65f0e0de65d8
+#: 5f43e91d6f5e42cc9db9658374243249 618a0caff98a49c8a6fc9e9ca48fed3c
+#: 637e5173c39e4540a3d4392e4ad03279 779f4b0dc5ac4d768b48c1c390b223ad
+#: c51f8a0c25e841df9c289862ca0ec17f cc5834e674cc4ced81f135f68aec4c87
+#: eebeac9db3514302a713a6e029dedfb8
+msgid "参数"
+msgstr ""
+
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:38
+#: f882e6dac1cd4f3ca740a5d715591e17
+msgid "**<pinNumber>**：要设置的 IO 总数。"
+msgstr ""
+
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:39
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:82
+#: 9fbd672418374d29bbea2a5c0bb060ae ef375982e4ff4f51a60066ec6804deb8
+msgid "**<pinxx>**：模组 IO 引脚"
+msgstr ""
+
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:40
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:83
+#: af97c59bf5b64625a4845231845b8476 b78943bb294346ab8e2f160082d19f75
+msgid ""
+"（从模组左上角逆时针排序，引脚序号从 1 "
+"开始）对应的芯片引脚编号(1~254，这个根据芯片手册上的引脚编号来就可以)如果模组没有对应芯片引脚则设置为 NC"
+msgstr ""
+
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:44
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:87
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:132
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:176
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:222
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:272
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:317
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:359
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:402
+#: 06a1c5c7aa5844779d31d7410630fdf7 1992de2ae2854c2eb0b43c3d146c90ea
+#: 22f3504a213a4d9681a5bd685da6f07d 3e89ec4053c6418bb938fe5b7aa6a58a
+#: 6a941f8ee5bc48e3a224173b1ded7db2 716c5cf786f044e2b500d5157ae78aa5
+#: 91c3b803d56a44a7932fd3fc022667c5 9abc8f543de845f69b283ad6e8716fa1
+#: e2c0ea9cdfe44bd78c457e7671ce133f
+msgid "说明"
+msgstr ""
+
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:46
+#: 8e4a96ab3c414975bc78f90143f2b900
+msgid "设置 IO 管脚映射关系。"
+msgstr ""
+
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:50
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:92
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:138
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:182
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:231
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:280
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:322
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:364
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:407
+#: 2b76f07369c14861b24bc6859a0caea5 41efb6d30ddb4388843c624e70834401
+#: 57f1855a22cc4c3f9b3e927a2ee597e7 6cd8178821dd4e389129dbeb0854cff3
+#: ac6d20af99dc4debafe5d6c9c7890bf2 bbfd292b741a4b3f97a62827837a1f52
+#: cc3207d3213a4f5aae0282c4e1a91bf5 d078370e70464627bbfb707c4699017a
+#: f24e24cafe4942b598c219e7f19602b4
+msgid "示例"
+msgstr ""
+
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:64
+#: e000d3e4e800482ba15671e6c8d2ee0b
+msgid "查询命令"
+msgstr ""
+
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:81
+#: e67abfae73404c32a1a8cab52755ea1c
+msgid "**<PinNumber>**：表示当前映射表一共有几组数。"
+msgstr ""
+
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:89
+#: 3710b94f9dfa41a5abf3ae2290a8cb48
+msgid "查询 IO 管脚映射关系表"
+msgstr ""
+
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:104
+#: 8f4f3907b9c149adb58f8a2da0b11a47
+msgid "AT+SYSGPIOWRITE 设置 GPIO 输出电平"
+msgstr ""
+
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:124
+#: 8060e9c474594faaa603a82a6646092e
+msgid "**<pin>**：模组 IO 引脚号。"
+msgstr ""
+
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:125
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:169
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:215
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:265
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:314
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:353
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:397
+#: 06a39428cc7e4d449e800d03dafef3f6 4694074c4eef423ba7e6593ef028543f
+#: 5afad165cde9490982ff1fb93ee2f1e1 9f2c78211f744bcc9ac620e30fa39fbe
+#: bbfa143598af476d9dc484201d7690c8 f42ec9f922e84859a28ba0287f6765a6
+#: ffaebb292f204b72ae6547d7a492190d
+msgid "从模组左上角逆时针排序，引脚序号从 1 开始"
+msgstr ""
+
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:126
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:170
+#: 30c6fa4dcf4d4b0a8105e7e38d60a526 4ee1a7fd927743cbb45b936bda21932f
+msgid "**<level>**： 引脚电平。"
+msgstr ""
+
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:127
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:171
+#: bf23465d01a045ba96820b69fb96f179 d551a17bc4404603ae4310c33829d9a0
+msgid "0：低电平"
+msgstr ""
+
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:128
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:172
+#: 01ec33fc9d574aea97731830cc7b9685 66cfeb8112f84697ae55ba4cdc2703d7
+msgid "1：高电平"
+msgstr ""
+
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:134
+#: 434138861911413c9ac06d1af37206d1
+msgid "设置 GPIO 输出电平"
+msgstr ""
+
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:148
+#: 8e473c7802e74f1b8923232650c2a12f
+msgid "AT+SYSGPIOREAD 读取 GPIO 电平"
+msgstr ""
+
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:168
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:214
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:264
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:313
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:352
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:396
+#: 01033f571444424e8e92d8df648b6862 37bb4aed9db54c5e8078f9534fe0c862
+#: 4f544881c725404ba4ef7bca9a0591c3 87b8a41561af4753a5583ffbad04013a
+#: 9dfa012613854095bbc8af2dd487f934 a96960b0aa244ac8a238beb3b655bf43
+msgid "**<pin>**：模组 IO 引脚号"
+msgstr ""
+
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:178
+#: 05066e3673d74c5a9863879249f4ae19
+msgid "读取 GPIO 电平"
+msgstr ""
+
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:194
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:244
+#: dd3f6cc5512b413daa7d6cd4c0ee1542 eb357a8f67d449648aa2f415236326e9
+msgid "AT+PWMCFG 配置 PWM 功能"
+msgstr ""
+
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:216
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:266
+#: 586615c3bdcf43e1ae7de025873c97ac 781a0d9cfe5c41d9adbd0359232301bb
+msgid "**<cycle>**：PWM 周期"
+msgstr ""
+
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:217
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:267
+#: 0dd3f7a859164311adfcf7313ce69485 e956f2453bd14bfdad42d419c384e823
+msgid "单位 us"
+msgstr ""
+
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:218
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:268
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:354
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:398
+#: 45d2d059aca1448c8c2bcfa8d89552ab 4be4bbc915714e8b8462c8dc44c7002c
+#: 804d68a95bac4581aeec196f0da8cadd d6a8459dc7424b8f8fd6969ae54103d6
+msgid "**<duty>**：占空比"
+msgstr ""
+
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:219
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:269
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:355
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:399
+#: 5d7ca385134545e19fb9609d30c88dbe a8a4be32f22a4990bd25a11bc9245e9e
+#: da964b27d2a043fe9093fec2a09593b9 eb5c243f57a844499671425305d3c1ae
+msgid "整数 0~100"
+msgstr ""
+
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:224
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:274
+#: 1f8be1faa99c4744bc473882b31e2d35 478a7729d6cf449d93001f67c42fccec
+msgid ""
+"Ai-WB2 系列模组一共有 5 路 PWM，同时开启时必须注意芯片引脚的 IO 序号对 5 取余不能重复，否则只会有一个生效，例如设置了 "
+"IO1/2/6 实际只有 IO2/6生效，IO1 被 IO6 覆盖了"
+msgstr ""
+
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:226
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:276
+#: 3367258910144df68f9e3feaeb98f0a0 3748e7eb7eb94d09826082acb77f3f2f
+msgid ""
+"注意：该指令设置的单位是芯片的周期寄存器，相同参数在不同的模组上的效果可能不同，如果在精度可以满足要求的情况下推荐使用 AT+PWMCFGS "
+"设置，这个指令相同参数在不同模组上的效果会基本保持一致(不同芯片可能会存在几 us 的差异)"
+msgstr ""
+
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:293
+#: aae76f10ef8046fdad1855680e728024
+msgid "AT+PWMSTOP 关闭 PWM 功能"
+msgstr ""
+
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:319
+#: a6672db81ecd4657929047fab948aa3d
+msgid "关闭 PWM 功能"
+msgstr ""
+
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:332
+#: 827a1ce344f444909ede046df8f1697a
+msgid "AT+PWMDUTYSET 更新 PWM 占空比"
+msgstr ""
+
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:361
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:404
+#: 401f533799a94959815933241f7ae726 7807770e8f534803b296d6f485584f52
+msgid "更新 PWM 占空比"
+msgstr ""
+
+#: ../../source/docs/command-set/Driver_AT_Commands.rst:376
+#: a8774c84d0eb4a9e9bb7974bba9fd62a
+msgid "AT+PWMDUTYSETS 更新 PWM 占空比"
+msgstr ""
+

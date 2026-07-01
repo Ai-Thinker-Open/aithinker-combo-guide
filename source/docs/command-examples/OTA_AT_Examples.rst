@@ -113,9 +113,17 @@ Wi-Fi系列模组OTA升级
  
 5. 设置好OTA文件后点击下方的START按钮进行升级，等待进度条走到100%后模块会返回OTA_SUCCESS随后自动复位重启，打印新的版本，表示OTA升级成功
    
-   .. figure:: ../../_static/OTAsetting.gif
-    :scale: 80 %
-    :alt: OTA_APP
+   .. only:: format_html
+
+      .. figure:: ../../_static/OTAsetting.gif
+       :scale: 80 %
+       :alt: OTA_APP
+
+   .. only:: format_latex
+
+      .. figure:: ../../_static/OTAsetting.png
+       :scale: 80 %
+       :alt: OTA_APP
 
 蓝牙PB系列模组的OTA升级
 -----------------------------------------------------
@@ -149,7 +157,15 @@ Wi-Fi系列模组OTA升级
  
 4. 点击选择文件，如果文件栏为空，可以将OTA文件放到微信或者QQ上，点击hex文件选择其他应用，找到PHYOTA软件，打开后即可成功获取到HEX文件，选择对应的HEX文件后点击开始升级
 
-   .. figure:: ../../_static/PHY_OTA_SETT.gif
-    :scale: 80 %
-    :alt: OTA_APP
+   .. only:: format_html
+
+      .. figure:: ../../_static/PHY_OTA_SETT.gif
+       :scale: 80 %
+       :alt: OTA_APP
+
+   .. only:: format_latex
+
+      .. figure:: ../../_static/PHY_OTA_SETT.png
+       :scale: 80 %
+       :alt: OTA_APP
  

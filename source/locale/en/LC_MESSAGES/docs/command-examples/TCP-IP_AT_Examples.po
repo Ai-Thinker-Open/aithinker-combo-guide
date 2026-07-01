@@ -1,0 +1,596 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, 安信可科技
+# This file is distributed under the same license as the 安信可科技 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 安信可科技 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-01 23:52+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:2
+#: e60a71989c0d43f3806da2a9361c7de0
+msgid "TCP-IP AT 示例"
+msgstr ""
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:4
+#: c86900d15e1b481aaf1f7b039468a33c
+msgid "本文档主要介绍在设备上运行 :doc:`../command-set/TCP-IP_AT_Commands` 命令的详细示例。"
+msgstr ""
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:11
+#: a6c0321084ec4fcfaf968f99d31dbcc5
+msgid "设备作为 TCP 客户端建立单连接"
+msgstr ""
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:13
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:316
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:454
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:591
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:705
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:822
+#: 0f38d4f175e64e32939aa642df9dc12e 2db1ce5e52ae4b02af19241b86c04f02
+#: a4b6ee37d7934d9695021dc176d288cf a61efa1d187e461e8ee362b84457d982
+#: e1d9a89961ec4dc0b8a2096f9b149c06 ff306b5612b44c359b2a591580c759a1
+msgid "设置 Wi-Fi 模式为 station。"
+msgstr ""
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:15
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:29
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:51
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:76
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:92
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:121
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:140
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:154
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:168
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:193
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:207
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:233
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:247
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:261
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:287
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:301
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:318
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:332
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:354
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:379
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:405
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:419
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:439
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:456
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:470
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:492
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:517
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:533
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:562
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:576
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:593
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:607
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:629
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:654
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:668
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:690
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:707
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:721
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:743
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:768
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:784
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:806
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:824
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:838
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:860
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:874
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:893
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:917
+#: 04f9db7347b44190a756ade5edbaaa0f 0b3cc7dadd574097944a30179e071bc4
+#: 0f1f9099b1464b34b15a8a16522b796b 167c1c37d52a45a997a9c9ee1231b154
+#: 1c1253b085e84fc9baedb6e540dcb12d 215350abc1b4438f9f1c25a2abdea873
+#: 2594ab6209584429b44af645dafc484a 27013442151945fc863747dadd2d0141
+#: 28f758ad894d45df896b2c2b7a5320bf 290e33aa8b7f4b29816c439b4ed534ac
+#: 2cd94595052e40ae9480bf8badd5aad2 2ee0aa34c0aa48dd9d9f208ba04d4d11
+#: 31497e8b350149eb8659190028a4bd87 35d2728c10c54e79b290cfd6fece91a6
+#: 36a5bcba8536400dbc7e7673fa4da1cf 3f4f4e509d0a4fa286d3f0fd2af82b01
+#: 421c6f0026ce4b1c8b1346b1e71a9e8f 4d07af333300445aa2c0584dbacdccda
+#: 54e1435eb849455d967df69f91aa03d6 56844687e5f44b15ab46df4e7931ee9d
+#: 61b62bc6421e427e987cb60d0ceb1aa3 637ae1a87f2b4d7ca21c1853ef9fc87b
+#: 642d1f1138ee444da6fe00a353bbc9ac 69d496aa7fe8456bbe349154238d9b35
+#: 71842349211a436a83f043727506035c 800df8d8932d4e3f930484148cef8dbc
+#: 820a37b3495d4d2e97be349b2c703aae 85e463de926f4547b40b7f36953d8653
+#: 8abae1e95b6c45968b619341312fe41d 92162255598a4370b580aa5413a41244
+#: 97cc2a1626f54a8a9197bdfbb1d390cd 98b12613effc4c9580cdce98000e6032
+#: a61c99febebc444e90c14c9e1e380c76 a629d123b2124b39907454c0791eb8fb
+#: abe2618383b54f0d80dcde7753ef3557 af309c07c6d34994ae74a7b7c15b2232
+#: b09683f6484d4068ad402cb8c69559ff b25bf769ff584bc7b997215261b24bd1
+#: b28234a29daf4ec89dd1ebdde4f571a0 ba046fe3dcdb4a0fbf7517833988ab6a
+#: c1d7b4119b1245a2a9a073de7a810806 c6d9c1c03de942d5903032f70dee8608
+#: cb0be9c5bd5a4dc0b00748cc3c8a8911 d3d7bf4f3c244b0fa79f0dbfabe602ef
+#: d68ad2c845564b638c01d4f174c7f763 dfaf15b9c29944109ae3ddfc6ad8641a
+#: f58c69ca1e01466796af9e8a33a42a69 faf939b3d7dc41d19af2e83cff77bd78
+msgid "命令："
+msgstr ""
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:21
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:35
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:57
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:82
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:98
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:127
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:146
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:160
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:174
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:199
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:213
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:239
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:253
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:267
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:293
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:307
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:324
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:338
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:360
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:385
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:411
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:425
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:445
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:462
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:476
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:498
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:523
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:539
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:568
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:582
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:599
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:613
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:635
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:660
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:674
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:696
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:713
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:727
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:749
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:774
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:790
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:812
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:830
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:844
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:866
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:880
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:899
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:923
+#: 03b0757829184fe4ab29a6f33ac78458 0609035046d04558adafbe9e54c024e2
+#: 08a680e67f2047fc8ed1b7ae75917b12 0f29cc0abe3a4368863ad56c24fc6f2b
+#: 12b555ae00ec4052a0be791462c867b2 1b5bddf48bd74098bad7e6d5f08c428c
+#: 2206e9b1df2445f5836c32221f0574ce 38aeee0658f94ff9bcc8302418fec428
+#: 41d7c7a703b2419ba5c08b3ee3a280a1 4cb5af665be54de48699ebd99ee8911c
+#: 4e1592b52148494dae7ba84e75b2dbb2 52436896647348abaf19b06dcbc6faac
+#: 538f947fc2f54a13b486bda4e415dc33 551eceb434b7454697ab9b9bec09aa3e
+#: 57f60a406e5d4035b03d4c72e69f0f55 5a3b6295f5984a528e228769be8e41c1
+#: 5e47c90aa6c746cbb3bbaad815692f03 6500107a94ad4f008d8c4b072e9e01db
+#: 6893e483539e480b9acb5677ca7ac5ab 6bb34501959343ae9243b4035ded18de
+#: 7c8077eed6ef4eedb7dd1357509a6f18 90d3cdb1c20b429dac22282b0fe5afb9
+#: 91ad55c4631d45698816c768664e9256 924e62adf60a4e55a697f6bc8c9812a1
+#: 96d3571a231c416ab616c08a80e7b5a6 97cee141120f42aaa62af8eff9c33932
+#: 997b8152c46a42e1b11683ce0deeee67 a43f9945852e47caaf9dae1af7ec9c07
+#: a4dd77ed6a02437b97d45bd801457bd0 a5fbf2478df84d23be7cc06a98940509
+#: a67340aeaefb4990900cec71e8183c0d ae370ad2ef28418badc427d1a71d3f56
+#: aecffecb7d2042f58344d9f03f48f4ba bfb2641b861049fbae6eece4cca32bc9
+#: c993b2a7b02947fc940362f1427a0fa9 cf6f367c6ff54b77bd553fd45715165d
+#: cfd0e08202e34fbc92d634242275b6bd de021ff331604a2aa946664bd863bec7
+#: df45a95c68a041818bb027e4685960fb e1e7601c66814e2bb25bfdec85dbf0a9
+#: e2340a3a8f7d4294b84d401967f2e372 eb2922ce2f1b4585944a8f9012d20c60
+#: ef3268d8261c40229bd40434817ba861 fafe08be8c3c49c892214bb9c7ad6cc2
+#: fbbd0b40c6084cf1826a29746cbdcc05 fbdd6f3af9f54c7bb5fb30d61a155d8c
+#: fcdeb27bbe1f49d6b8a4acdcd6294e30 fdbf2c19520b495aa5f69cd049293e74
+msgid "响应："
+msgstr ""
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:27
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:330
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:468
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:605
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:719
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:836
+#: 0c6d3adf9b804efd8087bd54a7c8d8ee 5ba4d1fb821343ae83ecd90df1ab48ff
+#: de3ec0750e7f4696844e78bd31e92821 e07abfefda3244baa9a51977a178527f
+#: fbd9ecb8145a4a5b8ba7fab6684691e6 fff2b0f08f8d4c108f6d31a363f077a4
+msgid "连接到路由器。"
+msgstr ""
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:45
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:66
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:183
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:219
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:273
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:348
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:369
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:486
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:507
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:623
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:644
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:737
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:758
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:854
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:886
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:905
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:947
+#: 1c5c364fefee4becafe18c234c55f5f9 1c984cd5768946fb9f99cbf8e724bf81
+#: 23a8da9dceca42958130a44d264120bd 37ed2b1af3d5420ea6167ccfb2b3a754
+#: 389dd56356b640d0a151d46a2b27c640 491a27a9e1404c41bbef616a513bbd5e
+#: 7a48745490f64178b5041cd99c26aaf9 7ff30705fda9447f988ce2340de7e0ed
+#: 89217cef379244f1bf08d5bc802ed42c 8f90092c92314f0bbd284de3a8622ff8
+#: 9c5b41a533644400bab07685cb1dc990 9f80f6acebe341a6a99201bef932d2ac
+#: b04175b6e60645f382329158aa869087 d23d389611a64211bbd18da31791deec
+#: f27e21aff3904bbab02e04d6d104d5c2 f7bcc2c729d043398e76084d1bfd008d
+#: fe47f6d53a524d01bb0a4b90c248e63a
+msgid "说明："
+msgstr ""
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:47
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:350
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:488
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:625
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:739
+#: 1ae6ebac9ba64dcc86f9b5edd4d08af0 1c54532b0ff744f7abf549647618a779
+#: 37e27b4c55db4f1f966018807ab90f01 64ce2dfd20114a84bac572bab77bddd6
+#: 96aa84059ed24591b0a73bc104eaf9aa
+msgid "您输入的 SSID 和密码可能跟上述命令中的不同。请使用您的路由器的 SSID 和密码。"
+msgstr ""
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:49
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:352
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:490
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:627
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:741
+#: 07707bf8d41848658d6dde5a5daa38e9 0c4281e79aad4595bd0db9d52374f610
+#: 23abf623d0e040f6af90c3166da2feef 5e825f8e87ba455ba0f44bc0ed7aea71
+#: 70925bbe1e3741e39d689e1f1a98b216
+msgid "查询设备 IP 地址。"
+msgstr ""
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:68
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:371
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:509
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:646
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:760
+#: 001cd89baa1e4520b473b720850f17dc 89c64ea3f8064198bbe3a5e36de24f2d
+#: 92366c955872427d99248d59c713fb8e cd4c4a4c13fa48059b9d34eb95e0d2ee
+#: d5f6c38e8cb243f0888cb5ae3b707e3d
+msgid "您的查询结果可能与上述响应中的不同。"
+msgstr ""
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:70
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:511
+#: 01c86735d9f44e7c88633a27307db0dd 5745dcd66a674f8092bd1fab3f34c04a
+msgid "PC 与设备连接同一个路由。"
+msgstr ""
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:72
+#: 8898a97ab9fb4d808388d765d5713ba8
+msgid ""
+"在 PC 上使用网络调试工具，创建一个 TCP 服务器。例如 TCP 服务器的 IP 地址为 ``192.168.3.162``，端口为 "
+"``6666``。"
+msgstr ""
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:74
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:652
+#: aea856362a06416a8abd460086fc3c99 bd146587944748769b8efbfbdf22107d
+msgid "设备作为客户端通过 TCP 连接到 TCP 服务器，服务器 IP 地址为 ``192.168.3.162``，端口为 ``6666``。"
+msgstr ""
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:90
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:417
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:531
+#: 141d9b8da5f24b54bd284a44a117e8fa 670c17985cc4483f90423f9d584c21ae
+#: dba6cc765a2b478ea30265fca7199426
+msgid "发送 9 字节数据。"
+msgstr ""
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:104
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:431
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:545
+#: 61a5b241c8824ddcb78ddfcfa84d7a88 8914f5b5eaf5461b8f46845129990955
+#: cd29e3a4951243ef9982a404f9b37b6c
+msgid "输入 9 字节数据，例如输入数据是 ``aithinker``，之后 AT 将会输出以下信息。"
+msgstr ""
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:110
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:394
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:551
+#: 1da3386583924dde9fad275bce56f3f2 625401432ded4036891320142d5f460f
+#: 9eaed7fed6ad49b683b7d83f62eb6df4
+msgid "接收 9 字节数据。"
+msgstr ""
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:112
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:225
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:279
+#: 30289076c1304e57931b97eb116416b7 524d222c4db84585b1ce233955e317dd
+#: a293509bd2304c9592ddac3948034637
+msgid "假设 TCP 服务器发送 9 字节的数据（数据为 ``aithinker``），则系统会提示："
+msgstr ""
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:119
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:231
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:285
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:403
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:560
+#: 3423007a1b714171bd2322ef1c3a3661 436e73ad93a948a98231647e1dcf6f3a
+#: 6f4daf1821b14edd9398661da261c8ce 71e94dac22fe4159a2b70e4a92607dec
+#: 87b587a48b8d41de8bb29d97db2ad3f1
+msgid "这时候发送AT+SOCKETREAD=<ConID>命令从指定连接读取数据"
+msgstr ""
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:134
+#: 1ae9950485e84b6581d9dc2370c13f82
+msgid "设备作为 TCP 服务器建立多连接"
+msgstr ""
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:136
+#: 6eb79725242d4e318e8e0bac2203179b
+msgid "以下是设备作为 softAP 建立 TCP 服务器的示例；如果是设备作为 station，可在连接路由器后按照同样方法建立服务器。"
+msgstr ""
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:138
+#: 59a956c1791341e0b4db8da8afbc00ca
+msgid "设置 Wi-Fi 模式为 softAP。"
+msgstr ""
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:152
+#: 4b53f3d970f44b5caa6cdb019bde663b
+msgid "设置 softAP。"
+msgstr ""
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:166
+#: de3982a09d834ed2b26f4624018792ff
+msgid "查询 softAP 信息。"
+msgstr ""
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:185
+#: 352fb5ac0ee047859d815cb54b26a42f
+msgid "您查询到的地址可能与上述响应中的不同。"
+msgstr ""
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:187
+#: 335610c3a9db4d72807699b9d55aa0fa
+msgid "PC需连接设备创建的Wi-Fi热点保证在同一个网段。"
+msgstr ""
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:189
+#: 2116f587d7014379bf654ecba9b2b548
+msgid "在 PC 上使用网络调试工具创建一个 TCP 客户端，连接到设备创建的 TCP 服务器。"
+msgstr ""
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:191
+#: 0f1b6feac1c345a083f145bdcd532500
+msgid "建立 TCP 服务器。"
+msgstr ""
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:205
+#: d8bd61acae824f1b95f3db58afea9743
+msgid "1.发送 9 字节数据到网络连接 ID 为 2 的链路上。"
+msgstr ""
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:221
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:275
+#: 2ca4b5e80bb34d0f933bb1f57d7bd314 a02e96700914443f93f8d2e0aa7365f7
+msgid ""
+"若输入的字节数目超过 ``AT+SOCKETSENDLINE`` 命令设定的长度 (n)，则只发送数据的前 n 个字节，发送完成后响应 "
+"``OK``。"
+msgstr ""
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:223
+#: eef303664ed4438b90cac3b1956f724e
+msgid "从网络连接 ID 为 2 的链路上接收 9 字节数据。"
+msgstr ""
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:245
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:299
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:688
+#: 2f2f77a614d549b88df580248bfe9bad 6b4bb65246874d10bb6415ae774102ab
+#: 86b06e903e5e4571bae4b10947f0a9cb
+msgid "关闭 TCP 连接。"
+msgstr ""
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:259
+#: 087c8afea4ab497d82d909aac5d235c4
+msgid "2.发送 9 字节数据到网络连接 ID 为 3 的链路上。"
+msgstr ""
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:277
+#: afc0d91ae871413aaa50d62423efaeb1
+msgid "从网络连接 ID 为 3 的链路上接收 9 字节数据。"
+msgstr ""
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:314
+#: 637da7e83d3e402bad30f421c1af9390
+msgid "设备作为 UDP 服务器建立单连接,实现 UART Wi-Fi 透传"
+msgstr ""
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:373
+#: 02f8b4228a864e28807c52697a971906
+msgid "PC 与设备连接到同一个路由。"
+msgstr ""
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:375
+#: f305604783c24c3b9120ee68812b47e8
+msgid "在 PC 上使用网络调试工具创建一个 UDP 客户端，连接到设备创建的 UDP 服务器。"
+msgstr ""
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:377
+#: df58efc0cffe4bcfa3ec065d84d1e0c8
+msgid ""
+"PC 上使用网络调试工具作为 UDP 客户端通过 UDP 连接到 设备的 UDP 服务器，服务器 IP 地址为 "
+"``192.168.3.142``，端口为 ``6666``。"
+msgstr ""
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:396
+#: 9fe00ae520e9493082224300a0c409e6
+msgid "假设 UDP 客户端 发送 9 字节的数据（数据为 ``aithinker``），则系统会提示："
+msgstr ""
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:437
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:574
+#: 1d1ededeba404c7d96ef678c274fe8fb a64418b8e1ee4cfda8816d63b414ca79
+msgid "关闭 UDP 连接。"
+msgstr ""
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:452
+#: 34e68f36b50947dc981678b1a24ed008
+msgid "设备作为 UDP 客户端建立单连接"
+msgstr ""
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:513
+#: e4d6782f92e24c53986fdbefeb0244ec
+msgid ""
+"在 PC 上使用网络调试工具，创建一个 UDP 服务器。例如 UDP 服务器的 IP 地址为 ``192.168.3.162``，端口为 "
+"``6666``。"
+msgstr ""
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:515
+#: ad0ee9eaf4344e9da369f0bc95a1c841
+msgid "设备作为客户端通过 UDP 连接到 UDP 服务器。"
+msgstr ""
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:553
+#: ff99db6fc51645cbbb8929d7b0b39b53
+msgid "假设 UDP 服务器发送 9 字节的数据（数据为 ``aithinker``），则系统会提示："
+msgstr ""
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:589
+#: fcd5e2992cf24c95be5a382626b892ac
+msgid "设备作为 TCP 客户端，建立单连接，实现 UART Wi-Fi 透传"
+msgstr ""
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:648
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:762
+#: 130e6d756ba145e8a14a21f8da0bfd96 a02d2c5887e444ee995d7e49559b513e
+msgid "PC 与 设备连接到同一个路由。"
+msgstr ""
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:650
+#: a0a87e687ecb405eaf916880206415f6
+msgid "在 PC 上使用网络调试工具，创建一个 TCP 服务器。例如 IP 地址为 ``192.168.3.162``，端口为 ``6666``。"
+msgstr ""
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:666
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:782
+#: 0f6095cbadc94430967265c96be68afc 7838f66d40854db481f640df9c8ea391
+msgid "进入 UART Wi-Fi :term:`透传模式` 并发送数据。"
+msgstr ""
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:680
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:796
+#: 240aa6c64cfd49209c7a3c5fb087967c e939257318f84f5abb5c567801bbbb13
+msgid "停止发送数据"
+msgstr ""
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:682
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:798
+#: 8ecd1eb18310435b8fb1e77c01c9df5d a67a2554c8e641d9b9df030e4df7efee
+msgid ""
+"在透传发送数据过程中，若识别到单独的一包数据 ``+++``，则系统会退出透传发送。此时请至少等待 1 秒，再发下一条 AT "
+"命令。请注意，如果直接用键盘打字输入 ``+++``，有可能因时间太慢而不能被识别为连续的三个 ``+``。"
+msgstr ""
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:686
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:802
+#: 8d938869f46b4c9fac1913ec0e39a3b0 e1f2245d3260458eae681390242aa420
+msgid ""
+"使用 ``+++`` 可退出 :term:`透传模式`，回到 :term:`接收模式`，此时 TCP 连接仍然有效。您也可以使用 "
+"``AT+SOCKETTT`` 命令恢复透传。"
+msgstr ""
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:703
+#: 8cf88ff91a0a4807bd36fe90edd4b218
+msgid "设备作为 TCP 服务器，建立单连接，实现 UART Wi-Fi 透传"
+msgstr ""
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:764
+#: e60dc095144042af886648b1d5e2da96
+msgid ""
+"在 PC 上使用网络调试工具，创建一个 TCP 客户端。例如 IP 地址为 ``192.168.3.142``，端口为 "
+"``6666``。通过AT+WJAP?指令进行查询"
+msgstr ""
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:766
+#: 657b4b5629224647b6f15d1f204b7bb9
+msgid "网络调试工具作为客户端通过 TCP 连接到设备，设备 IP 地址为 ``192.168.3.142``，端口为 ``6666``。"
+msgstr ""
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:804
+#: 04c2a3864bcd4f16ba125037c7ec3df1
+msgid "关闭 TCP 连接,这里填写的参数填写客户端加进来的链接，需要加上1"
+msgstr ""
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:820
+#: 9b746eb8972a4b8ab8e60a418a34c1e8
+msgid "通过TCP SSL(HTTPS)实现大文本请求方法(此例子需要把串口工具回车换行功能去掉)"
+msgstr ""
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:856
+#: 40fc4c67dea444b1b77cc4d1d9ac06f8
+msgid "您输入的 SSID 和密码可能跟上述命令中的不同。请使用您的路由器的SSID和密码。"
+msgstr ""
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:858
+#: d44d2da729bd47138c601e4d11d37f52
+msgid "设置为socket接收模式。"
+msgstr ""
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:872
+#: d0d8beae97f14a9c9acdbae17bf4088d
+msgid "设置创建socket(以SSL方式)连接。"
+msgstr ""
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:888
+#: 36a341880f794d50ac5db1263fdc9186
+msgid "您要连接的服务器域名或者IP不同。请输入您要连接的服务器域名或者IP。"
+msgstr ""
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:891
+#: 3ea152ed785746f59bf51a3e62178d25
+msgid "设置通过socket发送指定长度数据。"
+msgstr ""
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:907
+#: 7f5ba5beb8704aae95a365a1f57c0dbb
+msgid "您的ID与要发送的字节长度不同。请以您实际的连接ID与长度为准。"
+msgstr ""
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:908
+#: 2fa1d1dbd5d744e08e2d789bd4c1d00c
+msgid "长度字节个数需要以CRLF格式为准"
+msgstr ""
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:910
+#: 678330b3bfa140d0aa227cec0a2b4f3c
+msgid "OTA"
+msgstr ""
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:915
+#: ac62ccc7dabf4a78a71fe1fa1ea42a1f
+msgid "出现\">\"后发送指定长度数据。"
+msgstr ""
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:949
+#: 0b79678e14294c9bbf811bf3041de01c
+msgid "您的请求字段不同。请以您实际请求字段为准。"
+msgstr ""
+
+#: ../../source/docs/command-examples/TCP-IP_AT_Examples.rst:950
+#: 39176696366a4b06ab92db23cb74d954
+msgid "MCU发送需要添加转义符"
+msgstr ""
+

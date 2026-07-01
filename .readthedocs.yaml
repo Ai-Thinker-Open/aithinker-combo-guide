@@ -5,10 +5,8 @@
 # Required
 version: 2
 
-# Build all formats
-formats:
-  - epub
-  - pdf
+# 产出全部格式（pdf / epub / htmlzip）
+formats: all
 
 # Set the version of Python and other tools you might need
 build:

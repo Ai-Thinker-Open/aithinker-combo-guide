@@ -52,9 +52,17 @@ Easy WiFi Config 蓝牙配网
 
 4. APP端操作
    
-   .. figure:: ../../_static/BW16config.gif
-      :scale: 50 %
-      :alt: OTA_APP
+   .. only:: format_html
+
+      .. figure:: ../../_static/BW16config.gif
+         :scale: 50 %
+         :alt: OTA_APP
+
+   .. only:: format_latex
+
+      .. figure:: ../../_static/BW16config.png
+         :scale: 50 %
+         :alt: OTA_APP
 
 SmartConfig 一键配网
 -----------------------------------------------------
@@ -96,9 +104,17 @@ SmartConfig 一键配网
 
 4. APP端操作
    
-   .. figure:: ../../_static/BL602Smartconfig.gif
-      :scale: 50 %
-      :alt: OTA_APP
+   .. only:: format_html
+
+      .. figure:: ../../_static/BL602Smartconfig.gif
+         :scale: 50 %
+         :alt: OTA_APP
+
+   .. only:: format_latex
+
+      .. figure:: ../../_static/BL602Smartconfig.png
+         :scale: 50 %
+         :alt: OTA_APP
 
 5. 配网成功后需要关闭配网模式，否则会大量占用内存
 
@@ -149,15 +165,31 @@ Airkiss配网可使用微信公众号或微信小程序，不需要单独下载A
 
 3. 微信公众号方式配网：关注安信可科技微信公众号，Airkiss配网接口位于应用开发>微信配网内
 
-   .. figure:: ../../_static/Airkiss.gif
-     :scale: 50 %
-     :alt: OTA_APP
+   .. only:: format_html
+
+      .. figure:: ../../_static/Airkiss.gif
+         :scale: 50 %
+         :alt: OTA_APP
+
+   .. only:: format_latex
+
+      .. figure:: ../../_static/Airkiss.png
+         :scale: 50 %
+         :alt: OTA_APP
 
 4. 微信小程序方式配网：搜索安信可IOT小程序：
    
-   .. figure:: ../../_static/Airkiss_xiaochengxu.gif
-     :scale: 50 %
-     :alt: OTA_APP
+   .. only:: format_html
+
+      .. figure:: ../../_static/Airkiss_xiaochengxu.gif
+         :scale: 50 %
+         :alt: OTA_APP
+
+   .. only:: format_latex
+
+      .. figure:: ../../_static/Airkiss_xiaochengxu.png
+         :scale: 50 %
+         :alt: OTA_APP
 
 5. 配网成功后需要关闭配网模式，否则会大量占用内存
 
@@ -216,15 +248,31 @@ Blufi 蓝牙配网支持app、微信小程序。
 
 4. app配网方式：
       
-   .. figure:: ../../_static/app_blufi.gif
-     :scale: 60 %
-     :alt: OTA_APP
+   .. only:: format_html
+
+      .. figure:: ../../_static/app_blufi.gif
+         :scale: 60 %
+         :alt: OTA_APP
+
+   .. only:: format_latex
+
+      .. figure:: ../../_static/app_blufi.png
+         :scale: 60 %
+         :alt: OTA_APP
 
 5. 小程序配网方式：
       
-   .. figure:: ../../_static/xiaochengxu_blufi.gif
-     :scale: 60 %
-     :alt: OTA_APP
+   .. only:: format_html
+
+      .. figure:: ../../_static/xiaochengxu_blufi.gif
+         :scale: 60 %
+         :alt: OTA_APP
+
+   .. only:: format_latex
+
+      .. figure:: ../../_static/xiaochengxu_blufi.png
+         :scale: 60 %
+         :alt: OTA_APP
 
 6. 配网成功后需要关闭配网模式，否则会大量占用内存
 

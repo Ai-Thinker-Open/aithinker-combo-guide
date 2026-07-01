@@ -1,0 +1,242 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, 安信可科技
+# This file is distributed under the same license as the 安信可科技 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 安信可科技 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-01 23:52+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/docs/command-set/HTTP_AT_Commands.rst:2
+#: 82ac963f63c0465681395846e0912559
+msgid "HTTP AT 命令集"
+msgstr ""
+
+#: ../../source/docs/command-set/HTTP_AT_Commands.rst:4
+#: 0a05293f01754eb4b9ba831e3f768780
+msgid "本章节介绍HTTP指令集，此指令集针对不同的模组会有所不同的适配，具体差异请移步：:doc:`../instruction/other/firmware_differences`。"
+msgstr ""
+
+#: ../../source/docs/command-set/HTTP_AT_Commands.rst:6
+#: 4c137307346a4bab89e000f7100f78d8
+msgid ":ref:`AT+HTTPCLIENTLIN <cmd-HTTPCLIENTLIN>`：发送 HTTP/HTTPS 请求(单行模式)"
+msgstr ""
+
+#: ../../source/docs/command-set/HTTP_AT_Commands.rst:7
+#: 2f46181975304d99a02a0de1132cb5ff
+msgid ":ref:`AT+HTTPRAW <cmd-HTTPRAW>`：发送 HTTP/HTTPS 长文本POST请求"
+msgstr ""
+
+#: ../../source/docs/command-set/HTTP_AT_Commands.rst:12
+#: 8189f5f3fc99444e813a66a8fc2c2b18
+msgid "AT+HTTPCLIENTLIN：发送 HTTP 客户端请求"
+msgstr ""
+
+#: ../../source/docs/command-set/HTTP_AT_Commands.rst:15
+#: ../../source/docs/command-set/HTTP_AT_Commands.rst:80
+#: 4b975dfefa7e467fab256b3b7d9e9afa cca6f86aca5545519316767e6e887fe5
+msgid "执行命令"
+msgstr ""
+
+#: ../../source/docs/command-set/HTTP_AT_Commands.rst:17
+#: ../../source/docs/command-set/HTTP_AT_Commands.rst:82
+#: 6668f0c6cd8a449e932b8922b3ec3682 ee48fdc882c749d5aac6f27b95b2c3d1
+msgid "**命令：**"
+msgstr ""
+
+#: ../../source/docs/command-set/HTTP_AT_Commands.rst:23
+#: ../../source/docs/command-set/HTTP_AT_Commands.rst:88
+#: 7bff7c16549a4e50b0ccc7040506850a d00dfecc847148b9953652489f3dd6a7
+msgid "**响应：**"
+msgstr ""
+
+#: ../../source/docs/command-set/HTTP_AT_Commands.rst:32
+#: ../../source/docs/command-set/HTTP_AT_Commands.rst:97
+#: 180a149754fd4b51a85ac42e90a6a9a5 1bd0f9666c7b48f3b038baec977b2b7f
+msgid "参数"
+msgstr ""
+
+#: ../../source/docs/command-set/HTTP_AT_Commands.rst:34
+#: ../../source/docs/command-set/HTTP_AT_Commands.rst:99
+#: faac30659f104ea1b599d719ef242a9e fb519412594e4998bcd527acf7d00f52
+msgid "**<transport_type>**：请求协议。"
+msgstr ""
+
+#: ../../source/docs/command-set/HTTP_AT_Commands.rst:35
+#: ../../source/docs/command-set/HTTP_AT_Commands.rst:100
+#: 03c0fe4b2c4a416786ef6d27b9a6fbbd 466be83e908f4b9c802f0c7c00c92297
+msgid "1：HTTP"
+msgstr ""
+
+#: ../../source/docs/command-set/HTTP_AT_Commands.rst:36
+#: ../../source/docs/command-set/HTTP_AT_Commands.rst:101
+#: b186afd55e8d4c80bbb7b073f5a5fd4f d197ab39433b46708548d0cb142ac219
+msgid "2：HTTPS"
+msgstr ""
+
+#: ../../source/docs/command-set/HTTP_AT_Commands.rst:37
+#: ../../source/docs/command-set/HTTP_AT_Commands.rst:102
+#: 7ca35e43367044ecad7934cf0e4d52f5 d994ddcebc6147ef8987f6470fe3591d
+msgid "**<opt>**：请求类型。"
+msgstr ""
+
+#: ../../source/docs/command-set/HTTP_AT_Commands.rst:38
+#: ed2f182a58d542e483ad7a04e5492800
+msgid "2：GET"
+msgstr ""
+
+#: ../../source/docs/command-set/HTTP_AT_Commands.rst:39
+#: ../../source/docs/command-set/HTTP_AT_Commands.rst:103
+#: 8665ce447274423da5c3a0e6918fd278 d1b8529bb4d04484859b0c22bb68178f
+msgid "3：POST"
+msgstr ""
+
+#: ../../source/docs/command-set/HTTP_AT_Commands.rst:40
+#: ../../source/docs/command-set/HTTP_AT_Commands.rst:104
+#: 6e144341bbaf4fde9cd8bbfcdcaeab25 ca76155eb364434c918d69bd100ca297
+msgid "**<content-type>**：请求数据类型。(仅 POST 生效，GET 时不生效，可以填写任意字符串，参考类型如下)"
+msgstr ""
+
+#: ../../source/docs/command-set/HTTP_AT_Commands.rst:41
+#: ../../source/docs/command-set/HTTP_AT_Commands.rst:105
+#: a3a35ac5cab44480b6947e08e4ac9595 f2401f0344e2447ab7fe852ae673275a
+msgid "application/x-www-form-urlencoded"
+msgstr ""
+
+#: ../../source/docs/command-set/HTTP_AT_Commands.rst:42
+#: ../../source/docs/command-set/HTTP_AT_Commands.rst:106
+#: 1833ee5c2e5a4843bcd6a25cc49cc755 484e22ab67394c08b70984bc5d2f5638
+msgid "application/json"
+msgstr ""
+
+#: ../../source/docs/command-set/HTTP_AT_Commands.rst:43
+#: ../../source/docs/command-set/HTTP_AT_Commands.rst:107
+#: 2fc67240f42e4f96b1718b336e4ae562 5f782e8f0de247e8a167495c8c3e023f
+msgid "multipart/form-data"
+msgstr ""
+
+#: ../../source/docs/command-set/HTTP_AT_Commands.rst:44
+#: ../../source/docs/command-set/HTTP_AT_Commands.rst:108
+#: 0060cedb58b74367a1073268b0883183 7d8549b605d049fcba261f7ad1e664f0
+msgid "text/xml"
+msgstr ""
+
+#: ../../source/docs/command-set/HTTP_AT_Commands.rst:45
+#: ../../source/docs/command-set/HTTP_AT_Commands.rst:109
+#: ac7be0a5224b4e38bef6faf73c65f08d b917ea355a5e4b8e8aa99a4fdfbf5a22
+msgid "text/html"
+msgstr ""
+
+#: ../../source/docs/command-set/HTTP_AT_Commands.rst:46
+#: ../../source/docs/command-set/HTTP_AT_Commands.rst:110
+#: 6be06e70a3af4d4cbebf28f84f68717f 97d9bad7641a4f11afdb1b0aaf6d0e7f
+msgid "**<host>**：服务器域名或 IP。"
+msgstr ""
+
+#: ../../source/docs/command-set/HTTP_AT_Commands.rst:47
+#: ../../source/docs/command-set/HTTP_AT_Commands.rst:111
+#: 0c20dd11712d47ac8f53f89b4f4a5b08 9548176971a943a8bca81581a1ec65c2
+msgid "eg:www.baidu.com 或者 192.168.1.100。"
+msgstr ""
+
+#: ../../source/docs/command-set/HTTP_AT_Commands.rst:48
+#: ../../source/docs/command-set/HTTP_AT_Commands.rst:112
+#: 640b0440dd3c45908140ebb8c78936d9 72a93509647547e487807561c3c4750e
+msgid "**<port>**：端口号。"
+msgstr ""
+
+#: ../../source/docs/command-set/HTTP_AT_Commands.rst:49
+#: ../../source/docs/command-set/HTTP_AT_Commands.rst:113
+#: 5e45b6630b1448f79646c14fd1926a41 b7b2636869024dfbb8727936fbf6cab3
+msgid "HTTP 缺省值 80，HTTPS 缺省值 443。"
+msgstr ""
+
+#: ../../source/docs/command-set/HTTP_AT_Commands.rst:50
+#: ../../source/docs/command-set/HTTP_AT_Commands.rst:114
+#: 4c417e305707458789dc0288338eb10c f343c1be86f24987904ff0512c5c2e3e
+msgid "**<path>**: HTTP(S)路径。"
+msgstr ""
+
+#: ../../source/docs/command-set/HTTP_AT_Commands.rst:51
+#: ../../source/docs/command-set/HTTP_AT_Commands.rst:115
+#: 4f52b7544f7a4e28b708e81dfa104952 bac0b5cfeecf4c2490b4b8e21b1a2922
+msgid "缺省值\"/\""
+msgstr ""
+
+#: ../../source/docs/command-set/HTTP_AT_Commands.rst:52
+#: 2a48f593b0734f84b934fa8e1f4e4869
+msgid "**<data>**: 请求携带的数据。"
+msgstr ""
+
+#: ../../source/docs/command-set/HTTP_AT_Commands.rst:53
+#: c5b5825813f14cbcae088bccb6536c46
+msgid ""
+"1：当opt为GET时这个是 携 带 在 patch 中 的 ， 格 式 符 合 http 格 式 要 "
+"求(?key1=value1&key2=value2 ...)"
+msgstr ""
+
+#: ../../source/docs/command-set/HTTP_AT_Commands.rst:54
+#: 3d9a44a4616d4e1d958f84cb26571a77
+msgid "2：当opt为POST时这个是 POST 携带的主体。"
+msgstr ""
+
+#: ../../source/docs/command-set/HTTP_AT_Commands.rst:57
+#: ../../source/docs/command-set/HTTP_AT_Commands.rst:121
+#: 31b5bab3782748a5b99cddca5e56e3c1 4dd2c0275ae84a9ca8128dd5faaae8d9
+msgid "说明"
+msgstr ""
+
+#: ../../source/docs/command-set/HTTP_AT_Commands.rst:59
+#: ../../source/docs/command-set/HTTP_AT_Commands.rst:123
+#: 0a896e66f3954166bd4e6b5d25f6d80d 3a729ed5c16c4fc79dc9f94e1fdd3e66
+msgid "发起一次 HTTP 请求。"
+msgstr ""
+
+#: ../../source/docs/command-set/HTTP_AT_Commands.rst:63
+#: ../../source/docs/command-set/HTTP_AT_Commands.rst:127
+#: 0a8e38e1069146899ed189e8d4f9cc1c 1d832e38c1bd4ec4bb22e0b0c32fb685
+msgid "示例"
+msgstr ""
+
+#: ../../source/docs/command-set/HTTP_AT_Commands.rst:77
+#: 845f23ffc0784477987e2d53616f7a89
+msgid "AT+HTTPRAW：发送 HTTP 客户端POST（带长文本）请求"
+msgstr ""
+
+#: ../../source/docs/command-set/HTTP_AT_Commands.rst:90
+#: 7ff85bdf8355474da5ac45ef394865c8
+msgid "::"
+msgstr ""
+
+#: ../../source/docs/command-set/HTTP_AT_Commands.rst:91
+#: 8d901b67650344309a35baf5a1f7239b
+msgid ">  //收到这个字符之后开始输入要发送的数据"
+msgstr ""
+
+#: ../../source/docs/command-set/HTTP_AT_Commands.rst:93
+#: 7a2df92809f84f95bd964650d61152e1
+msgid "OK //当收到对应字节数据后就会发送数据(可以是任意数据)，发送完成会显示 OK"
+msgstr ""
+
+#: ../../source/docs/command-set/HTTP_AT_Commands.rst:116
+#: 5be9801f37494be89d11e9f7d8890d5f
+msgid "**<len>**: 请求携带的数据。"
+msgstr ""
+
+#: ../../source/docs/command-set/HTTP_AT_Commands.rst:117
+#: 17e5b517fc3343d9b4b1e6d7eef804cc
+msgid "请求数据长度"
+msgstr ""
+

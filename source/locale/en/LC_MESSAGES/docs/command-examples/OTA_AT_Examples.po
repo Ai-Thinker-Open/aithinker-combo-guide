@@ -1,0 +1,196 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, 安信可科技
+# This file is distributed under the same license as the 安信可科技 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 安信可科技 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-01 23:52+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/docs/command-examples/OTA_AT_Examples.rst:2
+#: 79f45a3dd5804862944108fa208253ec
+msgid "OTA AT 示例"
+msgstr ""
+
+#: ../../source/docs/command-examples/OTA_AT_Examples.rst:4
+#: e43a1761d972401286e27d8d379ed717
+msgid "本文档主要介绍在设备上运行 :doc:`../command-set/AT_Basic_Commands` 命令的详细示例。"
+msgstr ""
+
+#: ../../source/docs/command-examples/OTA_AT_Examples.rst:11
+#: f13ddce533bf4955a79e93f7d57220e9
+msgid "Wi-Fi系列模组OTA升级"
+msgstr ""
+
+#: ../../source/docs/command-examples/OTA_AT_Examples.rst:12
+#: 20e4ecbae27e404a8f25522a63f33ab3
+msgid "设置模块的Wi-Fi 工作模式并保存到Flash"
+msgstr ""
+
+#: ../../source/docs/command-examples/OTA_AT_Examples.rst:14
+#: ../../source/docs/command-examples/OTA_AT_Examples.rst:28
+#: ../../source/docs/command-examples/OTA_AT_Examples.rst:44
+#: ../../source/docs/command-examples/OTA_AT_Examples.rst:59
+#: 632681a62f4a44b68ce5857ed8d3788e 6c4595191fa34070b6acf8aa56ebb119
+#: c1e1c645ba9a4b0cbb49600d2a2568a2 c4f3aa0fbd524902bed43c3ecc86df85
+msgid "命令："
+msgstr ""
+
+#: ../../source/docs/command-examples/OTA_AT_Examples.rst:20
+#: ../../source/docs/command-examples/OTA_AT_Examples.rst:34
+#: ../../source/docs/command-examples/OTA_AT_Examples.rst:50
+#: ../../source/docs/command-examples/OTA_AT_Examples.rst:65
+#: 2a15e73a043545d59fb87f0dd50b2e33 a2f200c3e39040158a71e378e178164e
+#: a4d1e8f3729943a8b5383199c4933f10 af2253c3fe84491085a7079072f3b9aa
+msgid "响应："
+msgstr ""
+
+#: ../../source/docs/command-examples/OTA_AT_Examples.rst:26
+#: f13cd4bcccb74df49ef0c24a2f61541e
+msgid "设置模块联网，参数填写有外网的Wi-Fi 名称和Wi-Fi 密码"
+msgstr ""
+
+#: ../../source/docs/command-examples/OTA_AT_Examples.rst:42
+#: c3c6348d013842669e37cca7f92cddd8
+msgid "设置固件升级方式及固件地址"
+msgstr ""
+
+#: ../../source/docs/command-examples/OTA_AT_Examples.rst:57
+#: 8ec229f5af5342f08618b0c1f1682c16
+msgid "开始升级"
+msgstr ""
+
+#: ../../source/docs/command-examples/OTA_AT_Examples.rst:71
+#: 6239800818694ade990635d54cfd568d
+msgid "**演示**"
+msgstr ""
+
+#: ../../source/docs/command-examples/OTA_AT_Examples.rst:73
+#: e0a185c7cd7f41a3914a0cee8803f8c9
+msgid "OTA"
+msgstr ""
+
+#: ../../source/docs/command-examples/OTA_AT_Examples.rst:79
+#: b44f9fb959274cf89280fc42237222dd
+msgid "蓝牙TB系列模组的OTA升级"
+msgstr ""
+
+#: ../../source/docs/command-examples/OTA_AT_Examples.rst:80
+#: ../../source/docs/command-examples/OTA_AT_Examples.rst:130
+#: 5d1191bbf5ea405c886c7cbdb31275a8 6194882e387443579145573512e1a06c
+msgid "APP下载："
+msgstr ""
+
+#: ../../source/docs/command-examples/OTA_AT_Examples.rst:82
+#: 6dd6ccf15aa145459f15727c12172e88
+msgid "IOS系统的手机,可以在App Store商店搜索 TelinkBleOTA 获取"
+msgstr ""
+
+#: ../../source/docs/command-examples/OTA_AT_Examples.rst:84
+#: bc84b1eab48d4572a533bf625f5ffa4b
+msgid ""
+"Android系统的手机apk安装包下载:`手机apk安装包 <https://docs.ai-"
+"thinker.com/_media/tbota_app.zip>`_"
+msgstr ""
+
+#: ../../source/docs/command-examples/OTA_AT_Examples.rst:86
+#: 0beb107eee0d4b8f9518bdbbbe9091b3
+msgid ""
+"OTA升级文件下载:`OTA升级文件 <https://docs.ai-"
+"thinker.com/_media/1939_8258_com_at-v205_1_.zip>`_"
+msgstr ""
+
+#: ../../source/docs/command-examples/OTA_AT_Examples.rst:88
+#: ../../source/docs/command-examples/OTA_AT_Examples.rst:94
+#: ../../source/docs/command-examples/OTA_AT_Examples.rst:98
+#: ../../source/docs/command-examples/OTA_AT_Examples.rst:104
+#: ../../source/docs/command-examples/OTA_AT_Examples.rst:110
+#: ../../source/docs/command-examples/OTA_AT_Examples.rst:118
+#: ../../source/docs/command-examples/OTA_AT_Examples.rst:124
+#: ../../source/docs/command-examples/OTA_AT_Examples.rst:138
+#: ../../source/docs/command-examples/OTA_AT_Examples.rst:144
+#: ../../source/docs/command-examples/OTA_AT_Examples.rst:148
+#: ../../source/docs/command-examples/OTA_AT_Examples.rst:154
+#: ../../source/docs/command-examples/OTA_AT_Examples.rst:162
+#: ../../source/docs/command-examples/OTA_AT_Examples.rst:168
+#: 437275a02f4a4684a25c36def7060e55 51bbe0d0deed4d56a2953578a4a7a23b
+#: 5ea73407a0834778acba8a943344d5b4 621be01ea2c444cc99e352455e2beb16
+#: 622c4d5ceefd43439c65eb3570edf21a 9e277cc7b3f742f6bd34241518b50803
+#: c2a39262d15641058325c4ce5d5b77f1 c60ba34c59114d5fabb7af19beffc1cd
+#: c97883c531254f86b040c337fc671fde c97d53f66c9d414191f395e3fce2d5e8
+#: dba8a88551a4480fafc318d919686e47 dc565ad8f7dd4257ade3b2bffc3b7db2
+#: ffd73a5fe87346b5a2db0cd8c908f03c
+msgid "OTA_APP"
+msgstr ""
+
+#: ../../source/docs/command-examples/OTA_AT_Examples.rst:92
+#: b0bdaa9b78bb46e2afa9861082ef6fef
+msgid "打开 TelinkBleOTA 软件，在Filter中进行设置,将rssi值限制在60dBm以内然后在返回主界面点击刷新按钮，找到对应的BLE蓝牙"
+msgstr ""
+
+#: ../../source/docs/command-examples/OTA_AT_Examples.rst:102
+#: ca48a2cffb4047368f776339d1fc601e
+msgid "搜到对应的蓝牙后点击CONNECT按钮进行连接,模块上打印+BLE_CONNECTED，表示APP与模块连接成功"
+msgstr ""
+
+#: ../../source/docs/command-examples/OTA_AT_Examples.rst:108
+#: 6a7d03263d59456495eca68730c9d58c
+msgid ""
+"点击OTA Settings选项，打开Bin file path区域查看要OTA的文件，关于OTA文件的导入教程可以点击Choose Bin "
+"File界面中的感叹号进行查看"
+msgstr ""
+
+#: ../../source/docs/command-examples/OTA_AT_Examples.rst:114
+#: 1f0c22630fe84aac965e168a7e64296b
+msgid "设置好OTA文件后点击下方的START按钮进行升级，等待进度条走到100%后模块会返回OTA_SUCCESS随后自动复位重启，打印新的版本，表示OTA升级成功"
+msgstr ""
+
+#: ../../source/docs/command-examples/OTA_AT_Examples.rst:129
+#: 185f3b6f55c746289ceb53386adbbc86
+msgid "蓝牙PB系列模组的OTA升级"
+msgstr ""
+
+#: ../../source/docs/command-examples/OTA_AT_Examples.rst:132
+#: 143f1d2e0aa14fe481eed9eff86aa217
+msgid "IOS系统的手机,可以在App Store商店搜索 PHYOTA 获取"
+msgstr ""
+
+#: ../../source/docs/command-examples/OTA_AT_Examples.rst:134
+#: 8f5c4352618b4cabaf62b8fe4a42b370
+msgid ""
+"Android系统的手机apk安装包下载:`手机apk安装包 <https://docs.ai-"
+"thinker.com/_media/ota_.zip>`_"
+msgstr ""
+
+#: ../../source/docs/command-examples/OTA_AT_Examples.rst:136
+#: 9c36f1fac79442e4bc5c4d8f40c31e97
+msgid "OTA升级文件下载:`OTA升级文件 <https://docs.ai-thinker.com/_media/ota_.zip>`_"
+msgstr ""
+
+#: ../../source/docs/command-examples/OTA_AT_Examples.rst:142
+#: b15474c8d13a42de856f69a539b827c0
+msgid "为了方便测试，需要发送AT+BLENAME=123456和AT+RST指令将模组的广播名称设置成123456，并打开PHYOTA软件进行搜索"
+msgstr ""
+
+#: ../../source/docs/command-examples/OTA_AT_Examples.rst:152
+#: ffaa51073a644807adefbf07a1a40cc6
+msgid "搜索到名称为123456的蓝牙设备，点击右上角的停止按钮，选择名称为123456的蓝牙设备点击确定进入OTA升级界面"
+msgstr ""
+
+#: ../../source/docs/command-examples/OTA_AT_Examples.rst:158
+#: 96c9e49b40564faabed87ea3cedb7a98
+msgid "点击选择文件，如果文件栏为空，可以将OTA文件放到微信或者QQ上，点击hex文件选择其他应用，找到PHYOTA软件，打开后即可成功获取到HEX文件，选择对应的HEX文件后点击开始升级"
+msgstr ""
+

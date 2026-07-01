@@ -1,0 +1,114 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, 安信可科技
+# This file is distributed under the same license as the 安信可科技 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 安信可科技 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-01 23:52+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/docs/command-examples/http_at_examples.rst:2
+#: 3b46833c39084d01b03c272a740d7d32
+msgid "HTTP AT 示例"
+msgstr ""
+
+#: ../../source/docs/command-examples/http_at_examples.rst:4
+#: 4a977c892bd44b5685dbda14719b5fa4
+msgid "本文档主要提供在模组设备上运行 :doc:`../command-set/HTTP_AT_Commands` 命令的详细示例。"
+msgstr ""
+
+#: ../../source/docs/command-examples/http_at_examples.rst:11
+#: c134d5c2fd3042ab8dee1bfc32312ddf
+msgid "文档中所描述的例子均基于设备已连接 Wi-Fi 的前提。"
+msgstr ""
+
+#: ../../source/docs/command-examples/http_at_examples.rst:12
+#: ede4660d23b8464a9e14a1c0b679e625
+msgid "当前仅支持部分 HTTP 客户端的功能。"
+msgstr ""
+
+#: ../../source/docs/command-examples/http_at_examples.rst:13
+#: b044a2e6bafd4253b150bffb10e84706
+msgid "此示例针对不同的模组会有所不同的适配，具体差异请移步查询您手上的模组指令支持情况：:doc:`../instruction/other/firmware_differences`。"
+msgstr ""
+
+#: ../../source/docs/command-examples/http_at_examples.rst:17
+#: d2e08987cd944ce8b08f3297e6aeb923
+msgid "HTTP 客户端 GET 请求方法"
+msgstr ""
+
+#: ../../source/docs/command-examples/http_at_examples.rst:18
+#: ea0f97f845904e42a2bbe4623063a2e1
+msgid ""
+"本例以向 http://httpbin.org/get 发起get请求为例： transport_type设置为1，opt设置为2"
+"，在get请求中content-type不生效可以填写任意字符，域名为httpbin.org，http默认端口为80，资源路径为/get。"
+msgstr ""
+
+#: ../../source/docs/command-examples/http_at_examples.rst:21
+#: ../../source/docs/command-examples/http_at_examples.rst:53
+#: ../../source/docs/command-examples/http_at_examples.rst:95
+#: 0371a0444ccf436d8b286c647a245668 06a50486fdee4bbb99df65d4f24985ba
+#: 65979406dc974a7ea2778ff6c6b105bc
+msgid "命令："
+msgstr ""
+
+#: ../../source/docs/command-examples/http_at_examples.rst:27
+#: ../../source/docs/command-examples/http_at_examples.rst:59
+#: ../../source/docs/command-examples/http_at_examples.rst:104
+#: 142bf0c94386495aaa2ac9c1c737e0e4 cd439439d8494e4d8ced8e5e1a925367
+#: d0607cd6051b4dbdb703d560f9c6054e
+msgid "响应："
+msgstr ""
+
+#: ../../source/docs/command-examples/http_at_examples.rst:43
+#: ../../source/docs/command-examples/http_at_examples.rst:85
+#: ../../source/docs/command-examples/http_at_examples.rst:128
+#: a011520dd8774cdb838abc1edcd76432 ca4b88abef184487bdb2fca34932df20
+#: e6ace810b31f40c6b75a826d188be067
+msgid "说明："
+msgstr ""
+
+#: ../../source/docs/command-examples/http_at_examples.rst:45
+#: ../../source/docs/command-examples/http_at_examples.rst:87
+#: ../../source/docs/command-examples/http_at_examples.rst:130
+#: 86144563e84f4de4abe4c753b1582d94 f021c27b886c46128988be8773b8cc6e
+#: f947e93e1c7c499188e9c295a03279fd
+msgid "您获取到的结果可能与上述响应中的不同。"
+msgstr ""
+
+#: ../../source/docs/command-examples/http_at_examples.rst:49
+#: 097fefbc24ff48e9baff1f7c33a058ac
+msgid "HTTP 客户端 POST 请求方法"
+msgstr ""
+
+#: ../../source/docs/command-examples/http_at_examples.rst:51
+#: 521138e002f34326808dcca837da21cd
+msgid ""
+"本示例以 http://httpbin.org 作为 HTTP "
+"服务器，transport_type设置为1，opt设置为3，数据类型为application/json，域名为httpbin.org，http默认端口为80，资源路径为/post。"
+msgstr ""
+
+#: ../../source/docs/command-examples/http_at_examples.rst:91
+#: d594c3f5dabc4cf6aa4da1b7406b16f6
+msgid "HTTPS 客户端 POST（长文本）请求方法"
+msgstr ""
+
+#: ../../source/docs/command-examples/http_at_examples.rst:93
+#: 2d229b868ebd475ea70bc53eb2bd04d0
+msgid ""
+"本示例以 https://httpbin.org 作为 HTTP "
+"服务器，transport_type设置为2，opt设置为3，数据类型为application/json，域名为httpbin.org，https默认端口为443，资源路径为/post。"
+msgstr ""
+

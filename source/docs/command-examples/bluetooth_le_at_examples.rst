@@ -133,10 +133,19 @@ Bluetooth LE AT 示例
 
 ``请点开大图查看。左边窗口主机，右边窗口从机``
 
-.. figure:: ../../_static/ble_connect_example.gif
-    :scale: 50 %
-    :align: center
-    :alt: ble连接通信
+.. only:: format_html
+
+   .. figure:: ../../_static/ble_connect_example.gif
+       :scale: 50 %
+       :align: center
+       :alt: ble连接通信
+
+.. only:: format_latex
+
+   .. figure:: ../../_static/ble_connect_example.png
+       :scale: 50 %
+       :align: center
+       :alt: ble连接通信
 
 
 

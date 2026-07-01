@@ -1,0 +1,60 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, 安信可科技
+# This file is distributed under the same license as the 安信可科技 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 安信可科技 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-01 23:52+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/docs/instruction/Aithinker_combo-AT.rst:2
+#: 8a64c98168f5422c85203de420df2ce6
+msgid "Combo-AT 是什么?"
+msgstr ""
+
+#: ../../source/docs/instruction/Aithinker_combo-AT.rst:5
+#: 08d56c00f03242fd9fe6bfc3314e62b8
+msgid ""
+"Combo-AT 是安信可自主开发的可直接用于量产的物联网应用固件，旨在降低客户开发成本，快速形成产品。通过 Combo-AT "
+"指令，您可以快速加入无线网络、连接云平台、实现数据通信以及远程控制等功能，真正的通过无线通讯实现万物互联。"
+msgstr ""
+
+#: ../../source/docs/instruction/Aithinker_combo-AT.rst:7
+#: 4ab1589d7fa1435585272b14d0da29f8
+msgid ""
+"Combo-AT 固件使 安信可模组作为从机，MCU 作为主机。MCU 发送 AT 命令给模组，控制模组执行不同的操作，并接收模组返回的 AT "
+"响应。Combo-AT 提供了大量功能不同的 AT 命令，如 Wi-Fi 命令、TCP/IP 命令、Bluetooth LE "
+"命令、Bluetooth 命令、MQTT 命令、HTTP 命令、GPIO操作命令等。"
+msgstr ""
+
+#: ../../source/docs/instruction/Aithinker_combo-AT.rst:11
+#: 238d1da0da4d49c089338931c20c1d62
+msgid "Combo-AT 概览"
+msgstr ""
+
+#: ../../source/docs/instruction/Aithinker_combo-AT.rst:14
+#: ba9a52a9f0f3401daab29faf58dd8476
+msgid ""
+"AT 命令以 \"AT\" 开始，代表 Attention，以新的一行 (CR LF) 为结尾。输入的每条命令都会返回 ``OK`` 或 "
+"``ERROR`` 的响应，表示当前命令的最终执行结果。注意，所有 AT 命令均为串行执行，每次只能执行一条命令。因此，在使用 AT "
+"命令时，应等待上一条命令执行完毕后，再发送下一条命令。如果上一条命令未执行完毕，又发送了新的命令，则会返回 ``cmd is "
+"running...`` 提示。"
+msgstr ""
+
+#: ../../source/docs/instruction/Aithinker_combo-AT.rst:16
+#: 0f7cfb5f072641849c5c33fb06dbfbf4
+msgid "默认配置下，MCU 通过 UART 连接至安信可模组、发送 AT 命令以及接收 AT 响应。"
+msgstr ""
+

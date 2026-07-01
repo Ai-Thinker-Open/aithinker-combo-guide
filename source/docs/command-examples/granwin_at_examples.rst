@@ -195,6 +195,14 @@
 指令完整演示
 ------------------------------------------------------------------------
 
-.. figure:: ../../_static/guangyun_AT_operation.gif
-    :scale: 100 %
-    :alt: guangyun_AT_operation
+.. only:: format_html
+
+   .. figure:: ../../_static/guangyun_AT_operation.gif
+       :scale: 100 %
+       :alt: guangyun_AT_operation
+
+.. only:: format_latex
+
+   .. figure:: ../../_static/guangyun_AT_operation.png
+       :scale: 100 %
+       :alt: guangyun_AT_operation

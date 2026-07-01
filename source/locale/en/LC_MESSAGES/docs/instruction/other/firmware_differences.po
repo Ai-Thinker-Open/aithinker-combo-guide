@@ -1,0 +1,300 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, 安信可科技
+# This file is distributed under the same license as the 安信可科技 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 安信可科技 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-01 23:52+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/docs/instruction/other/firmware_differences.rst:2
+#: a4973e1271b94d7c96bdf1c6068f93ac
+msgid "固件迭代和功能差异"
+msgstr ""
+
+#: ../../source/docs/instruction/other/firmware_differences.rst:4
+#: d6fc1bde702d40308c8de0f5333a53a9
+msgid "针对已适配模组硬件的最新 Combo-AT 固件版本下载请移步到点击 :doc:`firmware_download`。"
+msgstr ""
+
+#: ../../source/docs/instruction/other/firmware_differences.rst:6
+#: 049d5d0cb77f452698c315f29fc76051
+msgid ""
+"下面比较了Combo-AT固件在支持的命令集、硬件、模组方面的差异。下表列出了官方适配的 Combo-"
+"AT固件针对不同硬件的默认支持哪些命令集的差异，请见下面表格。"
+msgstr ""
+
+#: ../../source/docs/instruction/other/firmware_differences.rst:11
+#: 0f4accf5f10a4404a5f3adbb0385ff33
+msgid "指令集"
+msgstr ""
+
+#: ../../source/docs/instruction/other/firmware_differences.rst:12
+#: ../../source/docs/instruction/other/firmware_differences.rst:97
+#: 95a51c843e224b0db897d4acad981635 a1aac2f055954651a8d9e6cb0bd8dbae
+msgid "Ai-WB2系列"
+msgstr ""
+
+#: ../../source/docs/instruction/other/firmware_differences.rst:13
+#: ../../source/docs/instruction/other/firmware_differences.rst:98
+#: 4206d62d3f8049af9d3609bbaf77b696 f6fbadab8f59446993708b5a0b354f9b
+msgid "BW16模组"
+msgstr ""
+
+#: ../../source/docs/instruction/other/firmware_differences.rst:14
+#: ../../source/docs/instruction/other/firmware_differences.rst:99
+#: 115e9226542c47adaa9bb67c6253913f 87d3db29a45b4c8f849dff59fa0ef0bc
+msgid "TB泰凌蓝牙系列"
+msgstr ""
+
+#: ../../source/docs/instruction/other/firmware_differences.rst:15
+#: ../../source/docs/instruction/other/firmware_differences.rst:100
+#: 323846f4ce4842019f913c082ad3c5d5 af093e04e1e9460492c6856a4d755287
+msgid "PB奉加蓝牙系列"
+msgstr ""
+
+#: ../../source/docs/instruction/other/firmware_differences.rst:17
+#: 09155124e447485a89ad162dd9831d5e
+msgid "基础命令"
+msgstr ""
+
+#: ../../source/docs/instruction/other/firmware_differences.rst:18
+#: ../../source/docs/instruction/other/firmware_differences.rst:19
+#: ../../source/docs/instruction/other/firmware_differences.rst:20
+#: ../../source/docs/instruction/other/firmware_differences.rst:21
+#: ../../source/docs/instruction/other/firmware_differences.rst:24
+#: ../../source/docs/instruction/other/firmware_differences.rst:25
+#: ../../source/docs/instruction/other/firmware_differences.rst:30
+#: ../../source/docs/instruction/other/firmware_differences.rst:31
+#: ../../source/docs/instruction/other/firmware_differences.rst:37
+#: ../../source/docs/instruction/other/firmware_differences.rst:38
+#: ../../source/docs/instruction/other/firmware_differences.rst:39
+#: ../../source/docs/instruction/other/firmware_differences.rst:40
+#: ../../source/docs/instruction/other/firmware_differences.rst:44
+#: ../../source/docs/instruction/other/firmware_differences.rst:45
+#: ../../source/docs/instruction/other/firmware_differences.rst:50
+#: ../../source/docs/instruction/other/firmware_differences.rst:51
+#: ../../source/docs/instruction/other/firmware_differences.rst:56
+#: ../../source/docs/instruction/other/firmware_differences.rst:57
+#: ../../source/docs/instruction/other/firmware_differences.rst:58
+#: ../../source/docs/instruction/other/firmware_differences.rst:59
+#: ../../source/docs/instruction/other/firmware_differences.rst:63
+#: ../../source/docs/instruction/other/firmware_differences.rst:64
+#: ../../source/docs/instruction/other/firmware_differences.rst:104
+#: ../../source/docs/instruction/other/firmware_differences.rst:109
+#: ../../source/docs/instruction/other/firmware_differences.rst:115
+#: ../../source/docs/instruction/other/firmware_differences.rst:121
+#: 00a057cc395f448d8bf1bc22292984ac 10c816749dcd431fafd892cde86665f5
+#: 189a14e6585a46e6a55ce4b620de75af 27d838ce5cb646b38b134ec04a8db103
+#: 294f33be1a874ca79e86843be095e7b9 2ddc80693159470195b875012f43b57a
+#: 2f085513badb47a3aaf8430239f39390 3a9dd789d1534050a3a0eb444878cf8c
+#: 4827074dce764914937bcf6a1385d687 4cd3ca25156c4ce69dd3ee5e7bda6aa8
+#: 67d77097c1a1471fb6f2ce6e751ab9f9 74c4454c73844a47bcd0945c4fb058f7
+#: 896aed201b1b4cf4a5c952ed11622d9f 9aede85e506c4c5e90664c5692247f59
+#: 9beb011bd0404c81a05d83e9646fc0c2 9ca20bf4ccce4e8e927bbd047ab6cbbf
+#: 9e40e36dc3654a02bc1ad2dba7db4bfd a90e7f740c1445ddbd31f4462a75835c
+#: cd526e03b3d4460e9034db049cd30da6 d8bda7c9dc914536980e6bc9679dc14b
+#: da0035c7ae50416896580e1fec233590 e188bc40474f43e6b7717f98ee8ee428
+#: e5a5b94560bd4d23851273589f4c8ce1 ef448b8f1e0d4086aff4486745da8ab5
+#: f79f6f01a7544cf1910216eecd83ccae fda202c1c97143be97630d71b3c910af
+msgid "支持"
+msgstr ""
+
+#: ../../source/docs/instruction/other/firmware_differences.rst:23
+#: 5cc5875dcd3249b08f422554839e6217
+msgid "Wi-Fi命令集"
+msgstr ""
+
+#: ../../source/docs/instruction/other/firmware_differences.rst:26
+#: ../../source/docs/instruction/other/firmware_differences.rst:27
+#: ../../source/docs/instruction/other/firmware_differences.rst:32
+#: ../../source/docs/instruction/other/firmware_differences.rst:33
+#: ../../source/docs/instruction/other/firmware_differences.rst:46
+#: ../../source/docs/instruction/other/firmware_differences.rst:47
+#: ../../source/docs/instruction/other/firmware_differences.rst:52
+#: ../../source/docs/instruction/other/firmware_differences.rst:53
+#: ../../source/docs/instruction/other/firmware_differences.rst:65
+#: ../../source/docs/instruction/other/firmware_differences.rst:66
+#: ../../source/docs/instruction/other/firmware_differences.rst:103
+#: ../../source/docs/instruction/other/firmware_differences.rst:105
+#: ../../source/docs/instruction/other/firmware_differences.rst:106
+#: ../../source/docs/instruction/other/firmware_differences.rst:110
+#: ../../source/docs/instruction/other/firmware_differences.rst:111
+#: ../../source/docs/instruction/other/firmware_differences.rst:112
+#: ../../source/docs/instruction/other/firmware_differences.rst:116
+#: ../../source/docs/instruction/other/firmware_differences.rst:117
+#: ../../source/docs/instruction/other/firmware_differences.rst:118
+#: ../../source/docs/instruction/other/firmware_differences.rst:122
+#: ../../source/docs/instruction/other/firmware_differences.rst:123
+#: ../../source/docs/instruction/other/firmware_differences.rst:124
+#: 117c3e9a5a6144c98002fe0a6b0e0266 1949593990ce4dc4aeebe5f7da92f5c5
+#: 22808c0d867b4484be4984bf735e2e74 22c1d70e321846bb975575309e28d2bf
+#: 36bf0802833f497f827975980b3fc2f1 61e4861c0eec4cc4be734762a08f738b
+#: 6ca5edf7a2534466b2c0b25aab654461 6eb901d6ecc2460096af2331773e54ec
+#: 6f87cbe618d4438fafac863c4ad6be94 793ecaa0444347f6b404cea6cf8966bc
+#: 9880cbb4bf7f4c99a53cb9125395da7c 9fadfca49cb84410ace68b774792b5e5
+#: a403fecd1036483c86fdc6ed1b3dd55b ad0d9766852a404ca59666b9a0dec5a4
+#: afce84cad58941098926289d019ed2c0 b4d0deb07f674f65824b5e3ddfbaaa3c
+#: b92fb8f0b9ea4d64aa7562b9097e1b7f c2fad66f0d1b4b08af4c4b461338b77e
+#: eb3027c9ff9f4a03a3fed398cb15cec5 f2fb5d0eb3054a1ca9b9ba5ab76cc9b7
+#: f650365753634a65be1edb1978007392 f788e0fc6b90486fb83a349e8c5885e6
+msgid "不支持"
+msgstr ""
+
+#: ../../source/docs/instruction/other/firmware_differences.rst:29
+#: ec29ca08226f40849e074d5c610d87a1
+msgid "TCP/IP命令集"
+msgstr ""
+
+#: ../../source/docs/instruction/other/firmware_differences.rst:36
+#: d7f7edb1e1954ff0ba1a2d04e330a836
+msgid "Bluetooth® Low Energy命令集"
+msgstr ""
+
+#: ../../source/docs/instruction/other/firmware_differences.rst:43
+#: f738d8c96ef74115a4a566e04175612a
+msgid "MQTT 命令集"
+msgstr ""
+
+#: ../../source/docs/instruction/other/firmware_differences.rst:49
+#: a4394162b16d45818428b5bead91d982
+msgid "HTTP 命令集"
+msgstr ""
+
+#: ../../source/docs/instruction/other/firmware_differences.rst:55
+#: 4a2d60608a17484da1ca7eb58602543a
+msgid "外设驱动 命令集"
+msgstr ""
+
+#: ../../source/docs/instruction/other/firmware_differences.rst:62
+#: 088ee0ad5e7b46b2ae931055409a4fed
+msgid "云平台对接命令集"
+msgstr ""
+
+#: ../../source/docs/instruction/other/firmware_differences.rst:69
+#: d8c8d1e8f457411c8802a0f13971eaa3
+msgid "UART 通讯管脚"
+msgstr ""
+
+#: ../../source/docs/instruction/other/firmware_differences.rst
+#: 429017d49cf04b64a08562388f320013
+msgid "TX: IO16"
+msgstr ""
+
+#: ../../source/docs/instruction/other/firmware_differences.rst
+#: f6dfecee63d94e2980c913dca56e70dd
+msgid "RX: IO7"
+msgstr ""
+
+#: ../../source/docs/instruction/other/firmware_differences.rst
+#: a37b4b628e2e48b38574b98c92d7ddda
+msgid "TX: PB1"
+msgstr ""
+
+#: ../../source/docs/instruction/other/firmware_differences.rst
+#: 9b971897730a4e688cd1e95268ca2a92
+msgid "RX: PB2"
+msgstr ""
+
+#: ../../source/docs/instruction/other/firmware_differences.rst
+#: 40913db89de64c49b4b68f7dde5ec974
+msgid "TB-01:"
+msgstr ""
+
+#: ../../source/docs/instruction/other/firmware_differences.rst
+#: 15c2c8f44b4f4282a294014a1b7dc001
+msgid "TX: PB0"
+msgstr ""
+
+#: ../../source/docs/instruction/other/firmware_differences.rst
+#: a86b04fbd83144a2a3cc46b0629d39c1
+msgid "RX: PB1"
+msgstr ""
+
+#: ../../source/docs/instruction/other/firmware_differences.rst
+#: 2472c897e81f45f993f6ec3e292f5f61
+msgid "TB-02/TB-03F/TB-04:"
+msgstr ""
+
+#: ../../source/docs/instruction/other/firmware_differences.rst
+#: 98a61bf8fe0447b080276f01cbae62f0
+msgid "TX:PB1"
+msgstr ""
+
+#: ../../source/docs/instruction/other/firmware_differences.rst
+#: 904ad5340e7a480797c2dbfcea233d47
+msgid "RX:PA0"
+msgstr ""
+
+#: ../../source/docs/instruction/other/firmware_differences.rst
+#: 47fa34151b664f82bb66411459ac98fd
+msgid "PB-01/PB-02:"
+msgstr ""
+
+#: ../../source/docs/instruction/other/firmware_differences.rst
+#: 972ce53cba754098804934d5a3faf1d9
+msgid "TX: TXD"
+msgstr ""
+
+#: ../../source/docs/instruction/other/firmware_differences.rst
+#: dcdf3ba488ed4bca8512a21f85e3d9f5
+msgid "RX: RXD"
+msgstr ""
+
+#: ../../source/docs/instruction/other/firmware_differences.rst
+#: a7dc5218f227484190106e25fb577bbd
+msgid "PB-03/PB-03F/PB-03M"
+msgstr ""
+
+#: ../../source/docs/instruction/other/firmware_differences.rst
+#: e171eb418288461c8c3209d94270c57a
+msgid "TXD:P9"
+msgstr ""
+
+#: ../../source/docs/instruction/other/firmware_differences.rst
+#: 7e9383c2e23441ca8099d6de68ab248e
+msgid "RXD:P10"
+msgstr ""
+
+#: ../../source/docs/instruction/other/firmware_differences.rst:91
+#: ea3767b8af744177b9437b8b7ca0c2f6
+msgid "下面比较了Combo-AT固件在支持各种配网协议的差异。"
+msgstr ""
+
+#: ../../source/docs/instruction/other/firmware_differences.rst:96
+#: a3ba5b913f4940548b9a54cd5695552d
+msgid "配网协议"
+msgstr ""
+
+#: ../../source/docs/instruction/other/firmware_differences.rst:102
+#: e4f1e9455650492ba4687e0c47863411
+msgid "Easy WiFi Config 蓝牙配网"
+msgstr ""
+
+#: ../../source/docs/instruction/other/firmware_differences.rst:108
+#: 5ee1386517da49a2afa195c7b15acfdd
+msgid "Blufi 蓝牙配网"
+msgstr ""
+
+#: ../../source/docs/instruction/other/firmware_differences.rst:114
+#: fac23228f2c5426b8e61adf9f58d26ca
+msgid "SmartConfig 一键配网"
+msgstr ""
+
+#: ../../source/docs/instruction/other/firmware_differences.rst:120
+#: 5bd22b92aaa34ed48b40e1c8523acdaf
+msgid "微信AirKiss 一键配网"
+msgstr ""
+

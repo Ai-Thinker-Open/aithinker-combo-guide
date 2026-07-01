@@ -1,0 +1,170 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, 安信可科技
+# This file is distributed under the same license as the 安信可科技 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 安信可科技 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-01 23:52+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/docs/command-examples/bluetooth_le_at_examples.rst:2
+#: 145d595ee13b439f80b969879158d05a
+msgid "Bluetooth LE AT 示例"
+msgstr ""
+
+#: ../../source/docs/command-examples/bluetooth_le_at_examples.rst:4
+#: dee7ee954c2440ac966cbc3fad508feb
+msgid "本文档主要介绍 :doc:`../command-set/BLE_AT_Commands` 命令的详细示例。"
+msgstr ""
+
+#: ../../source/docs/command-examples/bluetooth_le_at_examples.rst:11
+#: 520b929b6fcd45668fe98a3d81f72334
+msgid "此示例针对不同的模组会有所不同的适配，具体差异请移步查询您手上的模组指令支持情况：:doc:`../instruction/other/firmware_differences`。"
+msgstr ""
+
+#: ../../source/docs/command-examples/bluetooth_le_at_examples.rst:14
+#: 4b2771541a384ac080efd08ff236ac99
+msgid "以下示例同时使用两块开发板，其中一块做从机，另一块做主机。"
+msgstr ""
+
+#: ../../source/docs/command-examples/bluetooth_le_at_examples.rst:17
+#: ../../source/docs/command-examples/bluetooth_le_at_examples.rst:109
+#: ../../source/docs/command-examples/bluetooth_le_at_examples.rst:128
+#: 6530e4273ffd4431ac15016f0fdca1a8 7250a3d660874b9993ff62dbebb79cb1
+#: 79cdf23d67a842c9b2e72300a9cfc532
+msgid "说明："
+msgstr ""
+
+#: ../../source/docs/command-examples/bluetooth_le_at_examples.rst:19
+#: 55abd903b217478198867a1fd8f4199e
+msgid "``备注可选项的指令可以设置也可以不设置，根据自己的实际情况来决定是否设置``。"
+msgstr ""
+
+#: ../../source/docs/command-examples/bluetooth_le_at_examples.rst:22
+#: 5bfdd2167d0842d0b480fbf831a63f39
+msgid "基于Gatt的BLE通信"
+msgstr ""
+
+#: ../../source/docs/command-examples/bluetooth_le_at_examples.rst:24
+#: c7cdc6bd292d4400b33abbd286929218
+msgid "**从机：**"
+msgstr ""
+
+#: ../../source/docs/command-examples/bluetooth_le_at_examples.rst:26
+#: 5e26cb0c2965416c9abd70db6fa581d7
+msgid "设置蓝牙名称，如果不设置默认是ai-thinker。（可选项，需要在开启从机模式前设置）"
+msgstr ""
+
+#: ../../source/docs/command-examples/bluetooth_le_at_examples.rst:28
+#: ../../source/docs/command-examples/bluetooth_le_at_examples.rst:42
+#: ../../source/docs/command-examples/bluetooth_le_at_examples.rst:58
+#: ../../source/docs/command-examples/bluetooth_le_at_examples.rst:72
+#: ../../source/docs/command-examples/bluetooth_le_at_examples.rst:115
+#: ../../source/docs/command-examples/bluetooth_le_at_examples.rst:161
+#: ../../source/docs/command-examples/bluetooth_le_at_examples.rst:175
+#: ../../source/docs/command-examples/bluetooth_le_at_examples.rst:189
+#: 00fec130cb7845919898746a845eac2d 0dca7425e634482cbcd7141920d16dc1
+#: 35f531f02bc6489896900ca429f138f7 402e63444e49424a910019b6c1553d20
+#: 5a22b160e5904bb6a5918f7efb729df4 887e9fb482e94d8da93f37d6f88431e9
+#: f9c1dffe1104474ebb5b58faecf5a943 faab2bc1014343b78bf7bade3ab7ebf8
+msgid "命令："
+msgstr ""
+
+#: ../../source/docs/command-examples/bluetooth_le_at_examples.rst:34
+#: ../../source/docs/command-examples/bluetooth_le_at_examples.rst:48
+#: ../../source/docs/command-examples/bluetooth_le_at_examples.rst:64
+#: ../../source/docs/command-examples/bluetooth_le_at_examples.rst:78
+#: ../../source/docs/command-examples/bluetooth_le_at_examples.rst:121
+#: ../../source/docs/command-examples/bluetooth_le_at_examples.rst:167
+#: ../../source/docs/command-examples/bluetooth_le_at_examples.rst:181
+#: ../../source/docs/command-examples/bluetooth_le_at_examples.rst:195
+#: 28d93ea71f3c482ca86b21441884b9be 3251d239c00842da841c369db23de714
+#: 3e01cbd5849341a691757f88aa37d1a0 4a9bd4751b7c4ada9739a8fa5e15b890
+#: 5e0257af31b74040bc44fcf79b4f91e8 91ac40c39e16462ca66184f400350151
+#: 9f5300294c2d402bbdddb97cc0562c21 ba355601e69f4e7e91105fec6bbfca0b
+msgid "响应"
+msgstr ""
+
+#: ../../source/docs/command-examples/bluetooth_le_at_examples.rst:40
+#: d755ae4c75b64f049ee1a4a1dd338905
+msgid "开启从机模式"
+msgstr ""
+
+#: ../../source/docs/command-examples/bluetooth_le_at_examples.rst:54
+#: 5ff389cd51a843d89722eff0110e94f2
+msgid "**主机：**"
+msgstr ""
+
+#: ../../source/docs/command-examples/bluetooth_le_at_examples.rst:56
+#: e5c364ce6f834b1dbd2416e92e894280
+msgid "开启主机模式"
+msgstr ""
+
+#: ../../source/docs/command-examples/bluetooth_le_at_examples.rst:70
+#: 02171e4204204168bae55a06314d71b1
+msgid "扫描附近设备（可选项，需要在开启主机模式后设置）"
+msgstr ""
+
+#: ../../source/docs/command-examples/bluetooth_le_at_examples.rst:111
+#: d6cfd22a1f15489b9ff7e59767fb56ff
+msgid "您所处环境中存在的蓝牙设备不同扫描响应也不同。"
+msgstr ""
+
+#: ../../source/docs/command-examples/bluetooth_le_at_examples.rst:113
+#: a22e4c1d94464acba3c2456323632904
+msgid "连接从机"
+msgstr ""
+
+#: ../../source/docs/command-examples/bluetooth_le_at_examples.rst:130
+#: 42a67ff49f3a435db8d254159029fcb2
+msgid "``ble连接上之后默认进入了透传模式，串口接收到任何数据都会直接往对侧设备发送。如果需要发送其他指令或者需要接收其他连接（如tcp连接）的数据，需要先退出透传模式，退出透传模式的指令是+++（不带回车换行），如果退出透传后需要发送ble数据可以用指令AT+BLESEND来发送，或者发送指令AT+TRANSENTER重新进入透传。``"
+msgstr ""
+
+#: ../../source/docs/command-examples/bluetooth_le_at_examples.rst:132
+#: f0c351b4927d4b31beaa9cdc3b2e3c12
+msgid "**动图演示**"
+msgstr ""
+
+#: ../../source/docs/command-examples/bluetooth_le_at_examples.rst:134
+#: cc9eab0737454598a65b29288e35e004
+msgid "``请点开大图查看。左边窗口主机，右边窗口从机``"
+msgstr ""
+
+#: ../../source/docs/command-examples/bluetooth_le_at_examples.rst:138
+#: ../../source/docs/command-examples/bluetooth_le_at_examples.rst:145
+#: 398be497a7a1461396d055f5d863e611 eea5078ea1cd4349b639a147cbd7fda2
+msgid "ble连接通信"
+msgstr ""
+
+#: ../../source/docs/command-examples/bluetooth_le_at_examples.rst:158
+#: 2e03e2a704a549f3825bdb4ef0bee1d2
+msgid "BLE iBeacon"
+msgstr ""
+
+#: ../../source/docs/command-examples/bluetooth_le_at_examples.rst:159
+#: d0f027a93ce6438f99638ed6ece9e6dc
+msgid "设置蓝牙iBeacon UUID (可选，开启iBeacon前设置)"
+msgstr ""
+
+#: ../../source/docs/command-examples/bluetooth_le_at_examples.rst:173
+#: ecf081f511234aada8e259411f29fe60
+msgid "设置蓝牙 iBeacon data (可选，开启iBeacon前设置)"
+msgstr ""
+
+#: ../../source/docs/command-examples/bluetooth_le_at_examples.rst:187
+#: 32151a70f1d84bd0b4b8cc23b449fd64
+msgid "开启iBeacon"
+msgstr ""
+
