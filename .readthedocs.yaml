@@ -17,6 +17,10 @@ build:
     # nodejs: "19"
     # rust: "1.64"
     # golang: "1.19"
+  jobs:
+    pre_build:
+      # 构建前将英文 .po 编译为 .mo（英文 RTD 项目读取 .mo 显示译文）
+      - sphinx-intl build -l en -d source/locale
 
 # Build documentation in the docs/ directory with Sphinx
 sphinx:
