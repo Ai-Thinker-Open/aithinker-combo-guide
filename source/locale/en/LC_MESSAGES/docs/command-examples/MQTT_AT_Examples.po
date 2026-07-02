@@ -3,13 +3,12 @@
 # This file is distributed under the same license as the 安信可科技 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: 安信可科技 \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-01 23:52+0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2026-07-02 00:00+0800\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
 "Language-Team: en <LL@li.org>\n"
@@ -22,37 +21,37 @@ msgstr ""
 #: ../../source/docs/command-examples/MQTT_AT_Examples.rst:2
 #: 8490771c278147a3b2acef2ce19b8ce3
 msgid "MQTT AT 示例"
-msgstr ""
+msgstr "MQTT AT Examples"
 
 #: ../../source/docs/command-examples/MQTT_AT_Examples.rst:4
 #: 0ff1f7b2869e4a559bd89cd794ffa1c3
 msgid "本文档主要提供在模组设备上运行 :doc:`../command-set/MQTT_AT_Commands` 命令的详细示例。"
-msgstr ""
+msgstr "This document provides detailed examples of running :doc:`../command-set/MQTT_AT_Commands` commands on module devices."
 
 #: ../../source/docs/command-examples/MQTT_AT_Examples.rst:11
 #: a97921e6cb2246cb83dc9c66844375e7
 msgid "文档中所描述的例子均基于设备已连接 Wi-Fi 的前提。"
-msgstr ""
+msgstr "The examples in this document assume the device is already connected to Wi-Fi."
 
 #: ../../source/docs/command-examples/MQTT_AT_Examples.rst:12
 #: 693c5b52b0c246ebb5c14184a2d8b725
 msgid "此示例针对不同的模组会有所不同的适配，具体差异请移步查询您手上的模组指令支持情况：:doc:`../instruction/other/firmware_differences`。"
-msgstr ""
+msgstr "These examples may vary depending on the module. Refer to :doc:`../instruction/other/firmware_differences` for command support on your module."
 
 #: ../../source/docs/command-examples/MQTT_AT_Examples.rst:16
 #: 834d027367bd4517a592a2209eb42bda
 msgid "基于 TCP 的 MQTT 连接"
-msgstr ""
+msgstr "MQTT Connection over TCP"
 
 #: ../../source/docs/command-examples/MQTT_AT_Examples.rst:17
 #: 43764564621945d7949a45a0940357a5
 msgid "本例需要连接的mqtt服务器ip:192.168.31.43，端口：1883，client_id：1234，用户名：admin，密码：public"
-msgstr ""
+msgstr "This example connects to MQTT server IP 192.168.31.43, port 1883, client_id 1234, username admin, password public"
 
 #: ../../source/docs/command-examples/MQTT_AT_Examples.rst:19
 #: c9309925dbbd4cf3b27022025bfed8bf
 msgid "设置服务器域名"
-msgstr ""
+msgstr "Set server domain name"
 
 #: ../../source/docs/command-examples/MQTT_AT_Examples.rst:21
 #: ../../source/docs/command-examples/MQTT_AT_Examples.rst:35
@@ -60,7 +59,7 @@ msgstr ""
 #: 1202ba4520d54f25ae5f2b5647a0ee57 99899e959e5b4cafa62427f22849df4d
 #: ef674ce978c843c39808e24704f1037e
 msgid "命令："
-msgstr ""
+msgstr "Command:"
 
 #: ../../source/docs/command-examples/MQTT_AT_Examples.rst:27
 #: ../../source/docs/command-examples/MQTT_AT_Examples.rst:41
@@ -75,22 +74,22 @@ msgstr ""
 #: 62079ac130724f49be231733954f7403 82c5ae9bcf7f470187bca7336cb714eb
 #: ec682c1f34aa44aa9878db781eda4162 fa1ec0cf46474716b3775e704b31b0b4
 msgid "响应："
-msgstr ""
+msgstr "Response:"
 
 #: ../../source/docs/command-examples/MQTT_AT_Examples.rst:33
 #: 79df129179534f59b22bca6c6e79b339
 msgid "设置服务器端口"
-msgstr ""
+msgstr "Set server port"
 
 #: ../../source/docs/command-examples/MQTT_AT_Examples.rst:47
 #: f4184b809519441c8d0f24d4cb9fae48
 msgid "设置连接方式"
-msgstr ""
+msgstr "Set connection mode"
 
 #: ../../source/docs/command-examples/MQTT_AT_Examples.rst:61
 #: 4ceacea0a5ac4c848a6dc54210bacb43
 msgid "设置用户ID"
-msgstr ""
+msgstr "Set client ID"
 
 #: ../../source/docs/command-examples/MQTT_AT_Examples.rst:63
 #: ../../source/docs/command-examples/MQTT_AT_Examples.rst:77
@@ -101,58 +100,58 @@ msgstr ""
 #: 4ee3df10352b4fba84dfe5936ccd295e 843e83ac7e804e63a2cd59a4da484dac
 #: 8b3ed9f10a8149d6a2df5010f18fa063
 msgid "命令:"
-msgstr ""
+msgstr "Command:"
 
 #: ../../source/docs/command-examples/MQTT_AT_Examples.rst:75
 #: 7c7e0e686d0d4cd3a9ed1e0d7f17ff20
 msgid "设置MQTT用户名"
-msgstr ""
+msgstr "Set MQTT username"
 
 #: ../../source/docs/command-examples/MQTT_AT_Examples.rst:89
 #: 890a227b66ea4720a68d1b0561300e7f
 msgid "设置MQTT密码"
-msgstr ""
+msgstr "Set MQTT password"
 
 #: ../../source/docs/command-examples/MQTT_AT_Examples.rst:103
 #: c753d1894f644c52a172057acaca91f7
 msgid "连接MQTT服务器"
-msgstr ""
+msgstr "Connect to MQTT server"
 
 #: ../../source/docs/command-examples/MQTT_AT_Examples.rst:120
 #: 05ad57f1fd5e48e59b880c62f627d930
 msgid "说明："
-msgstr ""
+msgstr "Note:"
 
 #: ../../source/docs/command-examples/MQTT_AT_Examples.rst:122
 #: adf69022fc8e423dbb642be038767693
 msgid "您输入的 MQTT域名或IP地址可能与上述命令中的不同。"
-msgstr ""
+msgstr "The MQTT domain name or IP address you enter may differ from the commands above."
 
 #: ../../source/docs/command-examples/MQTT_AT_Examples.rst:125
 #: 41d9340ba5d4464286a63de1bbcc6a43
 msgid "订阅主题"
-msgstr ""
+msgstr "Subscribe to topic"
 
 #: ../../source/docs/command-examples/MQTT_AT_Examples.rst:127
 #: 9ce9cafbc5834d8199157acd8d0caee4
 msgid "例如订阅一个主题为“testtopic0”："
-msgstr ""
+msgstr "For example, subscribe to topic \"testtopic0\":"
 
 #: ../../source/docs/command-examples/MQTT_AT_Examples.rst:141
 #: e64c6a46e53e45ceb6a574d5ee7d14d6
 msgid "发布主题"
-msgstr ""
+msgstr "Publish to topic"
 
 #: ../../source/docs/command-examples/MQTT_AT_Examples.rst:143
 #: 20b0632321cd4ac49002c1e74f3398f4
 msgid "发布消息数据量少且消息类型为字符串可以用指令AT+MQTTPUB，如发布消息主题为testtopic1，发布消息为HelloWorld："
-msgstr ""
+msgstr "For small string messages, use AT+MQTTPUB. For example, publish to topic testtopic1 with message HelloWorld:"
 
 #: ../../source/docs/command-examples/MQTT_AT_Examples.rst:145
 #: ../../source/docs/command-examples/MQTT_AT_Examples.rst:160
 #: 6a7d49d3ccd047c296b4d4e9b345c626 8d130193c10e4bb2b3385415d070783e
 msgid "命令"
-msgstr ""
+msgstr "Command"
 
 #: ../../source/docs/command-examples/MQTT_AT_Examples.rst:151
 #: ../../source/docs/command-examples/MQTT_AT_Examples.rst:166
@@ -160,15 +159,14 @@ msgstr ""
 #: 55281dc33e044cc097e3672473e7b2fe 58c0e6b30afd4e5d805677df76abb0a3
 #: b4992ea5aa5c47a6898d2f44724ec399
 msgid "响应"
-msgstr ""
+msgstr "Response"
 
 #: ../../source/docs/command-examples/MQTT_AT_Examples.rst:157
 #: 13f619858b5d46afbc8bd1778a03f854
 msgid "当发布消息数据量大时可以用AT+MQTTPUBRAW，AT+MQTTPUBRAW指令不限制消息类型，可以发送字符串也可以发送hex类型数据。如发布消息主题为testtopic1，发布消息为1122334455667788："
-msgstr ""
+msgstr "For large messages, use AT+MQTTPUBRAW, which supports both string and hex data. For example, publish to topic testtopic1 with message 1122334455667788:"
 
 #: ../../source/docs/command-examples/MQTT_AT_Examples.rst:172
 #: bade94cab2de46d3a053463deaff7fec
 msgid "输入需要发送的数据"
-msgstr ""
-
+msgstr "Enter the data to send"

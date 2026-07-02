@@ -3,13 +3,12 @@
 # This file is distributed under the same license as the 安信可科技 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: 安信可科技 \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-01 23:52+0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2026-07-02 00:00+0800\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
 "Language-Team: en <LL@li.org>\n"
@@ -22,22 +21,22 @@ msgstr ""
 #: ../../source/docs/command-examples/Netconfig_AT_Examples.rst:2
 #: 38bc967b1abc48febbd861e445e4f865
 msgid "Netconfig AT 示例"
-msgstr ""
+msgstr "Netconfig AT Examples"
 
 #: ../../source/docs/command-examples/Netconfig_AT_Examples.rst:4
 #: 4f690307883d4343a82095d7dea20e7a
 msgid "本文档主要介绍在设备上运行 :doc:`../command-set/Wi-Fi_AT_Commands` 命令的详细示例。"
-msgstr ""
+msgstr "This document describes detailed examples of running :doc:`../command-set/Wi-Fi_AT_Commands` commands on the device."
 
 #: ../../source/docs/command-examples/Netconfig_AT_Examples.rst:7
 #: 377a644d2e0f4ccfa24a98eb90aac52f
 msgid "此配网示例针对不同的模组会有所不同的适配，具体差异请移步查询您手上的模组指令支持情况：:doc:`../instruction/other/firmware_differences`。"
-msgstr ""
+msgstr "These provisioning examples may vary depending on the module. Refer to :doc:`../instruction/other/firmware_differences` for command support on your module."
 
 #: ../../source/docs/command-examples/Netconfig_AT_Examples.rst:14
 #: 712e9534630141eda75f9fc8304d1c67
 msgid "Easy WiFi Config 蓝牙配网"
-msgstr ""
+msgstr "Easy WiFi Config Bluetooth Provisioning"
 
 #: ../../source/docs/command-examples/Netconfig_AT_Examples.rst:16
 #: ../../source/docs/command-examples/Netconfig_AT_Examples.rst:70
@@ -45,12 +44,12 @@ msgstr ""
 #: 1eedb423ae7f4da98fcc00530ef2b460 2f8611b9daba49b799177f79ef39577d
 #: 514d1be45c264ce8a68b777f98577d90
 msgid "APP下载："
-msgstr ""
+msgstr "App download:"
 
 #: ../../source/docs/command-examples/Netconfig_AT_Examples.rst:18
 #: 484ed977b12a40f1b0dee05504f14f31
 msgid "iOS系统的手机,可以在App Store商店搜索Easy WiFi Config 获取下载安装。"
-msgstr ""
+msgstr "On iOS, search for Easy WiFi Config in the App Store to download and install."
 
 #: ../../source/docs/command-examples/Netconfig_AT_Examples.rst:20
 #: ../../source/docs/command-examples/Netconfig_AT_Examples.rst:74
@@ -58,7 +57,7 @@ msgstr ""
 msgid ""
 "Android系统的手机apk安装包下载:`手机apk安装包 <https://docs.ai-"
 "thinker.com/_media/rtl8710/docs/wificonfig_v2.1.6_20190529.apk.zip>`_"
-msgstr ""
+msgstr "Android APK download: `Mobile APK package <https://docs.ai-thinker.com/_media/rtl8710/docs/wificonfig_v2.1.6_20190529.apk.zip>`_"
 
 #: ../../source/docs/command-examples/Netconfig_AT_Examples.rst:22
 #: ../../source/docs/command-examples/Netconfig_AT_Examples.rst:57
@@ -82,7 +81,7 @@ msgstr ""
 #: d78b98320e4f43e28ffee4da46e99d70 dc9194436e6a45cfabbdd97a8b9ba236
 #: f5549d643b4f47628f9207cbb164f82e fd7c90aa0a054026b57981b8b07c5120
 msgid "OTA_APP"
-msgstr ""
+msgstr "OTA_APP"
 
 #: ../../source/docs/command-examples/Netconfig_AT_Examples.rst:25
 #: ../../source/docs/command-examples/Netconfig_AT_Examples.rst:77
@@ -93,7 +92,7 @@ msgstr ""
 #: 78f90ea84680426fb6e5375b74e931e9 b86212a678934edab2bc73e880a2c2e9
 #: e2a66b3cf8fe409bae43f0db45574140
 msgid "设置模块的Wi-Fi 工作模式并保存到Flash"
-msgstr ""
+msgstr "Set the module Wi-Fi operating mode and save to Flash"
 
 #: ../../source/docs/command-examples/Netconfig_AT_Examples.rst:27
 #: ../../source/docs/command-examples/Netconfig_AT_Examples.rst:41
@@ -122,7 +121,7 @@ msgstr ""
 #: ecb7ee8699cd475b842dbd163e038526 ee2f5f9808234dbeb9217159a173693f
 #: ef0fe15c818242caa4910f2539cd2fdf
 msgid "命令："
-msgstr ""
+msgstr "Command:"
 
 #: ../../source/docs/command-examples/Netconfig_AT_Examples.rst:33
 #: ../../source/docs/command-examples/Netconfig_AT_Examples.rst:47
@@ -151,33 +150,33 @@ msgstr ""
 #: de61911f1fd645548ceb79c79f2dad81 e5a63fa17d7a4596b3c04bb788ebe417
 #: fe1213435119418f9ea4d88001850b4a
 msgid "响应："
-msgstr ""
+msgstr "Response:"
 
 #: ../../source/docs/command-examples/Netconfig_AT_Examples.rst:39
 #: 4e133782feab4efeb6443fc14144099e
 msgid "开启蓝牙配网"
-msgstr ""
+msgstr "Enable Bluetooth provisioning"
 
 #: ../../source/docs/command-examples/Netconfig_AT_Examples.rst:53
 #: ../../source/docs/command-examples/Netconfig_AT_Examples.rst:105
 #: 532c18ce4b174157b3624045967d0b39 9b3b878b3f42463f9186d9772c7201c6
 msgid "APP端操作"
-msgstr ""
+msgstr "App-side operations"
 
 #: ../../source/docs/command-examples/Netconfig_AT_Examples.rst:68
 #: 813e46b5b3a041ffa2b59f04dd202c20
 msgid "SmartConfig 一键配网"
-msgstr ""
+msgstr "SmartConfig One-Key Provisioning"
 
 #: ../../source/docs/command-examples/Netconfig_AT_Examples.rst:72
 #: 5518654567b34884b81527d0cf73266b
 msgid "iOS系统的手机,可以在 App Store 商店搜索 Esptouch 获取下载安装。"
-msgstr ""
+msgstr "On iOS, search for Esptouch in the App Store to download and install."
 
 #: ../../source/docs/command-examples/Netconfig_AT_Examples.rst:91
 #: 11b974283ee848aba29bb278541f5042
 msgid "开启一次SmartConfig配网"
-msgstr ""
+msgstr "Start SmartConfig provisioning once"
 
 #: ../../source/docs/command-examples/Netconfig_AT_Examples.rst:119
 #: ../../source/docs/command-examples/Netconfig_AT_Examples.rst:194
@@ -185,119 +184,118 @@ msgstr ""
 #: 5481252eca5047afa7bdbc84fc5da113 8efcddf94eb64587b99ad7c86e2924fa
 #: f4b371df275649b4a3fea7289af0cb8f
 msgid "配网成功后需要关闭配网模式，否则会大量占用内存"
-msgstr ""
+msgstr "After successful provisioning, disable provisioning mode to avoid excessive memory usage."
 
 #: ../../source/docs/command-examples/Netconfig_AT_Examples.rst:135
 #: 0b1129761d58446b8cf5dd8934443d78
 msgid "微信Airkiss 一键配网"
-msgstr ""
+msgstr "WeChat Airkiss One-Key Provisioning"
 
 #: ../../source/docs/command-examples/Netconfig_AT_Examples.rst:136
 #: 1576ce8fcf7a4d28a69ca46848887cc8
 msgid "Airkiss配网可使用微信公众号或微信小程序，不需要单独下载App。"
-msgstr ""
+msgstr "Airkiss provisioning can use a WeChat official account or mini program; no separate app download is required."
 
 #: ../../source/docs/command-examples/Netconfig_AT_Examples.rst:138
 #: 95144f0898324fedb146095d29248aea
 msgid "设置模块的 Wi-Fi 工作模式并保存到Flash"
-msgstr ""
+msgstr "Set the module Wi-Fi operating mode and save to Flash"
 
 #: ../../source/docs/command-examples/Netconfig_AT_Examples.rst:152
 #: e7442dc28c8f410198e6a52ce02d6ea5
 msgid "开启一次Airkiss配网"
-msgstr ""
+msgstr "Start Airkiss provisioning once"
 
 #: ../../source/docs/command-examples/Netconfig_AT_Examples.rst:166
 #: 22b17f2222bd412693d068b16abc7a3c
 msgid "微信公众号方式配网：关注安信可科技微信公众号，Airkiss配网接口位于应用开发>微信配网内"
-msgstr ""
+msgstr "WeChat official account provisioning: follow the Ai-Thinker WeChat account; the Airkiss interface is under App Development > WeChat Provisioning."
 
 #: ../../source/docs/command-examples/Netconfig_AT_Examples.rst:180
 #: 3775d0f3a1d54713938c55e573ff5ad5
 msgid "微信小程序方式配网：搜索安信可IOT小程序："
-msgstr ""
+msgstr "WeChat mini program provisioning: search for the Ai-Thinker IoT mini program:"
 
 #: ../../source/docs/command-examples/Netconfig_AT_Examples.rst:210
 #: edb9d402537d4c5cb9a0ec2deded725c
 msgid "Blufi 蓝牙配网"
-msgstr ""
+msgstr "Blufi Bluetooth Provisioning"
 
 #: ../../source/docs/command-examples/Netconfig_AT_Examples.rst:211
 #: c14436ff127d4fec87978236179b7e12
 msgid "Blufi 蓝牙配网支持app、微信小程序。"
-msgstr ""
+msgstr "Blufi Bluetooth provisioning supports apps and WeChat mini programs."
 
 #: ../../source/docs/command-examples/Netconfig_AT_Examples.rst:215
 #: c8f16de30de84f6a823c0faf12d3a3d7
 msgid "iOS系统的手机,可以在App Store商店搜索 EspBlufi 获取"
-msgstr ""
+msgstr "On iOS, search for EspBlufi in the App Store."
 
 #: ../../source/docs/command-examples/Netconfig_AT_Examples.rst:217
 #: 34ea530b55bd4712994de5baf28655d0
 msgid ""
 "Android系统的手机apk安装包下载:`手机apk安装包 "
 "<https://github.com/EspressifApp/EspBlufiForAndroid/releases/download/v1.5.3/EspBluFi-1.5.3-24.apk>`_"
-msgstr ""
+msgstr "Android APK download: `Mobile APK package <https://github.com/EspressifApp/EspBlufiForAndroid/releases/download/v1.5.3/EspBluFi-1.5.3-24.apk>`_"
 
 #: ../../source/docs/command-examples/Netconfig_AT_Examples.rst:219
 #: 84aeb49b93324be6a7f8b56f7a1a536f
 msgid "小程序：微信搜索 安信可IOT小程序"
-msgstr ""
+msgstr "Mini program: search WeChat for Ai-Thinker IoT mini program"
 
 #: ../../source/docs/command-examples/Netconfig_AT_Examples.rst:235
 #: c4a7f60754794b508de502f357f4fa88
 msgid "开启一次blufi配网"
-msgstr ""
+msgstr "Start Blufi provisioning once"
 
 #: ../../source/docs/command-examples/Netconfig_AT_Examples.rst:249
 #: f08db2fbc12245578bd721ad4ca9402f
 msgid "app配网方式："
-msgstr ""
+msgstr "App provisioning method:"
 
 #: ../../source/docs/command-examples/Netconfig_AT_Examples.rst:263
 #: e7ef5d9c7e8d4a158750387d9a7843ee
 msgid "小程序配网方式："
-msgstr ""
+msgstr "Mini program provisioning method:"
 
 #: ../../source/docs/command-examples/Netconfig_AT_Examples.rst:292
 #: 629e855a7a10466687e781120a8e8960
 msgid "指令配网"
-msgstr ""
+msgstr "Command-based provisioning"
 
 #: ../../source/docs/command-examples/Netconfig_AT_Examples.rst:293
 #: 6499ca865cac472bb2c4af36c5142aeb
 msgid "以目标路由器ssid：AIOT@FAE, 密码：fae12345678 为例，直接连接到此路由器。"
-msgstr ""
+msgstr "Example: connect directly to router SSID AIOT@FAE, password fae12345678."
 
 #: ../../source/docs/command-examples/Netconfig_AT_Examples.rst:309
 #: ../../source/docs/command-examples/Netconfig_AT_Examples.rst:363
 #: 4fe3977a484f4ace8c82a11d18c06731 f00aad99ddee4ff0b4f358237395cab7
 msgid "连接目标路由器"
-msgstr ""
+msgstr "Connect to target router"
 
 #: ../../source/docs/command-examples/Netconfig_AT_Examples.rst:323
 #: ../../source/docs/command-examples/Netconfig_AT_Examples.rst:377
 #: 0e7a07c1a13b42da93a115a96604274a 37027e5ead204f45aad3ace0cde57b65
 msgid "设置上电自动重连WiFi"
-msgstr ""
+msgstr "Enable automatic Wi-Fi reconnection on power-up"
 
 #: ../../source/docs/command-examples/Netconfig_AT_Examples.rst:338
 #: 61fcda33e9a2433aaf25d71919892906
 msgid "同一个环境下有多个相同的ssid且密码相同时,如何连接信号最强的路由器"
-msgstr ""
+msgstr "How to connect to the router with the strongest signal when multiple routers share the same SSID and password"
 
 #: ../../source/docs/command-examples/Netconfig_AT_Examples.rst:339
 #: 5c8f2e73da9f47fd8e0f98a65c219783
 msgid "以目标路由器ssid：AIOT@FAE  密码：fae12345678 为例，连接信号最强的路由器。"
-msgstr ""
+msgstr "Example: connect to the strongest-signal router for SSID AIOT@FAE, password fae12345678."
 
 #: ../../source/docs/command-examples/Netconfig_AT_Examples.rst:341
 #: 511d3dccceab484cb56e80fb0d869951
 msgid "通过指令AT+WSCAN=< ssid >扫描目标ssid"
-msgstr ""
+msgstr "Scan for target SSID using AT+WSCAN=<ssid>"
 
 #: ../../source/docs/command-examples/Netconfig_AT_Examples.rst:347
 #: 5dfa7ce14f844dad944bf26f6bb004f0
 msgid "通过扫描可以知道信号强度最强的是-16dBm，bssid是9c:9d:7e:59:3e:84,AT+WJAP带上bssid参数即可连到信号最强的路由器"
-msgstr ""
-
+msgstr "Scanning shows the strongest signal at -16 dBm with BSSID 9c:9d:7e:59:3e:84. Use AT+WJAP with the BSSID parameter to connect to the strongest router."

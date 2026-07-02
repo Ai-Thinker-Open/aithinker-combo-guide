@@ -3,231 +3,262 @@
 # This file is distributed under the same license as the 安信可科技 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: 安信可科技 \n"
+"Project-Id-Version: 安信可科技\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-01 23:52+0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2026-07-02 00:00+0800\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: en\n"
 "Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.16.0\n"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:2
 #: bf9254daafd44d6aaa6cbda9406039b8
 msgid "Bluetooth® Low Energy AT 命令集"
-msgstr ""
+msgstr "Bluetooth® Low Energy AT Command Set"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:4
 #: e1e886cc55e4452886099d59c46f85a2
-msgid "本章节介绍低功耗蓝牙指令集，此指令集针对不同的模组会有所不同的适配，具体差异请移步：:doc:`../instruction/other/firmware_differences`。"
+msgid ""
+"本章节介绍低功耗蓝牙指令集，此指令集针对不同的模组会有所不同的适配，具体差异请移步：:doc:`../instruction/other/firmware_differences`。"
 msgstr ""
+"This chapter introduces the Bluetooth Low Energy AT command set. Adaptations"
+" may vary across different modules. For details, see "
+":doc:`../instruction/other/firmware_differences`."
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:6
 #: 6a9fd62bba384e7eacea96d6c167ec82
 msgid ":ref:`基础指令 <cmd-基础指令>`："
-msgstr ""
+msgstr ":ref:`Basic Commands <cmd-基础指令>`:"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:9
 #: dc0731677d9045289a719b215abfd06a
 msgid ":ref:`AT+BLEMAC <cmd-BLEMAC>`：查询或设置蓝牙 MAC 地址"
-msgstr ""
+msgstr ":ref:`AT+BLEMAC <cmd-BLEMAC>`: Query or set Bluetooth MAC address"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:10
 #: 6ebbd8622f064703a214823e90989542
 msgid ":ref:`AT+BLEMODE <cmd-BLEMODE>`：查询或设置蓝牙工作模式"
 msgstr ""
+":ref:`AT+BLEMODE <cmd-BLEMODE>`: Query or set Bluetooth operating mode"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:11
 #: ddebe0e50dde4e8683ac03435fc2391f
 msgid ":ref:`AT+BLERFPWR <cmd-BLERFPWR>`：查询或设置蓝牙发射功率"
-msgstr ""
+msgstr ":ref:`AT+BLERFPWR <cmd-BLERFPWR>`: Query or set Bluetooth TX power"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:12
 #: ebfda5a6bfba4948a9d9d62dbf0dcc13
 msgid ":ref:`AT+BLESTATE <cmd-BLESTATE>`：查询连接状态"
-msgstr ""
+msgstr ":ref:`AT+BLESTATE <cmd-BLESTATE>`: Query connection status"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:13
 #: 3a50e9967485488088ea6a6eece6d60b
 msgid ":ref:`AT+BLEDISCON <cmd-BLEDISCON>`：断开蓝牙连接"
-msgstr ""
+msgstr ":ref:`AT+BLEDISCON <cmd-BLEDISCON>`: Disconnect Bluetooth connection"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:14
 #: a1ad85bf909b48a78a67236d0706c342
 msgid ":ref:`AT+BLEMTU <cmd-BLEMTU>`：查询或设置蓝牙 MTU"
-msgstr ""
+msgstr ":ref:`AT+BLEMTU <cmd-BLEMTU>`: Query or set Bluetooth MTU"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:15
 #: 0f6e9cb5ca864ac89b7f2bed394d1382
 msgid ":ref:`AT+BLESEND <cmd-BLESEND>`：向蓝牙透传通道发送数据"
 msgstr ""
+":ref:`AT+BLESEND <cmd-BLESEND>`: Send data over Bluetooth transparent "
+"transmission channel"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:16
 #: fe8f21c2a03446089105328fdc9cd411
 msgid ":ref:`AT+BLESERUUID <cmd-BLESERUUID>`：查询或设置蓝牙透传服务的 UUID"
 msgstr ""
+":ref:`AT+BLESERUUID <cmd-BLESERUUID>`: Query or set UUID of Bluetooth "
+"transparent transmission service"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:17
 #: 7fd7ffe7c02647f9996ae907d0508f8c
 msgid ":ref:`AT+BLETXUUID <cmd-BLETXUUID>`：查询或设置蓝牙透传服务 TX 特征的 UUID"
 msgstr ""
+":ref:`AT+BLETXUUID <cmd-BLETXUUID>`: Query or set UUID of TX characteristic "
+"for Bluetooth transparent transmission service"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:18
 #: 1170ee6a8a60453b82475732fde84931
 msgid ":ref:`AT+BLERXUUID <cmd-BLERXUUID>`：查询或设置蓝牙透传服务 RX 特征的 UUID"
 msgstr ""
+":ref:`AT+BLERXUUID <cmd-BLERXUUID>`: Query or set UUID of RX characteristic "
+"for Bluetooth transparent transmission service"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:19
 #: c549c232ce2845fe9e85281b70d07157
 msgid ":ref:`AT+TRANSENTER <cmd-TRANSENTER>`：进入蓝牙透传模式"
 msgstr ""
+":ref:`AT+TRANSENTER <cmd-TRANSENTER>`: Enter Bluetooth transparent "
+"transmission mode"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:21
 #: 005a820100cc496e958e45060b46d022
 msgid ":ref:`从机指令 <cmd-从机指令>`："
-msgstr ""
+msgstr ":ref:`Peripheral Commands <cmd-从机指令>`:"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:24
 #: bcea7ac6bfcb496fabe0718d9a9cdd06
 msgid ":ref:`+DATA <cmd-DATA>`：主机模式下收到蓝牙透传数据"
 msgstr ""
+":ref:`+DATA <cmd-DATA>`: Receive Bluetooth transparent transmission data in "
+"central mode"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:25
 #: 8ca01d7d0afc4ba79cd6c4b08c80fca3
 msgid ":ref:`AT+BLENAME <cmd-BLENAME>`：查询或设置蓝牙设备名称"
-msgstr ""
+msgstr ":ref:`AT+BLENAME <cmd-BLENAME>`: Query or set Bluetooth device name"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:26
 #: 49a10207030c4f8bb7189f3d3a0df4ea
 msgid ":ref:`AT+BLECONINTV <cmd-BLECONINTV>`：查询或设置蓝牙连接间隔"
 msgstr ""
+":ref:`AT+BLECONINTV <cmd-BLECONINTV>`: Query or set Bluetooth connection "
+"interval"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:27
 #: 7435a97d80644ee5947a750a7b6c590f
 msgid ":ref:`AT+BLEAUTH <cmd-BLEAUTH>`：查询或设置蓝牙配对码"
-msgstr ""
+msgstr ":ref:`AT+BLEAUTH <cmd-BLEAUTH>`: Query or set Bluetooth pairing PIN"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:28
 #: 3c77cbb9542e46d0b13ea315dbc8e47b
 msgid ":ref:`AT+BLEADVINTV <cmd-BLEADVINTV>`：查询或设置蓝牙广播间隔"
 msgstr ""
+":ref:`AT+BLEADVINTV <cmd-BLEADVINTV>`: Query or set Bluetooth advertising "
+"interval"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:29
 #: 1575811ba0e9415fbaf3f737695228d6
 msgid ":ref:`AT+BLEADVDATA <cmd-BLEADVDATA>`：查询或设置蓝牙广播数据"
 msgstr ""
+":ref:`AT+BLEADVDATA <cmd-BLEADVDATA>`: Query or set Bluetooth advertising "
+"data"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:30
 #: 7658941a73b0413997893ebb6590d196
 msgid ":ref:`AT+BLEADVEN <cmd-BLEADVEN>`：查询或设置蓝牙广播使能"
 msgstr ""
+":ref:`AT+BLEADVEN <cmd-BLEADVEN>`: Query or set Bluetooth advertising enable"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:32
 #: 7282a35160884442b6e68694baca2d65
 msgid ":ref:`主机指令 <cmd-主机指令>`："
-msgstr ""
+msgstr ":ref:`Central Commands <cmd-主机指令>`:"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:35
 #: 58321277cc7b43ac931e09f5c2db2436
 msgid ":ref:`AT+BLESCAN <cmd-BLESCAN>`：蓝牙主机模式下发起扫描"
 msgstr ""
+":ref:`AT+BLESCAN <cmd-BLESCAN>`: Start scanning in Bluetooth central mode"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:36
 #: f3f7c0c1129d4ed6bce186b44cdcd18f
 msgid ":ref:`AT+BLECONNECT <cmd-BLECONNECT>`：主机发起一次连接"
 msgstr ""
+":ref:`AT+BLECONNECT <cmd-BLECONNECT>`: Initiate a connection from central"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:37
 #: 9722579fe62a46fd831cb5d7b21b9bb3
 msgid ":ref:`AT+BLEAUTOCON <cmd-BLEAUTOCON>`：设置主机自动连接从机参数"
 msgstr ""
+":ref:`AT+BLEAUTOCON <cmd-BLEAUTOCON>`: Set central auto-connect peripheral "
+"parameters"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:38
 #: 07ff2f24d2294534a1af5436d619f402
 msgid ":ref:`AT+BLEDISAUTOCON <cmd-BLEDISAUTOCON>`：取消自动扫描连接"
 msgstr ""
+":ref:`AT+BLEDISAUTOCON <cmd-BLEDISAUTOCON>`: Cancel auto scan and connect"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:40
 #: 580674e23e524da3befed61f5a82b522
 msgid ":ref:`iBeacon指令 <cmd-iBeacon指令>`："
-msgstr ""
+msgstr ":ref:`iBeacon Commands <cmd-iBeacon指令>`:"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:43
 #: f827a07139e54030b0795e18eb0bf368
 msgid ":ref:`AT+BLEIBCNUUID <cmd-BLEIBCNUUID>`：查询或设置蓝牙 iBeacon UUID"
 msgstr ""
+":ref:`AT+BLEIBCNUUID <cmd-BLEIBCNUUID>`: Query or set Bluetooth iBeacon UUID"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:44
 #: 63ae5c86998b4e3b9a8ae5473766048e
 msgid ":ref:`AT+BLEIBCNDATA <cmd-BLEIBCNDATA>`：设置蓝牙 iBeacon data"
-msgstr ""
+msgstr ":ref:`AT+BLEIBCNDATA <cmd-BLEIBCNDATA>`: Set Bluetooth iBeacon data"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:47
 #: a1e78959501f4434af38f9346f2ff016
 msgid ":ref:`BLE MESH指令 <cmd-MESH指令>`："
-msgstr ""
+msgstr ":ref:`BLE MESH Commands <cmd-MESH指令>`:"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:50
 #: 7b97d604b9b74bbf868fb561939c2884
 msgid ":ref:`SIG-MESH 指令 <cmd-SIG指令>`："
-msgstr ""
+msgstr ":ref:`SIG-MESH Commands <cmd-SIG指令>`:"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:52
 #: ee4c413b087f4e2696599f223199584a
 msgid ":ref:`AT+PROVISION <cmd-PROVISION>`：蓝牙设置启动配网功能"
-msgstr ""
+msgstr ":ref:`AT+PROVISION <cmd-PROVISION>`: Enable Bluetooth provisioning"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:53
 #: 51323a18a4504e7fa33a5f9ee5feb73a
 msgid ":ref:`AT+MESHSEND <cmd-MESHSEND>`：SIG-MESH 发送数据"
-msgstr ""
+msgstr ":ref:`AT+MESHSEND <cmd-MESHSEND>`: SIG-MESH send data"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:54
 #: 35d04fd22380419d808df24d6f858120
 msgid ":ref:`AT+MESHADDR <cmd-MESHADDR>`：查询节点地址"
-msgstr ""
+msgstr ":ref:`AT+MESHADDR <cmd-MESHADDR>`: Query node address"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:55
 #: 29c0cd7a338047c69b3a00209e3915a4
 msgid ":ref:`AT+MESHSTATE <cmd-MESHSTATE>`：查询是否配网成功"
-msgstr ""
+msgstr ":ref:`AT+MESHSTATE <cmd-MESHSTATE>`: Query provisioning status"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:57
 #: 5d580df8e45b465aabf232a58219afc3
 msgid ":ref:`ALI-MESH 指令 <cmd-ALI指令>`："
-msgstr ""
+msgstr ":ref:`ALI-MESH Commands <cmd-ALI指令>`:"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:59
 #: e3b064aabcdf405f832e53b399faf0dc
 msgid ":ref:`aliGenie_data <cmd-aliGenie_data>`：天猫精灵下发数据"
 msgstr ""
+":ref:`aliGenie_data <cmd-aliGenie_data>`: Data pushed from Tmall Genie"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:60
 #: d190c1916d8840d79385f0cf5d668f7f
 msgid ":ref:`AT+AliGenie <cmd-MESHSEND>`：设置天猫精灵三元组"
-msgstr ""
+msgstr ":ref:`AT+AliGenie <cmd-MESHSEND>`: Set Tmall Genie triplet"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:61
 #: bbb7fec949584792861f3b8487b4daa5
 msgid ":ref:`AT+SEND2ALI <cmd-SEND2ALI>`：向天猫精灵平台上报数据"
 msgstr ""
+":ref:`AT+SEND2ALI <cmd-SEND2ALI>`: Report data to Tmall Genie platform"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:66
 #: 4962c79cdd0344a28ab307d59c8694d6
 msgid "基础指令"
-msgstr ""
+msgstr "Basic Commands"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:70
 #: b541257c88e641089c8e6bb3a05936d3
 msgid "AT+BLEMAC：查询或设置蓝牙 MAC 地址"
-msgstr ""
+msgstr "AT+BLEMAC: Query or set Bluetooth MAC address"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:73
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:125
@@ -277,12 +308,12 @@ msgstr ""
 #: e642406bf73d4939850c39e03e130091 ee2bd0a77b574374ab4671bb924e8314
 #: f20b4456a5de4de583601eff659c524a
 msgid "描述"
-msgstr ""
+msgstr "Description"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:75
 #: 1895acef93ef49d79ad208f4ebffaa10
 msgid "查询或设置蓝牙 MAC 地址"
-msgstr ""
+msgstr "Query or set Bluetooth MAC address"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:78
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:137
@@ -329,12 +360,12 @@ msgstr ""
 #: ec6b7f9858bd4ad7a46fad6e3f363eb9 ed0901606add459bb37b5576c206d254
 #: ffbf0dabca2d4731afb40f6f717c1e2c
 msgid "执行命令"
-msgstr ""
+msgstr "Execute Command"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:79
 #: ac9452c505c848baa66181b399ce8efe
 msgid "**查询命令：**"
-msgstr ""
+msgstr "**Query Command:**"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:85
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:100
@@ -372,12 +403,13 @@ msgstr ""
 #: dc00889fcb11491592357edcca6067a6 e77967c7c00f477d9b72a8c337f0efef
 #: f6880b56713f471282758ff4c52747e7
 msgid "**响应：**"
-msgstr ""
+msgstr "**Response:**"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:93
 #: f60cba49aab04fe8be4860848f2cdb32
 msgid "**设置命令：** 设置蓝牙 MAC 地址(重启后生效)"
 msgstr ""
+"**Set Command:** Set Bluetooth MAC address (takes effect after reboot)"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:107
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:167
@@ -416,12 +448,14 @@ msgstr ""
 #: cc328f97c1c84852898d7004d3ad3570 e70a5d440596493a9874dbe607d6e3ac
 #: f9020ee5fae842b19363b002408edbcf fda9c932832442848f1ec6575b26f57c
 msgid "参数"
-msgstr ""
+msgstr "Parameters"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:108
 #: 37a88f5ac02842789ee24274ddbb5fc9
 msgid "MAC：要设置的蓝牙 MAC 地址，格式小写无分隔 eg:ab5f8d9ebb01"
 msgstr ""
+"MAC: Bluetooth MAC address to set, lowercase without separators, e.g.: "
+"ab5f8d9ebb01"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:111
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:176
@@ -466,84 +500,91 @@ msgstr ""
 #: c397a23fa81d4b13af092ddda7c30e24 d0a1c2b8f51a4143b1f2fac3dc2d6c6a
 #: e21a608613fd479d85db3150ef3224d1 fcc304611c524fd7b9766b96fe407208
 msgid "示例"
-msgstr ""
+msgstr "Example"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:122
 #: 7a7ef7fcd1b44e1c9a90120d207c7bff
 msgid "AT+BLEMODE：查询或设置蓝牙工作模式"
-msgstr ""
+msgstr "AT+BLEMODE: Query or set Bluetooth operating mode"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:127
 #: 9801c3497f35437a8662983755f42e86
 msgid "查询或设置蓝牙工作模式"
-msgstr ""
+msgstr "Query or set Bluetooth operating mode"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:130
 #: d44b05193c904903890b41dddb601527
 msgid "注意"
-msgstr ""
+msgstr "Note"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:132
 #: 4b3950b761e7456081d288e3bd21f8ea
 msgid "瑞昱系列(BW16/BW15)如果开启多种无线类型需要按照指定顺序开启"
 msgstr ""
+"For Realtek series (BW16/BW15), when enabling multiple wireless types, they "
+"must be enabled in the specified order"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:133
 #: 160d012122174b09969a4e75d2400071
 msgid "设置蓝牙模式后会立即执行，如果是启动蓝牙需要先设置好蓝牙参数后再启动蓝牙"
 msgstr ""
+"Bluetooth mode takes effect immediately after being set. To enable "
+"Bluetooth, configure all Bluetooth parameters before starting Bluetooth"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:134
 #: 9b8298fee4ab4cc6b6a180ee50463463
 msgid ""
-"如果开启 AP+STA+蓝牙三模，或者 AP+STA 混杂模式，需要先开 AP，然后连接STA 或蓝牙(蓝牙和 STA "
-"顺序先后没有要求，但是必须先开 AP)"
+"如果开启 AP+STA+蓝牙三模，或者 AP+STA 混杂模式，需要先开 AP，然后连接STA 或蓝牙(蓝牙和 STA 顺序先后没有要求，但是必须先开 "
+"AP)"
 msgstr ""
+"When enabling AP+STA+Bluetooth tri-mode or AP+STA hybrid mode, enable AP "
+"first, then connect STA or Bluetooth (order between Bluetooth and STA does "
+"not matter, but AP must be enabled first)"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:138
 #: 70c06608cda94a0d8b1819e325b57c1d
 msgid "**查询命令：** 设置蓝牙工作模式"
-msgstr ""
+msgstr "**Query Command:** Query Bluetooth operating mode"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:153
 #: 36d1d40b75704e33a07384ff3e309f63
 msgid "**设置命令：** 设置蓝牙工作模式"
-msgstr ""
+msgstr "**Set Command:** Set Bluetooth operating mode"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:168
 #: 5e6aaf28acf54d619a3a8aa954ff3636
 msgid "Mode："
-msgstr ""
+msgstr "Mode:"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:169
 #: 3e9fb442992c4f1d87a4e83424c9ce9a
 msgid "0：从机模式"
-msgstr ""
+msgstr "0: Peripheral mode"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:170
 #: c6cc185065fa4b679f428ce67e0fc75e
 msgid "1：主机模式"
-msgstr ""
+msgstr "1: Central mode"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:171
 #: d7d753e065ef47f0ab32d3d9b26a8e8d
 msgid "2：iBeacon 模式"
-msgstr ""
+msgstr "2: iBeacon mode"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:172
 #: 37eff123e92f4de1beb1843279c8cbed
 msgid "9：蓝牙关闭"
-msgstr ""
+msgstr "9: Bluetooth disabled"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:187
 #: ba3dd91ce21b48ce98b6549f63513a1e
 msgid "AT+BLERFPWR：查询或设置蓝牙发射功率"
-msgstr ""
+msgstr "AT+BLERFPWR: Query or set Bluetooth TX power"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:192
 #: 00e7109bd1ec4b66a592f855509b9714
 msgid "查询或设置蓝牙发射功率"
-msgstr ""
+msgstr "Query or set Bluetooth TX power"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:195
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:331
@@ -563,22 +604,22 @@ msgstr ""
 #: ea1b749efb6b4c5580a907250ba9adc1 f5b4a689a8f041a9af4254c4a8e6fb0c
 #: f8c14e6a466842db80e3e0ae3510e9f7
 msgid "注释"
-msgstr ""
+msgstr "Notes"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:196
 #: 3ca4ba3471244d8790f91eed98bb59cb
 msgid "PB 系列默认当前发射功率为最大发射功率 10"
-msgstr ""
+msgstr "PB series default TX power is maximum TX power 10"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:197
 #: 6a62d6e5ce404c17916c8a6a06c26d98
 msgid "TB 系列默认当前发射功率为最大发射功率 10"
-msgstr ""
+msgstr "TB series default TX power is maximum TX power 10"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:203
 #: 1e546d10ab004339b92d2e294961a840
 msgid "**查询命令：** 查询蓝牙发射功率 ::"
-msgstr ""
+msgstr "**Query Command:** Query Bluetooth TX power ::"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:209
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:263
@@ -613,27 +654,31 @@ msgstr ""
 #: f00e2c01ffc748b3a88c0ba55520e040 f6882a6b9ff44d6b89a2292bb3f9e1a8
 #: fe419e18f1d14cac85179fdd39fced25
 msgid "**响应：** ::"
-msgstr ""
+msgstr "**Response:** ::"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:220
 #: 0c8edbe284f746608a6810903386cd2e
 msgid "**设置命令：** 设置蓝牙发射功率(需要在蓝牙关闭状态下设置) ::"
 msgstr ""
+"**Set Command:** Set Bluetooth TX power (must be set while Bluetooth is "
+"disabled) ::"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:234
 #: f25c59316991491aa38d6e5f9a8f4674
 msgid "power：蓝牙发射功率，取值为整数、MAX(最大发射功率)、MIN(最小发射功率)"
 msgstr ""
+"power: Bluetooth TX power; integer, MAX (maximum TX power), or MIN (minimum "
+"TX power)"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:248
 #: 165ddf7a8b064e77a493c79c8c2f011d
 msgid "AT+BLESTATE：查询蓝牙连接状态"
-msgstr ""
+msgstr "AT+BLESTATE: Query Bluetooth connection status"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:253
 #: 12ceccffa2a145fda6103401bcbffebc
 msgid "查询蓝牙连接状态"
-msgstr ""
+msgstr "Query Bluetooth connection status"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:257
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:299
@@ -653,7 +698,7 @@ msgstr ""
 #: b537f9f46e05472ca6d78049bd1b991d deba8250893847b79559df443c23625a
 #: f6729328fef34956b0e69992cc3525b9
 msgid "**命令：**"
-msgstr ""
+msgstr "**Command:**"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:272
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:950
@@ -661,107 +706,112 @@ msgstr ""
 #: 24737d5b478a4545964bf2a5ff17270e 5e82385754a6440d94ddd59de71f37fd
 #: e6d62af23de147c3a23d3487442a5698
 msgid "status："
-msgstr ""
+msgstr "status:"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:273
 #: 993edcd6ad834f6aa298213a9f653410
 msgid "0：未连接"
-msgstr ""
+msgstr "0: Not connected"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:274
 #: 387b55b8f5a643d9b5a45fd9b5197754
 msgid "1：已连接"
-msgstr ""
+msgstr "1: Connected"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:290
 #: 6cc3717139764533bc7850c635dadc14
 msgid "AT+BLEDISCON：断开蓝牙连接"
-msgstr ""
+msgstr "AT+BLEDISCON: Disconnect Bluetooth connection"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:295
 #: 190252470c79499bbb1d64aef4e3b62c
 msgid "断开蓝牙连接"
-msgstr ""
+msgstr "Disconnect Bluetooth connection"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:323
 #: 1e7727e30ca7434d9331ef662215e053
 msgid "AT+BLEMTU：查询或设置蓝牙MTU"
-msgstr ""
+msgstr "AT+BLEMTU: Query or set Bluetooth MTU"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:328
 #: 9b6b333ba6a54be9bb03546188ccf12a
 msgid "查询或设置蓝牙MTU"
-msgstr ""
+msgstr "Query or set Bluetooth MTU"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:332
 #: 749ccbcbdddc4e19857705e25cba151e
 msgid "PB 系列默认 MTU 为 23"
-msgstr ""
+msgstr "PB series default MTU is 23"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:333
 #: a0256027955a4135aebc8050fd8497a8
 msgid "TB 系列默认 MTU 为 247"
-msgstr ""
+msgstr "TB series default MTU is 247"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:339
 #: 4ef03d4c0c5d4e009ef22f31b377905a
 msgid "**查询命令：** 查询蓝牙MTU ::"
-msgstr ""
+msgstr "**Query Command:** Query Bluetooth MTU ::"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:352
 #: 5d98d44e159b4417aff5e32bf0f0ff3b
 msgid "**设置命令：** 设置蓝牙MTU ::"
-msgstr ""
+msgstr "**Set Command:** Set Bluetooth MTU ::"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:366
 #: 4987a6c22f0e42f18eb5ed59295f9942
 msgid "mtu：设置蓝牙的 MTU，取值 23~250"
-msgstr ""
+msgstr "mtu: Bluetooth MTU to set, range 23~250"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:380
 #: 34406227241e415290b9434e672a6b23
 msgid "AT+BLESEND：向蓝牙透传通道发送数据"
-msgstr ""
+msgstr "AT+BLESEND: Send data over Bluetooth transparent transmission channel"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:385
 #: c7b9faa34536414e9704b8e099d9823f
 msgid "向蓝牙透传通道发送数据"
-msgstr ""
+msgstr "Send data over Bluetooth transparent transmission channel"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:403
 #: 8911d0d80bd442428efbf4b9307df0ef
 msgid "len:要发送的数据长度，单位为字节"
-msgstr ""
+msgstr "len: Length of data to send, in bytes"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:404
 #: a626f9e652594d54be3b97aca7c817fb
 msgid "data：要发送的数据内容，长度应与 len 一致"
-msgstr ""
+msgstr "data: Data content to send; length must match len"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:418
 #: 45be4567de3b4c0bac8aed31b8b5ab58
 msgid "AT+BLESERUUID：查询或者设置蓝牙透传服务 UUID"
 msgstr ""
+"AT+BLESERUUID: Query or set Bluetooth transparent transmission service UUID"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:423
 #: 73f5d4c0e86547edb51cfdb224963b02
 msgid "查询或者设置蓝牙透传服务 UUID"
-msgstr ""
+msgstr "Query or set Bluetooth transparent transmission service UUID"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:427
 #: 53e86bda006c4ee5a270443873d0e800
 msgid "默认主服务 UUID: 55535343fe7d4ae58fa99fafd205e455"
-msgstr ""
+msgstr "Default primary service UUID: 55535343fe7d4ae58fa99fafd205e455"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:431
 #: 2f369b1a8e2746c084a3ba1acd0b56ea
 msgid "**查询命令：** 查询蓝牙透传服务的 UUID ::"
 msgstr ""
+"**Query Command:** Query UUID of Bluetooth transparent transmission service "
+"::"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:444
 #: a32f2b2ac50a4be9917de0a2e82db69c
 msgid "**设置命令：** 设置蓝牙透传服务 UUID(仅允许在蓝牙关闭状态下设置蓝牙名称) ::"
 msgstr ""
+"**Set Command:** Set Bluetooth transparent transmission service UUID (only "
+"allowed while Bluetooth is disabled) ::"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:458
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:513
@@ -770,192 +820,227 @@ msgstr ""
 #: a8e35ff96efd4acda9c66e97d13ec1f3
 msgid "UUID：16 字节的服务 ID，字符串长度 32 位 eg:00112233445566778899aabbccddeeff"
 msgstr ""
+"UUID: 16-byte service ID, 32-character string, e.g.: "
+"00112233445566778899aabbccddeeff"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:472
 #: 8e9a81bc7a3c42268ecc31cc0f6b1371
 msgid "AT+BLETXUUID：查询或者设置蓝牙透传服务 TX 特征 UUID"
 msgstr ""
+"AT+BLETXUUID: Query or set TX characteristic UUID of Bluetooth transparent "
+"transmission service"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:477
 #: c0d094bb1f1c471daa327fb6e5c02c7b
 msgid "查询或者设置蓝牙透传服务 TX 特征 UUID"
 msgstr ""
+"Query or set TX characteristic UUID of Bluetooth transparent transmission "
+"service"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:481
 #: 3972e8b2242a482c8eef8589298ae7d1
 msgid "默认 TX 的UUID:49535343884143f4a8d4ecbe34729bb3"
-msgstr ""
+msgstr "Default TX UUID: 49535343884143f4a8d4ecbe34729bb3"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:482
 #: c08d6da472834241a234a7d123c26cdd
 msgid "TX 对应的蓝牙服务属性为 NOTIFY"
-msgstr ""
+msgstr "TX characteristic Bluetooth service property is NOTIFY"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:486
 #: 1ffcf7c59402421e80b578c2f39c3bad
 msgid "**查询命令：** 查询蓝牙透传服务 TX 特征的 UUID ::"
 msgstr ""
+"**Query Command:** Query UUID of TX characteristic for Bluetooth transparent"
+" transmission service ::"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:499
 #: d88ba650d14e4e50a3149d71cc04b8e5
 msgid "**设置命令：** 设置蓝牙透传服务 TX 特征 UUID(仅允许在蓝牙关闭状态下设置蓝牙名称) ::"
 msgstr ""
+"**Set Command:** Set TX characteristic UUID of Bluetooth transparent "
+"transmission service (only allowed while Bluetooth is disabled) ::"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:527
 #: f6d91a168f31486d8cbc5e6612d31cc2
 msgid "AT+BLERXUUID：查询或者设置蓝牙透传服务 RX 特征 UUID"
 msgstr ""
+"AT+BLERXUUID: Query or set RX characteristic UUID of Bluetooth transparent "
+"transmission service"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:532
 #: bd7b18573e1048c99dacbadba3f11b39
 msgid "查询或者设置蓝牙透传服务 RX 特征 UUID"
 msgstr ""
+"Query or set RX characteristic UUID of Bluetooth transparent transmission "
+"service"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:536
 #: c65644eb556240caa283ffd96e43f2aa
 msgid "默认 RX 的UUID:495353431e4d4bd9ba6123c647249616"
-msgstr ""
+msgstr "Default RX UUID: 495353431e4d4bd9ba6123c647249616"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:537
 #: a1a6bb2e3c1441d6bf6fa31e4f95d35a
 msgid "RX 对应的蓝牙服务属性为 NOTIFY"
-msgstr ""
+msgstr "RX characteristic Bluetooth service property is NOTIFY"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:541
 #: 70dfda3f3e334d0eb5c8648fe9bb7c50
 msgid "**查询命令：** 查询蓝牙透传服务 RX 特征的 UUID ::"
 msgstr ""
+"**Query Command:** Query UUID of RX characteristic for Bluetooth transparent"
+" transmission service ::"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:554
 #: 50e8f3353de6406daa3f7f77f2d5f3c8
 msgid "**设置命令：** 设置蓝牙透传服务 RX 特征 UUID(仅允许在蓝牙关闭状态下设置蓝牙名称) ::"
 msgstr ""
+"**Set Command:** Set RX characteristic UUID of Bluetooth transparent "
+"transmission service (only allowed while Bluetooth is disabled) ::"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:582
 #: 9711fd01a7634ce18729b14f5fd58cfe
 msgid "AT+TRANSENTER：进入蓝牙透传模式"
-msgstr ""
+msgstr "AT+TRANSENTER: Enter Bluetooth transparent transmission mode"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:587
 #: d88ce64db9454d889a00d1d9fcd76642
 msgid "进入蓝牙透传模式"
-msgstr ""
+msgstr "Enter Bluetooth transparent transmission mode"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:590
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1283
 #: 179ebaf045e24b99ad49c0bde6e0a7c9 1c47269d9ae34b74b88d1b545aa07b52
 msgid "备注"
-msgstr ""
+msgstr "Remark"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:591
 #: 24d0d92ec5a94ecdb44fc8389a8fbd8e
 msgid "输入+++后可以退出透传模式，进入 AT 指令模式"
 msgstr ""
+"Enter +++ to exit transparent transmission mode and enter AT command mode"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:592
 #: 7055de343c4841549e6e10613f426b63
 msgid "注释:默认连接后自动进入透传模式"
 msgstr ""
+"Note: Transparent transmission mode is entered automatically after "
+"connection by default"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:620
 #: 9cf39793f1d1486e8d690c44d13880f0
 msgid "从机指令"
-msgstr ""
+msgstr "Peripheral Commands"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:624
 #: e54ac642809e49889515a05bf0164b98
 msgid "+DATA：主机模式下收到蓝牙透传 UUID 通道发送过来的数据"
 msgstr ""
+"+DATA: Data received over Bluetooth transparent transmission UUID channel in"
+" central mode"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:629
 #: 46cdcc6be2ab442caec386294cd2ad36
 msgid "主机模式下收到蓝牙透传 UUID 通道发送过来的数据"
 msgstr ""
+"Data received over Bluetooth transparent transmission UUID channel in "
+"central mode"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:634
 #: ea8595ea3d8b45b381d01a2400434b64
 msgid "len: 收到的数据长度，单位为字节"
-msgstr ""
+msgstr "len: Length of received data, in bytes"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:635
 #: 0b4c995e1b37409c8ecf716225decf41
 msgid "data：收到的数据内容，长度应与 len 一致"
-msgstr ""
+msgstr "data: Received data content; length must match len"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:640
 #: fcba83dd24844b309b2bfc5c45f16384
 msgid "AT+BLENAME：查询或设置蓝牙设备名称"
-msgstr ""
+msgstr "AT+BLENAME: Query or set Bluetooth device name"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:645
 #: fa3fc54d45544f4a9f7d4f12b64e8bfa
 msgid "查询或设置蓝牙设备名称"
-msgstr ""
+msgstr "Query or set Bluetooth device name"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:649
 #: 41865b572e934c4f8cfdaf08ef4068ea
 msgid "默认蓝牙名称: ai-thinker"
-msgstr ""
+msgstr "Default Bluetooth name: ai-thinker"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:653
 #: b299bbb052f54220914ce440c0e559dc
 msgid "**查询命令：** 查询蓝牙名称 ::"
-msgstr ""
+msgstr "**Query Command:** Query Bluetooth name ::"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:666
 #: 976e064e4eb742f8b2ec340eac7b5139
 msgid "**设置命令：** 设置蓝牙设备名称(仅允许在蓝牙关闭状态下设置蓝牙名称) ::"
 msgstr ""
+"**Set Command:** Set Bluetooth device name (only allowed while Bluetooth is "
+"disabled) ::"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:680
 #: 39b3ea95a0644b02b9ad3bc1de3bce19
 msgid "ble name：蓝牙名称(UTF-8 格式，支持中文)"
-msgstr ""
+msgstr "ble name: Bluetooth name (UTF-8 format, Chinese supported)"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:694
 #: 97fb344b0fd34836865b8625d1e55ac7
 msgid "AT+BLECONINTV：查询或设置蓝牙连接间隔"
-msgstr ""
+msgstr "AT+BLECONINTV: Query or set Bluetooth connection interval"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:699
 #: 09b387531f414262a68c90e50946de18
 msgid "查询或设置蓝牙连接间隔"
-msgstr ""
+msgstr "Query or set Bluetooth connection interval"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:703
 #: 9bdf7061707241eeaf2aa674dd458b05
 msgid "PB 系列默认参数：+BLECONINTV:6,12,0,200"
-msgstr ""
+msgstr "PB series default parameters: +BLECONINTV:6,12,0,200"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:704
 #: 042285d063eb47bdb938a3f066bd5e45
 msgid "TB 系列默认参数：+BLECONINTV:8,8,99,400"
-msgstr ""
+msgstr "TB series default parameters: +BLECONINTV:8,8,99,400"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:708
 #: ffc1438cd99b4e74a96ece77e4a906cf
 msgid "**查询命令：** 查询蓝牙连接间隔 ::"
-msgstr ""
+msgstr "**Query Command:** Query Bluetooth connection interval ::"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:721
 #: 20a7b21b8a5a4f05afdb1dd80456a881
 msgid "**设置命令：** 设置蓝牙连接间隔(仅允许在蓝牙关闭状态下设置) ::"
 msgstr ""
+"**Set Command:** Set Bluetooth connection interval (only allowed while "
+"Bluetooth is disabled) ::"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:735
 #: 7c1e6cfcb6884a4da47c5c4b001e6930
 msgid "min_interval：最小连接间隔，取值 6~3200,实际时间是 minInterval*1.25ms，要求在7.5ms ~ 4s"
 msgstr ""
+"min_interval: Minimum connection interval, range 6~3200; actual time is "
+"minInterval*1.25 ms, required range 7.5 ms ~ 4 s"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:736
 #: 771b08a86faa412f949e6d3039b62892
 msgid "max_interval：最大连接间隔，取值 6~3200,实际时间是 minInterval*1.25ms，要求在7.5ms ~ 4s"
 msgstr ""
+"max_interval: Maximum connection interval, range 6~3200; actual time is "
+"maxInterval*1.25 ms, required range 7.5 ms ~ 4 s"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:737
 #: c90f028992ab45449816ebc410fd31ff
 msgid "Latency：延时(可以跳过几次连接)，要求在 0~499 之间"
 msgstr ""
+"Latency: Latency (number of connection events that may be skipped), range "
+"0~499"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:738
 #: 90decfd055b344219dc230731aa398be
@@ -963,161 +1048,181 @@ msgid ""
 "Timeout：超时时间，取值 10~3200,实际时间是 Timeout*10ms 即 100ms~32*1000ms且 "
 "Timeout*10>(1+Latency)*max_interval*1.25"
 msgstr ""
+"Timeout: Supervision timeout, range 10~3200; actual time is Timeout*10 ms "
+"(100 ms~32*1000 ms), and Timeout*10>(1+Latency)*max_interval*1.25"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:752
 #: 8c825af2861e4ab7a5930121ec2cfae6
 msgid "AT+BLEAUTH：查询或设置蓝牙配对码"
-msgstr ""
+msgstr "AT+BLEAUTH: Query or set Bluetooth pairing PIN"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:757
 #: a9affb5514ee41f99937f07379cd2728
 msgid "查询或设置蓝牙配对码"
-msgstr ""
+msgstr "Query or set Bluetooth pairing PIN"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:761
 #: 43b33f8a822542b5a5d8bfa2e7f30ad5
 msgid "**查询命令：** 查询蓝牙配对码 ::"
-msgstr ""
+msgstr "**Query Command:** Query Bluetooth pairing PIN ::"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:774
 #: de9c80b712ce402db4ee605f77605b32
 msgid "**设置命令：** 设置蓝牙配对码(仅允许在蓝牙关闭状态下执行设置) ::"
 msgstr ""
+"**Set Command:** Set Bluetooth pairing PIN (only allowed while Bluetooth is "
+"disabled) ::"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:787
 #: a209bc16120443f6985ea961943e0eb4
 msgid "pind：启用配对码，设置 6 位数字 eg:123456"
-msgstr ""
+msgstr "pind: Enable pairing PIN; set 6-digit number, e.g.: 123456"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:788
 #: f433d74ea2b74ce59b42f682f193aebb
 msgid "禁用配对码 DISENABLE"
-msgstr ""
+msgstr "Disable pairing PIN: DISENABLE"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:802
 #: c8422e07aa7f425e9129137e9b59979b
 msgid "AT+BLEADVINTV：查询或设置蓝牙广播间隔"
-msgstr ""
+msgstr "AT+BLEADVINTV: Query or set Bluetooth advertising interval"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:807
 #: 37cfe3cc01f849cabfe757ca4e57c559
 msgid "查询或设置蓝牙广播间隔"
-msgstr ""
+msgstr "Query or set Bluetooth advertising interval"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:811
 #: bfb17ae5c1774af082fa6346952161f5
 msgid "PB 默认参数 320"
-msgstr ""
+msgstr "PB default parameter: 320"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:812
 #: e16d467ce70a44bd883588b959ef9a24
 msgid "TB 默认参数 800"
-msgstr ""
+msgstr "TB default parameter: 800"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:816
 #: e4b7a1dc58ac4df19a4a81bc9fb0546f
 msgid "**查询命令：** 查询蓝牙广播间隔 ::"
-msgstr ""
+msgstr "**Query Command:** Query Bluetooth advertising interval ::"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:829
 #: 11b0011bcc3041aba1e662f19c1eef34
 msgid "**设置命令：** 设置蓝牙广播间隔(仅允许在蓝牙关闭状态下执行设置) ::"
 msgstr ""
+"**Set Command:** Set Bluetooth advertising interval (only allowed while "
+"Bluetooth is disabled) ::"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:842
 #: c58e859fc628496e83350495b0f25768
 msgid "<intv>：广播间隔，单位取值为 160~16384，广播间隔为 iNtv*0.625ms"
 msgstr ""
+"<intv>: Advertising interval, range 160~16384; interval = intv*0.625 ms"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:856
 #: aebad6c9b15146ff99a1a54e501f8021
 msgid "AT+BLEADVDATA：查询或设置蓝牙广播数据"
-msgstr ""
+msgstr "AT+BLEADVDATA: Query or set Bluetooth advertising data"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:861
 #: d898e44d250c4883928c82b13d5bbf6e
 msgid "查询或设置蓝牙广播数据"
-msgstr ""
+msgstr "Query or set Bluetooth advertising data"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:865
 #: de54ee50483946dcaafb5b4fd2c31008
 msgid "默认参数：MAC+55e4(主服务 uuid 前四个)，例如：40154641871855e4"
 msgstr ""
+"Default parameter: MAC+55e4 (first four bytes of primary service UUID), "
+"e.g.: 40154641871855e4"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:869
 #: efc293b9fc98473a9d6b47a31d87f08d
 msgid "**查询命令：** 查询蓝牙广播数据 ::"
-msgstr ""
+msgstr "**Query Command:** Query Bluetooth advertising data ::"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:882
 #: 5b720b048dd44a15ab6fd8496b80566f
 msgid "**设置命令：** 设置蓝牙广播数据(仅允许在蓝牙关闭状态下执行设置) ::"
 msgstr ""
+"**Set Command:** Set Bluetooth advertising data (only allowed while "
+"Bluetooth is disabled) ::"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:896
 #: 86460c22e1c642a9a91ec9b20b583b03
-msgid "data：设置的蓝牙数据(这个是字符串形式的hex数据，最大长度32字节eg:00112233445566778899aabbccddeeff)"
+msgid ""
+"data：设置的蓝牙数据(这个是字符串形式的hex数据，最大长度32字节eg:00112233445566778899aabbccddeeff)"
 msgstr ""
+"data: Bluetooth data to set (hex string, max 32 bytes, e.g.: "
+"00112233445566778899aabbccddeeff)"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:910
 #: d8b730d4dfed453ea25227ff419b4401
 msgid "AT+BLEADVEN：查询或设置蓝牙广播使能"
-msgstr ""
+msgstr "AT+BLEADVEN: Query or set Bluetooth advertising enable"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:915
 #: 1f70eea108634c76b128181373aa7156
 msgid "查询或设置蓝牙广播使能"
-msgstr ""
+msgstr "Query or set Bluetooth advertising enable"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:919
 #: 0cda36a4c4164b02ad518f016c42463d
 msgid "默认开启"
-msgstr ""
+msgstr "Enabled by default"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:923
 #: 0dcf7c389d6c4d2dad041b2e24bae96a
 msgid "**查询命令：** 查询蓝牙广播使能 ::"
-msgstr ""
+msgstr "**Query Command:** Query Bluetooth advertising enable ::"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:936
 #: 540a7db843ec4b77a36e4adae1ceea5a
 msgid "**设置命令：** 设置蓝牙广播使能(仅允许在蓝牙从机状态下执行设置) ::"
 msgstr ""
+"**Set Command:** Set Bluetooth advertising enable (only allowed in Bluetooth"
+" peripheral mode) ::"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:951
 #: e137cfe1ba5f43f9a1f81579d3a6726f
 msgid "0：关闭"
-msgstr ""
+msgstr "0: Disabled"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:952
 #: 84b598e76a304ff095b36ed6b32b92fd
 msgid "1：开启"
-msgstr ""
+msgstr "1: Enabled"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:966
 #: 9b1d023311684d98ad729d58fb6d44c2
 msgid "主机指令"
-msgstr ""
+msgstr "Central Commands"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:970
 #: de7b66a90a5841719451be831421a2a9
 msgid "AT+BLESCAN：蓝牙主机模式下发起扫描"
-msgstr ""
+msgstr "AT+BLESCAN: Start scanning in Bluetooth central mode"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:975
 #: 0649e62867e74e9abe2627e74ea80798
 msgid "蓝牙主机模式下发起扫描"
-msgstr ""
+msgstr "Start scanning in Bluetooth central mode"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:979
 #: ad1e8b1211b04241adb73969d8772a15
 msgid "PB 系列默认扫描时间 5 秒，扫描间隔 230*0.625 mSec，扫描窗口 160*0.625 mSec"
 msgstr ""
+"PB series default scan duration 5 s, scan interval 230*0.625 ms, scan window"
+" 160*0.625 ms"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:980
 #: 9d664f8d69cb44d7aaf3cdfc3d49720d
 msgid "TB 系列默认扫描时间 2 秒，扫描间隔 160*0.625 mSec，扫描窗口 160*0.625 mSec"
 msgstr ""
+"TB series default scan duration 2 s, scan interval 160*0.625 ms, scan window"
+" 160*0.625 ms"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:984
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1038
@@ -1125,211 +1230,231 @@ msgstr ""
 #: 42ab49d732184276b7a4467879208a4d c8f5c6fab80645c18dfa222d5d562339
 #: ea2c078c7497402aa2c1f1eba5fce305
 msgid "**命令：** ::"
-msgstr ""
+msgstr "**Command:** ::"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1029
 #: 1efbbef46cf34276afd1a363e7390161
 msgid "AT+BLECONNECT：蓝牙主机发起一次连接"
-msgstr ""
+msgstr "AT+BLECONNECT: Initiate a connection from Bluetooth central"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1034
 #: 57ff5bbc70e643538441ed89752751db
 msgid "蓝牙主机发起一次连接"
-msgstr ""
+msgstr "Initiate a connection from Bluetooth central"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1052
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1095
 #: 2d9422f4f95b4f268c88f2b204d39556 871d22abf3f34e05a8d5f84030e6b9d7
 msgid "MAC：连接目标 mac 地址(eg:A4C13812505C)"
-msgstr ""
+msgstr "MAC: Target MAC address to connect (e.g.: A4C13812505C)"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1070
 #: 648723a3a8f545f787ad7cf83f19773e
 msgid "AT+BLEAUTOCON：设置主机自动连接从机参数"
-msgstr ""
+msgstr "AT+BLEAUTOCON: Set central auto-connect peripheral parameters"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1075
 #: 18428b374b314260813266ecaa597d4f
 msgid "连接指定蓝牙(仅允许在蓝牙主机状态下连接)"
 msgstr ""
+"Connect to specified Bluetooth device (only allowed in Bluetooth central "
+"mode)"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1096
 #: 59024a032aa04be0bfcafc0bfa05a5a9
 msgid "UUID：如果需要连接指定 UUID 则设置为目标 UUID 的末两位(eg:E455)"
 msgstr ""
+"UUID: If connecting to a specific UUID, set to the last two bytes of the "
+"target UUID (e.g.: E455)"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1097
 #: e5bb7734234348898a9e233ac77b9604
 msgid ""
-"注意：MAC、UUID 两个输入任意一个就可以实现连接(两个都设置也可以)，不限制则设置为 FALSE，如果 MAC 和 UUID 都设置为 "
-"FALSE 则关闭自动连接"
+"注意：MAC、UUID 两个输入任意一个就可以实现连接(两个都设置也可以)，不限制则设置为 FALSE，如果 MAC 和 UUID 都设置为 FALSE"
+" 则关闭自动连接"
 msgstr ""
+"Note: Either MAC or UUID is sufficient to connect (both may be set). Set to "
+"FALSE if unrestricted. If both MAC and UUID are FALSE, auto-connect is "
+"disabled"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1098
 #: e62aca2a689d46d98e716794dd1c7327
 msgid "save_flash：是否保存到 flash，并设置开机自动连接，0 表示不保存，仅本次连接，1表示保存到 flash，下次开机自动连接"
 msgstr ""
+"save_flash: Whether to save to flash and enable auto-connect on power-up; 0 "
+"= do not save (connect this time only), 1 = save to flash and auto-connect "
+"on next boot"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1112
 #: 6a6b577a7e0047459aead31e99bc298c
 msgid "AT+BLEDISAUTOCON：取消自动扫描连接"
-msgstr ""
+msgstr "AT+BLEDISAUTOCON: Cancel auto scan and connect"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1117
 #: 24a0fb0f1ffd4fe1b21b3b0424cea390
 msgid "取消自动扫描连接"
-msgstr ""
+msgstr "Cancel auto scan and connect"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1145
 #: 2ba77cf368a04caab37eb0bf46445149
 msgid "iBeacon指令"
-msgstr ""
+msgstr "iBeacon Commands"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1149
 #: d684fddfb2d74be8ac1b0e360a21f4a9
 msgid "AT+BLEIBCNUUID：查询或者设置蓝牙 iBeacon UUID"
-msgstr ""
+msgstr "AT+BLEIBCNUUID: Query or set Bluetooth iBeacon UUID"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1154
 #: 74c7bdcfb4834b2ba535d5f6b0b7335b
 msgid "查询或者设置蓝牙 iBeacon UUID"
-msgstr ""
+msgstr "Query or set Bluetooth iBeacon UUID"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1158
 #: 1ace196e6a8b467bbd7d5f817111a4f0
 msgid "**查询命令：** 查询蓝牙 iBeacon UUID ::"
-msgstr ""
+msgstr "**Query Command:** Query Bluetooth iBeacon UUID ::"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1171
 #: 7ecee031cdd04222af6b2e184ae111f8
 msgid "**设置命令：** 设置蓝牙 iBeacon UUID(仅允许在蓝牙关闭状态下设置蓝牙 iBeacon UUID) ::"
 msgstr ""
+"**Set Command:** Set Bluetooth iBeacon UUID (only allowed while Bluetooth is"
+" disabled) ::"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1185
 #: 19f41451c953441c81b7d4fcd36a0193
 msgid ""
-"iBeacon：要设置的 UUID：16 字节的服务 ID，字符串长度 32 位 "
-"eg:00112233445566778899aabbccddeeff"
+"iBeacon：要设置的 UUID：16 字节的服务 ID，字符串长度 32 位 eg:00112233445566778899aabbccddeeff"
 msgstr ""
+"iBeacon: UUID to set; 16-byte service ID, 32-character string, e.g.: "
+"00112233445566778899aabbccddeeff"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1199
 #: e7b27225ae24467e95318e9b117cfd6d
 msgid "AT+BLEIBCNDATA：查询或者设置蓝牙 iBeacon data"
-msgstr ""
+msgstr "AT+BLEIBCNDATA: Query or set Bluetooth iBeacon data"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1204
 #: af018bf01d314d6c911ff3dd4f0378ee
 msgid "查询或者设置蓝牙 iBeacon data"
-msgstr ""
+msgstr "Query or set Bluetooth iBeacon data"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1208
 #: 0d5ad42f1e4346c6bc3ce07c8b98264a
 msgid "**查询命令：** 查询蓝牙 iBeacon data ::"
-msgstr ""
+msgstr "**Query Command:** Query Bluetooth iBeacon data ::"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1221
 #: f85fec099cf14e3c80c4cc41226e1f65
 msgid "**设置命令：** 设置蓝牙 iBeacon data(仅允许在蓝牙关闭状态下设置蓝牙 iBeacon UUID) ::"
 msgstr ""
+"**Set Command:** Set Bluetooth iBeacon data (only allowed while Bluetooth is"
+" disabled) ::"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1235
 #: 845c7265fa134989af77f65133867339
 msgid "companyID(2 字节 16 进制数据，eg：11aa)"
-msgstr ""
+msgstr "companyID (2-byte hex data, e.g.: 11aa)"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1236
 #: 065b105d13ce48e190e0e75066407380
 msgid "MAJOR (2 字节 16 进制数据，eg：11aa)"
-msgstr ""
+msgstr "MAJOR (2-byte hex data, e.g.: 11aa)"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1237
 #: db0ad8e764e043bbb015098f40b6fae8
 msgid "MINOR (2 字节 16 进制数据，eg：11aa)"
-msgstr ""
+msgstr "MINOR (2-byte hex data, e.g.: 11aa)"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1238
 #: 4dd36a90dcfe4fa9b66357537ff83540
 msgid "POWER (1 字节 16 进制数据，eg：aa)"
-msgstr ""
+msgstr "POWER (1-byte hex data, e.g.: aa)"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1252
 #: ccfec247fdf94ec2a2b0f6439746c9ad
 msgid "BLE MESH指令"
-msgstr ""
+msgstr "BLE MESH Commands"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1257
 #: 527072f0cad8439fa92508fcca4a4413
 msgid "SIG-MESH指令"
-msgstr ""
+msgstr "SIG-MESH Commands"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1261
 #: 7b88dd19862c4dc0873a2dd179faf8ed
 msgid "AT+PROVISION：蓝牙设置启动配网功能"
-msgstr ""
+msgstr "AT+PROVISION: Enable Bluetooth provisioning"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1266
 #: ffc94d0108c2496d8f7868e207b4fc53
 msgid "设置蓝牙启动配网功能"
-msgstr ""
+msgstr "Enable Bluetooth provisioning"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1284
 #: e9754255f293424aa1e1f19a2501dd60
 msgid ""
-"当节点处于 unProvisioning 状态，即未配网过，此时不发送广播，网关无法扫描到此设备并进行连接，如需连接需使用 "
-"AT+PROVISION 指令使能节点，使得设备能被扫描和连接。当设备处于 Provisioning "
-"状态，即已经与网关配网过了，无需使能节点，节点自动接入已经配网的 mesh 网络中"
+"当节点处于 unProvisioning 状态，即未配网过，此时不发送广播，网关无法扫描到此设备并进行连接，如需连接需使用 AT+PROVISION "
+"指令使能节点，使得设备能被扫描和连接。当设备处于 Provisioning 状态，即已经与网关配网过了，无需使能节点，节点自动接入已经配网的 mesh "
+"网络中"
 msgstr ""
+"When a node is in unProvisioning state (never provisioned), it does not "
+"advertise and the gateway cannot scan or connect to it. Use AT+PROVISION to "
+"enable the node so it can be scanned and connected. When a node is in "
+"Provisioning state (already provisioned with the gateway), no enable step is"
+" needed; the node automatically joins the provisioned mesh network"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1298
 #: b5ea588b705e4823aabfae59cf1cdb59
 msgid "AT+MESHSEND：SIG-MESH 发送数据"
-msgstr ""
+msgstr "AT+MESHSEND: SIG-MESH send data"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1303
 #: aae7e8306595455990af871bbe947176
 msgid "SIG-MESH 发送数据"
-msgstr ""
+msgstr "SIG-MESH send data"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1321
 #: 1bc77a23e87441ae849fc67e425a8030
 msgid "addr：目标的地址"
-msgstr ""
+msgstr "addr: Destination address"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1322
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1439
 #: 7393216a8d54462f81c339de52d18ae9 966408490b9a46a58841f7af6a48aeb5
 msgid "opcode：操作码"
-msgstr ""
+msgstr "opcode: Operation code"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1323
 #: 5785389d58f540fda556b3a96bb45208
 msgid "目前针对我司出售的网关的操作码有如下:"
-msgstr ""
+msgstr "The following opcodes are supported for gateways sold by Ai-Thinker:"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1324
 #: 2e1d4af983ac41368d05204fc089931b
 msgid "1:set 指令，操作码 opcode 为 D18888"
-msgstr ""
+msgstr "1: set command, opcode D18888"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1325
 #: eb1cb2bc8f474979bbf7505bcaa48cca
 msgid "2:get 指令，操作码 opcode 为 D08888"
-msgstr ""
+msgstr "2: get command, opcode D08888"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1326
 #: 33f305522c204083ac7c5055f84c3ceb
 msgid "3:ACK 指令，操作码 opcode 为 D38888"
-msgstr ""
+msgstr "3: ACK command, opcode D38888"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1327
 #: 913457e49e5446889392eec4229d9e58
 msgid "4:删除节点指令 操作码 opcode 为 D28888"
-msgstr ""
+msgstr "4: delete node command, opcode D28888"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1328
 #: eaff9b91452241f2bc1ca034055c7fd0
 msgid "data：数据示例："
-msgstr ""
+msgstr "data: Data example:"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1329
 #: 57a78061b40444e79b9d013b1820945b
@@ -1337,132 +1462,135 @@ msgid ""
 "{\"mesh_data vendor\" : { \"daddr\" : 3 , \"saddr\" : 2 , \"opcode\" : "
 "d38888 , \"data_len\" :2 , \"data\" : 0101(为 hex 字符串) ret : 1 }}"
 msgstr ""
+"{\"mesh_data vendor\" : { \"daddr\" : 3 , \"saddr\" : 2 , \"opcode\" : "
+"d38888 , \"data_len\" :2 , \"data\" : 0101(hex string) ret : 1 }}"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1343
 #: 4e0db93c97be4ef881ee3226a8aa08bc
 msgid "AT+MESHADDR：查询节点地址"
-msgstr ""
+msgstr "AT+MESHADDR: Query node address"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1348
 #: 8fa8b66142244025b1579eaff6792c01
 msgid "查询节点地址"
-msgstr ""
+msgstr "Query node address"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1381
 #: 312540ac96394c90b6cde9fe3f73d24e
 msgid "AT+MESHSTATE：查询是否配网成功"
-msgstr ""
+msgstr "AT+MESHSTATE: Query provisioning status"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1386
 #: 810b697bb84b4da98e22e2af85996443
 msgid "查询是否配网成功"
-msgstr ""
+msgstr "Query provisioning status"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1406
 #: 01aead4b8fe64d6c9ae075a97d72bb18
 msgid "0：失败"
-msgstr ""
+msgstr "0: Failed"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1407
 #: 1061cfdba93d4ee492b3ad59d6557542
 msgid "1：成功"
-msgstr ""
+msgstr "1: Success"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1423
 #: dacbe5433e2d434eb3aa9651c9e40a48
 msgid "ALI-MESH指令"
-msgstr ""
+msgstr "ALI-MESH Commands"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1427
 #: 4631ef49926a42c198cbeb257ca5b3ca
 msgid "aliGenie_data：天猫精灵下发数据"
-msgstr ""
+msgstr "aliGenie_data: Data pushed from Tmall Genie"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1432
 #: bc2c71a60c724668b34bcb6650566048
 msgid "天猫精灵下发数据"
-msgstr ""
+msgstr "Data pushed from Tmall Genie"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1435
 #: 0ae04da655be4b4cb142efd4ec4a9b1a
 msgid "格式"
-msgstr ""
+msgstr "Format"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1436
 #: 3e5f93d6f1444400b768b78ec893fda7
 #, python-format
 msgid ""
-"{ \"aliGenie_data\" : { \"daddr\" : %x , \"saddr\" : %x , \"opcode\" : %x"
-" , \"data_len\" : %d , \"data\" : %s }}//数据格式为 json 字符串"
+"{ \"aliGenie_data\" : { \"daddr\" : %x , \"saddr\" : %x , \"opcode\" : %x , "
+"\"data_len\" : %d , \"data\" : %s }}//数据格式为 json 字符串"
 msgstr ""
+"{ \"aliGenie_data\" : { \"daddr\" : %x , \"saddr\" : %x , \"opcode\" : %x , "
+"\"data_len\" : %d , \"data\" : %s }}//Data format is JSON string"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1437
 #: 1c171ee9f13840259ce9cd24f704cca9
 msgid "daddr：目标地址"
-msgstr ""
+msgstr "daddr: Destination address"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1438
 #: 38bf6caf126a48be9dd04c9cefa43074
 msgid "saddr：源地址"
-msgstr ""
+msgstr "saddr: Source address"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1440
 #: f499821311a34d278fc65b0ca9f11718
 msgid "data_len：数据长度"
-msgstr ""
+msgstr "data_len: Data length"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1441
 #: f2da9ac0a51b4ee398c5803f28962da9
 msgid "data：数据内容"
-msgstr ""
+msgstr "data: Data content"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1446
 #: fc0390868df14d9d8bac56099a2e66b9
 msgid "AT+AliGenie：设置天猫精灵三元组"
-msgstr ""
+msgstr "AT+AliGenie: Set Tmall Genie triplet"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1451
 #: 700f672e750b4eba852c50e8b7f4a827
 msgid "设置天猫精灵三元组"
-msgstr ""
+msgstr "Set Tmall Genie triplet"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1469
 #: 4cd4f085372e47dd896de164f2110cca
 msgid "pid：三元组产品 ID(8 位)"
-msgstr ""
+msgstr "pid: Triplet product ID (8 digits)"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1470
 #: 5feea94ddfee4d2c86d4efb3dd0f61fe
 msgid "mac：三元组物理地址(12 位)"
-msgstr ""
+msgstr "mac: Triplet physical address (12 digits)"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1471
 #: 67d9e416b3614ae896ff352405732f13
 msgid "secret：三元组密钥（32 位）"
-msgstr ""
+msgstr "secret: Triplet secret key (32 digits)"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1472
 #: 4a784e885a5e4524a692db80d4e81ffa
 msgid "注意：全部为 16 进制字符串"
-msgstr ""
+msgstr "Note: All values are hexadecimal strings"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1477
 #: c827a3716b0f48e098efeb2b290cbcc4
 msgid "AT+SEND2ALI：向天猫精灵平台上报数据"
-msgstr ""
+msgstr "AT+SEND2ALI: Report data to Tmall Genie platform"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1482
 #: 420372d422ac4a34ace79169cf08cfe3
 msgid "向天猫精灵平台上报数据"
-msgstr ""
+msgstr "Report data to Tmall Genie platform"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1500
 #: 72d936998948415ab8ec179994c4b7e4
 msgid "opcode：操作码，长度 6 位/4 位"
-msgstr ""
+msgstr "opcode: Operation code, length 6 or 4 digits"
 
 #: ../../source/docs/command-set/BLE_AT_Commands.rst:1501
 #: ad42c0af2e9a4a509b40ed18826484e5
 msgid "param：上报参数，长度最多 20 位"
-msgstr ""
-
+msgstr "param: Report parameter, max length 20 digits"

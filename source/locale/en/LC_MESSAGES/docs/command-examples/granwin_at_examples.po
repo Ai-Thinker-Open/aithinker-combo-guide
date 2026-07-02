@@ -3,13 +3,12 @@
 # This file is distributed under the same license as the 安信可科技 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: 安信可科技 \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-01 23:52+0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2026-07-02 00:00+0800\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
 "Language-Team: en <LL@li.org>\n"
@@ -22,42 +21,42 @@ msgstr ""
 #: ../../source/docs/command-examples/granwin_at_examples.rst:2
 #: 2ee892379bcc4adabb6af99238fc4980
 msgid "云平台对接示例"
-msgstr ""
+msgstr "Cloud Platform Integration Examples"
 
 #: ../../source/docs/command-examples/granwin_at_examples.rst:4
 #: 9a9255cd19cd43de891dc6961624b744
 msgid "本文档介绍使用Combo-AT命令对接广云物联平台。"
-msgstr ""
+msgstr "This document describes integrating with the Guangyun IoT platform using Combo-AT commands."
 
 #: ../../source/docs/command-examples/granwin_at_examples.rst:12
 #: f2ba94c53e4e4e7a9e0ab8be86e50bd3
 msgid "此示例针对不同的模组会有所不同的适配，具体差异请移步查询您手上的模组指令支持情况：:doc:`../instruction/other/firmware_differences`。"
-msgstr ""
+msgstr "These examples may vary depending on the module. Refer to :doc:`../instruction/other/firmware_differences` for command support on your module."
 
 #: ../../source/docs/command-examples/granwin_at_examples.rst:17
 #: 2e45aae76dfd429182d647f3155a1f69
 msgid "指令流程"
-msgstr ""
+msgstr "Command Flow"
 
 #: ../../source/docs/command-examples/granwin_at_examples.rst:19
 #: 6198c39ba5a34fb28228257a475904ae
 msgid "guangyun_AT_process"
-msgstr ""
+msgstr "guangyun_AT_process"
 
 #: ../../source/docs/command-examples/granwin_at_examples.rst:26
 #: 1c6bd7f2772a45bbba7e10742d1386a1
 msgid "广云APP WIFI配网"
-msgstr ""
+msgstr "Guangyun App Wi-Fi Provisioning"
 
 #: ../../source/docs/command-examples/granwin_at_examples.rst:28
 #: 26cbeb9fdb654d1fb5a6b9b3f3b0099c
 msgid "**BLE配网：**"
-msgstr ""
+msgstr "**BLE Provisioning:**"
 
 #: ../../source/docs/command-examples/granwin_at_examples.rst:30
 #: c4b84fa86c3c46a59f320aba2caa9359
 msgid "配置配网的蓝牙名称及PID, APP默认带名称过滤，名称需包含granwin字段"
-msgstr ""
+msgstr "Configure the Bluetooth name and PID for provisioning. The app filters by name by default; the name must contain the granwin field."
 
 #: ../../source/docs/command-examples/granwin_at_examples.rst:32
 #: ../../source/docs/command-examples/granwin_at_examples.rst:46
@@ -66,7 +65,7 @@ msgstr ""
 #: 6889bda1ea2947db9ffaa4563cac41d8 72e8c13dd03f489e944b448ac6d8fbf8
 #: 896ac8ed2d9a4cc6a88257caafe9ee11 dce1d4e4557047348abff56eb395b7f9
 msgid "命令："
-msgstr ""
+msgstr "Command:"
 
 #: ../../source/docs/command-examples/granwin_at_examples.rst:38
 #: ../../source/docs/command-examples/granwin_at_examples.rst:52
@@ -84,89 +83,81 @@ msgstr ""
 #: 94763e4d032547628e076aa7be53fa90 e915b7ab760545a5bd0eb4fc074c2aa1
 #: f03abbf410e548669bc1b71a371261c0 f0b4c00390204fa6b42b28ef373dadce
 msgid "响应"
-msgstr ""
+msgstr "Response"
 
 #: ../../source/docs/command-examples/granwin_at_examples.rst:44
 #: 2942e01392714d0e86566765749784b0
 msgid "启动配网，只支持BLE 配网"
-msgstr ""
+msgstr "Start provisioning (BLE provisioning only)"
 
 #: ../../source/docs/command-examples/granwin_at_examples.rst:72
 #: 7f8843a2fb544b9e848bcb974d6e5f30
 msgid "连接平台相关"
-msgstr ""
-
-#: ../../source/docs/command-examples/granwin_at_examples.rst:75
-#: 43d1e7ab3fc546419fe746a4a32afeba
-msgid ""
-"连接云平台直线需要提前在广云天匠平台创建产品，创建时可获取 "
-"“productKey”，其他连接参数，需要向广云天匠工作人员提供授权参数后，才能获得“clientID”、“Secret”和\"厂商PID\"。"
-msgstr ""
+msgstr "Platform Connection"
 
 #: ../../source/docs/command-examples/granwin_at_examples.rst:77
 #: dbd300bf5301427382aed66667de0c2a
 msgid "配置连接参数"
-msgstr ""
+msgstr "Configure connection parameters"
 
 #: ../../source/docs/command-examples/granwin_at_examples.rst:91
 #: 616949822e1b40a4b69812a6b1ba9acc
 msgid "证书请求"
-msgstr ""
+msgstr "Certificate request"
 
 #: ../../source/docs/command-examples/granwin_at_examples.rst:111
 #: 7a80405389ea41a39b6ee65371b3fe83
 msgid "连接平台与断开连接"
-msgstr ""
+msgstr "Connect to and disconnect from the platform"
 
 #: ../../source/docs/command-examples/granwin_at_examples.rst:113
 #: bb49e3fc905e4417a8958627295c29c6
 msgid "连接平台命令："
-msgstr ""
+msgstr "Connect to platform command:"
 
 #: ../../source/docs/command-examples/granwin_at_examples.rst:126
 #: dac1c32b54964cfab0d19f093bd6631f
 msgid "断开连接命令："
-msgstr ""
+msgstr "Disconnect command:"
 
 #: ../../source/docs/command-examples/granwin_at_examples.rst:140
 #: ../../source/docs/command-examples/granwin_at_examples.rst:141
 #: 8af621e621744880bae8e394f7d714dd c7edc9bf6c5d40638e7eace83a6589e5
 msgid "发布信息"
-msgstr ""
+msgstr "Publish messages"
 
 #: ../../source/docs/command-examples/granwin_at_examples.rst:143
 #: acb4d468ec72400ca99e052c71ef8f20
 msgid "发布更新命令："
-msgstr ""
+msgstr "Publish update command:"
 
 #: ../../source/docs/command-examples/granwin_at_examples.rst:156
 #: 67f4d2d9e2de4b97bb8664651d714974
 msgid "响应查询命令："
-msgstr ""
+msgstr "Publish query response command:"
 
 #: ../../source/docs/command-examples/granwin_at_examples.rst:169
 #: ad8becb987524071b7d950f71fb9284e
 msgid "发布版本号命令："
-msgstr ""
+msgstr "Publish version number command:"
 
 #: ../../source/docs/command-examples/granwin_at_examples.rst:183
 #: ff95ed89dbbd43bfaa83605afd722b8d
 msgid "接收数据"
-msgstr ""
+msgstr "Receive data"
 
 #: ../../source/docs/command-examples/granwin_at_examples.rst:184
 #: f27b25a5b52146a9b112f29f9091a64e
 msgid "完成连接后已经自动订阅和相关Topic，平台下发的数据会通过直接返回。"
-msgstr ""
+msgstr "After connecting, relevant topics are subscribed automatically; data from the platform is returned directly."
 
 #: ../../source/docs/command-examples/granwin_at_examples.rst:196
 #: 39131f212f304ad798b8be4ad57268f2
 msgid "指令完整演示"
-msgstr ""
+msgstr "Complete Command Demo"
 
 #: ../../source/docs/command-examples/granwin_at_examples.rst:200
 #: ../../source/docs/command-examples/granwin_at_examples.rst:206
 #: 137fcad1f8cf4316a5e812bd2788de53 879cd6feb76f441994cd0008f87bcf10
 msgid "guangyun_AT_operation"
-msgstr ""
-
+msgstr "guangyun_AT_operation"

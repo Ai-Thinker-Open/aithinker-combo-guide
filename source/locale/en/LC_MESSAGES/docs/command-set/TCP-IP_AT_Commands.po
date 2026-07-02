@@ -3,91 +3,105 @@
 # This file is distributed under the same license as the 安信可科技 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: 安信可科技 \n"
+"Project-Id-Version: 安信可科技\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-01 23:52+0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2026-07-02 00:00+0800\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: en\n"
 "Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.16.0\n"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:2
 #: 31da5ad11d1f457e8413d3e85a45dfd0
 msgid "TCP/IP AT 命令集"
-msgstr ""
+msgstr "TCP/IP AT Command Set"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:4
 #: bdf9c70a0dd04bfdaf7a4a5929141b98
-msgid "本章节介绍驱动TCP/IP指令集，此指令集针对不同的模组会有所不同的适配，具体差异请移步：:doc:`../instruction/other/firmware_differences`。"
+msgid ""
+"本章节介绍驱动TCP/IP指令集，此指令集针对不同的模组会有所不同的适配，具体差异请移步：:doc:`../instruction/other/firmware_differences`。"
 msgstr ""
+"This chapter introduces the TCP/IP AT command set. Adaptations may vary "
+"across different modules. For details, see "
+":doc:`../instruction/other/firmware_differences`."
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:6
 #: 328ea9992b5847c7bc509c9ea3bc8e15
 msgid ":ref:`AT+SOCKET <cmd-SOCKET>`： 创建Socket连接"
-msgstr ""
+msgstr ":ref:`AT+SOCKET <cmd-SOCKET>`: Create socket connection"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:7
 #: b9c8c23a0e2a426e95f8428b2a7609b2
 msgid ":ref:`AT+SOCKETSEND <cmd-SOCKETSEND>`：通过 socket 发送数据(长数据模式)"
 msgstr ""
+":ref:`AT+SOCKETSEND <cmd-SOCKETSEND>`: Send data via socket (long data mode)"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:8
 #: e3cc7c3f04b44e97b745fccbdbad994e
 msgid ":ref:`AT+SOCKETSENDLINE <cmd-SOCKETSENDLINE>`：通过 socket 发送数据(单行模式)"
 msgstr ""
+":ref:`AT+SOCKETSENDLINE <cmd-SOCKETSENDLINE>`: Send data via socket (single-"
+"line mode)"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:9
 #: 8cf66be238cc4edd9fbe051d17beb9de
 msgid ":ref:`AT+SOCKETREAD <cmd-SOCKETREAD>`：从 socket 读取数据"
-msgstr ""
+msgstr ":ref:`AT+SOCKETREAD <cmd-SOCKETREAD>`: Read data from socket"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:10
 #: 469aecee29544e2981678fc2b59ba827
 msgid ":ref:`AT+SOCKETDEL <cmd-SOCKETDEL>`：删除指定 socket 连接"
 msgstr ""
+":ref:`AT+SOCKETDEL <cmd-SOCKETDEL>`: Delete specified socket connection"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:11
 #: 56636958039746399cb9ad90a0e12872
 msgid ":ref:`AT+SOCKETRECVCFG <cmd-SOCKETRECVCFG>`：设置 socket 接收模式"
-msgstr ""
+msgstr ":ref:`AT+SOCKETRECVCFG <cmd-SOCKETRECVCFG>`: Set socket receive mode"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:12
 #: fb68052ff9eb45c9840d7e03d7a47917
 msgid ":ref:`AT+SOCKETTT <cmd-SOCKETTT>`：进入 socket 透传模式"
 msgstr ""
+":ref:`AT+SOCKETTT <cmd-SOCKETTT>`: Enter socket transparent transmission "
+"mode"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:13
 #: d6d58168192245b98899fa63908e4e4c
 msgid ":ref:`AT+SOCKETAUTOTT <cmd-SOCKETAUTOTT>`： 自动进入 socket 透传配置"
 msgstr ""
+":ref:`AT+SOCKETAUTOTT <cmd-SOCKETAUTOTT>`: Auto-enter socket transparent "
+"transmission configuration"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:14
 #: d6a0241badd2487b9e3debf799b0160f
 msgid ":ref:`AT+SSLCRET <cmd-SSLCRET>`： AT+SSLCRET 查询和设置SSL证书"
 msgstr ""
+":ref:`AT+SSLCRET <cmd-SSLCRET>`: AT+SSLCRET query and set SSL certificate"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:15
 #: c39275248c1d4a04809cf017a47d04ab
 msgid ":ref:`AT+WDOMAIN <cmd-WDOMAIN>`： 通过DNS解析查询域名的IP地址"
 msgstr ""
+":ref:`AT+WDOMAIN <cmd-WDOMAIN>`: Query IP address of a domain via DNS "
+"resolution"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:16
 #: 7bcd541c7e9e4cc89c55bf42899757c3
 msgid ":ref:`AT+WDNS <cmd-WDNS>`： 查询/设置DNS解析服务器"
-msgstr ""
+msgstr ":ref:`AT+WDNS <cmd-WDNS>`: Query/set DNS resolution servers"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:21
 #: c69e5f36e43a4da78893c840d170e1bb
 msgid "AT+SOCKET 创建 socket 连接"
-msgstr ""
+msgstr "AT+SOCKET create socket connection"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:24
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:141
@@ -108,7 +122,7 @@ msgstr ""
 #: ccd48cbefb2749e883db7d784320eaad cec05cefcf7e437688a663929d8062ee
 #: e7ef4d8ce58849cfb30bf262bc668e77 e90c3774aef74cf6aeb5473830775150
 msgid "执行命令"
-msgstr ""
+msgstr "Execute Command"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:26
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:84
@@ -134,7 +148,7 @@ msgstr ""
 #: ae353a12af9046cfb4375e09568b1395 c17c8a95035649dc9424df62da71effa
 #: fb28caec046f4f24b5b5cbe975ee6736
 msgid "**命令：**"
-msgstr ""
+msgstr "**Command:**"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:32
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:90
@@ -160,7 +174,7 @@ msgstr ""
 #: d2c66550baf04236ac5bd63042085f9c d7be53e3110d4953bec3ea0cc1ba6971
 #: e9697be85a944549927dac22df4495c5
 msgid "**响应：**"
-msgstr ""
+msgstr "**Response:**"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:39
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:98
@@ -181,59 +195,63 @@ msgstr ""
 #: b1f585002c1f440a838bd4ea1099cff8 cb72e53214ea40478b67c617cd50f5f6
 #: e1431254e50f4529becab3d0ed35d4a5 ed447031a0a740bc90e7a13a53b09869
 msgid "参数"
-msgstr ""
+msgstr "Parameters"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:41
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:100
 #: 4c736bf66a5c4bd3accc03897804f8ac e9d65e7a542b4c21b3541705cd061104
 msgid "**<type>**：socket 类型。"
-msgstr ""
+msgstr "**<type>**: Socket type."
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:42
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:101
 #: 7a3604aaeb064e7a9f861c9d76a8acc1 84797313b3c246bf8767ccf532cdca13
 msgid "1：UDPServer"
-msgstr ""
+msgstr "1: UDPServer"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:43
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:102
 #: 34fb14406c3c49358373d00757044341 3aca2817ca944ae5ab2bccd3da6ce910
 msgid "2：UDPClient"
-msgstr ""
+msgstr "2: UDPClient"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:44
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:103
 #: 6752ebf8cbbe47fdad0700912a76447d fe5c706cd9844299b79f65205c77b0c9
 msgid "3：TCPServer"
-msgstr ""
+msgstr "3: TCPServer"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:45
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:104
 #: f8ba826686c641df8cc1d62e7189cc8f fc06239d2f184f709a8981103d7100c5
 msgid "4：TCPClient"
-msgstr ""
+msgstr "4: TCPClient"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:46
 #: 72d8ddc0fb644d3b87b9448b8c6d8146
 msgid "5：TCPSeed(占位类型，不可用，这个类型是在客户端连接的模组 tcp server 时产生的，无法主动创建)"
 msgstr ""
+"5: TCPSeed (placeholder type, not available; created when a client connects "
+"to the module's TCP server; cannot be created actively)"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:47
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:106
 #: 2b9d3a41c6ec456ea3175e9123435b0f be2809cfaf3b4864840ea3322a55176b
 msgid "6：SSLServer"
-msgstr ""
+msgstr "6: SSLServer"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:48
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:107
 #: 27596473c9b94c978ddb58d47cce0267 9e47a1807fdc43cd8022ba0125e70b96
 msgid "7：SSLClient"
-msgstr ""
+msgstr "7: SSLClient"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:49
 #: 9fa9a99a3c3344a3aafef4e98904809b
 msgid "8：SSLSeed(占位类型，不可用，这个类型是在客户端连接的模组 ssl server 时产生的，无法主动创建)"
 msgstr ""
+"8: SSLSeed (placeholder type, not available; created when a client connects "
+"to the module's SSL server; cannot be created actively)"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:50
 #: c0530a1e9a664ee49826ee5eb04b0f27
@@ -241,32 +259,39 @@ msgid ""
 "**<remote host>**：当 type 为客户端的时候此参数为必选，表示需要连接的服务器的域名或者 IP，server "
 "的时候不用设置(直接跳过，eg：AT+SOCKET=3,10086)"
 msgstr ""
+"**<remote host>**: Required when type is client; server domain name or IP to"
+" connect to. Not needed for server (skip directly, e.g. AT+SOCKET=3,10086)"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:51
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:477
 #: 43aa1f2b1a7a465faf34f32f78527e4a 77eab994739242d58c638383fe6e743a
-msgid "**<port>**：当 type 为客户端的时候表示要连接的服务器的端口号，type 为服务端的时候表示本地 server 需要监听的端口号"
+msgid ""
+"**<port>**：当 type 为客户端的时候表示要连接的服务器的端口号，type 为服务端的时候表示本地 server 需要监听的端口号"
 msgstr ""
+"**<port>**: When type is client, the server port to connect to; when type is"
+" server, the local port to listen on"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:52
 #: aa6ee6565a87418db432a87c03e5b7d8
 msgid "**<keep alive>**：TCP keep-alive 间隔"
-msgstr ""
+msgstr "**<keep alive>**: TCP keep-alive interval"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:53
 #: 996a596089fc4f64bdac563e184c694f
 msgid "0 表示禁用"
-msgstr ""
+msgstr "0: disabled"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:54
 #: 28cf2ddd57c54c368b5c1c09d7b660a3
 msgid "1~7200 表示检测间隔，单位：秒(预留功能，暂时没有实现)"
 msgstr ""
+"1~7200: detection interval in seconds (reserved feature, not yet "
+"implemented)"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:55
 #: a1ddc7a445ef4df5879fd334e59418d2
 msgid "**<conID>**：指定新连接的 ConID"
-msgstr ""
+msgstr "**<conID>**: Specify ConID for the new connection"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:58
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:120
@@ -287,12 +312,12 @@ msgstr ""
 #: 9ede276b0df445d4885749b0011c672d b7aa79218b1e48d183ca988fb48629b7
 #: c74982f66acd4bd28bf0b10379dd8bff ccd0d672a9ae45fe8c534bc1f9259943
 msgid "说明"
-msgstr ""
+msgstr "Description"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:60
 #: 6a19bd6e4745419d80f238d8492c7ad7
 msgid "创建Socket, 并发起连接。"
-msgstr ""
+msgstr "Create a socket and initiate a connection."
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:64
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:125
@@ -318,7 +343,7 @@ msgstr ""
 #: aeca5769498a42e9b367ed6e0c85cf17 b5a26b4d429b4e21ad7d51bc759e8869
 #: f6e121431bec434f862f7da4cb99940e
 msgid "示例"
-msgstr ""
+msgstr "Example"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:82
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:498
@@ -326,58 +351,66 @@ msgstr ""
 #: 1a73da748c90408e8fb4cb7725ece347 475c2e2474ac404099f76d35894de5ef
 #: 52120f6395554d9988174cf4867937a8
 msgid "查询命令"
-msgstr ""
+msgstr "Query Command"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:105
 #: 16716304ec954b73a37b4c77ea0dbe78
 msgid "5：TCPSeed(本地创建的 TCPServer，有其他用户用 tcpclient 连接上后就会产生一个 TCPSeed)"
 msgstr ""
+"5: TCPSeed (locally created TCPServer; a TCPSeed is created when another "
+"user connects with TCPClient)"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:108
 #: 2c1d2b2542ba4f1fa2bbd886b5e2b3bd
 msgid "8：SSLSeed(有客户端连接模组的 ssl server 时产生时会创建一个 SSLSeed)"
 msgstr ""
+"8: SSLSeed (created when a client connects to the module's SSL server)"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:109
 #: 04ea87b027104ed5a764411b05f239b8
 msgid "**<Status>**：连接状态。"
-msgstr ""
+msgstr "**<Status>**: Connection status."
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:110
 #: 606e94dd0cb64d3aa09fd730490f4fd9
 msgid "1：Connected"
-msgstr ""
+msgstr "1: Connected"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:111
 #: 4b651632484445f893cd88415436a1fe
 msgid "2：Disconnect"
-msgstr ""
+msgstr "2: Disconnect"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:112
 #: 679c4415b7844f4ca25d695162ca1621
 msgid "3：Connecting"
-msgstr ""
+msgstr "3: Connecting"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:113
 #: 95c271088ecf4a9fa710bb39d48edc59
 msgid "4：ConnectFail"
-msgstr ""
+msgstr "4: ConnectFail"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:114
 #: 3f09d6c820d04651bdfe0c9be0c798ce
 msgid "**<remote host>**：client 模式连接的远程地址，server 模式暂未设置"
 msgstr ""
+"**<remote host>**: Remote address in client mode; not set in server mode"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:115
 #: 2f93e096dae145bfa2ce529b0f37462f
 msgid "**<remote port>**：client 模式连接的远程端口，server 模式暂未设置，显示默认值-1"
 msgstr ""
+"**<remote port>**: Remote port in client mode; not set in server mode, "
+"displays default -1"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:116
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:528
 #: 326c9d2e62ec4b968feb7e4f0b4a8eb4 f10c9d1652de4e23b1ae3087d31c43f3
 msgid "**<local port>**：server 模式显示的是本地监听端口，client 模式暂未设置，显示默认值-1"
 msgstr ""
+"**<local port>**: Local listening port in server mode; not set in client "
+"mode, displays default -1"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:117
 #: f9bb6e0126ed47eda8dd42c92b5b6473
@@ -385,22 +418,25 @@ msgid ""
 "**<server ConID>**：type 为 TCPSeed 的时候这个表示该连接是从哪个 tcp server 创建的，其它 type "
 "默认是-1"
 msgstr ""
+"**<server ConID>**: When type is TCPSeed, indicates which TCP server created"
+" this connection; -1 for other types"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:122
 #: a25dfb8c717f473e90d7887bbe3b0c86
 msgid "注意："
-msgstr ""
+msgstr "Note:"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:138
 #: 11ac2ccdf07a45ff827ed063a48f85c0
 msgid "AT+SOCKETSEND 通过 socket 发送数据(长数据模式)"
-msgstr ""
+msgstr "AT+SOCKETSEND send data via socket (long data mode)"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:158
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:202
 #: ba6ecc33a46f4c22bc22421179fb9515 cf5334961e9c476ca33add9d4f2e4b0e
 msgid "**<ConID>**：创建 SOCKET 连接后获取到的连接 ID"
 msgstr ""
+"**<ConID>**: Connection ID obtained after creating a SOCKET connection"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:159
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:203
@@ -409,11 +445,14 @@ msgid ""
 "注意：TCPServer 的连接无法发送，只能给客户端连接到 TCPServer 后创建的 seed 才能发送数据；UDP server "
 "必须先收到客户端数据才可以发送，发送对象为第一次收到数据的对象"
 msgstr ""
+"Note: TCPServer connections cannot send data; only seeds created after a "
+"client connects to TCPServer can send. UDP server must receive client data "
+"first; the send target is the first received client"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:160
 #: 4ea96fdea94b4d7bb04d00cd5f03f471
 msgid "**<length>**：要发送的数据长度"
-msgstr ""
+msgstr "**<length>**: Length of data to send"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:161
 #: 1cb4a0cf211a4c2f9cfcef0bd7d3640c
@@ -421,6 +460,9 @@ msgid ""
 "指令执行完毕后会显示一个”>”收到此符号后可以开始输入要发送的数据(可以输入任意 HEX 数据，不限字符串)，当接收到 length "
 "个数据后开始发送数据。"
 msgstr ""
+"After the command completes, a \">\" is displayed. After receiving this "
+"symbol, start entering data to send (any HEX data allowed, not limited to "
+"strings). Data transmission starts after length bytes are received."
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:167
 #: fe02cb9131f54752b476371222b9813d
@@ -429,21 +471,27 @@ msgid ""
 " 个字节的数据后就会停止接收，开始发送(如果长度超过单包最大长度数据就会分包，默认超过 1024 "
 "字节后会对数据进行分包)特点：该模式可以发送任意长度数据(超长会被分包)，并且可以接收任意字符"
 msgstr ""
+"Send data to the specified connection. After the command completes, a \">\" "
+"appears on the second line. After this symbol appears, data input can begin "
+"(any data allowed). After length bytes are received, reception stops and "
+"transmission starts (if length exceeds the maximum packet size, data is "
+"split; default split threshold is 1024 bytes). Feature: this mode supports "
+"arbitrary-length data (long data is split) and accepts any characters."
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:182
 #: 3ca3a7721c5b47bda1c51e8eb30677bd
 msgid "AT+SOCKETSENDLINE 通过 socket 发送数据(单行模式)"
-msgstr ""
+msgstr "AT+SOCKETSENDLINE send data via socket (single-line mode)"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:204
 #: 1ece0107fdda4bb792476d8e47ab9f80
 msgid "**<length>**：要发送的数据长度。"
-msgstr ""
+msgstr "**<length>**: Length of data to send."
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:205
 #: 2960d8650aae4261bcbfb0482f8d0fdd
 msgid "**<data>**：数据内容"
-msgstr ""
+msgstr "**<data>**: Data content"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:211
 #: 9844e437add945e1a2c6a70714a3ee92
@@ -451,16 +499,21 @@ msgid ""
 "向指定连接发送数据特点：该模式使用较为简单，但是长度受限(一条 AT "
 "指令的最大长度有限)，如果有特殊字符需要将整个参数用双引号括起来，如果参数中有双引号需要加转义字符。"
 msgstr ""
+"Send data to the specified connection. Feature: simpler to use but length-"
+"limited (maximum AT command length). Wrap the entire parameter in double "
+"quotes if it contains special characters; escape double quotes within the "
+"parameter."
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:225
 #: 24f2e26fe2184418bac5bd165df13d66
 msgid "AT+SOCKETREAD 从 socket 读取数据"
-msgstr ""
+msgstr "AT+SOCKETREAD read data from socket"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:246
 #: f04536e90b48424c9dd865d55735ca43
 msgid "**<ConID>**：ConID：创建 SOCKET 连接后获取到的连接 ID"
 msgstr ""
+"**<ConID>**: Connection ID obtained after creating a SOCKET connection"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:247
 #: 01bfff9167e94baa8b73a334a6c921d9
@@ -468,21 +521,26 @@ msgid ""
 "注意 TCPServer 的连接无法收发数据，只能给客户端连接到 TCPServer 后创建的 seed 才能收发送数据；UDP Client "
 "需要先发送一次数据之后 server 端获取到本地的端口才可以向该 upd client 发送数据。"
 msgstr ""
+"Note: TCPServer connections cannot send/receive data; only seeds created "
+"after a client connects to TCPServer can. UDP Client must send data once so "
+"the server learns the local port before sending to that UDP client."
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:252
 #: abc660cbb83e41aea83aac372b7566d6
 msgid "从指定连接读取数据。注意：读取的时候是按包读取的，一次读取一包数据"
 msgstr ""
+"Read data from the specified connection. Note: reads are packet-based; one "
+"packet per read."
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:269
 #: 9d5c5e738d3d488d9c980cfd00664e8f
 msgid "AT+SOCKETDEL 删除指定 socket 连接"
-msgstr ""
+msgstr "AT+SOCKETDEL delete specified socket connection"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:290
 #: 6f7c49eacb754ec8bff2a52cb48cfa88
 msgid "**<ConID>**：要删除的连接 ID。"
-msgstr ""
+msgstr "**<ConID>**: Connection ID to delete."
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:296
 #: e31db89596244c8985f2e22065bcb402
@@ -490,21 +548,26 @@ msgid ""
 "删除指定 socket 连接。 注意：seed 因为是客户端发起的，server 无法重连，所以 seed "
 "断开后需要手动删除连接(删除连接后接收到的数据也会被清空)"
 msgstr ""
+"Delete the specified socket connection. Note: seeds are client-initiated and"
+" the server cannot reconnect, so manually delete the connection after a seed"
+" disconnects (received data is also cleared)."
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:312
 #: f6a4de48e0a24728bb46497c47792aad
 msgid "AT+SOCKETRECVCFG 设置 socket 接收模式"
-msgstr ""
+msgstr "AT+SOCKETRECVCFG set socket receive mode"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:333
 #: c1718c062fea4663b10d0cb558586122
 msgid "**<mode>**："
-msgstr ""
+msgstr "**<mode>**:"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:335
 #: 9cd987d415fe4e4ab776bb615ad6ad0e
 msgid "0：被动模式(默认)，该模式下收到数据后打印只提示+EVENT:SocketDown,<ConID>,<length> 不打印数据内容"
 msgstr ""
+"0: Passive mode (default); on data receipt, only prints "
+"+EVENT:SocketDown,<ConID>,<length> without data content"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:336
 #: 53b7e6782fd848d99f2b50cca7e795e5
@@ -512,36 +575,44 @@ msgid ""
 "1：主动模式，该模式下收到 socket "
 "数据直接将收到的数据以如下格式打印+EVENT:SocketDown,<ConID>,<length>,<date>"
 msgstr ""
+"1: Active mode; received socket data is printed directly as "
+"+EVENT:SocketDown,<ConID>,<length>,<date>"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:342
 #: 220301e270be4461b676522ae5cd76a0
 msgid "设置 socket 接收数据的打印模"
-msgstr ""
+msgstr "Set the print mode for received socket data"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:358
 #: 6133758e3fa2415aaa88621b78697927
 msgid "AT+SOCKETTT 进入 socket 透传模式"
-msgstr ""
+msgstr "AT+SOCKETTT enter socket transparent transmission mode"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:380
 #: 372c143ad67a48eb80f5d76f272d0738
 msgid "进入透传模式必须满足以下任意一个条件"
 msgstr ""
+"Transparent transmission mode requires one of the following conditions"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:381
 #: 8f7eb9e8ab084cacb601810bdea68be6
 msgid "当前仅有一个 client 连接(通过 client 透传)"
 msgstr ""
+"Only one client connection exists (transparent transmission via client)"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:382
 #: 5a3223e331ef43f7871c87abd95af8b1
-msgid "仅有一个 server 和一个 seed 连接(可以通过客户端连接模组 server 后产生的seed 透传，该模式必须手动进入，无法自动进入)"
+msgid ""
+"仅有一个 server 和一个 seed 连接(可以通过客户端连接模组 server 后产生的seed 透传，该模式必须手动进入，无法自动进入)"
 msgstr ""
+"Only one server and one seed connection exist (transparent transmission via "
+"seed created when client connects to module server; must be entered "
+"manually, cannot auto-enter)"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:383
 #: 1efb74a4c1384b51ad5ab8921d43500d
 msgid "仅有一个 UDPClient"
-msgstr ""
+msgstr "Only one UDPClient exists"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:384
 #: 6861b59803cb4e5eb322730251541a4f
@@ -549,96 +620,107 @@ msgid ""
 "仅有一个 UDPServer(注意，透传模式不建议使用 UDP server，默认透传对象是第一个连接的 client "
 "端，如果有其他连接向模组发起了通信可能导致后续透传对象出错)"
 msgstr ""
+"Only one UDPServer exists (Note: UDP server transparent transmission is not "
+"recommended; default target is the first connected client; other connections"
+" may cause incorrect transparent transmission targets)"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:385
 #: 107c8093ccc149b29a11b009b7117d7f
 msgid "输入+++后可以退出透传模式，进入 AT 指令模式"
 msgstr ""
+"Enter +++ to exit transparent transmission mode and enter AT command mode"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:422
 #: 4466b9a3411d4efab2db3e3a1029c540
 msgid "**<UDPServerTTMode>**：UDP server 透传模式"
-msgstr ""
+msgstr "**<UDPServerTTMode>**: UDP server transparent transmission mode"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:424
 #: 5565dabb200f4e3db32cba3706610a6f
 msgid "0：透传对象固定为第一次通讯的客户端，后续有其他客户端通信也不会改变通信对象"
 msgstr ""
+"0: Transparent transmission target is fixed to the first communicating "
+"client; subsequent clients do not change the target"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:425
 #: e4e8a90c488d488ab3c6e49360664ca8
 msgid "2：透传对象会动态修改为最后一次通信的客户端"
 msgstr ""
+"2: Transparent transmission target dynamically changes to the last "
+"communicating client"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:431
 #: 619e91e28286430e98e38c925882a726
 msgid "进入 SOCKET 透传模式。 注意：UDP server 默认的透传对象是第一次通信的 client 客户端"
 msgstr ""
+"Enter SOCKET transparent transmission mode. Note: UDP server default target "
+"is the first communicating client."
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:445
 #: 379fa825d155486387cd768fc3a56899
 msgid "AT+SOCKETAUTOTT 自动进入 socket 透传配置"
 msgstr ""
+"AT+SOCKETAUTOTT auto-enter socket transparent transmission configuration"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:466
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:516
 #: aaf222b039bf49a8b41384790b079a1b fa69714d412f4ddeab79c9d784f58026
 msgid "**<type>**：socket 类型"
-msgstr ""
+msgstr "**<type>**: Socket type"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:467
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:517
 #: 2ce191629b4f4bd4a4829ab21e9c55c6 8605983d0151419d992af6a9daa22113
 msgid "0：禁用自动进入透传模式"
-msgstr ""
+msgstr "0: Disable auto-enter transparent transmission mode"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:468
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:518
 #: 474fd9d3832c4d249dfdfdeb9919fc91 b5d7a110de6e4e199c9a0dcec69bc959
 msgid "1：自动进入 UDPServer 透传模式"
-msgstr ""
+msgstr "1: Auto-enter UDPServer transparent transmission mode"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:469
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:519
 #: 132ac8bed32446598d3d5bd3c8172486 e44d3ad8bde64b17b1cc6f3c9efbe055
 msgid "2：自动进入 UDPClient 透传模式"
-msgstr ""
+msgstr "2: Auto-enter UDPClient transparent transmission mode"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:470
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:520
 #: 3227bfc65aef4e788253ff41c18cb404 b405fcf5a0ae44bbaf300c56a343ff01
 msgid "3：占位类型，不可用"
-msgstr ""
+msgstr "3: Placeholder type, not available"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:471
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:521
 #: 07f0572d12cf4f19837ef9af62e661d1 7142f9ae320446f583848f8198d94edb
 msgid "4：自动进入 TCPClient 透传模式"
-msgstr ""
+msgstr "4: Auto-enter TCPClient transparent transmission mode"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:472
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:522
 #: 781f23ebc633401da27ff93f02c69c38 a5c45a474754459d844fdd6b0c0f6def
 msgid "5：占位类型，不可用"
-msgstr ""
+msgstr "5: Placeholder type, not available"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:473
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:523
 #: 09992c58879e4c2981d6ec5ad56f053a ee720ad5c62a43d8ac9d85e8b67a5216
 msgid "6：占位类型，不可用"
-msgstr ""
+msgstr "6: Placeholder type, not available"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:474
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:524
 #: 5ab2e2df1ba742ca8363e1bee77d36a8 b59ee6bd5e6b478a864fedef4cd31cb8
 msgid "7：自动进入 SSLClient 透传模式"
-msgstr ""
+msgstr "7: Auto-enter SSLClient transparent transmission mode"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:475
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:525
 #: 46738ae7b99e45659f005c464ad5d7c7 6fde538d3fb942a9a513ca13ee262b95
 msgid "8：占位类型，不可用"
-msgstr ""
+msgstr "8: Placeholder type, not available"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:476
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:526
@@ -647,14 +729,20 @@ msgid ""
 "**<remote host>**：当 type 为客户端的时候此参数为必选，表示需要连接的服务器的域名或者 IP，server "
 "的时候不用设置(跳过该参数，eg:AT+SOCKETAUTOTT=1,10086)"
 msgstr ""
+"**<remote host>**: Required when type is client; server domain name or IP. "
+"Not needed for server (skip, e.g. AT+SOCKETAUTOTT=1,10086)"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:483
 #: e7d1075bf1b048d6bcd2ca669c73ac65
 msgid ""
-"创建对应 socket 连接后自动进入透传模式该指令设置完成后需要配合 AT+WAUTOCONN 使用，配置完成后复位生效。上电后自动连接 Wi-"
-"Fi （AT+WAUTOCONN 配置）Wi-Fi  连接成功后自动创建 socket 连接，socket "
-"创建成功后自动进入透传模式（本指令设置）"
+"创建对应 socket 连接后自动进入透传模式该指令设置完成后需要配合 AT+WAUTOCONN 使用，配置完成后复位生效。上电后自动连接 Wi-Fi "
+"（AT+WAUTOCONN 配置）Wi-Fi  连接成功后自动创建 socket 连接，socket 创建成功后自动进入透传模式（本指令设置）"
 msgstr ""
+"After creating the corresponding socket connection, automatically enter "
+"transparent transmission mode. After configuration, use with AT+WAUTOCONN; "
+"takes effect after reset. On power-up: auto-connect Wi-Fi (AT+WAUTOCONN) -> "
+"auto-create socket after Wi-Fi connects -> auto-enter transparent "
+"transmission mode (this command)."
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:527
 #: be03810adef04fe68aef2cfb19b1e2ae
@@ -662,75 +750,82 @@ msgid ""
 "**<remote port>**：当 type 为客户端的时候表示要连接的服务器的端口号，type 为服务端的时候表示本地 server "
 "需要监听的端口号"
 msgstr ""
+"**<remote port>**: When type is client, server port to connect to; when type"
+" is server, local listening port"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:534
 #: 46acb072637e4ee28092295019c4c310
 msgid "查询当前自动透传配置信息"
-msgstr ""
+msgstr "Query current auto transparent transmission configuration"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:551
 #: c8c35330308e4961ad1bf08ccb8cae5c
 msgid "AT+SSLCRET 查询和设置SSL证书"
-msgstr ""
+msgstr "AT+SSLCRET query and set SSL certificate"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:572
 #: 85a714f70bae459b88208e29fdf921cd
 msgid "**<type>**：操作的证书类型。"
-msgstr ""
+msgstr "**<type>**: Certificate type to operate on."
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:573
 #: 255d4b0aceec477d9ed8a8b64457f856
 msgid "1：CA 根证书"
-msgstr ""
+msgstr "1: CA root certificate"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:574
 #: 032c098317094c1a93fa42a64f4f59ca
 msgid "2：客户端公钥"
-msgstr ""
+msgstr "2: Client public key"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:575
 #: 5cbe9157e95d4c04b0d8b8bff73c0aeb
 msgid "3：客户端私钥"
-msgstr ""
+msgstr "3: Client private key"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:576
 #: 05d989b03500417bb27ca8c4720c21bf
 msgid "**<length>**：证书长度，当省略这个参数的时候表示查询对应的证书，带该参数时设置证书长度"
 msgstr ""
+"**<length>**: Certificate length. Omit to query the certificate; include to "
+"set certificate length"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:581
 #: 4e4a6a03fb47424a8c4c4d9f67309a0c
-msgid "查询和设置 SSL 证书只有一个参数的时候表示查询当前设置的证书内容，有两个参数的时候表示需要设置证书. 证书为空时客户端不加载证书，自动获取"
+msgid ""
+"查询和设置 SSL 证书只有一个参数的时候表示查询当前设置的证书内容，有两个参数的时候表示需要设置证书. 证书为空时客户端不加载证书，自动获取"
 msgstr ""
+"Query and set SSL certificate. One parameter queries current certificate; "
+"two parameters set certificate. Empty certificate means client does not load"
+" certificate and obtains automatically."
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:603
 #: d325ade5be244164a5ba9b0ec99ce7cb
 msgid "AT+WDOMAIN 通过DNS解析查询域名的IP地址"
-msgstr ""
+msgstr "AT+WDOMAIN query domain IP address via DNS resolution"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:634
 #: 085ef3c2728742839649f15ebae204b1
 msgid "AT+WDNS  查询/设置DNS解析服务器"
-msgstr ""
+msgstr "AT+WDNS query/set DNS resolution servers"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:640
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:673
 #: 22c5d599597c418d816cf3370c1982fe e2cce4cccdc0493598510768a718097b
 msgid "描述"
-msgstr ""
+msgstr "Description"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:642
 #: 10053c49793a4d1fa1c2c29349ecf0ab
 msgid "查询DNS解析服务器"
-msgstr ""
+msgstr "Query DNS resolution servers"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:675
 #: 3bf9aeda560741d1b3e846e058f0594a
 msgid "设置DNS解析服务器"
-msgstr ""
+msgstr "Set DNS resolution servers"
 
 #: ../../source/docs/command-set/TCP-IP_AT_Commands.rst:694
 #: 56574735ea684e84a2d5fbc1bce10b96
 msgid "**<DNS IP1/DNS IP2>**：域名解析服务器"
-msgstr ""
-
+msgstr "**<DNS IP1/DNS IP2>**: DNS resolution servers"

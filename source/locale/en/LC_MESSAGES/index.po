@@ -1,15 +1,14 @@
-# SOME DESCRIPTIVE TITLE.
+﻿# SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2023, 安信可科技
 # This file is distributed under the same license as the 安信可科技 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: 安信可科技 \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-01 23:52+0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2026-07-02 00:00+0800\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
 "Language-Team: en <LL@li.org>\n"
@@ -21,67 +20,72 @@ msgstr ""
 
 #: ../../source/index.rst:2 9d66d44f8ce74e24997828258838a61f
 msgid "Combo-AT-Guide"
-msgstr ""
+msgstr "Combo-AT-Guide"
 
 #: ../../source/index.rst:5 264540143a6748469c65e98b0d0bca4c
 msgid ""
 "Combo-AT 是由安信可官方推出的针对安信可自研 Combo 固件的各个指令说明以及示例用法。通过本文档 ，开发者可快速上门使用 Combo "
 "固件开发产品。"
 msgstr ""
+"Combo-AT is an official AI-Thinker documentation package covering command "
+"descriptions and usage examples for AI-Thinker's self-developed Combo "
+"firmware. With this guide, developers can quickly get started using Combo "
+"firmware to build products."
 
 #: ../../source/index.rst:8 dca97b669cda4c8a978ea2fe13d813e2
 msgid "|快速入门|_"
-msgstr ""
+msgstr "|Getting Started|_"
 
 #: ../../source/index.rst:13 fd8e866fe7444cbdace3700af539141b
 msgid "快速入门"
-msgstr ""
+msgstr "Getting Started"
 
 #: ../../source/index.rst:8 e85bb6e2c8934d14b4dca9bf5ac920c7
 msgid "|AT命令集|_"
-msgstr ""
+msgstr "|AT Command Set|_"
 
 #: ../../source/index.rst:16 a75e55521699481b95ee045d75ebd764
 msgid "AT命令集"
-msgstr ""
+msgstr "AT Command Set"
 
 #: ../../source/index.rst:8 b33bf255ab6c411a85ecc6a01959fc21
 msgid "|AT命令示例|_"
-msgstr ""
+msgstr "|AT Command Examples|_"
 
 #: ../../source/index.rst:19 e21e9b02f85346b4b9f7978f3ddd667c
 msgid "AT命令示例"
-msgstr ""
+msgstr "AT Command Examples"
 
 #: ../../source/index.rst:10 c93708924f2a4ae5b9013ecbe4e5b198
 msgid "`快速入门`_"
-msgstr ""
+msgstr "`Getting Started`_"
 
 #: ../../source/index.rst:10 dbd51ea3808a4c748f7a71d0552cc17a
 msgid "`AT命令集`_"
-msgstr ""
+msgstr "`AT Command Set`_"
 
 #: ../../source/index.rst:10 aa5703b75df04c6dbc97f5bd32eb5524
 msgid "`AT命令示例`_"
-msgstr ""
+msgstr "`AT Command Examples`_"
 
 #: ../../source/index.rst:23 fe79195b03394b95a8b406de48311480
 msgid "联系我们"
-msgstr ""
+msgstr "Contact Us"
 
 #: ../../source/index.rst:24 8807e6d9e4da437ab7825e1c1b81a364
 msgid "样品购买： https://anxinke.taobao.com"
-msgstr ""
+msgstr "Sample purchase: https://anxinke.taobao.com"
 
 #: ../../source/index.rst:25 18cf3fcd828a43969caa9526083d3766
 msgid "样品资料： https://docs.ai-thinker.com"
-msgstr ""
+msgstr "Sample documentation: https://docs.ai-thinker.com"
 
 #: ../../source/index.rst:26 6de27ee62dc84f8faf9decc8bb22abd0
 msgid "商务合作： 0755-29162996"
-msgstr ""
+msgstr "Business cooperation: 0755-29162996"
 
 #: ../../source/index.rst:27 3300979b0b2047e39108ab99d6f11c5d
 msgid "公司地址： 深圳市宝安区西乡固戍华丰智慧创新港C栋403、408~410"
 msgstr ""
-
+"Company address: Room 403, 408–410, Building C, Huafeng Smart Innovation "
+"Park, Gushu, Xixiang, Bao'an District, Shenzhen"

@@ -1,15 +1,14 @@
-# SOME DESCRIPTIVE TITLE.
+﻿# SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2023, 安信可科技
 # This file is distributed under the same license as the 安信可科技 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: 安信可科技 \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-01 23:52+0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2026-07-02 00:00+0800\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
 "Language-Team: en <LL@li.org>\n"
@@ -22,17 +21,19 @@ msgstr ""
 #: ../../source/docs/instruction/other/firmware_download.rst:2
 #: 67f45014e7154b8b96f20a9a271f1642
 msgid "最新固件下载"
-msgstr ""
+msgstr "Latest Firmware Downloads"
 
 #: ../../source/docs/instruction/other/firmware_download.rst:4
 #: fff983a364b74875897ec1f9d6429179
 msgid "这里汇集了各个硬件模组的Combo-AT固件的下载链接；"
 msgstr ""
+"This page collects download links for Combo-AT firmware for various hardware "
+"modules."
 
 #: ../../source/docs/instruction/other/firmware_download.rst:8
 #: ae121a1832904896b11c2933d5c09268
 msgid "Ai-WB2系列"
-msgstr ""
+msgstr "Ai-WB2 Series"
 
 #: ../../source/docs/instruction/other/firmware_download.rst:9
 #: ab0e2468ab1640a0bbe0cde29e14d905
@@ -40,11 +41,13 @@ msgid ""
 "链接： `点击链接 "
 "<https://aithinker.readthedocs.io/zh_CN/latest/docs/taobao/BL/index.html>`_"
 msgstr ""
+"Link: `Click here "
+"<https://aithinker.readthedocs.io/zh_CN/latest/docs/taobao/BL/index.html>`_"
 
 #: ../../source/docs/instruction/other/firmware_download.rst:12
 #: a8933957c00c416883f7bf54b2543f98
 msgid "BW16模组（ 瑞昱RTL8720DN方案 ）"
-msgstr ""
+msgstr "BW16 Module (Realtek RTL8720DN Solution)"
 
 #: ../../source/docs/instruction/other/firmware_download.rst:13
 #: 65f465755b7a4507875b5186e49b2d4b
@@ -54,11 +57,14 @@ msgid ""
 "thinker.com/lib/exe/fetch.php?tok=b4fb3e&media=https%3A%2F%2Fdocs.ai-"
 "thinker.com%2F_media%2Frtl8720%2Fbw16_combo_soft_v4.18_p5.0.0.zip>`_"
 msgstr ""
+"Link: `Click here <https://docs.ai-"
+"thinker.com/lib/exe/fetch.php?tok=b4fb3e&media=https%3A%2F%2Fdocs.ai-"
+"thinker.com%2F_media%2Frtl8720%2Fbw16_combo_soft_v4.18_p5.0.0.zip>`_"
 
 #: ../../source/docs/instruction/other/firmware_download.rst:16
 #: dd0d3cae6cae483990e6b8cfd33d30a5
 msgid "TB泰凌蓝牙系列"
-msgstr ""
+msgstr "TB Telink Bluetooth Series"
 
 #: ../../source/docs/instruction/other/firmware_download.rst:17
 #: b532515dbf024547a9714926d7772cd9
@@ -66,11 +72,13 @@ msgid ""
 "链接： `点击链接 "
 "<https://aithinker.readthedocs.io/zh_CN/latest/docs/taobao/ble/index.html#tb>`_"
 msgstr ""
+"Link: `Click here "
+"<https://aithinker.readthedocs.io/zh_CN/latest/docs/taobao/ble/index.html#tb>`_"
 
 #: ../../source/docs/instruction/other/firmware_download.rst:21
 #: 4267dab5dd114ddaa39a532d4aa81ee6
 msgid "PB奉加蓝牙系列"
-msgstr ""
+msgstr "PB Fengjia Bluetooth Series"
 
 #: ../../source/docs/instruction/other/firmware_download.rst:22
 #: 7c981389eb664770ac3e3ed5c0309df7
@@ -78,4 +86,5 @@ msgid ""
 "链接： `点击链接 "
 "<https://aithinker.readthedocs.io/zh_CN/latest/docs/taobao/ble/index.html>`_"
 msgstr ""
-
+"Link: `Click here "
+"<https://aithinker.readthedocs.io/zh_CN/latest/docs/taobao/ble/index.html>`_"

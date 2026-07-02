@@ -3,26 +3,25 @@
 # This file is distributed under the same license as the 安信可科技 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: 安信可科技 \n"
+"Project-Id-Version: 安信可科技\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-01 23:52+0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2026-07-02 00:00+0800\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: en\n"
 "Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.16.0\n"
 
 #: ../../source/docs/command-set/SNTP_AT_Commands.rst:2
 #: 32f5718ef18a47e8b7f92b52a58cd26e
 msgid "SNTP AT 命令集"
-msgstr ""
+msgstr "SNTP AT Command Set"
 
 #: ../../source/docs/command-set/SNTP_AT_Commands.rst:4
 #: 2f9dec26457840f3b8f4105696ae4522
@@ -30,41 +29,49 @@ msgid ""
 "本章节介绍驱动 SNTP "
 "指令集，此指令集针对不同的模组会有所不同的适配，具体差异请移步：:doc:`../instruction/other/firmware_differences`。"
 msgstr ""
+"This chapter introduces the SNTP AT command set. Adaptations may vary across"
+" different modules. For details, see "
+":doc:`../instruction/other/firmware_differences`."
 
 #: ../../source/docs/command-set/SNTP_AT_Commands.rst:6
 #: 823b5701fa374122b75b548b5dbdd3ba
 msgid ":ref:`AT+SNTPTIME <cmd-SNTPTIME>`：查询 SNTP 时间"
-msgstr ""
+msgstr ":ref:`AT+SNTPTIME <cmd-SNTPTIME>`: Query SNTP time"
 
 #: ../../source/docs/command-set/SNTP_AT_Commands.rst:7
 #: 7cd1bdd953ae40dca119ec5171b9168e
 msgid ":ref:`AT+SNTPTIMECFG <cmd-SNTPTIMECFG>`：查询和设置 SNTP 时区和服务器"
 msgstr ""
+":ref:`AT+SNTPTIMECFG <cmd-SNTPTIMECFG>`: Query and set SNTP time zone and "
+"servers"
 
 #: ../../source/docs/command-set/SNTP_AT_Commands.rst:8
 #: 8f0e178e250f41d98f5415505946a11f
 msgid ":ref:`AT+SNTPINTV <cmd-SNTPINTV>`：查询和设置 SNTP 刷新时间间隔"
 msgstr ""
+":ref:`AT+SNTPINTV <cmd-SNTPINTV>`: Query and set SNTP refresh interval"
 
 #: ../../source/docs/command-set/SNTP_AT_Commands.rst:14
 #: 6905b72cedfa4d409efc1ddb0c03428f
 msgid "AT+SNTPTIME:查询 SNTP 时间"
-msgstr ""
+msgstr "AT+SNTPTIME: Query SNTP time"
 
 #: ../../source/docs/command-set/SNTP_AT_Commands.rst:17
 #: 123d79d7014b4893beabd979f48ab537
 msgid "说明"
-msgstr ""
+msgstr "Description"
 
 #: ../../source/docs/command-set/SNTP_AT_Commands.rst:19
 #: e1640f7692c14321939b696ccbdd1868
 msgid "SNTP 默认没有开启，需要联网后使用 AT+SNTPTIMECFG 启动，没有启用的时"
 msgstr ""
+"SNTP is disabled by default. After connecting to the network, use "
+"AT+SNTPTIMECFG to enable it. When not enabled,"
 
 #: ../../source/docs/command-set/SNTP_AT_Commands.rst:20
 #: 6fbf49a8888145ce9f59886c265c7d94
 msgid "候查询的是本地 RTC 时间"
-msgstr ""
+msgstr "queries return local RTC time."
 
 #: ../../source/docs/command-set/SNTP_AT_Commands.rst:24
 #: ../../source/docs/command-set/SNTP_AT_Commands.rst:106
@@ -72,7 +79,7 @@ msgstr ""
 #: 2e09f2e44c08418aa3ae28c9cee12c38 55bee8f75cae4001a601f93fcfb79237
 #: ad1d1df35b6942de9927f2a94ccc6b72
 msgid "查询命令"
-msgstr ""
+msgstr "Query Command"
 
 #: ../../source/docs/command-set/SNTP_AT_Commands.rst:26
 #: ../../source/docs/command-set/SNTP_AT_Commands.rst:76
@@ -83,7 +90,7 @@ msgstr ""
 #: 864892713e794fb5bcc0b27141bcf7b7 bb8a1895ddc04d4c8770b416413c1466
 #: f1285bf7111a4168b741208e5ab74656
 msgid "**命令：**"
-msgstr ""
+msgstr "**Command:**"
 
 #: ../../source/docs/command-set/SNTP_AT_Commands.rst:32
 #: ../../source/docs/command-set/SNTP_AT_Commands.rst:82
@@ -94,7 +101,7 @@ msgstr ""
 #: 73ca49e61ec74f4a99f8a2f2eb3e8c49 73d09df9a6e74eb3b874ad250e4e810c
 #: c496f9f8175644e8bbd6f835eb963d35
 msgid "**响应：**"
-msgstr ""
+msgstr "**Response:**"
 
 #: ../../source/docs/command-set/SNTP_AT_Commands.rst:40
 #: ../../source/docs/command-set/SNTP_AT_Commands.rst:89
@@ -105,42 +112,42 @@ msgstr ""
 #: cc69dc486cc54e829c360c824fb65f95 cfa649f668ed4d628db0a6b8a0466481
 #: fce397ebe0734f2f80f9a6cff41a06aa
 msgid "参数"
-msgstr ""
+msgstr "Parameters"
 
 #: ../../source/docs/command-set/SNTP_AT_Commands.rst:42
 #: 91f54036bc954081a20aea4f28c413d7
 msgid "**<week>**：星期[Mon,Tue,Wed,Thu,Fri,Sat,Sun]"
-msgstr ""
+msgstr "**<week>**: Day of week [Mon,Tue,Wed,Thu,Fri,Sat,Sun]"
 
 #: ../../source/docs/command-set/SNTP_AT_Commands.rst:43
 #: 9cc3c5fecf8e4a08aa229bf25ac80f7d
 msgid "**<month>**：月份[Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec]"
-msgstr ""
+msgstr "**<month>**: Month [Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec]"
 
 #: ../../source/docs/command-set/SNTP_AT_Commands.rst:44
 #: 1e08b6a2c3934f83bf0d968548461e6e
 msgid "**<day>**：日"
-msgstr ""
+msgstr "**<day>**: Day"
 
 #: ../../source/docs/command-set/SNTP_AT_Commands.rst:45
 #: b8c369ec0f1d4262a8c8af449a325da9
 msgid "**<HH>**：小时"
-msgstr ""
+msgstr "**<HH>**: Hour"
 
 #: ../../source/docs/command-set/SNTP_AT_Commands.rst:46
 #: ebc8ac6542154150afc6c67713431cd8
 msgid "**<mm>**：分钟"
-msgstr ""
+msgstr "**<mm>**: Minute"
 
 #: ../../source/docs/command-set/SNTP_AT_Commands.rst:47
 #: 439a016138c344b4ad899a973209ad3b
 msgid "**<ss>** ：秒"
-msgstr ""
+msgstr "**<ss>**: Second"
 
 #: ../../source/docs/command-set/SNTP_AT_Commands.rst:48
 #: b669a7bc89c04d91aadfa50250d2e2ea
 msgid "**<yyyy>** ：年"
-msgstr ""
+msgstr "**<yyyy>**: Year"
 
 #: ../../source/docs/command-set/SNTP_AT_Commands.rst:51
 #: ../../source/docs/command-set/SNTP_AT_Commands.rst:96
@@ -151,29 +158,29 @@ msgstr ""
 #: 78ba1862cc354750b513d46971c9bac0 d30f6568466b41b49411f544397fca92
 #: d83eb4d5e28e4369a4f85595ada18bc2
 msgid "示例"
-msgstr ""
+msgstr "Example"
 
 #: ../../source/docs/command-set/SNTP_AT_Commands.rst:69
 #: 8f1128d5d4e047e583641e8843ba4f64
 msgid "AT+SNTPTIMECFG 查询和设置 SNTP 时区和服务器"
-msgstr ""
+msgstr "AT+SNTPTIMECFG query and set SNTP time zone and servers"
 
 #: ../../source/docs/command-set/SNTP_AT_Commands.rst:74
 #: ../../source/docs/command-set/SNTP_AT_Commands.rst:149
 #: 94ab13e427664d0ea90860010e0fb5de a87d15064fcd48d882a02df73353a812
 msgid "设置命令"
-msgstr ""
+msgstr "Set Command"
 
 #: ../../source/docs/command-set/SNTP_AT_Commands.rst:91
 #: 34f1df44af2c47d98f734d980f12f19d
 msgid "**<enable>**：SNTP 刷新服务状态设置；0 关闭；1 启动"
-msgstr ""
+msgstr "**<enable>**: SNTP refresh service setting; 0: disabled; 1: enabled"
 
 #: ../../source/docs/command-set/SNTP_AT_Commands.rst:92
 #: ../../source/docs/command-set/SNTP_AT_Commands.rst:127
 #: 3a7916cdd27640fba1d225f661d334a0 7f91dc0e910040c88841c2e4940eddd1
 msgid "**<timezone>**：时区，取值-12~+14"
-msgstr ""
+msgstr "**<timezone>**: Time zone, range -12 to +14"
 
 #: ../../source/docs/command-set/SNTP_AT_Commands.rst:93
 #: 3dca98170a1849a8a3d0539b69ef86c0
@@ -181,34 +188,37 @@ msgid ""
 "**<SNTP "
 "server1/2/3>**：SNTP服务器域名，如果缺省默认设置为\"cn.ntp.org.cn\"，\"ntp.sjtu.edu.cn\"，\"us.pool.ntp.org\""
 msgstr ""
+"**<SNTP server1/2/3>**: SNTP server domain names. Defaults to "
+"\"cn.ntp.org.cn\", \"ntp.sjtu.edu.cn\", \"us.pool.ntp.org\" if omitted"
 
 #: ../../source/docs/command-set/SNTP_AT_Commands.rst:125
 #: 7256900d80ba46948e90be810324e870
 msgid "**<SNTPTIME>**：响应时间"
-msgstr ""
+msgstr "**<SNTPTIME>**: Response time"
 
 #: ../../source/docs/command-set/SNTP_AT_Commands.rst:126
 #: df23ed9150c6460f9b36a750d06448af
 msgid "**<enable>**：SNTP 刷新服务是否启动；0 未运行；1 运行中"
 msgstr ""
+"**<enable>**: Whether SNTP refresh service is running; 0: not running; 1: "
+"running"
 
 #: ../../source/docs/command-set/SNTP_AT_Commands.rst:128
 #: e9cc310989344880b2feff082a0db514
 msgid "**<SNTP server1/2/3>**：SNTP 服务器域名"
-msgstr ""
+msgstr "**<SNTP server1/2/3>**: SNTP server domain names"
 
 #: ../../source/docs/command-set/SNTP_AT_Commands.rst:146
 #: 55496185d7a94d5284fa5390196da417
 msgid "AT+SNTPINTV 查询和设置 SNTP 刷新时间间隔"
-msgstr ""
+msgstr "AT+SNTPINTV query and set SNTP refresh interval"
 
 #: ../../source/docs/command-set/SNTP_AT_Commands.rst:166
 #: 165f1d93e58b4f21a16be30e2dcdc4e3
 msgid "**<interval second>**：刷新间隔，单位 S，取值 15~4294967"
-msgstr ""
+msgstr "**<interval second>**: Refresh interval in seconds; range 15~4294967"
 
 #: ../../source/docs/command-set/SNTP_AT_Commands.rst:199
 #: a0c2fa376b544f1eb6ff5729838ad2bd
 msgid "**<interval second>**： second：刷新间隔，单位 S"
-msgstr ""
-
+msgstr "**<interval second>**: Refresh interval in seconds"

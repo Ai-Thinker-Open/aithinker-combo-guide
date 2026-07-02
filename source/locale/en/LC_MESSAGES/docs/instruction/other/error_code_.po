@@ -1,15 +1,14 @@
-# SOME DESCRIPTIVE TITLE.
+﻿# SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2023, 安信可科技
 # This file is distributed under the same license as the 安信可科技 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: 安信可科技 \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-01 23:52+0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2026-07-02 00:00+0800\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
 "Language-Team: en <LL@li.org>\n"
@@ -22,12 +21,12 @@ msgstr ""
 #: ../../source/docs/instruction/other/error_code_.rst:2
 #: 3220ef59a2ba4f03885dd03245b43b2f
 msgid "响应错误码"
-msgstr ""
+msgstr "Response Error Codes"
 
 #: ../../source/docs/instruction/other/error_code_.rst:5
 #: d425e912b63c4d22a686a2a58129f7ca
 msgid "系统框架相关错误码"
-msgstr ""
+msgstr "System Framework Error Codes"
 
 #: ../../source/docs/instruction/other/error_code_.rst:10
 #: ../../source/docs/instruction/other/error_code_.rst:40
@@ -42,7 +41,7 @@ msgstr ""
 #: 8ded4c87936440a8a8b0724321938ead a4c18731c05149e9ab84271056b1d5b5
 #: d2d83cb178fd4e1e8f5dde68dc7e999e f4d1f1e66e8f4b12b8aaebf6a38754c0
 msgid "错误码"
-msgstr ""
+msgstr "Error Code"
 
 #: ../../source/docs/instruction/other/error_code_.rst:11
 #: ../../source/docs/instruction/other/error_code_.rst:41
@@ -57,868 +56,894 @@ msgstr ""
 #: 51e06a05aa0d4f19a0ad3c45ea00404e 894287aeb08444319f0933225d3ca848
 #: 8e46880313a04436b7f2dc3d070fb9e5 daaa19e9c6ce4bf6be2d1af9aa0c0586
 msgid "代表信息"
-msgstr ""
+msgstr "Description"
 
 #: ../../source/docs/instruction/other/error_code_.rst:12
 #: bf4032c47f2b4b13b806065340d3f33c
 msgid "0"
-msgstr ""
+msgstr "0"
 
 #: ../../source/docs/instruction/other/error_code_.rst:13
 #: 3fb484a3e0e64f599c435f222b0da14d
 msgid "成功"
-msgstr ""
+msgstr "Success"
 
 #: ../../source/docs/instruction/other/error_code_.rst:14
 #: 712f850b63354e38aacffcafeddacec6
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #: ../../source/docs/instruction/other/error_code_.rst:15
 #: 4bd223f05d794cee91cafaac31604838
 msgid "不支持该指令(combo框架包含该指令但是当前平台没有移植或者适配不支持)"
 msgstr ""
+"Command not supported (included in the Combo framework but not ported or "
+"adapted on the current platform)"
 
 #: ../../source/docs/instruction/other/error_code_.rst:16
 #: f6a12fbe8b20408a8e8c70a397569381
 msgid "2"
-msgstr ""
+msgstr "2"
 
 #: ../../source/docs/instruction/other/error_code_.rst:17
 #: a16c5b02dfde4ad099051c846afa2365
 msgid "指令参数包含不支持的操作(当前平台对该指令的操作只支持部分操作)"
 msgstr ""
+"Command parameter contains an unsupported operation (the current platform "
+"supports only part of the operations for this command)"
 
 #: ../../source/docs/instruction/other/error_code_.rst:18
 #: ../../source/docs/instruction/other/error_code_.rst:28
 #: 507e5ac1a37942f0b16e5652fd9b9dcb 8bd947dcc2dd4b7f9d9849551f08a19f
 msgid "3"
-msgstr ""
+msgstr "3"
 
 #: ../../source/docs/instruction/other/error_code_.rst:19
 #: ../../source/docs/instruction/other/error_code_.rst:29
 #: 874bf75af6df4405b7e9b530089d9d1f ea23746494de40c399dfc4b1ca64b67d
 msgid "指令格式错误(这个是指参数数量错误，例如需要两个参数，但是只输入了一个参数的情况)"
 msgstr ""
+"Invalid command format (incorrect number of parameters, e.g., two "
+"parameters required but only one provided)"
 
 #: ../../source/docs/instruction/other/error_code_.rst:20
 #: 3a44a3caf1554c84aeb1a3a178d0ec04
 msgid "4"
-msgstr ""
+msgstr "4"
 
 #: ../../source/docs/instruction/other/error_code_.rst:21
 #: 2fe69581b67e42e1b3ba12e7c5a274ed
 msgid "参数错误(参数的内容错误，例如需要输入一个0~9的数字，传入了10或者xyz，此时就是参数错误)"
 msgstr ""
+"Parameter error (invalid parameter value, e.g., a digit 0–9 is required but "
+"10 or xyz was provided)"
 
 #: ../../source/docs/instruction/other/error_code_.rst:22
 #: 447c106280944149a6fbfc08016b6ee5
 msgid "5"
-msgstr ""
+msgstr "5"
 
 #: ../../source/docs/instruction/other/error_code_.rst:23
 #: fe4f4ac549dc4b35915713a8d29e2521
 msgid "参数长度错误(指令长度超过最大支持的长度)"
 msgstr ""
+"Parameter length error (command length exceeds the maximum supported length)"
 
 #: ../../source/docs/instruction/other/error_code_.rst:24
 #: d76b804ce03c4aa494a0100e56b32257
 msgid "31"
-msgstr ""
+msgstr "31"
 
 #: ../../source/docs/instruction/other/error_code_.rst:25
 #: fac1498ed62440beb61da8178e4d48aa
 msgid "当前指令未结束，需要异步上报状态，该数值用于状态机判断指令使用，不返回消息"
 msgstr ""
+"Current command not finished; status must be reported asynchronously. This "
+"value is used by the state machine for command handling and is not returned "
+"as a message."
 
 #: ../../source/docs/instruction/other/error_code_.rst:26
 #: 474649ff0933471aab3a8b63ea89a77f
 msgid "32"
-msgstr ""
+msgstr "32"
 
 #: ../../source/docs/instruction/other/error_code_.rst:27
 #: f177824bb078415bbc70d121bf9b435e
 msgid "未知错误(或者没有处理的错误类型)"
-msgstr ""
+msgstr "Unknown error (or unhandled error type)"
 
 #: ../../source/docs/instruction/other/error_code_.rst:33
 #: ef0a4d4be6804878b84c68f1595cb879
 msgid "常见通用错误码"
-msgstr ""
+msgstr "Common General Error Codes"
 
 #: ../../source/docs/instruction/other/error_code_.rst:42
 #: 3d8f9feb13be42138efc76ca15492976
 msgid "33"
-msgstr ""
+msgstr "33"
 
 #: ../../source/docs/instruction/other/error_code_.rst:43
 #: 02a3f7a06fbb4e7289a60c0956308ad8
 msgid "malloc错误"
-msgstr ""
+msgstr "malloc error"
 
 #: ../../source/docs/instruction/other/error_code_.rst:44
 #: 641d73d6ebb545668ba17db3856a22f8
 msgid "34"
-msgstr ""
+msgstr "34"
 
 #: ../../source/docs/instruction/other/error_code_.rst:45
 #: fe792c8413554182bba6af2269531e0a
 msgid "读取buf失败"
-msgstr ""
+msgstr "Failed to read buffer"
 
 #: ../../source/docs/instruction/other/error_code_.rst:46
 #: 67580cc0af7447dda27172eb8552816a
 msgid "35"
-msgstr ""
+msgstr "35"
 
 #: ../../source/docs/instruction/other/error_code_.rst:47
 #: 31c582fbd8314767aaac796a9c3f64c7
 msgid "写buf失败"
-msgstr ""
+msgstr "Failed to write buffer"
 
 #: ../../source/docs/instruction/other/error_code_.rst:48
 #: b3d50a9bc30f407aadb50597eb8ce985
 msgid "36"
-msgstr ""
+msgstr "36"
 
 #: ../../source/docs/instruction/other/error_code_.rst:49
 #: d44ea37f57cd40d4af12a294339ae33b
 msgid "配置错误(从内存中加载的配置错误，例如我们设置OTA升级的端口-1，执行AT+OTA的时候检查端口错误，此时就会报配置错误)"
 msgstr ""
+"Configuration error (invalid configuration loaded from memory, e.g., OTA "
+"upgrade port set to -1; a configuration error is reported when AT+OTA "
+"checks the port)"
 
 #: ../../source/docs/instruction/other/error_code_.rst:50
 #: eb1dd4225f934542a9610f7bd7d8ef10
 msgid "37"
-msgstr ""
+msgstr "37"
 
 #: ../../source/docs/instruction/other/error_code_.rst:51
 #: 91965469639b47f49dc1fbca56e635d0
 msgid "创建任务失败"
-msgstr ""
+msgstr "Failed to create task"
 
 #: ../../source/docs/instruction/other/error_code_.rst:52
 #: ffd8481d51874a98bdc25d9964d476ac
 msgid "38"
-msgstr ""
+msgstr "38"
 
 #: ../../source/docs/instruction/other/error_code_.rst:53
 #: a659a72465e146b69b72c4eefdd6cf51
 msgid "Flash读写失败"
-msgstr ""
+msgstr "Flash read/write failed"
 
 #: ../../source/docs/instruction/other/error_code_.rst:54
 #: d4fa331e8ab24f7cb8c2bb37f4d7fe52
 msgid "39"
-msgstr ""
+msgstr "39"
 
 #: ../../source/docs/instruction/other/error_code_.rst:55
 #: d842cc039bcd4565a432afa556295310
 msgid "串口配置错误，不支持的波特率"
-msgstr ""
+msgstr "UART configuration error: unsupported baud rate"
 
 #: ../../source/docs/instruction/other/error_code_.rst:56
 #: f14519ee67ac40d8b662f32d15d982d3
 msgid "40"
-msgstr ""
+msgstr "40"
 
 #: ../../source/docs/instruction/other/error_code_.rst:57
 #: 3d47fd5b0fe94e3e8f71da0d1f7d3209
 msgid "串口配置错误，不支持的数据位"
-msgstr ""
+msgstr "UART configuration error: unsupported data bits"
 
 #: ../../source/docs/instruction/other/error_code_.rst:58
 #: be521b21e23f4bf1a61f7dffb4b8e902
 msgid "41"
-msgstr ""
+msgstr "41"
 
 #: ../../source/docs/instruction/other/error_code_.rst:59
 #: e7d70fea00bf428d8ccd07e0b880bfa2
 msgid "串口配置错误，不支持的停止位"
-msgstr ""
+msgstr "UART configuration error: unsupported stop bits"
 
 #: ../../source/docs/instruction/other/error_code_.rst:60
 #: c98a96de7ca942e886394c9118138e46
 msgid "42"
-msgstr ""
+msgstr "42"
 
 #: ../../source/docs/instruction/other/error_code_.rst:61
 #: 1871b824e4724ae0a275371828353e64
 msgid "串口配置错误，不支持的校验位"
-msgstr ""
+msgstr "UART configuration error: unsupported parity"
 
 #: ../../source/docs/instruction/other/error_code_.rst:62
 #: f03ba064823144d3b3db49ba7dacf1d7
 msgid "43"
-msgstr ""
+msgstr "43"
 
 #: ../../source/docs/instruction/other/error_code_.rst:63
 #: 289187fa1a7f4907b8d532c8c3492582
 msgid "串口配置错误，不支持的流控"
-msgstr ""
+msgstr "UART configuration error: unsupported flow control"
 
 #: ../../source/docs/instruction/other/error_code_.rst:64
 #: a833d9adfdee4bea80092d01c318a833
 msgid "44"
-msgstr ""
+msgstr "44"
 
 #: ../../source/docs/instruction/other/error_code_.rst:65
 #: 6f3459d567e1429da1427f63750e1511
 msgid "串口配置失败"
-msgstr ""
+msgstr "UART configuration failed"
 
 #: ../../source/docs/instruction/other/error_code_.rst:66
 #: 11791d88107f4d478900e0dfc4f9b6a6
 msgid "45"
-msgstr ""
+msgstr "45"
 
 #: ../../source/docs/instruction/other/error_code_.rst:67
 #: e9d70c38bea7442e9d57a483da541e9b
 msgid "用户名/密码错误"
-msgstr ""
+msgstr "Incorrect username/password"
 
 #: ../../source/docs/instruction/other/error_code_.rst:68
 #: 6ff223247f584a07bda200bf039f03da
 msgid "46"
-msgstr ""
+msgstr "46"
 
 #: ../../source/docs/instruction/other/error_code_.rst:69
 #: aeaf35c2c9584e0e9b4734a6f526ff5c
 msgid "低功耗模式错误或者不支持的低功耗模式"
-msgstr ""
+msgstr "Low-power mode error or unsupported low-power mode"
 
 #: ../../source/docs/instruction/other/error_code_.rst:70
 #: 1141552fd1274b929187c37f796c4edf
 msgid "47"
-msgstr ""
+msgstr "47"
 
 #: ../../source/docs/instruction/other/error_code_.rst:71
 #: dad4cf2821b242ea8fdec4fe7b4f3cc3
 msgid "未初始化配置数据错误（包含io映射数据）"
-msgstr ""
+msgstr "Uninitialized configuration data error (including IO mapping data)"
 
 #: ../../source/docs/instruction/other/error_code_.rst:72
 #: 0ee4c94469f442899c7657854d7a3df6
 msgid "63"
-msgstr ""
+msgstr "63"
 
 #: ../../source/docs/instruction/other/error_code_.rst:73
 #: ee89c4f7cc2f4ea3815182db751af9ce
 msgid "通用错误码(没有携带其它信息)"
-msgstr ""
+msgstr "General error code (no additional information)"
 
 #: ../../source/docs/instruction/other/error_code_.rst:76
 #: 5232b4e136444da1a152292ca298ce9d
 msgid "Wi-Fi 相关错误码"
-msgstr ""
+msgstr "Wi-Fi Error Codes"
 
 #: ../../source/docs/instruction/other/error_code_.rst:85
 #: 045736d1e51443c38871034bf3ddadee
 msgid "64"
-msgstr ""
+msgstr "64"
 
 #: ../../source/docs/instruction/other/error_code_.rst:86
 #: 4670ae8681244fe08514412197363686
 msgid "Wi-Fi未初始化或初始化失败"
-msgstr ""
+msgstr "Wi-Fi not initialized or initialization failed"
 
 #: ../../source/docs/instruction/other/error_code_.rst:87
 #: 193e3a6aeb9e481282ae7a0c124fb2bc
 msgid "65"
-msgstr ""
+msgstr "65"
 
 #: ../../source/docs/instruction/other/error_code_.rst:88
 #: ad9b80cc08b549e58319547b90dcc97a
 msgid "Wi-Fi模式错误(单AP模式无法连接Wi-Fi)"
-msgstr ""
+msgstr "Wi-Fi mode error (cannot connect to Wi-Fi in AP-only mode)"
 
 #: ../../source/docs/instruction/other/error_code_.rst:89
 #: 78beb6679e734a089900970b77b90b42
 msgid "66"
-msgstr ""
+msgstr "66"
 
 #: ../../source/docs/instruction/other/error_code_.rst:90
 #: de21abf4814f423da3846bc5db1df715
 msgid "Wi-Fi连接失败"
-msgstr ""
+msgstr "Wi-Fi connection failed"
 
 #: ../../source/docs/instruction/other/error_code_.rst:91
 #: 79d6206e57ee49999bd4d4b5a5d82a62
 msgid "67"
-msgstr ""
+msgstr "67"
 
 #: ../../source/docs/instruction/other/error_code_.rst:92
 #: 8b71ef8e501644fb8cd5ef634ff092a1
 msgid "Wi-Fi连接成功，获取IP(DHCP)错误"
-msgstr ""
+msgstr "Wi-Fi connected but failed to obtain IP (DHCP error)"
 
 #: ../../source/docs/instruction/other/error_code_.rst:93
 #: 00e159e302a44cb1a88ff2d7245dbeb1
 msgid "68"
-msgstr ""
+msgstr "68"
 
 #: ../../source/docs/instruction/other/error_code_.rst:94
 #: a4dfe798c7344692a57617eea08e5beb
 msgid "获取加密方法失败"
-msgstr ""
+msgstr "Failed to get encryption method"
 
 #: ../../source/docs/instruction/other/error_code_.rst:95
 #: cbe58c5c088847b388aa3743953dbedc
 msgid "69"
-msgstr ""
+msgstr "69"
 
 #: ../../source/docs/instruction/other/error_code_.rst:96
 #: f7d34d9197d6421dbd481cf3e532d46a
 msgid "没有扫描到指定AP"
-msgstr ""
+msgstr "Specified AP not found during scan"
 
 #: ../../source/docs/instruction/other/error_code_.rst:97
 #: 56ade88c88714117b15427e740a96198
 msgid "70"
-msgstr ""
+msgstr "70"
 
 #: ../../source/docs/instruction/other/error_code_.rst:98
 #: 2c730f24a08d4daa9df85d0a82852038
 msgid "Wi-Fi扫描启动失败"
-msgstr ""
+msgstr "Failed to start Wi-Fi scan"
 
 #: ../../source/docs/instruction/other/error_code_.rst:99
 #: b1e15ac31c0d49378efb187f4a6510c7
 msgid "71"
-msgstr ""
+msgstr "71"
 
 #: ../../source/docs/instruction/other/error_code_.rst:100
 #: e6a918f304354d9398581fb47b862051
 msgid "Wi-Fi扫描超时"
-msgstr ""
+msgstr "Wi-Fi scan timed out"
 
 #: ../../source/docs/instruction/other/error_code_.rst:101
 #: ecf9d96a3e8a4de99cd2b47903df7453
 msgid "72"
-msgstr ""
+msgstr "72"
 
 #: ../../source/docs/instruction/other/error_code_.rst:102
 #: 75203d0a37ec4de78282bfde43b5cb1e
 msgid "开启AP热点失败"
-msgstr ""
+msgstr "Failed to start AP hotspot"
 
 #: ../../source/docs/instruction/other/error_code_.rst:103
 #: c2554fee2c1f4aef8914c4fcd28d7bd5
 msgid "73"
-msgstr ""
+msgstr "73"
 
 #: ../../source/docs/instruction/other/error_code_.rst:104
 #: c529f5f819854ae197264e08f0f276f6
 msgid "获取路由器的Wi-Fi信息或者自己开启的AP信息失败"
 msgstr ""
+"Failed to get router Wi-Fi information or locally started AP information"
 
 #: ../../source/docs/instruction/other/error_code_.rst:105
 #: 13cdc3c9239548f5b445bd0085e74d19
 msgid "74"
-msgstr ""
+msgstr "74"
 
 #: ../../source/docs/instruction/other/error_code_.rst:106
 #: a686166031c9452cba232dd3f5947ad2
 msgid "网卡(STA/AP)未运行"
-msgstr ""
+msgstr "Network interface (STA/AP) not running"
 
 #: ../../source/docs/instruction/other/error_code_.rst:107
 #: e754e230a73041c982cbf6d15f1432f7
 msgid "75"
-msgstr ""
+msgstr "75"
 
 #: ../../source/docs/instruction/other/error_code_.rst:108
 #: ../../source/docs/instruction/other/error_code_.rst:147
 #: 9a9ff94e0ef04815bd897d422d24bc26 e9103cfc3afe4fd1a8b3406f3f1e676e
 msgid "Wi-Fi国家码错误(不支持的Wi-Fi国家码)"
-msgstr ""
+msgstr "Wi-Fi country code error (unsupported Wi-Fi country code)"
 
 #: ../../source/docs/instruction/other/error_code_.rst:109
 #: c5090368151a4d5c82d0bbc9ef85e2e2
 msgid "76"
-msgstr ""
+msgstr "76"
 
 #: ../../source/docs/instruction/other/error_code_.rst:110
 #: 0204a9b7d8184952ae2c10128a6f4439
 msgid "当前配网模式错误"
-msgstr ""
+msgstr "Current network provisioning mode error"
 
 #: ../../source/docs/instruction/other/error_code_.rst:111
 #: bb8a4436072c46e0bc8e365b9ba89de0
 msgid "95"
-msgstr ""
+msgstr "95"
 
 #: ../../source/docs/instruction/other/error_code_.rst:112
 #: eec0544f25fe4de3995d365fc2b98da7
 msgid "Wi-Fi连接未知错误"
-msgstr ""
+msgstr "Unknown Wi-Fi connection error"
 
 #: ../../source/docs/instruction/other/error_code_.rst:115
 #: 4f705874f2ac47868a9a17fccde4e9c6
 msgid "socket相关错误码"
-msgstr ""
+msgstr "Socket Error Codes"
 
 #: ../../source/docs/instruction/other/error_code_.rst:124
 #: 66b2e850c75046f4b7c3cd42f977d525
 msgid "96"
-msgstr ""
+msgstr "96"
 
 #: ../../source/docs/instruction/other/error_code_.rst:125
 #: c533cfed369245969847ea54d7cccd8b
 msgid "创建socket失败"
-msgstr ""
+msgstr "Failed to create socket"
 
 #: ../../source/docs/instruction/other/error_code_.rst:126
 #: 4eb4b2b4e2c64ab096d2a1680cda8333
 msgid "97"
-msgstr ""
+msgstr "97"
 
 #: ../../source/docs/instruction/other/error_code_.rst:127
 #: d7ed13d467404e659a67ee513d7b75a7
 msgid "socket连接失败"
-msgstr ""
+msgstr "Socket connection failed"
 
 #: ../../source/docs/instruction/other/error_code_.rst:128
 #: 33434233c2504702845922a1f6a0c30d
 msgid "98"
-msgstr ""
+msgstr "98"
 
 #: ../../source/docs/instruction/other/error_code_.rst:129
 #: fe39be4975ca46bbaa69d5f8193fafe4
 msgid "DNS失败"
-msgstr ""
+msgstr "DNS failed"
 
 #: ../../source/docs/instruction/other/error_code_.rst:130
 #: af964059e33740fcba59457062c59182
 msgid "99"
-msgstr ""
+msgstr "99"
 
 #: ../../source/docs/instruction/other/error_code_.rst:131
 #: e1043a100a38458dacbfe52cd5d58f74
 msgid "socket状态错误(例如tcp还没有连接)"
-msgstr ""
+msgstr "Socket state error (e.g., TCP not connected yet)"
 
 #: ../../source/docs/instruction/other/error_code_.rst:132
 #: d64eababda4c462f8a1785f5a552f1a6
 msgid "100"
-msgstr ""
+msgstr "100"
 
 #: ../../source/docs/instruction/other/error_code_.rst:133
 #: 22a5d112b49c4574bdeb9fc9070c0f9e
 msgid "socket类型错误"
-msgstr ""
+msgstr "Socket type error"
 
 #: ../../source/docs/instruction/other/error_code_.rst:134
 #: 31dc5571a81e4d4bbae35e52b483b1c0
 msgid "101"
-msgstr ""
+msgstr "101"
 
 #: ../../source/docs/instruction/other/error_code_.rst:135
 #: d0994cf6fbad4f8baf06b4bc5fc298ff
 msgid "socket发送失败"
-msgstr ""
+msgstr "Socket send failed"
 
 #: ../../source/docs/instruction/other/error_code_.rst:136
 #: 0c9934809d3e452092e0f2af026ff96c
 msgid "102"
-msgstr ""
+msgstr "102"
 
 #: ../../source/docs/instruction/other/error_code_.rst:137
 #: 84adad1b8fc74de98acb96ef1c67a600
 msgid "socket接收失败"
-msgstr ""
+msgstr "Socket receive failed"
 
 #: ../../source/docs/instruction/other/error_code_.rst:138
 #: dd06710bd0d14c318d677f9c5ce8d33e
 msgid "103"
-msgstr ""
+msgstr "103"
 
 #: ../../source/docs/instruction/other/error_code_.rst:139
 #: 06386b4e798f4bbe8487b9da50030fc3
 msgid "socket监控线程创建失败"
-msgstr ""
+msgstr "Failed to create socket monitor thread"
 
 #: ../../source/docs/instruction/other/error_code_.rst:140
 #: 94bf8faeed354dfcaee40f9712419005
 msgid "104"
-msgstr ""
+msgstr "104"
 
 #: ../../source/docs/instruction/other/error_code_.rst:141
 #: 6d330aadd1694f6a83a5830c491089ea
 msgid "socket bind出错"
-msgstr ""
+msgstr "Socket bind error"
 
 #: ../../source/docs/instruction/other/error_code_.rst:142
 #: 5d7fc39f93b34eb68ae7e0c4506666d3
 msgid "105"
-msgstr ""
+msgstr "105"
 
 #: ../../source/docs/instruction/other/error_code_.rst:143
 #: 1b1aeb8107fa4dd38ca4ae2b99f38a9b
 msgid "当前连接无法进行透传链接(socket类型不对或者数量不对)"
 msgstr ""
+"Transparent transmission not available for current connection (incorrect "
+"socket type or count)"
 
 #: ../../source/docs/instruction/other/error_code_.rst:144
 #: 759cc59d4fc54c078a1025daf046d7a4
 msgid "106"
-msgstr ""
+msgstr "106"
 
 #: ../../source/docs/instruction/other/error_code_.rst:145
 #: b1b1179d365f41b3a235a07cdb4af3a6
 msgid "PING测试失败(全部丢包)"
-msgstr ""
+msgstr "PING test failed (100% packet loss)"
 
 #: ../../source/docs/instruction/other/error_code_.rst:146
 #: 011cc2caf2134e77833463aa724ab32e
 msgid "107"
-msgstr ""
+msgstr "107"
 
 #: ../../source/docs/instruction/other/error_code_.rst:148
 #: b0f18ffd0c0846cc931f04f0c8e61581
 msgid "108"
-msgstr ""
+msgstr "108"
 
 #: ../../source/docs/instruction/other/error_code_.rst:149
 #: 8c7a714f4b2842f4baee5a315c2262df
 msgid "SSL Config错误"
-msgstr ""
+msgstr "SSL config error"
 
 #: ../../source/docs/instruction/other/error_code_.rst:150
 #: ff6136bb2aad4a45a5d83fc6c2e6a609
 msgid "109"
-msgstr ""
+msgstr "109"
 
 #: ../../source/docs/instruction/other/error_code_.rst:151
 #: 2770b06d74684fcfbd32676cbb2d3f81
 msgid "SSL校验错误(一般是SSL加密类型不支持或者证书错误导致的)"
 msgstr ""
+"SSL verification error (usually caused by unsupported SSL cipher type or "
+"invalid certificate)"
 
 #: ../../source/docs/instruction/other/error_code_.rst:152
 #: c1b41ae258e34b7baf6ddc6779ed53be
 msgid "127"
-msgstr ""
+msgstr "127"
 
 #: ../../source/docs/instruction/other/error_code_.rst:153
 #: cff6c64912044d4eaa17a5bdfe226d4e
 msgid "socket未知错误"
-msgstr ""
+msgstr "Unknown socket error"
 
 #: ../../source/docs/instruction/other/error_code_.rst:156
 #: 9a9be9ae87194209bdaf1c4f603fcf95
 msgid "GPIO控制相关错误码"
-msgstr ""
+msgstr "GPIO Control Error Codes"
 
 #: ../../source/docs/instruction/other/error_code_.rst:165
 #: 7560dff93dfc4a96bb6ba4e6bd580c72
 msgid "128"
-msgstr ""
+msgstr "128"
 
 #: ../../source/docs/instruction/other/error_code_.rst:166
 #: 603f16ea145e40419ac104855c619747
 msgid "GPIO模式错误(例如配置了输入，然后执行输出指令)"
 msgstr ""
+"GPIO mode error (e.g., configured as input but an output command was executed)"
 
 #: ../../source/docs/instruction/other/error_code_.rst:167
 #: 39abd30486ba4f13910de9c6bd2ef722
 msgid "129"
-msgstr ""
+msgstr "129"
 
 #: ../../source/docs/instruction/other/error_code_.rst:168
 #: 97e6e5a8c5224b4bbd2dab274d11447d
 msgid "操作的IO未烧录GPIO映射表(例如设置了0~4引脚的IO映射，操作5号引脚就回报这个错误)"
 msgstr ""
+"IO not in GPIO mapping table (e.g., pins 0–4 are mapped but pin 5 was accessed)"
 
 #: ../../source/docs/instruction/other/error_code_.rst:169
 #: 578b3085c05548379b6a8afd21434932
 msgid "130"
-msgstr ""
+msgstr "130"
 
 #: ../../source/docs/instruction/other/error_code_.rst:170
 #: 4735edb060ba47f2b74270b970f74ebe
 msgid "NC引脚，无法控制(例如串口、VCC、GND等就用AT指令控制)"
 msgstr ""
+"NC pin; cannot be controlled (e.g., UART, VCC, GND pins cannot be controlled "
+"via AT commands)"
 
 #: ../../source/docs/instruction/other/error_code_.rst:171
 #: a67a164a273f43dda9a879999766e491
 msgid "131"
-msgstr ""
+msgstr "131"
 
 #: ../../source/docs/instruction/other/error_code_.rst:172
 #: 0302d92349ce47b88f97f666ee1f8776
 msgid "引脚模式设置错误，或者不支持的模式"
-msgstr ""
+msgstr "Pin mode setting error or unsupported mode"
 
 #: ../../source/docs/instruction/other/error_code_.rst:173
 #: cae1df9f06f1417486b4f1ad393f78da
 msgid "132"
-msgstr ""
+msgstr "132"
 
 #: ../../source/docs/instruction/other/error_code_.rst:174
 #: 9e825c3b6f0743398e6d39fa7a743968
 msgid "设置GPIO上下拉错误，或者不支持的上下拉模式)"
-msgstr ""
+msgstr "GPIO pull-up/pull-down setting error or unsupported pull mode"
 
 #: ../../source/docs/instruction/other/error_code_.rst:175
 #: e389087b20b04f4c9c2acc3b32252e0b
 msgid "133"
-msgstr ""
+msgstr "133"
 
 #: ../../source/docs/instruction/other/error_code_.rst:176
 #: 356d121c155843eba91d2780dd7cfd5f
 msgid "硬件不支持的PWM周期"
-msgstr ""
+msgstr "PWM period not supported by hardware"
 
 #: ../../source/docs/instruction/other/error_code_.rst:177
 #: 0aa54fa5f87f41f498e39791f7db805d
 msgid "159"
-msgstr ""
+msgstr "159"
 
 #: ../../source/docs/instruction/other/error_code_.rst:178
 #: ce4d2688f0894529941ca30ef779bca3
 msgid "GPIO操作未知错误"
-msgstr ""
+msgstr "Unknown GPIO operation error"
 
 #: ../../source/docs/instruction/other/error_code_.rst:182
 #: 08e296ed09cc4b2883196730dda8a93e
 msgid "HTTP(S)相关错误码"
-msgstr ""
+msgstr "HTTP(S) Error Codes"
 
 #: ../../source/docs/instruction/other/error_code_.rst:189
 #: 375193efa53b42abb4d5e57babcdf8ec
 msgid "160"
-msgstr ""
+msgstr "160"
 
 #: ../../source/docs/instruction/other/error_code_.rst:190
 #: 185bb4080a6d4c57bc6ba202895a997f
 msgid "HTTP(S)响应头格式错误"
-msgstr ""
+msgstr "HTTP(S) response header format error"
 
 #: ../../source/docs/instruction/other/error_code_.rst:191
 #: ba9f1df880bc4d68a5c0ff4afc460245
 msgid "191"
-msgstr ""
+msgstr "191"
 
 #: ../../source/docs/instruction/other/error_code_.rst:192
 #: 7f193ba60dc94259a5c95e65a29590be
 msgid "HTTP(S)请求未知错误"
-msgstr ""
+msgstr "Unknown HTTP(S) request error"
 
 #: ../../source/docs/instruction/other/error_code_.rst:195
 #: 27d2a236360c4c5ab9fb363abb58590d
 msgid "MQTT相关"
-msgstr ""
+msgstr "MQTT Related"
 
 #: ../../source/docs/instruction/other/error_code_.rst:203
 #: 6aecc4359cf5418989ec1834708b5014
 msgid "192"
-msgstr ""
+msgstr "192"
 
 #: ../../source/docs/instruction/other/error_code_.rst:204
 #: 5c56761f2fd94903bb45deef9ab64e87
 msgid "MQTT连接方式错误"
-msgstr ""
+msgstr "MQTT connection method error"
 
 #: ../../source/docs/instruction/other/error_code_.rst:205
 #: f1694c821f69490abc5ee4f5ba042a9a
 msgid "193"
-msgstr ""
+msgstr "193"
 
 #: ../../source/docs/instruction/other/error_code_.rst:206
 #: 3dc91d31871a488a9e3c1b0579bab521
 msgid "MQTT连接失败"
-msgstr ""
+msgstr "MQTT connection failed"
 
 #: ../../source/docs/instruction/other/error_code_.rst:207
 #: 21b4b58f98e94dc5ac9b6cea3833d01e
 msgid "194"
-msgstr ""
+msgstr "194"
 
 #: ../../source/docs/instruction/other/error_code_.rst:208
 #: d75eca8749194d9c90900f249985a912
 msgid "MQTT配置错误"
-msgstr ""
+msgstr "MQTT configuration error"
 
 #: ../../source/docs/instruction/other/error_code_.rst:209
 #: ea956dbe589e43daac28ccfca0e80bd3
 msgid "195"
-msgstr ""
+msgstr "195"
 
 #: ../../source/docs/instruction/other/error_code_.rst:210
 #: 6aaae1454da84db6b1e8d110220d99f3
 msgid "发布MQTT消息失败"
-msgstr ""
+msgstr "Failed to publish MQTT message"
 
 #: ../../source/docs/instruction/other/error_code_.rst:211
 #: bf2b8ed9c09f4913abe5480793540e87
 msgid "196"
-msgstr ""
+msgstr "196"
 
 #: ../../source/docs/instruction/other/error_code_.rst:212
 #: 0681dee491b04d9e98b76d8ab978af85
 msgid "MQTT消息订阅列表已满"
-msgstr ""
+msgstr "MQTT subscription list is full"
 
 #: ../../source/docs/instruction/other/error_code_.rst:213
 #: 3a6eb2205a9e4035b3dae522b2d06767
 msgid "197"
-msgstr ""
+msgstr "197"
 
 #: ../../source/docs/instruction/other/error_code_.rst:214
 #: a780d765ee3a43eeadb487a43edd3ef5
 msgid "MQTT没有收到响应"
-msgstr ""
+msgstr "No MQTT response received"
 
 #: ../../source/docs/instruction/other/error_code_.rst:215
 #: a8ed3968a74f44a4824eca6e418f79f7
 msgid "198"
-msgstr ""
+msgstr "198"
 
 #: ../../source/docs/instruction/other/error_code_.rst:216
 #: 365a47f2d1ea44de80186d03ed76ce9a
 msgid "MQTT忙或者连接超时"
-msgstr ""
+msgstr "MQTT busy or connection timed out"
 
 #: ../../source/docs/instruction/other/error_code_.rst:217
 #: 4a1990f966a249a889a5fea9f340b3a9
 msgid "224"
-msgstr ""
+msgstr "224"
 
 #: ../../source/docs/instruction/other/error_code_.rst:218
 #: 57181ec377c446f8955d273cc5e93bf5
 msgid "MQTT未知错误"
-msgstr ""
+msgstr "Unknown MQTT error"
 
 #: ../../source/docs/instruction/other/error_code_.rst:221
 #: 3b38bf73d4b14c2c99c225a5ac5b04ad
 msgid "BLE蓝牙相关"
-msgstr ""
+msgstr "BLE Bluetooth Related"
 
 #: ../../source/docs/instruction/other/error_code_.rst:228
 #: 3a534edd46744b7c976ef142f31f09f9
 msgid "225"
-msgstr ""
+msgstr "225"
 
 #: ../../source/docs/instruction/other/error_code_.rst:229
 #: 5726cb9f52d8463f9c1f8367c6f55d31
 msgid "蓝牙启动或关闭错误"
-msgstr ""
+msgstr "Bluetooth start or stop error"
 
 #: ../../source/docs/instruction/other/error_code_.rst:230
 #: c50a733ade3145858a4f6b9b8f654103
 msgid "226"
-msgstr ""
+msgstr "226"
 
 #: ../../source/docs/instruction/other/error_code_.rst:231
 #: b9397f280280436ebd690d551794aaa3
 msgid "设置蓝牙MAC失败"
-msgstr ""
+msgstr "Failed to set Bluetooth MAC address"
 
 #: ../../source/docs/instruction/other/error_code_.rst:232
 #: 32c29af0e1f34e9bb50b3d6c8892d215
 msgid "227"
-msgstr ""
+msgstr "227"
 
 #: ../../source/docs/instruction/other/error_code_.rst:233
 #: e0d206935b7a483687fd28da4b02f697
 msgid "不支持修改蓝牙MAC"
-msgstr ""
+msgstr "Bluetooth MAC address modification not supported"
 
 #: ../../source/docs/instruction/other/error_code_.rst:234
 #: 36763c09272b4594b651ddfb0db09f65
 msgid "228"
-msgstr ""
+msgstr "228"
 
 #: ../../source/docs/instruction/other/error_code_.rst:235
 #: 158de222290a4bf3bfff74c80e40241a
 msgid "不支持的状态或者正在执行的操作在当状态不允许执行"
 msgstr ""
+"Unsupported state or operation not allowed in the current state"
 
 #: ../../source/docs/instruction/other/error_code_.rst:236
 #: 6b3033d3e1f041cebcec9305990d35ec
 msgid "229"
-msgstr ""
+msgstr "229"
 
 #: ../../source/docs/instruction/other/error_code_.rst:237
 #: 4093ebf0407541ebb13d5c537bd1dbab
 msgid "蓝牙断开连接失败"
-msgstr ""
+msgstr "Failed to disconnect Bluetooth"
 
 #: ../../source/docs/instruction/other/error_code_.rst:238
 #: 41c9d6e4a9584073a9bca20f5e6fdd64
 msgid "230"
-msgstr ""
+msgstr "230"
 
 #: ../../source/docs/instruction/other/error_code_.rst:239
 #: 92366d256ffd49228445c1205ad59575
 msgid "蓝牙设置MTU失败(236获取MTU失败)"
-msgstr ""
+msgstr "Failed to set Bluetooth MTU (see 236 for MTU retrieval failure)"
 
 #: ../../source/docs/instruction/other/error_code_.rst:240
 #: ad0d95ff96a146d8b87ffacad5dc601f
 msgid "231"
-msgstr ""
+msgstr "231"
 
 #: ../../source/docs/instruction/other/error_code_.rst:241
 #: 7629bb216d3843dfa2da43b179673915
 msgid "蓝牙发送数据失败"
-msgstr ""
+msgstr "Failed to send Bluetooth data"
 
 #: ../../source/docs/instruction/other/error_code_.rst:242
 #: 04dc79aa857b4b83bb3831ceac4a7810
 msgid "232"
-msgstr ""
+msgstr "232"
 
 #: ../../source/docs/instruction/other/error_code_.rst:243
 #: 7170644d9afb46899c6a7967217a62fe
 msgid "设置蓝牙从机广播状态"
-msgstr ""
+msgstr "Failed to set Bluetooth peripheral advertising state"
 
 #: ../../source/docs/instruction/other/error_code_.rst:244
 #: 18f23ac41d6948abb5d5199a94a6b103
 msgid "233"
-msgstr ""
+msgstr "233"
 
 #: ../../source/docs/instruction/other/error_code_.rst:245
 #: feded0c0ea4f4a07910a6f760133b928
 msgid "蓝牙主机扫描失败"
-msgstr ""
+msgstr "Bluetooth central scan failed"
 
 #: ../../source/docs/instruction/other/error_code_.rst:246
 #: ce1b5bbf774f4a4f8e0c94d3c44ef966
 msgid "234"
-msgstr ""
+msgstr "234"
 
 #: ../../source/docs/instruction/other/error_code_.rst:247
 #: 629b84749cbd44539b8b5497b19f3342
 msgid "没有扫描到指定蓝牙"
-msgstr ""
+msgstr "Specified Bluetooth device not found during scan"
 
 #: ../../source/docs/instruction/other/error_code_.rst:248
 #: 316e6a8fb04b455c863d026f0c2da357
 msgid "235"
-msgstr ""
+msgstr "235"
 
 #: ../../source/docs/instruction/other/error_code_.rst:249
 #: bcdcef3e67d844e2a39cda4c0039de74
 msgid "蓝牙连接失败"
-msgstr ""
+msgstr "Bluetooth connection failed"
 
 #: ../../source/docs/instruction/other/error_code_.rst:250
 #: 81a484e88a5a4f35b7b62ccc8866c701
 msgid "236"
-msgstr ""
+msgstr "236"
 
 #: ../../source/docs/instruction/other/error_code_.rst:251
 #: 0c3dfd857435447b82238191f869b8ee
 msgid "获取MTU失败(230设置MTU失败)"
-msgstr ""
+msgstr "Failed to get MTU (see 230 for MTU setting failure)"
 
 #: ../../source/docs/instruction/other/error_code_.rst:252
 #: a2f5040a593a4684a25efb1a16dc98fc
 msgid "237"
-msgstr ""
+msgstr "237"
 
 #: ../../source/docs/instruction/other/error_code_.rst:253
 #: a7c3fea4304f4812a16c74def6aafdf3
 msgid "获取蓝牙MAC失败(226：设置蓝牙MAC；237：获取蓝牙MAC失败)"
 msgstr ""
-
+"Failed to get Bluetooth MAC address (226: set Bluetooth MAC; 237: get "
+"Bluetooth MAC failed)"

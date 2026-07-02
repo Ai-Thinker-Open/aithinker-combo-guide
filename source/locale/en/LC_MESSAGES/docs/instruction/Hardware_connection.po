@@ -1,15 +1,14 @@
-# SOME DESCRIPTIVE TITLE.
+﻿# SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2023, 安信可科技
 # This file is distributed under the same license as the 安信可科技 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: 安信可科技 \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-01 23:52+0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2026-07-02 00:00+0800\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
 "Language-Team: en <LL@li.org>\n"
@@ -22,22 +21,27 @@ msgstr ""
 #: ../../source/docs/instruction/Hardware_connection.rst:2
 #: 39fc474703a3443d9db5c5e101458ece
 msgid "硬件连接"
-msgstr ""
+msgstr "Hardware Connection"
 
 #: ../../source/docs/instruction/Hardware_connection.rst:4
 #: 956bc745fc254b63acfc32a6c5a3de51
 msgid "本文档主要介绍下载和烧录固件、发送 AT 命令和接收 AT 响应所需要的硬件以及硬件之间该如何连接。"
 msgstr ""
+"This document describes the hardware required for downloading and flashing "
+"firmware, sending AT commands, and receiving AT responses, as well as how to "
+"connect the hardware."
 
 #: ../../source/docs/instruction/Hardware_connection.rst:6
 #: 74cdbe30489e4211ad22626b0acfb617
 msgid "对于不同系列的模组，AT 默认固件所支持的命令会有所差异。具体可参考 :doc:`other/firmware_differences`"
 msgstr ""
+"Supported commands may vary across module series in the default AT "
+"firmware. See :doc:`other/firmware_differences` for details."
 
 #: ../../source/docs/instruction/Hardware_connection.rst:11
 #: 4a62360db0cf4e71b02aa80eebbcdf70
 msgid "Ai-WB2 系列"
-msgstr ""
+msgstr "Ai-WB2 Series"
 
 #: ../../source/docs/instruction/Hardware_connection.rst:16
 #: ../../source/docs/instruction/Hardware_connection.rst:39
@@ -52,12 +56,12 @@ msgstr ""
 #: 82978cbdd0df4a04a2dfca4540013e94 952d693c796d46629ec23a70aa77b1a1
 #: d68f42f1114e438683769c7acf33a412 f3659f0e234d4bfb918b3e0c2fa9d184
 msgid "USB转TTL"
-msgstr ""
+msgstr "USB-to-TTL"
 
 #: ../../source/docs/instruction/Hardware_connection.rst:17
 #: fd732a02803a4d8b802973d1f016f6c5
 msgid "Ai-WB2系列"
-msgstr ""
+msgstr "Ai-WB2 Series"
 
 #: ../../source/docs/instruction/Hardware_connection.rst:19
 #: ../../source/docs/instruction/Hardware_connection.rst:42
@@ -72,7 +76,7 @@ msgstr ""
 #: 39e6fb7086674301a59f8e81c0c4609b b74846e1c1ed4a9abcab70792a69850d
 #: c647ad7eadc048e5a0eb065a82e73399 df69010cc8474a6f93686c3b56d48275
 msgid "VCC"
-msgstr ""
+msgstr "VCC"
 
 #: ../../source/docs/instruction/Hardware_connection.rst:20
 #: ../../source/docs/instruction/Hardware_connection.rst:43
@@ -87,7 +91,7 @@ msgstr ""
 #: 8db4e38106bd48f6ac782fb07708e6fb bf0182b5dcba43c78a4796e74bf0c584
 #: d468023ca9b242c183ea9d679002856c e691a7ec184b403b8fa853c4fda35aa5
 msgid "3.3V"
-msgstr ""
+msgstr "3.3V"
 
 #: ../../source/docs/instruction/Hardware_connection.rst:22
 #: ../../source/docs/instruction/Hardware_connection.rst:23
@@ -114,7 +118,7 @@ msgstr ""
 #: dc649b24b85a451b894b341521ffd6bc e9b64b327c9541bdb436cdfd4d23e42e
 #: ea50078197bb4976a486b1952ee3eb3b f4953e6116404bc89916ebf9a0a119f6
 msgid "GND"
-msgstr ""
+msgstr "GND"
 
 #: ../../source/docs/instruction/Hardware_connection.rst:25
 #: ../../source/docs/instruction/Hardware_connection.rst:29
@@ -135,7 +139,7 @@ msgstr ""
 #: ba1367880c9246a09ef7b23ffb225ce4 c6ebe492521e4d099634d450d8b1cff1
 #: d135b2fe05a84180a6d2439c8da2678e e165a91b4ef84139bd59d349f22aef96
 msgid "TXD"
-msgstr ""
+msgstr "TXD"
 
 #: ../../source/docs/instruction/Hardware_connection.rst:26
 #: ../../source/docs/instruction/Hardware_connection.rst:28
@@ -156,121 +160,120 @@ msgstr ""
 #: 732b6b0a80434004a754306ddd198622 9d59b086155745149cbac976994df328
 #: cd69461a36904979be151326ba8e092d da1abe2cbe4d413998e04cba4e8c3a75
 msgid "RXD"
-msgstr ""
+msgstr "RXD"
 
 #: ../../source/docs/instruction/Hardware_connection.rst:34
 #: 6c057ae1fd274aa3ab4c836b4bf259de
 msgid "BW16模组（ 瑞昱RTL8720DN方案 ）"
-msgstr ""
+msgstr "BW16 Module (Realtek RTL8720DN Solution)"
 
 #: ../../source/docs/instruction/Hardware_connection.rst:40
 #: b11e6771605040f086fa30c27575bb34
 msgid "BW16"
-msgstr ""
+msgstr "BW16"
 
 #: ../../source/docs/instruction/Hardware_connection.rst:56
 #: 45d7ec18e04e4c9ab86f73231de94e93
 msgid "TB泰凌蓝牙系列"
-msgstr ""
+msgstr "TB Telink Bluetooth Series"
 
 #: ../../source/docs/instruction/Hardware_connection.rst:58
 #: 382d231aad574bb49878a539c7873ff2
 msgid "TB-01接线示意表"
-msgstr ""
+msgstr "TB-01 Wiring Diagram"
 
 #: ../../source/docs/instruction/Hardware_connection.rst:66
 #: 4c4885e3a7be458eaca7e648f6387cec
 msgid "TB-01"
-msgstr ""
+msgstr "TB-01"
 
 #: ../../source/docs/instruction/Hardware_connection.rst:75
 #: ../../source/docs/instruction/Hardware_connection.rst:121
 #: a12a08e563ab4e608e7b171bd94f710a e834ea294b394666b1ed2edd7464daf5
 msgid "PB1"
-msgstr ""
+msgstr "PB1"
 
 #: ../../source/docs/instruction/Hardware_connection.rst:78
 #: 7a40bb0821054f78bb1d3e18aa05f1aa
 msgid "PB0"
-msgstr ""
+msgstr "PB0"
 
 #: ../../source/docs/instruction/Hardware_connection.rst:80
 #: 52a5b6c1f55d4cb1a240b8d4e2ba4eda
 msgid "TB-02接线示意表"
-msgstr ""
+msgstr "TB-02 Wiring Diagram"
 
 #: ../../source/docs/instruction/Hardware_connection.rst:87
 #: 9e900749a3c144b7bf71800779774f0d
 msgid "TB-02"
-msgstr ""
+msgstr "TB-02"
 
 #: ../../source/docs/instruction/Hardware_connection.rst:96
 #: c6415d01a1e04b4cb3855ee1ad5a7f66
 msgid "RX0"
-msgstr ""
+msgstr "RX0"
 
 #: ../../source/docs/instruction/Hardware_connection.rst:99
 #: 7121c7152d874a68925da6c2f5c9c7f8
 msgid "TX0"
-msgstr ""
+msgstr "TX0"
 
 #: ../../source/docs/instruction/Hardware_connection.rst:102
 #: 9c90c2fa5a844471a25d53c8c57679a3
 msgid "TB-03F接线示意表"
-msgstr ""
+msgstr "TB-03F Wiring Diagram"
 
 #: ../../source/docs/instruction/Hardware_connection.rst:109
 #: 0935f7bfec90438996b4642af65ae0c7
 msgid "TB-03F"
-msgstr ""
+msgstr "TB-03F"
 
 #: ../../source/docs/instruction/Hardware_connection.rst:118
 #: b20d5466f81247cb892f04dd0d82db39
 msgid "PA0"
-msgstr ""
+msgstr "PA0"
 
 #: ../../source/docs/instruction/Hardware_connection.rst:124
 #: 5cf0a912e7d74a4ba2e93f52e167317d
 msgid "TB-04接线示意表"
-msgstr ""
+msgstr "TB-04 Wiring Diagram"
 
 #: ../../source/docs/instruction/Hardware_connection.rst:131
 #: 102eca706d5849abb79e818e43dc136c
 msgid "TB-04"
-msgstr ""
+msgstr "TB-04"
 
 #: ../../source/docs/instruction/Hardware_connection.rst:148
 #: f531d77fcfde402f8cf6aa78173a8d9d
 msgid "PB奉加蓝牙系列"
-msgstr ""
+msgstr "PB Fengjia Bluetooth Series"
 
 #: ../../source/docs/instruction/Hardware_connection.rst:150
 #: e62e108697574c6298070a054cab6bcf
 msgid "PB-01/PB-02接线示意表"
-msgstr ""
+msgstr "PB-01/PB-02 Wiring Diagram"
 
 #: ../../source/docs/instruction/Hardware_connection.rst:157
 #: f0fb1f11def04247bac5a1887dfb158f
 msgid "PB-01/PB-02"
-msgstr ""
+msgstr "PB-01/PB-02"
 
 #: ../../source/docs/instruction/Hardware_connection.rst:172
 #: 862cd60769114141bb490a7866a4844d
 msgid "PB-03/PB-03F/PB-03M接线示意表"
-msgstr ""
+msgstr "PB-03/PB-03F/PB-03M Wiring Diagram"
 
 #: ../../source/docs/instruction/Hardware_connection.rst:179
 #: 813dcde88c4540ef852e1abeb33c7b28
 msgid "PB-03/PB-03F/PB-03M"
-msgstr ""
+msgstr "PB-03/PB-03F/PB-03M"
 
 #: ../../source/docs/instruction/Hardware_connection.rst:188
 #: 26acd17bdfd549a2b49a8603eea90959
 msgid "P10"
-msgstr ""
+msgstr "P10"
 
 #: ../../source/docs/instruction/Hardware_connection.rst:191
 #: d655036630184b3991f54999aa92aead
 msgid "P9"
-msgstr ""
-
+msgstr "P9"

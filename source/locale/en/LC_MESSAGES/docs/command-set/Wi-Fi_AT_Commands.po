@@ -3,26 +3,25 @@
 # This file is distributed under the same license as the 安信可科技 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: 安信可科技 \n"
+"Project-Id-Version: 安信可科技\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-01 23:52+0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2026-07-02 00:00+0800\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: en\n"
 "Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.16.0\n"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:2
 #: b14069f478af4ac8a6e1eb525a6c343c
 msgid "Wi-Fi AT 命令集"
-msgstr ""
+msgstr "Wi-Fi AT Command Set"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:4
 #: cd35bbd47cb84275b3d8c96758d09441
@@ -30,81 +29,86 @@ msgid ""
 "本章节介绍驱动 Wi-Fi "
 "指令集，此指令集针对不同的模组会有所不同的适配，具体差异请移步：:doc:`../instruction/other/firmware_differences`。"
 msgstr ""
+"This chapter introduces the Wi-Fi AT command set. Adaptations may vary "
+"across different modules. For details, see "
+":doc:`../instruction/other/firmware_differences`."
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:6
 #: 6b9feeac5d1f4a809004af72d9044fc3
 msgid ":ref:`AT+WMODE <cmd-WMODE>`：Wi-Fi工作模式"
-msgstr ""
+msgstr ":ref:`AT+WMODE <cmd-WMODE>`: Wi-Fi operating mode"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:7
 #: 8edb2d99141e4b2192f2b20a0cff4dd8
 msgid ":ref:`AT+WSCAN <cmd-WSCAN>`：扫描Wi-Fi列表"
-msgstr ""
+msgstr ":ref:`AT+WSCAN <cmd-WSCAN>`: Scan Wi-Fi list"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:8
 #: 2ec6484945a54617baffa0899f863016
 msgid ":ref:`AT+WSDHCP <cmd-WSDHCP>`：STA模式下DHCP参数"
-msgstr ""
+msgstr ":ref:`AT+WSDHCP <cmd-WSDHCP>`: DHCP parameters in STA mode"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:9
 #: 274b503a6922475fb70a033ce46e741a
 msgid ":ref:`AT+WJAP <cmd-WJAP>`：连接AP"
-msgstr ""
+msgstr ":ref:`AT+WJAP <cmd-WJAP>`: Connect to AP"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:10
 #: 060aef500e204321b0067934949c0749
 msgid ":ref:`AT+WDISCONNECT <cmd-WDISCONNECT>`：断开当前的AP连接"
-msgstr ""
+msgstr ":ref:`AT+WDISCONNECT <cmd-WDISCONNECT>`: Disconnect current AP"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:11
 #: 58b198abf90e4b2192bf05dbb3def433
 msgid ":ref:`AT+WAUTOCONN <cmd-WAUTOCONN>`：上电自动连接Wi-Fi"
-msgstr ""
+msgstr ":ref:`AT+WAUTOCONN <cmd-WAUTOCONN>`: Auto-connect Wi-Fi on power-up"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:12
 #: ff306dace66a45b088117ee7524f7f42
 msgid ":ref:`AT+WAPDHCP <cmd-WAPDHCP>`：AP模式下DHCP参数"
-msgstr ""
+msgstr ":ref:`AT+WAPDHCP <cmd-WAPDHCP>`: DHCP parameters in AP mode"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:13
 #: d42af81f6f7240c28c7ead3ad3565665
 msgid ":ref:`AT+WAP <cmd-WAP>`：AP模式Wi-Fi参数"
-msgstr ""
+msgstr ":ref:`AT+WAP <cmd-WAP>`: Wi-Fi parameters in AP mode"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:14
 #: bd79d9f911f247a4af29b7fd63cedacf
 msgid ":ref:`AT+PING <cmd-PING>`：进行Ping操作"
-msgstr ""
+msgstr ":ref:`AT+PING <cmd-PING>`: Perform Ping operation"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:15
 #: f41366d2e7d047f3971697609b52c9cf
 msgid ":ref:`AT+CIPSTAMAC_DEF <cmd-CIPSTAMAC_DEF>`：Wi-Fi station MAC地址"
 msgstr ""
+":ref:`AT+CIPSTAMAC_DEF <cmd-CIPSTAMAC_DEF>`: Wi-Fi station MAC address"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:16
 #: 2b400937712a4dc0b4dc96c439cdf2ca
 msgid ":ref:`AT+WCOUNTRY <cmd-WCOUNTRY>`：Wi-Fi国家码"
-msgstr ""
+msgstr ":ref:`AT+WCOUNTRY <cmd-WCOUNTRY>`: Wi-Fi country code"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:17
 #: 4c5b5cc067544fa99d4431750a853f29
 msgid ":ref:`AT+WCONFIG <cmd-WCONFIG>`：手机配网"
-msgstr ""
+msgstr ":ref:`AT+WCONFIG <cmd-WCONFIG>`: Mobile provisioning"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:18
 #: 0e22deea189f4111a18dc659d5e6a9ce
 msgid ":ref:`AT+WSCANOPT <cmd-WSCANOPT>`：筛选Wi-Fi扫描显示信息"
 msgstr ""
+":ref:`AT+WSCANOPT <cmd-WSCANOPT>`: Filter Wi-Fi scan display information"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:19
 #: 7c4900a543ec406d881a4680f6dda2b3
 msgid ":ref:`AT+WRSSI <cmd-WRSSI>`：Wi-Fi连接信号强度"
-msgstr ""
+msgstr ":ref:`AT+WRSSI <cmd-WRSSI>`: Wi-Fi connection signal strength"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:24
 #: f4d2f3f58e804913a51bbc9578a9b722
 msgid "AT+WMODE 查询或设置Wi-Fi工作模式"
-msgstr ""
+msgstr "AT+WMODE query or set Wi-Fi operating mode"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:28
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:160
@@ -127,7 +131,7 @@ msgstr ""
 #: b695ea379bfd41e5aad577b9eb8b7656 ca3bfcd9ecc14295abe061f8e325d733
 #: fa1907a152684e88b3626ea011dc1fe9
 msgid "设置命令"
-msgstr ""
+msgstr "Set Command"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:30
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:72
@@ -168,7 +172,7 @@ msgstr ""
 #: edc16b43caf242e48f945ee5663be4ff fbc34ddbf0c44769b6b438d131553bf4
 #: fc64ef4e4f7043fcbd964d88898707c9
 msgid "**命令：**"
-msgstr ""
+msgstr "**Command:**"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:36
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:78
@@ -209,7 +213,7 @@ msgstr ""
 #: fb08f66bc5d048c593bcafb4dddfde6e fdb4153aba6343f1bfb5e76fd86305d7
 #: fdd47e151f9c42b1bb564cffe1ce3e4e
 msgid "**响应：**"
-msgstr ""
+msgstr "**Response:**"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:43
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:86
@@ -248,52 +252,52 @@ msgstr ""
 #: 9aaa5320c1be43378251a904a2cd3bbe a61078f22fea47829baf1bb837a2bf23
 #: c9729839f2a740fe9e3d2f77715bd707 e98b21239d394d69b54c3bbe93e886cd
 msgid "参数"
-msgstr ""
+msgstr "Parameters"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:45
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:88
 #: 67b334d0942149babfcd162c817a4935 f62c252130cf421eb00abc87d8163181
 msgid "**<MODE>**：Wi-Fi工作模式"
-msgstr ""
+msgstr "**<MODE>**: Wi-Fi operating mode"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:46
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:89
 #: 1d36ccb2cd204734aed3bd0b6cadfad7 ebe31b0480e643ab953ad189eb872618
 msgid "0：未初始化或者关闭Wi-Fi"
-msgstr ""
+msgstr "0: Uninitialized or Wi-Fi disabled"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:47
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:90
 #: 47d5013ba40c4481bc4c291d72b62a69 cee8c86671c0435994c1b9a80c237d0c
 msgid "1：STA"
-msgstr ""
+msgstr "1: STA"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:48
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:91
 #: 1717388c8ca545399183101ffee3a1f5 3f36a62698924135933c3783b9e097a7
 msgid "2：AP"
-msgstr ""
+msgstr "2: AP"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:49
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:92
 #: 3ffeae71f4584fbfb03c238595e3f29d 6c97797562414cc2bf97be7f831a3d65
 msgid "3：AP+STA"
-msgstr ""
+msgstr "3: AP+STA"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:50
 #: e7233ea7001b435c95239c9d8043e4e8
 msgid "**<save_flash>**：是否保存到flash"
-msgstr ""
+msgstr "**<save_flash>**: Whether to save to flash"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:51
 #: 4f322f727fbb4f289fa15d85aa4e2d2e
 msgid "0：不保存"
-msgstr ""
+msgstr "0: Do not save"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:52
 #: 4cb7e6f109424618a8d02cf619d890d3
 msgid "1：保存"
-msgstr ""
+msgstr "1: Save"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:56
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:139
@@ -307,12 +311,12 @@ msgstr ""
 #: 66d8678ee9724f8eb0b851a62ead6078 c44de77010d84a328f3314a9d9276d3d
 #: e758f39b46244e81ba4f53f4dacef044
 msgid "说明"
-msgstr ""
+msgstr "Description"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:58
 #: e40e68ae02ed43b5bee0543b01ff2136
 msgid "设置Wi-Fi工作模式"
-msgstr ""
+msgstr "Set Wi-Fi operating mode"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:62
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:95
@@ -347,7 +351,7 @@ msgstr ""
 #: eb4ddd56c34d4e61b055794a3a53ebeb efe46fde1d6344adb330406ac7870e3e
 #: fa80ae0b52d04e55bbe5097de04d29af
 msgid "示例"
-msgstr ""
+msgstr "Example"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:70
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:245
@@ -368,335 +372,339 @@ msgstr ""
 #: 8742f9b76ab8436598d258c3dd5e7bb9 b6c3afaa5f5f4eab81f2f412bd800e29
 #: d2ae9a6ed7b74f80994d92c9a69e61a8 d920816fee1646a29e5567c432fddd86
 msgid "查询命令"
-msgstr ""
+msgstr "Query Command"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:107
 #: 098582dcc10744eeae1f3fc779f212c9
 msgid "AT+WSCAN 扫描Wi-Fi列表"
-msgstr ""
+msgstr "AT+WSCAN scan Wi-Fi list"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:110
 #: e378b26278c24d49a0341c643fd81276
 msgid "执行命令"
-msgstr ""
+msgstr "Execute Command"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:130
 #: c9133e8c24724d4798bc31b043b91eed
 msgid "**<index>**：扫描序列id"
-msgstr ""
+msgstr "**<index>**: Scan sequence ID"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:131
 #: 8a940fa483244bcf9cfd9849b0eb40cb
 msgid "**<SSID>**：Wi-Fi SSID"
-msgstr ""
+msgstr "**<SSID>**: Wi-Fi SSID"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:132
 #: da107035de94462893b01c3c08e8bb54
 msgid "**<CH>**：Wi-Fi信道"
-msgstr ""
+msgstr "**<CH>**: Wi-Fi channel"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:133
 #: 449896e775e54d579df146305a974c91
 msgid "**<SECURITY>**：安全模式"
-msgstr ""
+msgstr "**<SECURITY>**: Security mode"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:134
 #: e8a49184730148dabf63b6e95278ca61
 msgid "**<RSSI>**：Wi-Fi接收信号强度"
-msgstr ""
+msgstr "**<RSSI>**: Wi-Fi received signal strength"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:135
 #: e8985022ca9a4e60827026176df5c452
 msgid "**<BSSID>**：Wi-Fi BSSID"
-msgstr ""
+msgstr "**<BSSID>**: Wi-Fi BSSID"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:141
 #: 91bb36362e0c48aab4384a852a06faca
 msgid "需在STA模式下。"
-msgstr ""
+msgstr "Must be in STA mode."
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:180
 #: c03470bee85e474e8985886fa910074e
 msgid "**<ssid>**：扫描指定的SSID"
-msgstr ""
+msgstr "**<ssid>**: Scan specified SSID"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:181
 #: 7e978ab2b0f6494d98188b1c3e536e42
 msgid "**<mac>**：扫描指定的mac地址"
-msgstr ""
+msgstr "**<mac>**: Scan specified MAC address"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:182
 #: ba6302e2a3734f0db899bbd7a0caaee8
 msgid "**<channel>**：扫描指定的通道号"
-msgstr ""
+msgstr "**<channel>**: Scan specified channel number"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:183
 #: 8d3871c690284a8ba36fe088279d2fd7
 msgid "**<rssi>**：过滤掉信号强度低于rssi参数值的AP，单位：dBm，默认值：-100，范围：[-100,40]"
 msgstr ""
+"**<rssi>**: Filter out APs with signal strength below this value in dBm. "
+"Default: -100, range: [-100, 40]"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:188
 #: 32d3b25c5de940d9819a555e66d7d83e
 msgid "1，为空代表跳过参数。"
-msgstr ""
+msgstr "1. Empty value skips the parameter."
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:189
 #: fe2910292d924565a2d5ba4190fee266
 msgid "2，可与 AT+WSCANOPT 组合使用。"
-msgstr ""
+msgstr "2. Can be combined with AT+WSCANOPT."
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:207
 #: a836320b222b4788a20ba9b4aec8542b
 msgid "AT+WSDHCP 查询或设置STA模式下DHCP参数"
-msgstr ""
+msgstr "AT+WSDHCP query or set DHCP parameters in STA mode"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:227
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:263
 #: 77e61e6cea584296bcc99745f1a82f74 b24380b0bfce4afebd19b746e070135f
 msgid "**<MODE>**：IP获取模式"
-msgstr ""
+msgstr "**<MODE>**: IP acquisition mode"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:228
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:264
 #: 3abf598d57c64d939b68c6e58383a2b4 c1563e461fc74c76bff85ff1ab242223
 msgid "0：禁用DHCP，使用静态IP"
-msgstr ""
+msgstr "0: Disable DHCP, use static IP"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:229
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:265
 #: 14f6446b7bbe484faaa095a9ad366b70 ed6018b03efe437a9f280284871cdac0
 msgid "1：使用DHCP获取IP"
-msgstr ""
+msgstr "1: Use DHCP to obtain IP"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:230
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:266
 #: 1390cb0cf6204798bfd47f33ed0defc6 6a4e9dd69d1b4d39afb4506794e28e2a
 msgid "**<IP>**：模块的IP地址，静态IP时需设置"
-msgstr ""
+msgstr "**<IP>**: Module IP address; required for static IP"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:231
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:267
 #: 4a8f351f01684b7bbebd7cbeb91da4f6 e93e048c8df640e186365105d706800c
 msgid "**<MASK>**：子网掩码,静态IP时需设置"
-msgstr ""
+msgstr "**<MASK>**: Subnet mask; required for static IP"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:232
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:268
 #: 1ee73b249f4748aebbcf52bbd0418b0f 2b1e4840d0db4cf6b550eb10f1ed1bd4
 msgid "**<GATEWAY>**：网关，静态IP时需设置"
-msgstr ""
+msgstr "**<GATEWAY>**: Gateway; required for static IP"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:282
 #: e59461c5e1c44e919f08324a00f48506
 msgid "AT+WJAP 连接AP"
-msgstr ""
+msgstr "AT+WJAP connect to AP"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:303
 #: cb434990ab8a4127b9715e5a91299da6
 msgid "**<ssid>**：连接的AP的SSID(最大长度为32字节)"
-msgstr ""
+msgstr "**<ssid>**: SSID of AP to connect to (max 32 bytes)"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:304
 #: 1994ad1a3ce04c1daaa73b6e9c6bc434
 msgid "**<pwd>**：连接的AP的密码(最大长度为32字节)"
-msgstr ""
+msgstr "**<pwd>**: Password of AP to connect to (max 32 bytes)"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:305
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:346
 #: 27bb1959a3414ec7b6ad80b2e983d266 4539f77682f54a22a1f15fd7e82549b8
 msgid "**<bssid>**：连接的AP的BSSID"
-msgstr ""
+msgstr "**<bssid>**: BSSID of AP to connect to"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:338
 #: 8b852c2071414ec89e0463b6f922aaaa
 msgid "**<status>**：连接状态"
-msgstr ""
+msgstr "**<status>**: Connection status"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:339
 #: 147cb62b5baf4cb2b509880a61b33367
 msgid "0：没有连接Wi-Fi(初始状态或者STA模式没有开启)"
-msgstr ""
+msgstr "0: Not connected to Wi-Fi (initial state or STA mode not enabled)"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:340
 #: cf51c1bc8b2a4b14a48d3ae037157d6d
 msgid "1：正在连接Wi-Fi或者Wi-Fi重连中"
-msgstr ""
+msgstr "1: Connecting to Wi-Fi or reconnecting"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:341
 #: f86759c6021a43afa3232a10bf72e545
 msgid "2：连接了Wi-Fi，还没有获取到IP"
-msgstr ""
+msgstr "2: Connected to Wi-Fi, IP not yet obtained"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:342
 #: ec07025450f24802bbb717b0c8a82d81
 msgid "3：连接到Wi-Fi，并且已经获取到了IP"
-msgstr ""
+msgstr "3: Connected to Wi-Fi and IP obtained"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:343
 #: 553faf03305c4beab2385677f324d31e
 msgid "4：Wi-Fi连接失败（超过了重连次数还没有连接成功的状态）"
-msgstr ""
+msgstr "4: Wi-Fi connection failed (exceeded retry count)"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:344
 #: d0731f2499194e349f4bee18c21199bd
 msgid "**<ssid>**：连接的AP的SSID"
-msgstr ""
+msgstr "**<ssid>**: SSID of connected AP"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:345
 #: de97ce19fedc430e894383447dd0f3a7
 msgid "**<pwd>**：连接的AP的密码"
-msgstr ""
+msgstr "**<pwd>**: Password of connected AP"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:347
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:610
 #: 1982f50b80c9432a92be9841c7f3a07f 3d391b819b654a6d894bf3df856151ad
 msgid "**<Security>**：加密方式"
-msgstr ""
+msgstr "**<Security>**: Encryption type"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:348
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:611
 #: 1e93404fb951495297f7b4e03ff1f6ee 68535c2cc80c40ebaafdd0a723520b3b
 msgid "Open //开放网络"
-msgstr ""
+msgstr "Open //Open network"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:349
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:612
 #: 1934dcc3b3c445b29b69ff20e3523e39 f2fe5914fddf43d987dadd46a1291287
 msgid "WEP"
-msgstr ""
+msgstr "WEP"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:350
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:613
 #: c3d6f5f39a2a400789f7f48b17958577 fa6a8bc3ae854ab0955e8211ae58698d
 msgid "WPA TKIP"
-msgstr ""
+msgstr "WPA TKIP"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:351
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:614
 #: 0485d616c1a2432491845bf064582c23 cba84841333946afaa3685aae6392a80
 msgid "WPA AES"
-msgstr ""
+msgstr "WPA AES"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:352
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:615
 #: b95593af14274c70beb652b8bef5acf7 d16e322cfbfe4831af1ddb9d2f88a005
 msgid "WPA Mixed"
-msgstr ""
+msgstr "WPA Mixed"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:353
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:616
 #: 963a4e7db5cc46cca15f83fe5c8d7b7d abcceab36c7447c486912ff0286cd39e
 msgid "WPA2 AES"
-msgstr ""
+msgstr "WPA2 AES"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:354
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:617
 #: 7a040ded56284ea5a18cb0a35fb8e254 8b0947e328e04176a4476a4f47e17160
 msgid "WPA2 TKIP"
-msgstr ""
+msgstr "WPA2 TKIP"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:355
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:618
 #: b7daf577d661411aafe484274fa2f7f4 f5a45d7bd36f4d75943a2afbf3b7747e
 msgid "WPA2 Mixed"
-msgstr ""
+msgstr "WPA2 Mixed"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:356
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:619
 #: 303c2338f68f4a78b793743b239f91eb e342f4ab52ed4f61898525a5cc1be39f
 msgid "WPA/WPA2 TKIP"
-msgstr ""
+msgstr "WPA/WPA2 TKIP"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:357
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:620
 #: 9b9b36f84ba9498ab05766283b9b6d8a eb3242023c3044a486e25860745b700e
 msgid "WPA/WPA2 AES"
-msgstr ""
+msgstr "WPA/WPA2 AES"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:358
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:621
 #: 11434cd3212440a7b88ea9c73883c48e 693cda24f4c741c6810b31a49b5f8726
 msgid "WPA/WPA2 Mixed"
-msgstr ""
+msgstr "WPA/WPA2 Mixed"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:359
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:622
 #: a5c9aee405af43cea926b9a07ef8960c ebb791822c814f12a438e69cefc6d748
 msgid "WPA2 Enterprise"
-msgstr ""
+msgstr "WPA2 Enterprise"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:360
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:623
 #: 99a612f68a1c46dc9af2235784c232de b46be4f6a59e47698d11597e8142d4de
 msgid "WPA/WPA2 Enterprise"
-msgstr ""
+msgstr "WPA/WPA2 Enterprise"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:361
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:624
 #: 0a4a805a0c3943b083a52d8bb014588d acac4ba1f99e4776849cd4b7072b6880
 msgid "WPA3-ASE AES"
-msgstr ""
+msgstr "WPA3-ASE AES"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:362
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:625
 #: 1aa86298998d4d5f83bbd2d84b4fad2d d86d4f4ebf7c46bdbdf43d211ffb2f03
 msgid "UnknownType  //未知类型"
-msgstr ""
+msgstr "UnknownType  //Unknown type"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:363
 #: 4927708b93ed4633a6e23ae8cf6c42ab
 msgid "**<MAC>**：Wi-Fi模组的MAC地址(小写字符，冒号分隔)"
-msgstr ""
+msgstr "**<MAC>**: Wi-Fi module MAC address (lowercase, colon-separated)"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:364
 #: 20480f106f594339af4a6c7c224c0037
 msgid "**<ch>**：连接信道"
-msgstr ""
+msgstr "**<ch>**: Connection channel"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:365
 #: e5f19adb0ba541e1b011fc596b1e8a92
 msgid "**<IP>**：IP地址(点分格式)"
-msgstr ""
+msgstr "**<IP>**: IP address (dotted decimal)"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:366
 #: 00c8d1b5f0e94e598537ba13aeb22015
 msgid "**<gateway>**：网关地址(点分格式)"
-msgstr ""
+msgstr "**<gateway>**: Gateway address (dotted decimal)"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:372
 #: 440f263534f341b8991f454440763b46
 msgid "查询Wi-Fi联网信息(这个是从硬件获取的当前状态，不是直接读取我们的设置值)"
 msgstr ""
+"Query Wi-Fi network information (current hardware state, not stored "
+"configuration values)"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:377
 #: d3726e3564894775b3eadf34d5c599f8
 msgid "AT+WDISCONNECT 断开当前的AP连接"
-msgstr ""
+msgstr "AT+WDISCONNECT disconnect current AP connection"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:400
 #: 2f56305955dd48a38061383db0082405
 msgid "AT+WDTSCONNECT"
-msgstr ""
+msgstr "AT+WDTSCONNECT"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:402
 #: 116838bf10bd421daff17be746b890e8
 msgid "+EVENT:WIFI DISCONNECT"
-msgstr ""
+msgstr "+EVENT:WIFI DISCONNECT"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:405
 #: 896507d285a142b2a49bdf867787bfe9
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:411
 #: 626588d7f35b4199a70e08010cf4c073
 msgid "**暂不支持**"
-msgstr ""
+msgstr "**Not supported yet**"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:416
 #: af6185fbfae7465dbb19888e1f4ef36e
 msgid "AT+WAUTOCONN 上电自动重连Wi-Fi"
-msgstr ""
+msgstr "AT+WAUTOCONN auto-reconnect Wi-Fi on power-up"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:436
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:475
@@ -705,360 +713,378 @@ msgstr ""
 #: 75fced541d104aa3a3589029989884a4 80b771669d9040578323d5df3401aafb
 #: a2c7c4245a744c798b879e8bafbe7b83 fb8299941b054b05b23e696fac3e57c9
 msgid "**<status>**："
-msgstr ""
+msgstr "**<status>**:"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:437
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:476
 #: 6cc89675f3164e8d8cce82f9dc4ffc8c 772aefe49fbb42d6be4a1398f939303e
 msgid "0：禁用"
-msgstr ""
+msgstr "0: Disabled"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:438
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:477
 #: 13e698036a1b478b8f01f16423af459c 39f37620fb5b40ac9c321dc50dc33e97
 msgid "1：使能"
-msgstr ""
+msgstr "1: Enabled"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:444
 #: 15aac2eafbc14ade9140fb677e797d94
 msgid "使能/禁用上电自动连接功能"
-msgstr ""
+msgstr "Enable/disable auto-connect on power-up"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:445
 #: 114f01f61434481bb0ddfca2fa175d87
 msgid "注意：先连接成功路由器后，再发此指令。"
-msgstr ""
+msgstr "Note: Connect to the router successfully before sending this command."
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:483
 #: bb5680dd68a44f0497962c5a9c2d0f07
 msgid "AT+WAPDHCP AP模式下DHCP参数"
-msgstr ""
+msgstr "AT+WAPDHCP DHCP parameters in AP mode"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:503
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:543
 #: 152be28112ab4c0cbc3aa7312cd7be4d 6095de0596374d238b17c82ce81926cd
 msgid "**<MODE>**："
-msgstr ""
+msgstr "**<MODE>**:"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:504
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:544
 #: c09be35b4b3f42b2b6fa6a363a44916b e491f0a0941a43c19b49863de8b4cb4b
 msgid "0：禁用DHCP"
-msgstr ""
+msgstr "0: Disable DHCP"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:505
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:545
 #: 2067085e2e214c0497cb2a71874e10f7 54887613ef9d4ca1b72538627884d33e
 msgid "1：使能DHCP"
-msgstr ""
+msgstr "1: Enable DHCP"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:506
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:546
 #: 0444421e75074a448a8b129886890dce 231dfa71dbf94b66b2f7424d11e096fc
 msgid "**<start_ip>**：DHCP起始地址。eg：192.168.43.100"
-msgstr ""
+msgstr "**<start_ip>**: DHCP start address. e.g. 192.168.43.100"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:507
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:547
 #: ea45f979d68a445782568abb1bc2b05a f75cb1279470494db8e1a80e0f217d35
 msgid "**<end_ip>**：DHCP结束地址。eg：192.168.43.200"
-msgstr ""
+msgstr "**<end_ip>**: DHCP end address. e.g. 192.168.43.200"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:508
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:548
 #: 304682ad370a4248a2195028ad9538a3 d451787123d7421d9e78d110c54314e8
 msgid "**<GATEWAY>**：网关IP(使用DHCP时模组IP就是网关IP)，使能DHCP时需设置。eg：192.168.43.1"
 msgstr ""
+"**<GATEWAY>**: Gateway IP (module IP equals gateway IP when DHCP is "
+"enabled). Required when DHCP is enabled. e.g. 192.168.43.1"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:513
 #: e61d971fa3084b7abc9879158262aceb
 msgid "设置AP模式下的DHCP参数"
-msgstr ""
+msgstr "Set DHCP parameters in AP mode"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:553
 #: e507ddc57972448582aa9f173583f945
 msgid "AT+WAP AP模式Wi-Fi参数"
-msgstr ""
+msgstr "AT+WAP Wi-Fi parameters in AP mode"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:574
 #: 7068c2c293c74699b485b4c3c96fa67b
 msgid "**<ssid>**：Wi-Fi名称(最大长度为32字节)"
-msgstr ""
+msgstr "**<ssid>**: Wi-Fi name (max 32 bytes)"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:575
 #: 2439004c8ee94535b4f80124bb3b380a
 msgid "**<pwd>**：Wi-Fi密码，空字符串表示无密码(最大长度为32字节)"
 msgstr ""
+"**<pwd>**: Wi-Fi password; empty string means no password (max 32 bytes)"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:576
 #: 9eee38153dfe4f3788cbea86865d2a43
 msgid "**<channel>**：Wi-Fi 信道"
-msgstr ""
+msgstr "**<channel>**: Wi-Fi channel"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:577
 #: dbeff035e964477187f22a76029f56b6
 msgid "**<max conn>**：最大连接数量(不写默认是3)"
-msgstr ""
+msgstr "**<max conn>**: Maximum connections (default 3 if omitted)"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:578
 #: cd73b63061f44759baeebbcc8e2b96c9
 msgid "**<ssid hidden>**：是否隐藏SSID，0不隐藏，1隐藏"
-msgstr ""
+msgstr "**<ssid hidden>**: Hide SSID; 0: visible, 1: hidden"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:608
 #: 532a82f5e9bf47ff97640b8211a164d0
 msgid "**<ssid>**：AP的SSID"
-msgstr ""
+msgstr "**<ssid>**: AP SSID"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:609
 #: 18ba6c6165c7437ba26844fe25e58ae6
 msgid "**<pwd>**：AP的密码"
-msgstr ""
+msgstr "**<pwd>**: AP password"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:626
 #: 878d763bc4b14474a0c04c4f601855c7
 msgid "**<channel>**：AP的信道"
-msgstr ""
+msgstr "**<channel>**: AP channel"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:627
 #: f5bad3f3a0dc4d36a9100573d96c92d9
 msgid "**<max conn>**：AP的最大支持的连接STA个数"
-msgstr ""
+msgstr "**<max conn>**: Maximum STA connections supported by AP"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:628
 #: 2be9e0c110874bd68c78146c3f4c04cc
 msgid "**<ssid hidden>**：AP的SSID是否隐藏"
-msgstr ""
+msgstr "**<ssid hidden>**: Whether AP SSID is hidden"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:629
 #: d0f23ad7c0f840c58e49dac6cc3dc824
 msgid "**<mac>**：开启AP热点的网卡MAC地址"
 msgstr ""
+"**<mac>**: MAC address of the network interface running the AP hotspot"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:630
 #: 3522a1fc447440ca9f8b92df95a24903
 msgid "**<IP>**：AP的IP地址(点分格式)"
-msgstr ""
+msgstr "**<IP>**: AP IP address (dotted decimal)"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:631
 #: 7d2d8f3d5fac4e5f8720640b82788b38
 msgid "**<Gateway>**：网关地址(点分格式)"
-msgstr ""
+msgstr "**<Gateway>**: Gateway address (dotted decimal)"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:637
 #: 4f2b5c537fd944eb87a825597d40a2d5
 msgid "查询AP参数信息(这个是从硬件获取的当前状态，不是直接读取我们的设置值)"
 msgstr ""
+"Query AP parameter information (current hardware state, not stored "
+"configuration values)"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:642
 #: ec8002cb25ca4afe96f201762dd2f442
 msgid "AT+PING 进行PING操作"
-msgstr ""
+msgstr "AT+PING perform Ping operation"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:670
 #: 3abc1b981aac42f1b75f05531f56cdb6
 msgid "**<addr>**：ip地址或者域名"
-msgstr ""
+msgstr "**<addr>**: IP address or domain name"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:671
 #: 1922a2c67ec341a19bcbc84766a52012
 msgid "**<count>**：ping次数，默认3次，loop表示一直ping不返回(此时只能重启模组)"
 msgstr ""
+"**<count>**: Ping count; default 3; loop means continuous ping without "
+"return (module restart required)"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:685
 #: f48effab1d444d48b0cdf13d88533a24
 msgid "AT+CIPSTAMAC_DEF   Wi-Fi station MAC地址"
-msgstr ""
+msgstr "AT+CIPSTAMAC_DEF Wi-Fi station MAC address"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:706
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:736
 #: 53d9af4b6bd04412836fe76354544ae1 5f3d9d1a4b1141eaace2a6435cb56425
 msgid "**<MAC>**：要设置的MAC地址，MAC格式84f3ebdd9e63(小写无分隔)"
 msgstr ""
+"**<MAC>**: MAC address to set; format 84f3ebdd9e63 (lowercase, no "
+"separators)"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:750
 #: 79fef3a092d64159be432a6d63fd978d
 msgid "AT+WCOUNTRY  Wi-Fi国家码"
-msgstr ""
+msgstr "AT+WCOUNTRY Wi-Fi country code"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:770
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:816
 #: 4699fdc1a444453188fff054a53dfdda 6ebe9ac1bd834c9daf95c3cc541a83af
 msgid "**<country_code>**：Wi-Fi国家码"
-msgstr ""
+msgstr "**<country_code>**: Wi-Fi country code"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:771
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:817
 #: 328bc3c151904f15a5738d9e2d32f1a5 8f92df8f0f2641ecb7bcd69c6df28b71
 msgid "0：不指定国家码，使用SDK默认配置"
-msgstr ""
+msgstr "0: Do not specify country code; use SDK default"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:772
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:818
 #: 0a6a090c68a54961b98364c416e5f06d 65056280618d42699ca85edaff66f645
 msgid "1：JP日本"
-msgstr ""
+msgstr "1: JP Japan"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:773
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:819
 #: 4a7e3452e32442b28a6f2b2b9ab25e19 69b5ad0560ef4e2ba7e90a6fb1fa40f9
 msgid "2：AS美属萨摩亚"
-msgstr ""
+msgstr "2: AS American Samoa"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:774
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:820
 #: 30f389f6fd734aadbafa2580f4b25779 78e446ce7971473c8c01893837dc431e
 msgid "3：CA加拿大"
-msgstr ""
+msgstr "3: CA Canada"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:775
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:821
 #: 2896945a30774569996b7c1014d67646 e363cf99879f472f9c5aebf30d50c7a6
 msgid "4：US美国"
-msgstr ""
+msgstr "4: US United States"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:776
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:822
 #: 7e40c507798e4a9f8e6f732247a86478 fd5306af84f84c3397fce88bd4fc7ae6
 msgid "5：CN中国"
-msgstr ""
+msgstr "5: CN China"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:777
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:823
 #: 1916c9bc6cac4b888a5d2c68db0232c1 c87ea7613629467ebef7cfbb94392248
 msgid "6：HK中国香港"
-msgstr ""
+msgstr "6: HK Hong Kong, China"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:778
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:824
 #: 5942b852a1564d0f8d90f3d5b67a13ce 67c37eafeed54bd6a01a2313a8458d76
 msgid "7：TW中国台湾"
-msgstr ""
+msgstr "7: TW Taiwan, China"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:779
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:825
 #: 3abffa36339f43619d26fd5469a2ac90 5cc54479dd064cdc8c39ed9cbcdc3f74
 msgid "8：MO中国澳门"
-msgstr ""
+msgstr "8: MO Macao, China"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:780
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:826
 #: cd079f61d8ac49c18dccf6b6dfddf281 eb73ce331d8846b9899701fed63fac64
 msgid "9：IL以色列"
-msgstr ""
+msgstr "9: IL Israel"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:781
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:827
 #: 3db29b8a77f040e9bf19d4b4d72a6dc4 e5d7aebdac604bd4a28106ca3a2530e9
 msgid "10：SG新加坡"
-msgstr ""
+msgstr "10: SG Singapore"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:782
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:828
 #: 7bac60015ff34290bad6d68a554307be fbfd37d63afa4ccf90fadc629675ca62
 msgid "11：KR韩国"
-msgstr ""
+msgstr "11: KR South Korea"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:783
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:829
 #: 049c854cd0124b2c95d56ff221fd6518 050c7bf6b7cb4957aad676e52f83b83c
 msgid "12：TR土耳其"
-msgstr ""
+msgstr "12: TR Turkey"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:784
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:830
 #: 5f8321f8134442e58a6fb2bd4fc6895b 94cea18dc0b04a4197924c5da2871280
 msgid "13：AU澳大利亚"
-msgstr ""
+msgstr "13: AU Australia"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:785
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:831
 #: 07b9424c089c4b6584a5a66ba93eb7b9 fdb36e5ce61f4891acd356d32de306fb
 msgid "14：ZA南非"
-msgstr ""
+msgstr "14: ZA South Africa"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:786
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:832
 #: b5a170ee581344c9bb2e8a1e51758db8 dd34091772574ff7ac7b90be5ab44691
 msgid "15：BR巴西"
-msgstr ""
+msgstr "15: BR Brazil"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:847
 #: 053095e463a0416fb3742f94c16f2ec4
 msgid "AT+WCONFIG  手机配网"
-msgstr ""
+msgstr "AT+WCONFIG mobile provisioning"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:868
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:912
 #: 337653befd464c49be1d55d6b5a61d1f 93187e4fa8054c1980eb51b4a906943b
 msgid "0：关闭手机配网任务"
-msgstr ""
+msgstr "0: Disable mobile provisioning task"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:869
 #: 4cdaf689af1a42f9915c7e1fc2ac3727
 msgid "1：开启一次 Wi-Fi 配网(配网成功/配网超时会自动返回关闭状态)"
 msgstr ""
+"1: Start one Wi-Fi provisioning session (auto-disables on success or "
+"timeout)"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:870
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:914
 #: 295fce31801c4c1c9f3e31b57a9cdb61 76983738d2fd4c38a8e19a1293b1c43d
 msgid "2：开启一次蓝牙配网(配网成功/配网超时会自动返回关闭状态)"
 msgstr ""
+"2: Start one Bluetooth provisioning session (auto-disables on success or "
+"timeout)"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:871
 #: 3d75ba38b98c4e20967df030af7d2d9a
 msgid "3：开启一次 AirKiss 配网"
-msgstr ""
+msgstr "3: Start one AirKiss provisioning session"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:873
 #: 2d34a83b6f0b45bbb305c04fa2a91830
 msgid "**BW16模组**"
-msgstr ""
+msgstr "**BW16 module**"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:874
 #: 79bd276e85504f058dbd8f52442619bc
 msgid "1：瑞昱 Simple Config"
-msgstr ""
+msgstr "1: Realtek Simple Config"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:875
 #: 3f167c3a4e7c458c81821de62dd526fc
 msgid "2：瑞昱 Wi-Fi Config"
-msgstr ""
+msgstr "2: Realtek Wi-Fi Config"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:876
 #: 276aeaecb8f94b75a694f47e3fa3d9e6
 msgid "**Ai-WB2系列模组**"
-msgstr ""
+msgstr "**Ai-WB2 series modules**"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:877
 #: ff4e3d7eb6054fc49d8b63b5f0014d1d
 msgid "1：Wi-Fi 配网(touch)"
-msgstr ""
+msgstr "1: Wi-Fi provisioning (touch)"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:878
 #: ef4347c8c9e343eaa4b059aeddf347b7
 msgid "2：蓝牙配网(BluFi)"
-msgstr ""
+msgstr "2: Bluetooth provisioning (BluFi)"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:879
 #: 9c271d8e526642e7b2503cba590e154e
 msgid "3：微信 AirKiss 配网"
-msgstr ""
+msgstr "3: WeChat AirKiss provisioning"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:881
 #: 76813332b971462aa60cfcc427b93e4c
 msgid "**<name>**：这个是用来自定义配网广播名称的，当前仅BluFi协议支持该参数配网协议"
 msgstr ""
+"**<name>**: Custom provisioning broadcast name; currently only BluFi "
+"protocol supports this parameter"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:913
 #: deeab29e96c04598b43f8915335f7934
 msgid "1：开启一次Wi-Fi配网(配网成功/配网超时会自动返回关闭状态)"
 msgstr ""
+"1: Start one Wi-Fi provisioning session (auto-disables on success or "
+"timeout)"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:928
 #: 8b640ecb61df43129d63f1926b562b8b
 msgid "AT+WSCANOPT  筛选Wi-Fi扫描显示信息"
-msgstr ""
+msgstr "AT+WSCANOPT filter Wi-Fi scan display information"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:948
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:991
@@ -1067,44 +1093,46 @@ msgid ""
 "**<option>**：Wi-Fi 扫描结果是否显示以下参数，默认值：0xFF，设置某位 bit 为 1，则显示对应参数，设为 "
 "0，则不显示对应参数。option 有两种输入方式（ 16 进制 0xXY 的形式和 10 进制的形式）。"
 msgstr ""
+"**<option>**: Whether Wi-Fi scan results show the following parameters. "
+"Default: 0xFF. Set a bit to 1 to show the parameter, 0 to hide. Two input "
+"formats: hexadecimal 0xXY or decimal."
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:949
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:992
 #: 8b1cefc6723f40fe82eee2831bd64e7b d4d010cd07024573af276f272e0ae613
 msgid "bit 0: 是否显示 <ssid>"
-msgstr ""
+msgstr "bit 0: Show <ssid>"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:950
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:993
 #: 39586df2019749c59c1f89e7424b3b28 7fc7dbb3f53248eb8513005d87c05929
 msgid "bit 1: 是否显示 <channel>"
-msgstr ""
+msgstr "bit 1: Show <channel>"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:951
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:994
 #: 4fe62d8fa3324de19ad0be9977e89cf4 b5c824ad0678493a80f7ec5da8f4c4f9
 msgid "bit 2: 是否显示 <security>"
-msgstr ""
+msgstr "bit 2: Show <security>"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:952
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:995
 #: 15426160d55a4a068ba8dab2a2e6cdf8 467269f6a2684b2b9bcb1f532a277f01
 msgid "bit 3: 是否显示 <rssi>"
-msgstr ""
+msgstr "bit 3: Show <rssi>"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:953
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:996
 #: 2cbdf77ae07240f7aaa37aad144d88c8 35e0aa7595594c46b7f7cd0a315c8c66
 msgid "bit 4: 是否显示 <MAC>"
-msgstr ""
+msgstr "bit 4: Show <MAC>"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:1009
 #: da078458ebb84b4ca95d4bd6ca3d1fa0
 msgid "AT+WRSSI  查询 Wi-Fi 连接信号强度"
-msgstr ""
+msgstr "AT+WRSSI query Wi-Fi connection signal strength"
 
 #: ../../source/docs/command-set/Wi-Fi_AT_Commands.rst:1029
 #: 19b61b606bbc4dbd8d1da5d9c3e45273
 msgid "**<rssi>**：Wi-Fi 连接信号强度"
-msgstr ""
-
+msgstr "**<rssi>**: Wi-Fi connection signal strength"

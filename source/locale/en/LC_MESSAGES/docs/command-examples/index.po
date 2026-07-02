@@ -1,15 +1,14 @@
-# SOME DESCRIPTIVE TITLE.
+﻿# SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2023, 安信可科技
 # This file is distributed under the same license as the 安信可科技 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: 安信可科技 \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-01 23:52+0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2026-07-02 00:00+0800\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
 "Language-Team: en <LL@li.org>\n"
@@ -22,10 +21,9 @@ msgstr ""
 #: ../../source/docs/command-examples/index.rst:2
 #: 498fbf4f387841c2982eea480329b5da
 msgid "AT 命令示例"
-msgstr ""
+msgstr "AT Command Examples"
 
 #: ../../source/docs/command-examples/index.rst:3
 #: 02a619e617cf4dd9ac68831da17ae8ad
 msgid "本章将具体介绍如何使用各类 AT 命令。"
-msgstr ""
-
+msgstr "This chapter describes how to use various AT commands in detail."

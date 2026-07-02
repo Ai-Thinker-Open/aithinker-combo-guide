@@ -1,15 +1,14 @@
-# SOME DESCRIPTIVE TITLE.
+﻿# SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2023, 安信可科技
 # This file is distributed under the same license as the 安信可科技 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: 安信可科技 \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-01 23:52+0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2026-07-02 00:00+0800\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
 "Language-Team: en <LL@li.org>\n"
@@ -22,67 +21,67 @@ msgstr ""
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:2
 #: 99a880470fec41aeacce73fd398b48a5
 msgid "基础 AT 命令集"
-msgstr ""
+msgstr "Basic AT Command Set"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:4
 #: 8d471d0de44a4154a4b31791440a9e6d
 msgid "本章节介绍基础 AT 命令"
-msgstr ""
+msgstr "This chapter introduces basic AT commands"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:6
 #: 70fb81f0bc564ee496feb84e1108f21b
 msgid ":ref:`AT <cmd-AT>`：测试 AT 启动"
-msgstr ""
+msgstr ":ref:`AT <cmd-AT>`: Test AT startup"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:7
 #: 47992a6ec0a94951897f603240739388
 msgid ":ref:`AT+HELP <cmd-HELP>`：查看 AT 指令集"
-msgstr ""
+msgstr ":ref:`AT+HELP <cmd-HELP>`: View AT command set"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:8
 #: f92133b47e444dd09b5a5ef224fc626a
 msgid ":ref:`AT+RST <cmd-RST>`：模块重启"
-msgstr ""
+msgstr ":ref:`AT+RST <cmd-RST>`: Restart module"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:9
 #: cb6ef19e996440ca8197407aa613b9aa
 msgid ":ref:`AT+RESTORE <cmd-RESTORE>`：恢复出厂设置"
-msgstr ""
+msgstr ":ref:`AT+RESTORE <cmd-RESTORE>`: Restore factory settings"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:10
 #: 326962e563e046e48fd99ae46c4a8b0b
 msgid ":ref:`ATE1 <cmd-ATE1>`：打开回显"
-msgstr ""
+msgstr ":ref:`ATE1 <cmd-ATE1>`: Enable echo"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:11
 #: 880a964d8e2042e283db3b4ad47b21d5
 msgid ":ref:`ATE0 <cmd-ATE0>`：关闭回显"
-msgstr ""
+msgstr ":ref:`ATE0 <cmd-ATE0>`: Disable echo"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:12
 #: 95ff773b44c241cba1c0a145f3a340b8
 msgid ":ref:`AT+GMR <cmd-GMR>`：查询版本信息"
-msgstr ""
+msgstr ":ref:`AT+GMR <cmd-GMR>`: Query version information"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:13
 #: 22a06249fb264814b213684959db5bcd
 msgid ":ref:`AT+SLEEP <cmd-SLEEP>`：睡眠模式"
-msgstr ""
+msgstr ":ref:`AT+SLEEP <cmd-SLEEP>`: Sleep mode"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:14
 #: b54ae4b443514163b5d6666b547c8a2b
 msgid ":ref:`AT+UARTCFG <cmd-UARTCFG>`：串口设置"
-msgstr ""
+msgstr ":ref:`AT+UARTCFG <cmd-UARTCFG>`: UART configuration"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:15
 #: 12a1a530d95e464da5d9fbc0ba36a062
 msgid ":ref:`AT+OTA <cmd-OTA>`：在线升级"
-msgstr ""
+msgstr ":ref:`AT+OTA <cmd-OTA>`: Online upgrade"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:20
 #: ce0e62394fac466b96fc7f1109335195
 msgid "AT：测试 AT 启动"
-msgstr ""
+msgstr "AT: Test AT startup"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:23
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:49
@@ -100,12 +99,12 @@ msgstr ""
 #: 93a66bad937643608a054770c003f5f3 986ef2fef1a146a7a8af85db6ee20ea7
 #: a6d212ba4b8746868c7d34c98c487e33 f58e069ae1a0446bb45e701d8ad5ffe9
 msgid "描述"
-msgstr ""
+msgstr "Description"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:25
 #: 78bbaf76ad034b57973522453181b05d
 msgid "测试 AT 框架是否正常工作的指令"
-msgstr ""
+msgstr "Command to test whether the AT framework is working properly"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:29
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:55
@@ -123,7 +122,7 @@ msgstr ""
 #: 916fb8077a414fdaa59acf3fabffbb02 9881c6155f224d1b81d772cae4b1bef3
 #: d0fca539bd65436cb9fd6007819f2905 f9433bfbbe6d48f2a9b1c35a29c970e6
 msgid "执行命令"
-msgstr ""
+msgstr "Execute Command"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:31
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:57
@@ -138,7 +137,7 @@ msgstr ""
 #: d78d4cd4c5c54f929502171572337c53 e8dae97d996140b58fa8b98f47a508c5
 #: ec43b2f6ac8442b0914671737cb33711 f825240598b145d3975eaba768c4d343
 msgid "**命令：**"
-msgstr ""
+msgstr "**Command:**"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:37
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:63
@@ -158,47 +157,49 @@ msgstr ""
 #: c74e22b908854a71983ddea5ce1705f0 ee4804211f0649e7a7f9ba8fb9e20fb6
 #: fe88a2a5bdcd4a428ef5bc50b4d42d1a
 msgid "**响应：**"
-msgstr ""
+msgstr "**Response:**"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:46
 #: 393c4458cfe145fab9e9e988aebabc22
 msgid "AT+HELP：查看 AT 指令集"
-msgstr ""
+msgstr "AT+HELP: View AT command set"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:51
 #: eab26b397cd94f309677d61471a110e8
 msgid "查询 AT 指令集列表"
-msgstr ""
+msgstr "Query the AT command list"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:76
 #: 2ddc7e6c6d044b8f9e529cb44b3cff2b
 msgid "AT+RST：模块重启"
-msgstr ""
+msgstr "AT+RST: Restart module"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:81
 #: db5560ac94844a268751a8ed5b4b89d8
 msgid "重启模组"
-msgstr ""
+msgstr "Restart the module"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:102
 #: ac1ee721e92a4f23a354750f62b1d83e
 msgid "AT+RESTORE：恢复出厂设置"
-msgstr ""
+msgstr "AT+RESTORE: Restore factory settings"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:107
 #: 69c5a176c518484c8116028a797b37b3
 msgid "恢复出厂模式，擦除配置信息(三元组、IO 映射除外)"
 msgstr ""
+"Restore factory mode and erase configuration (except credentials and IO "
+"mapping)"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:128
 #: 863742b961be475da312f8850df2e8c3
 msgid "ATE1：打开回显"
-msgstr ""
+msgstr "ATE1: Enable echo"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:133
 #: 42152a95f09e4eada9b31c173bee42ea
 msgid "打开回显"
-msgstr ""
+msgstr "Enable echo"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:136
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:248
@@ -206,37 +207,37 @@ msgstr ""
 #: 0b6aceeec1864d7f99e2e3e75558a208 733e35e82b9843ea8431e4103ea6f26c
 #: b1e6335b4c2247e3a57dc386f1cbd4b0
 msgid "注释"
-msgstr ""
+msgstr "Note"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:137
 #: 0405fb8113324a09ad6a4298e3310248
 msgid "PB 系列默认回显打开"
-msgstr ""
+msgstr "PB series has echo enabled by default"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:138
 #: 763b36101b9e4332a97a2b151f35bd59
 msgid "TB 系列默认回显打开"
-msgstr ""
+msgstr "TB series has echo enabled by default"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:159
 #: 55cdb6451ed24db7abe493e99e91bea7
 msgid "ATE0：关闭回显"
-msgstr ""
+msgstr "ATE0: Disable echo"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:164
 #: 46ed7c385acb4fd2bf84b1a3403b3d62
 msgid "关闭回显"
-msgstr ""
+msgstr "Disable echo"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:185
 #: b9b0925825d2459ab94b2425434c1f82
 msgid "AT+GMR：查询版本信息"
-msgstr ""
+msgstr "AT+GMR: Query version information"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:190
 #: 1fc54520f51240599f5663ef8870e49a
 msgid "查询版本信息"
-msgstr ""
+msgstr "Query version information"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:213
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:272
@@ -245,32 +246,35 @@ msgstr ""
 #: 2dee282da98e47ea982c2528b5a3030e 44ec261192144779a8bdcd8c3f31a685
 #: 755e5e5121cc401396e9b609a6d022db ef284118ebd344b8b16d69a842d792e9
 msgid "参数"
-msgstr ""
+msgstr "Parameters"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:216
 #: a94aa9ab087642749d9df184aa172c7d
 msgid "**<at version>**：AT版本信息(combo版本)"
-msgstr ""
+msgstr "**<at version>**: AT version information (Combo version)"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:217
 #: 8f13969f10dd4e3ca855b80f1fbf83df
 msgid "**<sdk version>**：SDK版本信息"
-msgstr ""
+msgstr "**<sdk version>**: SDK version information"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:218
 #: a03a8c7f19e24962910bec74187ba8e0
 msgid "**<firmware version>**: 固件版本信息"
-msgstr ""
+msgstr "**<firmware version>**: Firmware version information"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:221
 #: ed88a733b4214b0cbe51f95d1700561a
 msgid "说明"
-msgstr ""
+msgstr "Notes"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:223
 #: 16982c1141b74048aa2c2b5e64e6ebc7
 msgid "如果您在使用 Combo-AT 固件中有任何问题，请先提供 ``AT+GMR`` 版本信息。如若了解编译时间，模组重启后会自动打印出来。"
 msgstr ""
+"If you encounter any issues while using Combo-AT firmware, please "
+"provide the ``AT+GMR`` version information first. The build time is "
+"printed automatically after the module restarts."
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:226
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:295
@@ -279,32 +283,32 @@ msgstr ""
 #: 125a73f66eb94f539b13231fe4ddf64c 37cf53eccf4e47f8a7e8bedfcc07c4c7
 #: 564e98fdf88d4675a83685066372a3d7 c528de743be841b29046d7e7803d1da5
 msgid "示例"
-msgstr ""
+msgstr "Example"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:240
 #: 5b84fa8ae04a4978b16a881b76e39c39
 msgid "AT+SLEEP：睡眠模式"
-msgstr ""
+msgstr "AT+SLEEP: Sleep mode"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:245
 #: 31d27105b55a4eb8ab05fdb98aa71550
 msgid "设置睡眠模式"
-msgstr ""
+msgstr "Configure sleep mode"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:250
 #: 2f5686bace5446acb33eaef497ec3e22
 msgid "PB 系列默认模式为 3，普通模式"
-msgstr ""
+msgstr "PB series default mode is 3 (normal mode)"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:251
 #: e97c9c6150614b2394e1e680cbc6ba64
 msgid "TB 系列默认模式为 3，普通模式"
-msgstr ""
+msgstr "TB series default mode is 3 (normal mode)"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:252
 #: 962e197bfcbe4036af69072d949f79d9
 msgid "Ai-WB2 系列支持 mode 2/3，默认为 3"
-msgstr ""
+msgstr "Ai-WB2 series supports mode 2/3; default is 3"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:253
 #: 859d3af3419849bf83e50f2f619b5b14
@@ -312,251 +316,268 @@ msgid ""
 "注意：Ai-WB2 系列的 GPIO 唤醒配置时 param1 指定的引脚是没有映射的，也就是芯片实际的引脚，且仅支持 IO7 引脚(IO7 是 "
 "RX 引脚，所以串口唤醒我们一般设置 IO7 低电平环境即可，也就是 AT+SLEEP=2,2,7,0)"
 msgstr ""
+"Note: For Ai-WB2 series GPIO wake-up configuration, the pin specified by "
+"param1 is not mapped; it refers to the actual chip pin. Only IO7 is "
+"supported (IO7 is the RX pin, so for UART wake-up, set IO7 to a low-level "
+"environment, e.g., AT+SLEEP=2,2,7,0)"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:273
 #: 65a4102bc93245069e898cefb22b1f5c
 msgid "Mode："
-msgstr ""
+msgstr "Mode:"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:274
 #: c894f82f8b824618ab6bd0ef07049c37
 msgid "0：进入浅睡眠，上电不自动进入浅睡眠状态"
-msgstr ""
+msgstr "0: Enter light sleep; do not auto-enter light sleep on power-up"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:275
 #: b1c38782a0764594b41030c64e0fb796
 msgid "1：进入浅睡眠，上电自动进入浅睡眠"
-msgstr ""
+msgstr "1: Enter light sleep; auto-enter light sleep on power-up"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:276
 #: da977b770115419dacbe1f7597dc7691
 msgid "2：进入深度睡眠状态"
-msgstr ""
+msgstr "2: Enter deep sleep"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:277
 #: c9bcac8b94a74558ad79a276af6bd530
 msgid "3：普通模式"
-msgstr ""
+msgstr "3: Normal mode"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:279
 #: 91a7535761334cbfbc5109a8c92ecb4f
 msgid "wakeup source："
-msgstr ""
+msgstr "wakeup source:"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:280
 #: bae01ad57d454324b72576411c743f30
 msgid "设置唤醒源(仅 mode=0/1/2 时有效)"
-msgstr ""
+msgstr "Set wake-up source (valid only when mode=0/1/2)"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:281
 #: 757652205d5a4f859784e72205233fa4
 msgid "0：定时器唤醒"
-msgstr ""
+msgstr "0: Timer wake-up"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:282
 #: af19fad727834cc0bdb37e817a2f235c
 msgid "2：GPIO 唤醒"
-msgstr ""
+msgstr "2: GPIO wake-up"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:284
 #: f44192f33a954f3f82e0887d2f4dbe25
 msgid "param1："
-msgstr ""
+msgstr "param1:"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:285
 #: 4933398e8f4142a392fa9b1a3d2fb782
 msgid "仅 wakeup source=0/2 时有效"
-msgstr ""
+msgstr "Valid only when wakeup source=0/2"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:286
 #: 3c8bd7cabb424f7984c5bf1c7a6ca4af
 msgid "wakeup source=0 时表示使用定时唤醒，该参数表示定时时间，单位为 ms"
 msgstr ""
+"When wakeup source=0, timer wake-up is used; this parameter specifies "
+"the timer interval in ms"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:287
 #: b44dd5f27b5d49739a7ca882a18f921b
 msgid "wakeup source=2 表示使用 GPIO 唤醒，该参数表示唤醒脚的序号（从模组左上角逆时针排序，引脚序号从 1 开始）"
 msgstr ""
+"When wakeup source=2, GPIO wake-up is used; this parameter specifies the "
+"wake-up pin number (counted counterclockwise from the upper-left corner "
+"of the module, starting from 1)"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:289
 #: 5bcce5beea4449428a2aeaec4860c70a
 msgid "Param2："
-msgstr ""
+msgstr "Param2:"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:290
 #: 2c77c1d1e04449f4865ab516301e95f9
 msgid "仅 wakeup source=2 时有效，表示 GPIO 唤醒时的唤醒电平"
 msgstr ""
+"Valid only when wakeup source=2; specifies the GPIO wake-up level"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:291
 #: 9c5a9c03089848ffb82d05f7a115f2db
 msgid "0：低电平唤醒"
-msgstr ""
+msgstr "0: Wake on low level"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:292
 #: 937a76da0a604d6db320cb0d1e7d25eb
 msgid "1：高电平唤醒"
-msgstr ""
+msgstr "1: Wake on high level"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:306
 #: e631c76513364efe821e2cd931bac543
 msgid "AT+UARTCFG：串口设置"
-msgstr ""
+msgstr "AT+UARTCFG: UART configuration"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:311
 #: 940a6ca8489441228c9b473a36c30d6a
 msgid "查询/设置 AT 串口配置指令，6212,6252,8258 只支持 baudrate,流控默认为关闭状态，不可设置"
 msgstr ""
+"Query/set AT UART configuration. Models 6212, 6252, and 8258 support "
+"baudrate only; flow control is disabled by default and cannot be "
+"configured"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:316
 #: 48109273436445019417a2d142420858
 msgid "PB 系列只支持 baudrate"
-msgstr ""
+msgstr "PB series supports baudrate only"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:317
 #: 64655311edf144c2bfdb09b67dde7164
 msgid "TB 系列只支持 baudrate"
-msgstr ""
+msgstr "TB series supports baudrate only"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:321
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:388
 #: 1ebae250bb1346ff9a3eb889eff6e55f a012a3bd41624d49b7cc772e68e4b3cc
 msgid "**查询命令：**"
-msgstr ""
+msgstr "**Query Command:**"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:327
 #: 5606dd344b86495dae0ce8c138f44b44
 msgid "**响应：** ::"
-msgstr ""
+msgstr "**Response:** ::"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:334
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:400
 #: 2a0e257133524920813f5f34450de662 8bf7e75829634a98a17be5ab5566c2c9
 msgid "**设置命令：**"
-msgstr ""
+msgstr "**Set Command:**"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:348
 #: 513ecde70a5e47c7b996af95a0d05023
 msgid "baudrate：串口波特率"
-msgstr ""
+msgstr "baudrate: UART baud rate"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:349
 #: c05ae9a37e36466e8eab3e9c34bed86c
 msgid "databits：数据位"
-msgstr ""
+msgstr "databits: Data bits"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:350
 #: 6433fbc456c947328f107332c21705c5
 msgid "5：5 bit 数据位"
-msgstr ""
+msgstr "5: 5 data bits"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:351
 #: a6de2daa70ab4f07b9598652d443926d
 msgid "6：6 bit 数据位"
-msgstr ""
+msgstr "6: 6 data bits"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:352
 #: 2d9ac49c0fe44b4bb5fbb7e626066ac5
 msgid "7：7 bit 数据位"
-msgstr ""
+msgstr "7: 7 data bits"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:353
 #: d70cb147efd94559a674fb5889bd7ee8
 msgid "8：8 bit 数据位"
-msgstr ""
+msgstr "8: 8 data bits"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:355
 #: 27a02c448943436999dc9a46ff5a4d9f
 msgid "stopbits：停止位"
-msgstr ""
+msgstr "stopbits: Stop bits"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:356
 #: 84cc2fc056674c7f9d657fb7f66c3c82
 msgid "1：1 bit 停止位"
-msgstr ""
+msgstr "1: 1 stop bit"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:357
 #: 7fc36c01f1fa41d2a4e8629d86bc00ec
 msgid "2：1.5 bit 停止位"
-msgstr ""
+msgstr "2: 1.5 stop bits"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:358
 #: e2583da229eb45b1a5b189a240399380
 msgid "3：2 bit 停止位"
-msgstr ""
+msgstr "3: 2 stop bits"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:360
 #: fd969c97b4d74edea7f702bde35d74ea
 msgid "parity：校验位"
-msgstr ""
+msgstr "parity: Parity"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:361
 #: e3fad475bdb74b5eb779076f7d5d5a8e
 msgid "0：None"
-msgstr ""
+msgstr "0: None"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:362
 #: f7cc6c7db69e4538a7746416b254a035
 msgid "1：Odd"
-msgstr ""
+msgstr "1: Odd"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:363
 #: 3f434ef245814cbfa8b6d10bbc5a5c2b
 msgid "2：Even"
-msgstr ""
+msgstr "2: Even"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:377
 #: 635cb80765f44d11a0ca055b530ef392
 msgid "AT+OTA：在线升级"
-msgstr ""
+msgstr "AT+OTA: Online upgrade"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:382
 #: 2cf18c97ce5345ae8306b78581ad526f
 msgid "开始一次 OTA 升级"
-msgstr ""
+msgstr "Start an OTA upgrade"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:383
 #: 167a2c4be46f4210b4c41c3dd34c6891
 msgid "注意：升级是异步的，显示 OK 只是表示启动任务成功，并不表示升级成功，升级成功后会重启模组，并切换到新的固件"
 msgstr ""
+"Note: The upgrade is asynchronous. OK indicates that the task started "
+"successfully, not that the upgrade completed. On success, the module "
+"reboots and switches to the new firmware"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:396
 #: 797d43f1b3574f20ad023fab34da5d2a
 msgid "+OTA:<Mode>,<Host_name>,<Port>,<Route> (设置固件升级方式及固件地址)"
 msgstr ""
+"+OTA:<Mode>,<Host_name>,<Port>,<Route> (Configure firmware upgrade method "
+"and firmware address)"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:398
 #: 5f8084c5702c428094e597fb7172b2b4
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:414
 #: 63b4e97c84eb4614b1c62114923943b4
 msgid "Mode：下载方式"
-msgstr ""
+msgstr "Mode: Download method"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:415
 #: a1d2b41655f6437fb81c5926afe82d59
 msgid "1：HTTP"
-msgstr ""
+msgstr "1: HTTP"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:416
 #: 61a34c20a4ce4a2b8259a39ebf04e1dd
 msgid "2：HTTPS"
-msgstr ""
+msgstr "2: HTTPS"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:418
 #: 9aa4a138b90d439294f2ef441ac09aa4
 msgid "Host_name：服务器域名"
-msgstr ""
+msgstr "Host_name: Server domain name"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:419
 #: 435495db2d6a4660916fe49e738ec027
 msgid "Port：服务器端口号"
-msgstr ""
+msgstr "Port: Server port number"
 
 #: ../../source/docs/command-set/AT_Basic_Commands.rst:420
 #: cbece034d8384e058cbb43f05eee3a0b
 msgid "Route：要下载的资源地址"
-msgstr ""
-
+msgstr "Route: Resource URL to download"

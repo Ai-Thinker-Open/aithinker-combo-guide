@@ -3,13 +3,12 @@
 # This file is distributed under the same license as the 安信可科技 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: 安信可科技 \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-01 23:52+0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2026-07-02 00:00+0800\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
 "Language-Team: en <LL@li.org>\n"
@@ -22,17 +21,17 @@ msgstr ""
 #: ../../source/docs/command-examples/sleep_at_examples.rst:2
 #: c97c2511080643658f94ab327e2ddb0a
 msgid "Sleep AT 示例"
-msgstr ""
+msgstr "Sleep AT Examples"
 
 #: ../../source/docs/command-examples/sleep_at_examples.rst:3
 #: 840ba314cc3e442db027954a6f30814f
 msgid "本文档简要介绍并举例说明使用AT命令设置睡眠模式。"
-msgstr ""
+msgstr "This document briefly introduces and demonstrates setting sleep modes using AT commands."
 
 #: ../../source/docs/command-examples/sleep_at_examples.rst:10
 #: 353706de4b004735934a3b21bc4c89f4
 msgid "简介"
-msgstr ""
+msgstr "Introduction"
 
 #: ../../source/docs/command-examples/sleep_at_examples.rst:12
 #: 2aae4a43b724416d94b2e96d445dbe98
@@ -40,27 +39,27 @@ msgid ""
 "当前，Combo-AT支持以下两种功耗模式： 1. "
 "浅休眠模式：目前仅仅支持蓝牙从机模式下设置，可以选择上电进入或上电不进入浅休眠，休眠期间保持蓝牙广播。 2. "
 "深度休眠模式：有定时唤醒和GPIO唤醒两种唤醒方式，进入休眠后，蓝牙和Wi-Fi都停止工作。"
-msgstr ""
+msgstr "Combo-AT currently supports two power modes: 1. Light sleep: only available in BLE peripheral mode; you can choose to enter light sleep on power-up or not; BLE advertising continues during sleep. 2. Deep sleep: supports timer wake-up and GPIO wake-up; BLE and Wi-Fi stop after entering sleep."
 
 #: ../../source/docs/command-examples/sleep_at_examples.rst:17
 #: a78695ca876e43329b42b7f9949d2419
 msgid "测量方法"
-msgstr ""
+msgstr "Measurement Method"
 
 #: ../../source/docs/command-examples/sleep_at_examples.rst:19
 #: 7fbc71c51a9c4c2c86aaee536f2688eb
 msgid "为避免功耗测试过程中出现一些不必要的干扰，建议对单模组进行测试。"
-msgstr ""
+msgstr "To avoid interference during power consumption testing, test a single module."
 
 #: ../../source/docs/command-examples/sleep_at_examples.rst:23
 #: f1668c88e50642ae8657df6689f10fdf
 msgid "在蓝牙连接态下设置为浅休眠模式"
-msgstr ""
+msgstr "Set light sleep mode while BLE is connected"
 
 #: ../../source/docs/command-examples/sleep_at_examples.rst:24
 #: 940345d2aeaa45479688001dfb33b82e
 msgid "#.初始化为角色为蓝牙从机。"
-msgstr ""
+msgstr "#. Initialize as BLE peripheral."
 
 #: ../../source/docs/command-examples/sleep_at_examples.rst:26
 #: ../../source/docs/command-examples/sleep_at_examples.rst:40
@@ -72,7 +71,7 @@ msgstr ""
 #: 63cb80f0d8d24555a360da7ffd7abb62 a93662ea5cb5408eb1808803bb2a968c
 #: b62095e33cf546b58ff9056296e4d8ff c37f584fc418458fadafe9db161c0b24
 msgid "命令："
-msgstr ""
+msgstr "Command:"
 
 #: ../../source/docs/command-examples/sleep_at_examples.rst:32
 #: ../../source/docs/command-examples/sleep_at_examples.rst:46
@@ -84,55 +83,54 @@ msgstr ""
 #: 944704e9569f459586d1ab4fc6fde6f1 ba9cf1ab3ca444c5a5a7aa5c46ce965e
 #: c5a2eb1bc32b4c11a32aef67a52b5cce c872f6bafaa2481a976f325c4ffdc2e2
 msgid "响应："
-msgstr ""
+msgstr "Response:"
 
 #: ../../source/docs/command-examples/sleep_at_examples.rst:38
 #: 593862e86d384a0bb83ffce38454dcb0
 msgid "#.开始广播。(默认开启)"
-msgstr ""
+msgstr "#. Start advertising (enabled by default)."
 
 #: ../../source/docs/command-examples/sleep_at_examples.rst:52
 #: abdaf6ee7cfb4beaa65bf56a511c5bfd
 msgid "#.更新蓝牙连接参数。设置蓝牙连接间隔为10ms。"
-msgstr ""
+msgstr "#. Update BLE connection parameters. Set connection interval to 10 ms."
 
 #: ../../source/docs/command-examples/sleep_at_examples.rst:67
 #: 4d52f45981b04656a245852e5b57d397
 msgid "#.设置休眠模式为浅休眠模式。"
-msgstr ""
+msgstr "#. Set sleep mode to light sleep."
 
 #: ../../source/docs/command-examples/sleep_at_examples.rst:82
 #: f3843f4b9acd481fa562928e9a41965d
 msgid "#.等待连接。"
-msgstr ""
+msgstr "#. Wait for connection."
 
 #: ../../source/docs/command-examples/sleep_at_examples.rst:84
 #: d39b8f00bd1d451e8aeaf33e30ab9b9d
 msgid "如果连接建立成功，则 AT 将会提示："
-msgstr ""
+msgstr "If the connection is established successfully, AT will prompt:"
 
 #: ../../source/docs/command-examples/sleep_at_examples.rst:94
 #: c7e91d4b51ef453a80d753089f419393
 msgid "设置为深度休眠模式"
-msgstr ""
+msgstr "Set deep sleep mode"
 
 #: ../../source/docs/command-examples/sleep_at_examples.rst:96
 #: 1a1bbcd59d374e9cb43be1d6e7615fd0
 msgid "设置休眠模式为深度休眠模式,GPIO唤醒。"
-msgstr ""
+msgstr "Set sleep mode to deep sleep with GPIO wake-up."
 
 #: ../../source/docs/command-examples/sleep_at_examples.rst:112
 #: d9c9904cfff74bf8b1702bb4dd53b4fe
 msgid "说明："
-msgstr ""
+msgstr "Note:"
 
 #: ../../source/docs/command-examples/sleep_at_examples.rst:114
 #: 38b04a3e7aea42a0b5d04198fa269d18
 msgid "Ai-WB2 系列只支持IO7引脚唤醒，即串口接收数据时自动唤醒"
-msgstr ""
+msgstr "Ai-WB2 series supports wake-up on IO7 only, i.e., automatic wake-up when serial data is received."
 
 #: ../../source/docs/command-examples/sleep_at_examples.rst:117
 #: d586f7ac74ce41eb9dd5ba9f32c4db69
 msgid "设置休眠模式为深度休眠模式,定时5秒唤醒。"
-msgstr ""
-
+msgstr "Set sleep mode to deep sleep with 5-second timer wake-up."
