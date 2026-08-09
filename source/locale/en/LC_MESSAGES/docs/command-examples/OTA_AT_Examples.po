@@ -192,3 +192,16 @@ msgstr "Find the device named 123456, tap Stop (top right), select it, tap OK to
 #: 96c9e49b40564faabed87ea3cedb7a98
 msgid "点击选择文件，如果文件栏为空，可以将OTA文件放到微信或者QQ上，点击hex文件选择其他应用，找到PHYOTA软件，打开后即可成功获取到HEX文件，选择对应的HEX文件后点击开始升级"
 msgstr "Tap Select File. If empty, share the OTA file via WeChat or QQ, open the hex file with PHYOTA, select the HEX file, then tap Start Upgrade."
+
+# Anonymous links avoid duplicate explicit-target warnings.
+msgid "Android系统的手机apk安装包下载:`手机apk安装包 <https://docs.ai-thinker.com/_media/tbota_app.zip>`__"
+msgstr "Android APK download: `Mobile APK package <https://docs.ai-thinker.com/_media/tbota_app.zip>`__"
+
+msgid "OTA升级文件下载:`OTA升级文件 <https://docs.ai-thinker.com/_media/1939_8258_com_at-v205_1_.zip>`__"
+msgstr "OTA firmware download: `OTA firmware file <https://docs.ai-thinker.com/_media/1939_8258_com_at-v205_1_.zip>`__"
+
+msgid "Android系统的手机apk安装包下载:`手机apk安装包 <https://docs.ai-thinker.com/_media/ota_.zip>`__"
+msgstr "Android APK download: `Mobile APK package <https://docs.ai-thinker.com/_media/ota_.zip>`__"
+
+msgid "OTA升级文件下载:`OTA升级文件 <https://docs.ai-thinker.com/_media/ota_.zip>`__"
+msgstr "OTA firmware download: `OTA firmware file <https://docs.ai-thinker.com/_media/ota_.zip>`__"

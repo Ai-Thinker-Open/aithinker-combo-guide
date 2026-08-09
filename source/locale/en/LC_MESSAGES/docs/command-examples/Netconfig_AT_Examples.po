@@ -299,3 +299,10 @@ msgstr "Scan for target SSID using AT+WSCAN=<ssid>"
 #: 5dfa7ce14f844dad944bf26f6bb004f0
 msgid "通过扫描可以知道信号强度最强的是-16dBm，bssid是9c:9d:7e:59:3e:84,AT+WJAP带上bssid参数即可连到信号最强的路由器"
 msgstr "Scanning shows the strongest signal at -16 dBm with BSSID 9c:9d:7e:59:3e:84. Use AT+WJAP with the BSSID parameter to connect to the strongest router."
+
+# Anonymous links avoid duplicate explicit-target warnings.
+msgid "Android系统的手机apk安装包下载:`手机apk安装包 <https://docs.ai-thinker.com/_media/rtl8710/docs/wificonfig_v2.1.6_20190529.apk.zip>`__"
+msgstr "Android APK download: `Mobile APK package <https://docs.ai-thinker.com/_media/rtl8710/docs/wificonfig_v2.1.6_20190529.apk.zip>`__"
+
+msgid "Android系统的手机apk安装包下载:`手机apk安装包 <https://github.com/EspressifApp/EspBlufiForAndroid/releases/download/v1.5.3/EspBluFi-1.5.3-24.apk>`__"
+msgstr "Android APK download: `Mobile APK package <https://github.com/EspressifApp/EspBlufiForAndroid/releases/download/v1.5.3/EspBluFi-1.5.3-24.apk>`__"

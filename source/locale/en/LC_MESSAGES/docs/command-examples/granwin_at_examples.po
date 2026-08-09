@@ -161,3 +161,7 @@ msgstr "Complete Command Demo"
 #: 137fcad1f8cf4316a5e812bd2788de53 879cd6feb76f441994cd0008f87bcf10
 msgid "guangyun_AT_operation"
 msgstr "guangyun_AT_operation"
+
+# Added during repository validation; the source entry was missing from the catalog.
+msgid "连接云平台直线需要提前在广云天匠平台创建产品，创建时可获取 “productKey”，其他连接参数，需要向广云天匠工作人员提供授权参数后，才能获得“clientID”、“Secret”和\"厂商PID\"。"
+msgstr "Before connecting to the cloud platform, create a product on the Granwin platform to obtain the productKey. Provide the authorization parameters to Granwin staff to obtain the clientID, Secret, and vendor PID."

@@ -587,3 +587,13 @@ msgstr "Your request fields may differ. Use your actual request fields."
 #: 39176696366a4b06ab92db23cb74d954
 msgid "MCU发送需要添加转义符"
 msgstr "Escape characters are required when sending from the MCU."
+
+# Updated terminology markup and previously missing source entry.
+msgid "进入 UART Wi-Fi ``透传模式`` 并发送数据。"
+msgstr "Enter UART Wi-Fi ``transparent transmission mode`` and send data."
+
+msgid "使用 ``+++`` 可退出 ``透传模式``，回到 ``接收模式``，此时 TCP 连接仍然有效。您也可以使用 ``AT+SOCKETTT`` 命令恢复透传。"
+msgstr "Use ``+++`` to exit ``transparent transmission mode`` and return to ``receive mode``; the TCP connection remains active. Use ``AT+SOCKETTT`` to resume transparent transmission."
+
+msgid "出现\">\"后发送指定长度数据。"
+msgstr "After the \" > \" prompt appears, send the specified number of bytes."

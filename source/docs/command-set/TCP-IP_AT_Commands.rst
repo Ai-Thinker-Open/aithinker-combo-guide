@@ -85,7 +85,7 @@ AT+SOCKET 创建 socket 连接
 
 ::
 
-    AT+SOCKET? 
+    AT+SOCKET?
 
 **响应：**
 
@@ -135,7 +135,7 @@ AT+SOCKET 创建 socket 连接
 .. _cmd-SOCKETSEND:
 
 AT+SOCKETSEND 通过 socket 发送数据(长数据模式)
-------------------------------------------
+--------------------------------------------------------------------------------
 
 执行命令
 ^^^^^^^^
@@ -175,11 +175,11 @@ AT+SOCKETSEND 通过 socket 发送数据(长数据模式)
     AT+SOCKETSEND=1,3
     >123
     OK
- 
+
 .. _cmd-SOCKETSENDLINE:
 
 AT+SOCKETSENDLINE 通过 socket 发送数据(单行模式)
-------------------------------------------
+--------------------------------------------------------------------------------
 
 执行命令
 ^^^^^^^^
@@ -501,7 +501,7 @@ AT+SOCKETAUTOTT 自动进入 socket 透传配置
 
 ::
 
-    AT+SOCKETAUTOTT? 
+    AT+SOCKETAUTOTT?
 
 **响应：**
 
@@ -614,7 +614,7 @@ AT+WDOMAIN 通过DNS解析查询域名的IP地址
 **响应：**
 
 ::
-    
+
     +WDOMAIN:<IP>
 
     OK
@@ -627,7 +627,7 @@ AT+WDOMAIN 通过DNS解析查询域名的IP地址
     AT+WDOMAIN=www.baidu.com
     +WDOMAIN:14.119.104.189
     OK
- 
+
 .. _cmd-WDNS:
 
 AT+WDNS  查询/设置DNS解析服务器
@@ -702,5 +702,4 @@ AT+WDNS  查询/设置DNS解析服务器
     AT+WDNS=114.114.114.114
 
     +WDNS:114.114.114.114
-    OK 
-
+    OK

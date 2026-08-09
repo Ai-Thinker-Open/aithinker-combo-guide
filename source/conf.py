@@ -75,6 +75,13 @@ gettext_uuid = True            # 生成 uuid，源文更新时保留已译内容
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = []
 
+# The linkcheck builder cannot resolve links to generated HTML output, and
+# RX:PA0 is hardware pin notation rather than a URI scheme.
+linkcheck_ignore = [
+    r'^docs/(instruction|command-set|command-examples)/index\.html$',
+    r'^RX:PA0$',
+]
+
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = None
 

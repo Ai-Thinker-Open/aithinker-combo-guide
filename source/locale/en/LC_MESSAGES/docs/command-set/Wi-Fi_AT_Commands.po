@@ -1136,3 +1136,10 @@ msgstr "AT+WRSSI query Wi-Fi connection signal strength"
 #: 19b61b606bbc4dbd8d1da5d9c3e45273
 msgid "**<rssi>**：Wi-Fi 连接信号强度"
 msgstr "**<rssi>**: Wi-Fi connection signal strength"
+
+# Properly nested module-specific provisioning options.
+msgid "**BW16模组** - 1：瑞昱 Simple Config - 2：瑞昱 Wi-Fi Config"
+msgstr "**BW16 module** - 1: Realtek Simple Config - 2: Realtek Wi-Fi Config"
+
+msgid "**Ai-WB2系列模组** - 1：Wi-Fi 配网(touch) - 2：蓝牙配网(BluFi) - 3：微信 AirKiss 配网"
+msgstr "**Ai-WB2 series modules** - 1: Wi-Fi provisioning (touch) - 2: Bluetooth provisioning (BluFi) - 3: WeChat AirKiss provisioning"

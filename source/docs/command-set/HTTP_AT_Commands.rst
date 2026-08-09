@@ -18,7 +18,7 @@ AT+HTTPCLIENTLIN：发送 HTTP 客户端请求
 
 ::
 
-    AT+HTTPCLIENTLINE=<transport_type>,<opt>,<content-type>,<host>,<port>,<path>[,<data>]  
+    AT+HTTPCLIENTLINE=<transport_type>,<opt>,<content-type>,<host>,<port>,<path>[,<data>]
 
 **响应：**
 
@@ -74,7 +74,7 @@ AT+HTTPCLIENTLIN：发送 HTTP 客户端请求
 .. _cmd-HTTPRAW:
 
 AT+HTTPRAW：发送 HTTP 客户端POST（带长文本）请求
-------------------------------------------
+--------------------------------------------------------------------------------
 
 执行命令
 ^^^^^^^^
@@ -83,7 +83,7 @@ AT+HTTPRAW：发送 HTTP 客户端POST（带长文本）请求
 
 ::
 
-    AT+HTTPRAW=<transport_type>,<opt>,<content-type>,<host>,<port>,<path>,len  
+    AT+HTTPRAW=<transport_type>,<opt>,<content-type>,<host>,<port>,<path>,len
 
 **响应：**
 
@@ -131,6 +131,3 @@ AT+HTTPRAW：发送 HTTP 客户端POST（带长文本）请求
     AT+HTTPRAW=1,3,"application/json","httpbin.org",80,"/post",13
 
     >{"key1": 123}
-
-
-

@@ -222,3 +222,7 @@ msgstr "**<interval second>**: Refresh interval in seconds; range 15~4294967"
 #: a0c2fa376b544f1eb6ff5729838ad2bd
 msgid "**<interval second>**： second：刷新间隔，单位 S"
 msgstr "**<interval second>**: Refresh interval in seconds"
+
+# Corrected source paragraph.
+msgid "SNTP 默认没有开启，需要联网后使用 AT+SNTPTIMECFG 启动，没有启用的时候查询的是本地 RTC 时间"
+msgstr "SNTP is disabled by default. Connect to the network and use AT+SNTPTIMECFG to enable it; otherwise the query returns the local RTC time."

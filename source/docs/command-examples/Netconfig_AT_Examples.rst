@@ -14,10 +14,10 @@ Easy WiFi Config 蓝牙配网
 -----------------------------------------------------
 
 1. APP下载：
-   
+
    iOS系统的手机,可以在App Store商店搜索Easy WiFi Config 获取下载安装。
 
-   Android系统的手机apk安装包下载:`手机apk安装包 <https://docs.ai-thinker.com/_media/rtl8710/docs/wificonfig_v2.1.6_20190529.apk.zip>`_
+   Android系统的手机apk安装包下载:`手机apk安装包 <https://docs.ai-thinker.com/_media/rtl8710/docs/wificonfig_v2.1.6_20190529.apk.zip>`__
 
    .. figure:: ../../_static/Easy.png
       :alt: OTA_APP
@@ -48,10 +48,10 @@ Easy WiFi Config 蓝牙配网
 
    .. code-block:: none
 
-      OK  
+      OK
 
 4. APP端操作
-   
+
    .. only:: format_html
 
       .. figure:: ../../_static/BW16config.gif
@@ -68,10 +68,10 @@ SmartConfig 一键配网
 -----------------------------------------------------
 
 1. APP下载：
-   
+
    iOS系统的手机,可以在 App Store 商店搜索 Esptouch 获取下载安装。
 
-   Android系统的手机apk安装包下载:`手机apk安装包 <https://docs.ai-thinker.com/_media/rtl8710/docs/wificonfig_v2.1.6_20190529.apk.zip>`_
+   Android系统的手机apk安装包下载:`手机apk安装包 <https://docs.ai-thinker.com/_media/rtl8710/docs/wificonfig_v2.1.6_20190529.apk.zip>`__
 
 
 2. 设置模块的Wi-Fi 工作模式并保存到Flash
@@ -100,10 +100,10 @@ SmartConfig 一键配网
 
    .. code-block:: none
 
-      OK  
+      OK
 
 4. APP端操作
-   
+
    .. only:: format_html
 
       .. figure:: ../../_static/BL602Smartconfig.gif
@@ -161,7 +161,7 @@ Airkiss配网可使用微信公众号或微信小程序，不需要单独下载A
 
    .. code-block:: none
 
-      OK  
+      OK
 
 3. 微信公众号方式配网：关注安信可科技微信公众号，Airkiss配网接口位于应用开发>微信配网内
 
@@ -178,7 +178,7 @@ Airkiss配网可使用微信公众号或微信小程序，不需要单独下载A
          :alt: OTA_APP
 
 4. 微信小程序方式配网：搜索安信可IOT小程序：
-   
+
    .. only:: format_html
 
       .. figure:: ../../_static/Airkiss_xiaochengxu.gif
@@ -204,17 +204,17 @@ Airkiss配网可使用微信公众号或微信小程序，不需要单独下载A
    .. code-block:: none
 
       OK
-   
+
 
 Blufi 蓝牙配网
 -----------------------------------------------------
 Blufi 蓝牙配网支持app、微信小程序。
 
 1. APP下载：
-   
+
    iOS系统的手机,可以在App Store商店搜索 EspBlufi 获取
 
-   Android系统的手机apk安装包下载:`手机apk安装包 <https://github.com/EspressifApp/EspBlufiForAndroid/releases/download/v1.5.3/EspBluFi-1.5.3-24.apk>`_
+   Android系统的手机apk安装包下载:`手机apk安装包 <https://github.com/EspressifApp/EspBlufiForAndroid/releases/download/v1.5.3/EspBluFi-1.5.3-24.apk>`__
 
    小程序：微信搜索 安信可IOT小程序
 
@@ -244,10 +244,10 @@ Blufi 蓝牙配网支持app、微信小程序。
 
    .. code-block:: none
 
-      OK  
+      OK
 
 4. app配网方式：
-      
+
    .. only:: format_html
 
       .. figure:: ../../_static/app_blufi.gif
@@ -261,7 +261,7 @@ Blufi 蓝牙配网支持app、微信小程序。
          :alt: OTA_APP
 
 5. 小程序配网方式：
-      
+
    .. only:: format_html
 
       .. figure:: ../../_static/xiaochengxu_blufi.gif
@@ -287,7 +287,7 @@ Blufi 蓝牙配网支持app、微信小程序。
    .. code-block:: none
 
       OK
- 
+
 指令配网
 -----------------------------------------------------
 以目标路由器ssid：AIOT@FAE, 密码：fae12345678 为例，直接连接到此路由器。
@@ -318,7 +318,7 @@ Blufi 蓝牙配网支持app、微信小程序。
 
    .. code-block:: none
 
-      OK  
+      OK
 
 3. 设置上电自动重连WiFi
 
@@ -332,7 +332,7 @@ Blufi 蓝牙配网支持app、微信小程序。
 
    .. code-block:: none
 
-      OK  
+      OK
 
 同一个环境下有多个相同的ssid且密码相同时,如何连接信号最强的路由器
 ------------------------------------------------------------------
@@ -372,7 +372,7 @@ Blufi 蓝牙配网支持app、微信小程序。
 
    .. code-block:: none
 
-      OK  
+      OK
 
 3. 设置上电自动重连WiFi
 
@@ -386,5 +386,4 @@ Blufi 蓝牙配网支持app、微信小程序。
 
    .. code-block:: none
 
-      OK  
-
+      OK
