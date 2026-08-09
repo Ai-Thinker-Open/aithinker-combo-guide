@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "repository": "Ai-Thinker-Open/aithinker-combo-guide",
+  "classification": "Document",
+  "evidence_commit": "340b8943106bdc3c248f40748ee817c08ceba881",
+  "entry_points": {
+    "status": "verified",
+    "sphinx_root": "source/index.rst",
+    "configuration": "source/conf.py",
+    "hosted_build": ".readthedocs.yaml",
+    "content_groups": [
+      "source/docs/instruction/index.rst",
+      "source/docs/command-set/index.rst",
+      "source/docs/command-examples/index.rst"
+    ]
+  },
+  "architecture": {
+    "status": "verified",
+    "model": "single reStructuredText source tree with English gettext catalogs",
+    "default_language": "zh_CN",
+    "translated_language": "en"
+  },
+  "validation": {
+    "status": "strict_build_pass_pdf_unavailable",
+    "environment": {
+      "host": "Windows",
+      "python": "3.12.13",
+      "sphinx": "4.5.0",
+      "dependency_install": "clean virtual environment from docs/requirements.txt"
+    },
+    "catalogs": {
+      "rst_files": 26,
+      "po_files": 26,
+      "mo_files": 26,
+      "current_messages": 1425,
+      "translated_messages": 1425,
+      "missing_messages": 0,
+      "fuzzy_messages": 0,
+      "utf8_bom_files": 0
+    },
+    "outputs": {
+      "chinese_html": {"passed": true, "pages": 28, "warnings": 0, "errors": 0},
+      "english_html": {"passed": true, "pages": 28, "warnings": 0, "errors": 0},
+      "latex_source": {"passed": true, "tex_files": 1, "gif_references": 0, "warnings": 0, "errors": 0},
+      "linkcheck": {"passed": true, "warnings": 0, "errors": 0},
+      "pdf_binary": {"passed": null, "reason": "XeLaTeX unavailable on Windows host and WSL"}
+    },
+    "limits": [
+      "No physical module or firmware image was available.",
+      "AT commands and hardware procedures were not executed.",
+      "Successful documentation rendering does not validate firmware behavior."
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+Repository: Ai-Thinker-Open/aithinker-combo-guide
+Evidence commit: 340b8943106bdc3c248f40748ee817c08ceba881
+Validation date: 2026-08-10
+
+Environment
+-----------
+Host: Windows
+Python: 3.12.13
+Sphinx: 4.5.0
+Environment: newly created temporary virtual environment
+Dependencies: clean installation from docs/requirements.txt
+
+Commands and results
+--------------------
+python -m pip install -r docs/requirements.txt
+PASS - all pinned dependencies installed from scratch.
+
+sphinx-intl build -l en -d source/locale
+PASS - 26 catalogs compiled; 0 warnings.
+
+sphinx-build -W --keep-going -b html source <temporary-zh-output>
+PASS - 28 HTML pages; 0 warnings; 0 errors.
+
+sphinx-build -W --keep-going -b html -D language=en source <temporary-en-output>
+PASS - 28 HTML pages; 0 warnings; 0 errors.
+
+sphinx-build -W --keep-going -b latex source <temporary-latex-output>
+PASS - one TeX file; 0 warnings; 0 errors; 0 GIF references.
+
+sphinx-build -W --keep-going -b linkcheck source <temporary-linkcheck-output>
+PASS - 0 warnings; 0 errors.
+
+Catalog inspection
+------------------
+26 RST source files, 26 PO catalogs, and 26 MO catalogs.
+1,425 of 1,425 current messages have non-empty, non-fuzzy translations.
+0 missing messages; 0 fuzzy messages; 0 UTF-8 BOM catalogs.
+
+Limits
+------
+XeLaTeX was not installed on either Windows or WSL. LaTeX source generation passed,
+but no final PDF binary was produced. No physical module or firmware image was
+available, so AT commands and hardware procedures were not executed.

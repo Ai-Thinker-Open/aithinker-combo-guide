@@ -1,3 +1,6 @@
+__pycache__/
+*.py[cod]
+.venv/
 build
 .vscode
 使用构造文档
