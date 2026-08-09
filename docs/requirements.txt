@@ -2,6 +2,12 @@
 Sphinx==4.5.0
 docutils==0.17.1
 sphinx-rtd-theme==1.2.2
+# Sphinx 4.5-compatible extension versions. Newer 2.x releases require Sphinx 5+.
+sphinxcontrib-applehelp==1.0.4
+sphinxcontrib-devhelp==1.0.2
+sphinxcontrib-htmlhelp==2.0.0
+sphinxcontrib-qthelp==1.0.3
+sphinxcontrib-serializinghtml==1.1.5
 # 中英文翻译工作流工具
 sphinx-intl==2.1.0
 # 官方 Markdown 解析器，取代已废弃的 recommonmark

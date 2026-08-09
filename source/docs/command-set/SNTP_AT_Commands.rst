@@ -6,7 +6,7 @@ SNTP AT 命令集
  - :ref:`AT+SNTPTIME <cmd-SNTPTIME>`：查询 SNTP 时间
  - :ref:`AT+SNTPTIMECFG <cmd-SNTPTIMECFG>`：查询和设置 SNTP 时区和服务器
  - :ref:`AT+SNTPINTV <cmd-SNTPINTV>`：查询和设置 SNTP 刷新时间间隔
- 
+
 
 .. _cmd-SNTPTIME:
 
@@ -16,8 +16,7 @@ AT+SNTPTIME:查询 SNTP 时间
 说明
 ^^^^
 
-- SNTP 默认没有开启，需要联网后使用 AT+SNTPTIMECFG 启动，没有启用的时
-候查询的是本地 RTC 时间
+- SNTP 默认没有开启，需要联网后使用 AT+SNTPTIMECFG 启动，没有启用的时候查询的是本地 RTC 时间
 
 
 查询命令
@@ -66,7 +65,7 @@ AT+SNTPTIME:查询 SNTP 时间
 .. _cmd-SNTPTIMECFG:
 
 AT+SNTPTIMECFG 查询和设置 SNTP 时区和服务器
-------------------------------------------
+--------------------------------------------------------------------------------
 
 
 
@@ -82,7 +81,7 @@ AT+SNTPTIMECFG 查询和设置 SNTP 时区和服务器
 **响应：**
 
 ::
-    
+
     OK
 
 参数
@@ -98,7 +97,7 @@ AT+SNTPTIMECFG 查询和设置 SNTP 时区和服务器
 ::
 
    AT+SNTPTIMECFG=1,8,cn.ntp.org.cn
-  
+
    OK
 
 
@@ -116,7 +115,7 @@ AT+SNTPTIMECFG 查询和设置 SNTP 时区和服务器
 ::
 
     +SNTPTIMECFG:<enable>,<timezone>[,<SNTP server1>,<SNTP server2>,<SNTP server3>]
-    
+
     OK
 
 参数
@@ -135,8 +134,8 @@ AT+SNTPTIMECFG 查询和设置 SNTP 时区和服务器
 
     AT+SNTPTIMECFG?
 
-    +SNTPTIMECFG:1,8,"cn.ntp.org.cn","ntp.sjtu.edu.cn","us.pool.ntp.org" 
-    
+    +SNTPTIMECFG:1,8,"cn.ntp.org.cn","ntp.sjtu.edu.cn","us.pool.ntp.org"
+
     OK
 
 
@@ -173,7 +172,7 @@ AT+SNTPINTV 查询和设置 SNTP 刷新时间间隔
 
     AT+SNTPINTV=15
 
-    OK  
+    OK
 
 查询命令
 ^^^^^^^^
@@ -197,7 +196,7 @@ AT+SNTPINTV 查询和设置 SNTP 刷新时间间隔
 ^^^^
 
 -  **<interval second>**： second：刷新间隔，单位 S
-    
+
 
 示例
 ^^^^
@@ -205,7 +204,6 @@ AT+SNTPINTV 查询和设置 SNTP 刷新时间间隔
 ::
 
    AT+SNTPINTV?
-   
+
    +SNTPINTV:3600
    OK
-

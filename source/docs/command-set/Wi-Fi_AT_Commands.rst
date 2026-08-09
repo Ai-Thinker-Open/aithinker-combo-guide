@@ -31,7 +31,7 @@ AT+WMODE 查询或设置Wi-Fi工作模式
 
 ::
 
-    AT+WMODE=<MODE>,<save_flash> 
+    AT+WMODE=<MODE>,<save_flash>
 
 **响应：**
 
@@ -151,7 +151,7 @@ AT+WSCAN 扫描Wi-Fi列表
    1 IoT-Connect,9,WPA/WPA2 Mixed,-19,cc:81:da:1f:45:80
    2 IoT-Connect_5G,44,WPA/WPA2 Mixed,-30,cc:81:da:1f:45:88
    3 super_2G,1,WPA/WPA2 AES,-32,54:75:95:4f:74:5e
-   ... 
+   ...
    30 ChinaNet-uL5X,1,WPA/WPA2 Mixed,-71,ca:50:e9:8b:5a:0c
 
    OK
@@ -168,7 +168,7 @@ AT+WSCAN 扫描Wi-Fi列表
 **响应：**
 
 ::
-    
+
     +WSCAN:index SSID,CH,SECURITY,RSSI,BSSID
     <index> <SSID>,<CH>,<SECURITY>,<RSSI>,<BSSID>
     ...
@@ -239,7 +239,7 @@ AT+WSDHCP 查询或设置STA模式下DHCP参数
 
     AT+WSDHCP=0,192.168.31.199,255.255.255.0,192.168.31.1
 
-    OK  
+    OK
 
 查询命令
 ^^^^^^^^
@@ -324,12 +324,12 @@ AT+WJAP 连接AP
     AT+WJAP?
 
 **响应：**
-  
+
 ::
 
      +WJAP:<status>,<ssid>,<pwd>,<bssid>,<Security>,<MAC>,<ch>,<IP>,<gateway>
-     Client Num: <client number>  
-     Client <id> MAC:<xx:xx:xx:xx:xx:xx> 
+     Client Num: <client number>
+     Client <id> MAC:<xx:xx:xx:xx:xx:xx>
      OK
 
 参数
@@ -345,21 +345,22 @@ AT+WJAP 连接AP
 -  **<pwd>**：连接的AP的密码
 -  **<bssid>**：连接的AP的BSSID
 -  **<Security>**：加密方式
- -  Open //开放网络
- -  WEP
- -  WPA TKIP
- -  WPA AES
- -  WPA Mixed
- -  WPA2 AES
- -  WPA2 TKIP
- -  WPA2 Mixed
- -  WPA/WPA2 TKIP
- -  WPA/WPA2 AES
- -  WPA/WPA2 Mixed
- -  WPA2 Enterprise
- -  WPA/WPA2 Enterprise
- -  WPA3-ASE AES
- -  UnknownType  //未知类型
+    -  Open //开放网络
+    -  WEP
+    -  WPA TKIP
+    -  WPA AES
+    -  WPA Mixed
+    -  WPA2 AES
+    -  WPA2 TKIP
+    -  WPA2 Mixed
+    -  WPA/WPA2 TKIP
+    -  WPA/WPA2 AES
+    -  WPA/WPA2 Mixed
+    -  WPA2 Enterprise
+    -  WPA/WPA2 Enterprise
+    -  WPA3-ASE AES
+    -  UnknownType  //未知类型
+
 -  **<MAC>**：Wi-Fi模组的MAC地址(小写字符，冒号分隔)
 -  **<ch>**：连接信道
 -  **<IP>**：IP地址(点分格式)
@@ -397,12 +398,12 @@ AT+WDISCONNECT 断开当前的AP连接
 
 ::
 
-AT+WDTSCONNECT
+    AT+WDTSCONNECT
 
-+EVENT:WIFI DISCONNECT
+    +EVENT:WIFI DISCONNECT
 
 
-OK
+    OK
 
 
 查询命令
@@ -463,10 +464,10 @@ AT+WAUTOCONN 上电自动重连Wi-Fi
     AT+WAUTOCONN?
 
 **响应：**
-  
+
 ::
 
-    +WAUTOCONN:<status> 
+    +WAUTOCONN:<status>
     OK
 
 参数
@@ -532,11 +533,12 @@ AT+WAPDHCP AP模式下DHCP参数
    AT+WAPDHCP?
 
 **响应：**
-  
+
 ::
 
     +WAPDHCP:<MODE>[,<start_ip>,<end_ip>,<GATEWAY>]
-    OK   
+    OK
+
 参数
 ^^^^
 
@@ -596,7 +598,7 @@ AT+WAP AP模式Wi-Fi参数
     AT+WAP?
 
 **响应：**
-  
+
 ::
 
     +WAP:<ssid>,<pwd>,<security>,<channel>,<max conn>,<ssid hidden>,<mac>,<IP>,<Gateway>
@@ -608,21 +610,22 @@ AT+WAP AP模式Wi-Fi参数
 -  **<ssid>**：AP的SSID
 -  **<pwd>**：AP的密码
 -  **<Security>**：加密方式
- -  Open //开放网络
- -  WEP
- -  WPA TKIP
- -  WPA AES
- -  WPA Mixed
- -  WPA2 AES
- -  WPA2 TKIP
- -  WPA2 Mixed
- -  WPA/WPA2 TKIP
- -  WPA/WPA2 AES
- -  WPA/WPA2 Mixed
- -  WPA2 Enterprise
- -  WPA/WPA2 Enterprise
- -  WPA3-ASE AES
- -  UnknownType  //未知类型
+    -  Open //开放网络
+    -  WEP
+    -  WPA TKIP
+    -  WPA AES
+    -  WPA Mixed
+    -  WPA2 AES
+    -  WPA2 TKIP
+    -  WPA2 Mixed
+    -  WPA/WPA2 TKIP
+    -  WPA/WPA2 AES
+    -  WPA/WPA2 Mixed
+    -  WPA2 Enterprise
+    -  WPA/WPA2 Enterprise
+    -  WPA3-ASE AES
+    -  UnknownType  //未知类型
+
 -  **<channel>**：AP的信道
 -  **<max conn>**：AP的最大支持的连接STA个数
 -  **<ssid hidden>**：AP的SSID是否隐藏
@@ -654,7 +657,7 @@ AT+PING 进行PING操作
 **响应：**
 
 ::
-   
+
    //成功
    +PING:<time>
    OK
@@ -697,7 +700,7 @@ AT+CIPSTAMAC_DEF   Wi-Fi station MAC地址
 **响应：**
 
 ::
-   
+
    OK
 
 参数
@@ -727,7 +730,7 @@ AT+CIPSTAMAC_DEF   Wi-Fi station MAC地址
 
 ::
 
-    +CIPSTAMAC_DEF:<MAC> 
+    +CIPSTAMAC_DEF:<MAC>
     OK
 
 参数
@@ -761,7 +764,7 @@ AT+WCOUNTRY  Wi-Fi国家码
 **响应：**
 
 ::
-   
+
    OK
 
 参数
@@ -858,25 +861,25 @@ AT+WCONFIG  手机配网
 **响应：**
 
 ::
-   
+
    OK
 
 参数
 ^^^^
 
 -  **<status>**：
- - 0：关闭手机配网任务
- - 1：开启一次 Wi-Fi 配网(配网成功/配网超时会自动返回关闭状态)
- - 2：开启一次蓝牙配网(配网成功/配网超时会自动返回关闭状态)
- - 3：开启一次 AirKiss 配网
+    - 0：关闭手机配网任务
+    - 1：开启一次 Wi-Fi 配网(配网成功/配网超时会自动返回关闭状态)
+    - 2：开启一次蓝牙配网(配网成功/配网超时会自动返回关闭状态)
+    - 3：开启一次 AirKiss 配网
+    - **BW16模组**
+      - 1：瑞昱 Simple Config
+      - 2：瑞昱 Wi-Fi Config
+    - **Ai-WB2系列模组**
+      - 1：Wi-Fi 配网(touch)
+      - 2：蓝牙配网(BluFi)
+      - 3：微信 AirKiss 配网
 
-  - **BW16模组**
-   - 1：瑞昱 Simple Config
-   - 2：瑞昱 Wi-Fi Config
-  - **Ai-WB2系列模组**
-   - 1：Wi-Fi 配网(touch)
-   - 2：蓝牙配网(BluFi)
-   - 3：微信 AirKiss 配网   
 
 -  **<name>**：这个是用来自定义配网广播名称的，当前仅BluFi协议支持该参数配网协议
 
@@ -888,7 +891,7 @@ AT+WCONFIG  手机配网
     AT+WCONFIG=1
 
     OK
-    
+
 查询命令
 ^^^^^^^^
 
@@ -909,10 +912,11 @@ AT+WCONFIG  手机配网
 ^^^^
 
 -  **<status>**：
-  -  0：关闭手机配网任务
-  -  1：开启一次Wi-Fi配网(配网成功/配网超时会自动返回关闭状态)
-  -  2：开启一次蓝牙配网(配网成功/配网超时会自动返回关闭状态)
-    
+    -  0：关闭手机配网任务
+    -  1：开启一次Wi-Fi配网(配网成功/配网超时会自动返回关闭状态)
+    -  2：开启一次蓝牙配网(配网成功/配网超时会自动返回关闭状态)
+
+
 示例
 ^^^^
 
@@ -933,13 +937,13 @@ AT+WSCANOPT  筛选Wi-Fi扫描显示信息
 **命令：**
 
 ::
-    
+
     AT+WSCANOPT=<option>
 
 **响应：**
 
 ::
-   
+
    OK
 
 参数
@@ -975,7 +979,7 @@ AT+WSCANOPT  筛选Wi-Fi扫描显示信息
 **命令：**
 
 ::
-    
+
     AT+WSCANOPT?
 
 **响应：**
@@ -994,7 +998,7 @@ AT+WSCANOPT  筛选Wi-Fi扫描显示信息
  - bit 2: 是否显示 <security>
  - bit 3: 是否显示 <rssi>
  - bit 4: 是否显示 <MAC>
-    
+
 示例
 ^^^^
 ::
@@ -1015,11 +1019,11 @@ AT+WRSSI  查询 Wi-Fi 连接信号强度
 ::
 
     AT+WRSSI or AT+WRSSI?
-    
+
 **响应：**
 
 ::
-   
+
     +WRSSI :<rssi>
     OK
 

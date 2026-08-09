@@ -1,4 +1,4 @@
-﻿# SOME DESCRIPTIVE TITLE.
+# SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2023, 安信可科技
 # This file is distributed under the same license as the 安信可科技 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
@@ -88,3 +88,17 @@ msgid ""
 msgstr ""
 "Link: `Click here "
 "<https://aithinker.readthedocs.io/zh_CN/latest/docs/taobao/ble/index.html>`_"
+
+# Anonymous links avoid duplicate explicit-target warnings.
+msgid "链接： `点击链接 <https://aithinker.readthedocs.io/zh_CN/latest/docs/taobao/BL/index.html>`__"
+msgstr "Link: `Click here <https://aithinker.readthedocs.io/zh_CN/latest/docs/taobao/BL/index.html>`__"
+
+#, python-format
+msgid "链接： `点击链接 <https://docs.ai-thinker.com/lib/exe/fetch.php?tok=b4fb3e&media=https%3A%2F%2Fdocs.ai-thinker.com%2F_media%2Frtl8720%2Fbw16_combo_soft_v4.18_p5.0.0.zip>`__"
+msgstr "Link: `Click here <https://docs.ai-thinker.com/lib/exe/fetch.php?tok=b4fb3e&media=https%3A%2F%2Fdocs.ai-thinker.com%2F_media%2Frtl8720%2Fbw16_combo_soft_v4.18_p5.0.0.zip>`__"
+
+msgid "链接： `点击链接 <https://aithinker.readthedocs.io/zh_CN/latest/docs/taobao/ble/index.html#tb>`__"
+msgstr "Link: `Click here <https://aithinker.readthedocs.io/zh_CN/latest/docs/taobao/ble/index.html#tb>`__"
+
+msgid "链接： `点击链接 <https://aithinker.readthedocs.io/zh_CN/latest/docs/taobao/ble/index.html>`__"
+msgstr "Link: `Click here <https://aithinker.readthedocs.io/zh_CN/latest/docs/taobao/ble/index.html>`__"
