@@ -4,6 +4,11 @@ MQTT AT 命令集
 本章节介绍驱动MQTT指令集，此指令集针对不同的模组会有所不同的适配，具体差异请移步：:doc:`../instruction/other/firmware_differences`。
 
  - :ref:`AT+MQTT <cmd-MQTT>`：MQTT 的配置和连接
+ - :ref:`AT+MQTTVER <cmd-MQTTVER>`：查询和设置 MQTT 版本
+ - :ref:`AT+MQTTBUF <cmd-MQTTBUF>`：查询和设置 MQTT 收发 buf 大小
+ - :ref:`AT+MQTTKEEPALIVE <cmd-MQTTKEEPALIVE>`：查询和设置 MQTT 心跳间隔
+ - :ref:`AT+MQTTCRET <cmd-MQTTCRET>`：查询和设置 MQTT SSL 证书
+ - :ref:`AT+MQTTDISCONN <cmd-MQTTDISCONN>`：断开 MQTT 连接
  - :ref:`AT+MQTTPUB <cmd-MQTTPUB>`：发布 MQTT 消息
  - :ref:`AT+MQTTPUBRAW <cmd-MQTTPUBRAW>`：发布指定长度 MQTT 消息
  - :ref:`AT+MQTTSUB <cmd-MQTTSUB>`：订阅 MQTT 消息
@@ -173,6 +178,229 @@ AT+MQTT 配置和连接
     +MQTT:0,192.168.202.10,1883,1,client_id,admin,public,LWTTOPIC,0,1,123456
     OK
 
+
+.. _cmd-MQTTVER:
+
+AT+MQTTVER 查询和设置 MQTT 版本
+------------------------------------------
+
+查询/设置命令
+^^^^^^^^^^^^^^
+
+**命令：**
+
+::
+
+    AT+MQTTVER=<version>
+    AT+MQTTVER?
+
+**响应：**
+
+::
+
+    OK
+    +MQTTVER:<version>
+    OK
+
+参数
+^^^^
+
+-  **<version>**：MQTT 协议版本。
+    - 3：MQTT 3.1
+    - 4：MQTT 3.1.1
+
+说明
+^^^^
+
+- 查询或设置当前 MQTT 协议版本。
+- 若未设置，系统会使用默认版本。
+
+示例
+^^^^
+
+::
+
+    AT+MQTTVER=4
+    OK
+
+    AT+MQTTVER?
+    +MQTTVER:4
+    OK
+
+.. _cmd-MQTTBUF:
+
+AT+MQTTBUF 查询和设置 MQTT 收发 buf 大小
+------------------------------------------
+
+查询/设置命令
+^^^^^^^^^^^^^^
+
+**命令：**
+
+::
+
+    AT+MQTTBUF=<size>
+    AT+MQTTBUF?
+
+**响应：**
+
+::
+
+    OK
+    +MQTTBUF:<size>
+    OK
+
+参数
+^^^^
+
+-  **<size>**：MQTT 收发缓冲区大小，单位：字节。
+
+说明
+^^^^
+
+- 用于配置 MQTT 发送和接收数据使用的缓冲区大小。
+- 该参数会影响单次收发数据的最大长度。
+
+示例
+^^^^
+
+::
+
+    AT+MQTTBUF=1024
+    OK
+
+    AT+MQTTBUF?
+    +MQTTBUF:1024
+    OK
+
+.. _cmd-MQTTKEEPALIVE:
+
+AT+MQTTKEEPALIVE 查询和设置 MQTT 心跳间隔
+------------------------------------------
+
+查询/设置命令
+^^^^^^^^^^^^^^
+
+**命令：**
+
+::
+
+    AT+MQTTKEEPALIVE=<seconds>
+    AT+MQTTKEEPALIVE?
+
+**响应：**
+
+::
+
+    OK
+    +MQTTKEEPALIVE:<seconds>
+    OK
+
+参数
+^^^^
+
+-  **<seconds>**：MQTT 心跳保活间隔，单位：秒。
+
+说明
+^^^^
+
+- 用于配置 MQTT 客户端的保活心跳时间。
+- 若连接超时未收到心跳响应，客户端将视为连接失效。
+
+示例
+^^^^
+
+::
+
+    AT+MQTTKEEPALIVE=60
+    OK
+
+    AT+MQTTKEEPALIVE?
+    +MQTTKEEPALIVE:60
+    OK
+
+.. _cmd-MQTTCRET:
+
+AT+MQTTCRET 查询和设置 MQTT SSL 证书
+------------------------------------------
+
+查询/设置命令
+^^^^^^^^^^^^^^
+
+**命令：**
+
+::
+
+    AT+MQTTCRET=<mode>,<cert>
+    AT+MQTTCRET?
+
+**响应：**
+
+::
+
+    OK
+    +MQTTCRET:<mode>,<cert>
+    OK
+
+参数
+^^^^
+
+-  **<mode>**：证书模式。
+    - 0：关闭
+    - 1：启用
+-  **<cert>**：证书内容或证书索引，具体由固件实现决定。
+
+说明
+^^^^
+
+- 用于设置 MQTT 连接时使用的 SSL/TLS 证书。
+- 若设备固件支持证书加载功能，可通过此命令配置证书。
+
+示例
+^^^^
+
+::
+
+    AT+MQTTCRET=1,ca.pem
+    OK
+
+    AT+MQTTCRET?
+    +MQTTCRET:1,ca.pem
+    OK
+
+.. _cmd-MQTTDISCONN:
+
+AT+MQTTDISCONN 断开 MQTT 连接
+------------------------------------------
+
+执行命令
+^^^^^^^^
+
+**命令：**
+
+::
+
+    AT+MQTTDISCONN
+
+**响应：**
+
+::
+
+    OK
+
+说明
+^^^^
+
+- 主动断开当前 MQTT 连接。
+- 连接断开后，可重新执行 :ref:`AT+MQTT <cmd-MQTT>` 进行重连。
+
+示例
+^^^^
+
+::
+
+    AT+MQTTDISCONN
+    OK
 
 .. _cmd-MQTTPUB:
 
